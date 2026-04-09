@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% load static i18n badrway_tags %}
+{% block title %}{% blocktrans with n=template.name %}Customize {{ n }}{% endblocktrans %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block extra_head %}
+<style>
+  body { overflow: hidden; }
+  main { height: calc(100vh - var(--header-h)); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="bw-customizer">
+  <!-- SIDE PANEL -->
+  <aside class="bw-customizer-panel" id="bw-panel">
+    <div class="bw-customizer-head">
+      <div class="bw-breadcrumb" style="margin-bottom:12px;">
+        <a href="{{ template.get_absolute_url }}">← {% trans "Back to template" %}</a>
+      </div>
+      <h2>{{ template.name }}</h2>
+      <p>{% trans "Customize every element live. Changes update instantly in the preview." %}</p>
+    </div>
+
+    <form id="bw-customize-form" autocomplete="off">
+      {% csrf_token %}
+      {% for group, fields in grouped_fields.items %}
+      <div class="bw-field-group">
+        <h3>
+          {% if group == 'branding' %}<i class="bi bi-patch-check"></i> {% trans "Branding" %}
+          {% elif group == 'colors' %}<i class="bi bi-palette"></i> {% trans "Colors" %}
+          {% elif group == 'hero' %}<i class="bi bi-stars"></i> {% trans "Hero Section" %}
+          {% elif group == 'content' %}<i class="bi bi-file-text"></i> {% trans "Content" %}
+          {% elif group == 'contact' %}<i class="bi bi-telephone"></i> {% trans "Contact" %}
+          {% elif group == 'social' %}<i class="bi bi-share"></i> {% trans "Social" %}
+          {% elif group == 'footer' %}<i class="bi bi-layout-text-sidebar-reverse"></i> {% trans "Footer" %}
+          {% else %}{{ group|title }}{% endif %}
+        </h3>
+        {% for f in fields %}
+          <div class="bw-field" data-field-key="{{ f.field_key }}">
+            <label class="bw-label" for="f-{{ f.field_key }}">{{ f.field_label }}</label>
+            {% if f.field_type == 'textarea' %}
+              <textarea class="bw-textarea" id="f-{{ f.field_key }}" name="{{ f.field_key }}" placeholder="{{ f.placeholder }}" data-bw-field></textarea>
+            {% elif f.field_type == 'image' %}
+              <input type="file" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" accept="image/*" data-bw-image>
+            {% elif f.field_type == 'color' %}
+              <input type="color" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" value="{{ f.default_value|default:'#6d5efc' }}" data-bw-field style="height:48px;padding:4px;">
+            {% elif f.field_type == 'email' %}
+              <input type="email" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" placeholder="{{ f.placeholder }}" data-bw-field>
+            {% elif f.field_type == 'phone' %}
+              <input type="tel" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" placeholder="{{ f.placeholder }}" data-bw-field>
+            {% elif f.field_type == 'url' %}
+              <input type="url" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" placeholder="{{ f.placeholder }}" data-bw-field>
+            {% else %}
+              <input type="text" class="bw-input" id="f-{{ f.field_key }}" name="{{ f.field_key }}" placeholder="{{ f.placeholder }}" data-bw-field>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+      <div style="padding:var(--s-4) 0;display:flex;flex-direction:column;gap:10px;">
+        <button type="button" id="bw-save-btn" class="bw-btn bw-btn-ghost bw-btn-block">
+          <i class="bi bi-save"></i> {% trans "Save Draft" %}
+        </button>
+        <a href="{{ template.get_checkout_url }}" class="bw-btn bw-btn-accent bw-btn-block">
+          <i class="bi bi-bag-check"></i> {% trans "Buy Now" %} — {{ template.price|eur }}
+        </a>
+      </div>
+    </form>
+  </aside>
+
+  <!-- PREVIEW FRAME -->
+  <section class="bw-customizer-frame">
+    <div class="bw-customizer-toolbar">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="bw-eyebrow-dot"></span>
+        <strong style="font-size:.92rem;font-family:var(--font-ui);">{% trans "Live Preview" %}</strong>
+        <span class="bw-text-muted" style="font-size:.85rem;">· {% trans "Everything you see is customizable" %}</span>
+      </div>
+      <div class="bw-viewport-switch" id="bw-viewport">
+        <button type="button" data-vp="desktop" class="active"><i class="bi bi-display"></i> {% trans "Desktop" %}</button>
+        <button type="button" data-vp="tablet"><i class="bi bi-tablet"></i> {% trans "Tablet" %}</button>
+        <button type="button" data-vp="mobile"><i class="bi bi-phone"></i> {% trans "Mobile" %}</button>
+      </div>
+    </div>
+    <div class="bw-customizer-iframe-wrap" id="bw-iframe-wrap">
+      <iframe id="bw-preview" src="{{ preview_url }}" title="{% trans 'Live preview' %}"></iframe>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  var form = document.getElementById('bw-customize-form');
+  var iframe = document.getElementById('bw-preview');
+  var saveBtn = document.getElementById('bw-save-btn');
+  var viewport = document.getElementById('bw-viewport');
+  var wrap = document.getElementById('bw-iframe-wrap');
+  var initial = {{ initial_data_json|safe }};
+  var savedLabel = {{ saved_label_json|safe }};
+  var saveLabel  = {{ save_label_json|safe }};
+  var savingLabel= {{ saving_label_json|safe }};
+
+  Object.keys(initial || {}).forEach(function(k){
+    var el = form.querySelector('[name="'+k+'"]');
+    if (el && el.type !== 'file') el.value = initial[k];
+  });
+
+  var timer;
+  function pushUpdate() {
+    clearTimeout(timer);
+    timer = setTimeout(function() {
+      var data = {};
+      form.querySelectorAll('[data-bw-field]').forEach(function(el){
+        if (el.value) data[el.name] = el.value;
+      });
+      try { iframe.contentWindow.postMessage({type:'bw:apply', payload: data}, '*'); } catch(e) {}
+    }, 150);
+  }
+  form.addEventListener('input', pushUpdate);
+  form.addEventListener('change', pushUpdate);
+  iframe.addEventListener('load', function(){ setTimeout(pushUpdate, 100); });
+  window.addEventListener('message', function(ev){
+    if (ev.data && ev.data.type === 'bw:ready') pushUpdate();
+  });
+
+  form.querySelectorAll('[data-bw-image]').forEach(function(input){
+    input.addEventListener('change', function(e){
+      var f = e.target.files[0];
+      if (!f) return;
+      var fd = new FormData();
+      fd.append('field_key', input.name);
+      fd.append('file', f);
+      fetch("{% url 'customizer:upload_media' slug=template.slug %}", {
+        method: 'POST', body: fd,
+        headers: {'X-CSRFToken': form.querySelector('[name=csrfmiddlewaretoken]').value},
+      }).then(function(r){ return r.json(); })
+        .then(function(d){
+          if (d.ok) {
+            var data = {}; data[d.field_key] = d.url;
+            iframe.contentWindow.postMessage({type:'bw:apply', payload: data}, '*');
+          }
+        });
+    });
+  });
+
+  saveBtn.addEventListener('click', function(){
+    var data = {};
+    form.querySelectorAll('[data-bw-field]').forEach(function(el){ if (el.value) data[el.name] = el.value; });
+    saveBtn.disabled = true;
+    saveBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> ' + savingLabel;
+    fetch("{% url 'customizer:save_session' slug=template.slug %}", {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','X-CSRFToken': form.querySelector('[name=csrfmiddlewaretoken]').value},
+      body: JSON.stringify({data: data}),
+    }).then(function(r){ return r.json(); })
+      .then(function(){
+        saveBtn.disabled = false;
+        saveBtn.innerHTML = '<i class="bi bi-check-circle"></i> ' + savedLabel;
+        setTimeout(function(){ saveBtn.innerHTML = '<i class="bi bi-save"></i> ' + saveLabel; }, 1800);
+      });
+  });
+
+  viewport.addEventListener('click', function(e){
+    var btn = e.target.closest('button');
+    if (!btn) return;
+    viewport.querySelectorAll('button').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    wrap.className = 'bw-customizer-iframe-wrap viewport-' + btn.dataset.vp;
+  });
+})();
+</script>
+{% endblock %}

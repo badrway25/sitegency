@@ -1,0 +1,410 @@
+{
+  "medical-carenest": {
+    "desk": {
+      "h": 6166,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "7/7"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-clinova": {
+    "desk": {
+      "h": 8053,
+      "navH": 77,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "20/20"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-dentaura": {
+    "desk": {
+      "h": 5488,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "4/4"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-medicore": {
+    "desk": {
+      "h": 7309,
+      "navH": 67,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "0/0"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-medilux": {
+    "desk": {
+      "h": 5088,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "3/3"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-pulsemed": {
+    "desk": {
+      "h": 4242,
+      "navH": 0,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "2/2"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-vitaclinic": {
+    "desk": {
+      "h": 6985,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "1/1"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "medical-vitalsign": {
+    "desk": {
+      "h": 7900,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "16/16"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "medical"
+  },
+  "restaurant-brasserie": {
+    "desk": {
+      "h": 5848,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "0/5"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-cravekitchen": {
+    "desk": {
+      "h": 6800,
+      "navH": 68,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "10/10"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-forkhaus": {
+    "desk": {
+      "h": 5574,
+      "navH": 66,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "5/5"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-gustora": {
+    "desk": {
+      "h": 5460,
+      "navH": 71,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "0/0"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-nourish": {
+    "desk": {
+      "h": 6806,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "11/11"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-saveur": {
+    "desk": {
+      "h": 5681,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "3/3"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-tablecraft": {
+    "desk": {
+      "h": 7928,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "0/10"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "restaurant-tastefolk": {
+    "desk": {
+      "h": 6566,
+      "navH": 18,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "3/3"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "restaurant"
+  },
+  "e-commerce-buysphere": {
+    "desk": {
+      "h": 4294,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "5/5"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-carta": {
+    "desk": {
+      "h": 4539,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "4/4"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-emporia": {
+    "desk": {
+      "h": 4846,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "8/8"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-kartnova": {
+    "desk": {
+      "h": 10294,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "3/3"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-marketcraft": {
+    "desk": {
+      "h": 6435,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "1/1"
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-shopluxe": {
+    "desk": {
+      "h": 4339,
+      "navH": 41,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "3/3"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-storeforge": {
+    "desk": {
+      "h": 1447,
+      "navH": 80,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "1/1"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  },
+  "e-commerce-vendura": {
+    "desk": {
+      "h": 6294,
+      "navH": 81,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "h2": "5/5"
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false
+    },
+    "ar": "rtl",
+    "fr_nan": 0,
+    "fam": "e-commerce"
+  }
+}

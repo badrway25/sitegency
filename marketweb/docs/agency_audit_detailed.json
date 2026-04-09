@@ -1,0 +1,398 @@
+{
+  "agency-blueprint": {
+    "slug": "agency-blueprint",
+    "issues": [
+      "NAN_COUNTERS"
+    ],
+    "it": {
+      "page_height": 6162,
+      "sections": 7,
+      "section_details": [
+        {
+          "idx": 0,
+          "top": 289,
+          "height": 700,
+          "heading": "-",
+          "cls": "home_banner_area"
+        },
+        {
+          "idx": 1,
+          "top": 989,
+          "height": 675,
+          "heading": "I nostri servizi",
+          "cls": "services_area p_120"
+        },
+        {
+          "idx": 2,
+          "top": 2460,
+          "height": 673,
+          "heading": "Perché sceglierci",
+          "cls": "team_area p_120"
+        },
+        {
+          "idx": 3,
+          "top": 3133,
+          "height": 318,
+          "heading": "-",
+          "cls": "counter_area"
+        },
+        {
+          "idx": 4,
+          "top": 3450,
+          "height": 907,
+          "heading": "Contattaci",
+          "cls": "feature_area p_120"
+        },
+        {
+          "idx": 5,
+          "top": 4358,
+          "height": 820,
+          "heading": "-",
+          "cls": "testimonials_area p_120 disabled"
+        },
+        {
+          "idx": 6,
+          "top": 5178,
+          "height": 310,
+          "heading": "-",
+          "cls": "clients_logo_area p_120"
+        }
+      ],
+      "nav_links": 11,
+      "nav_items": [
+        "Preventivo gratuito!",
+        "B",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Pagine",
+        "Progetti",
+        "Blog",
+        "Blog",
+        "Dettagli articolo"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": true,
+        "height": 626,
+        "text": "Supporto dedicato\nCostruito sull'esperienza, guidato dalla passione.\n\n\n\n\nSoluzioni moderne\n56/8, San"
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 16
+    }
+  },
+  "agency-emberlane": {
+    "slug": "agency-emberlane",
+    "issues": [
+      "NAN_COUNTERS",
+      "NO_SECTIONS_DETECTED"
+    ],
+    "it": {
+      "page_height": 6055,
+      "sections": 0,
+      "section_details": [],
+      "nav_links": 15,
+      "nav_items": [
+        "EEmberlane",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "HR Consulting",
+        "Leadership Training",
+        "HR Management",
+        "Operational Management",
+        "Corporate Program",
+        "Service 3"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": true,
+        "height": 572,
+        "text": "Supporto dedicato\nA small river named Duden flows by their place and supplies it with the necessary "
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 15
+    }
+  },
+  "agency-fluxwork": {
+    "slug": "agency-fluxwork",
+    "issues": [
+      "NAN_COUNTERS"
+    ],
+    "it": {
+      "page_height": 8302,
+      "sections": 5,
+      "section_details": [
+        {
+          "idx": 0,
+          "top": 70,
+          "height": 675,
+          "heading": "Creato per professionisti che fanno la d",
+          "cls": "hero-wrap degree-right js-fullheight"
+        },
+        {
+          "idx": 1,
+          "top": 745,
+          "height": 1217,
+          "heading": "I nostri servizi",
+          "cls": "ftco-section"
+        },
+        {
+          "idx": 2,
+          "top": 1962,
+          "height": 3528,
+          "heading": "Chi siamo",
+          "cls": "ftco-section ftco-portfolio bg-light"
+        },
+        {
+          "idx": 3,
+          "top": 5491,
+          "height": 1151,
+          "heading": "Perché sceglierci",
+          "cls": "ftco-section testimony-section"
+        },
+        {
+          "idx": 4,
+          "top": 6641,
+          "height": 1015,
+          "heading": "I nostri lFluxworkri",
+          "cls": "ftco-section bg-light"
+        }
+      ],
+      "nav_links": 6,
+      "nav_items": [
+        "Fluxwork",
+        "Home",
+        "Chi siamo",
+        "LFluxworkri",
+        "Blog",
+        "Contatti"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": true,
+        "height": 597,
+        "text": "Testimonianze\nEsistiamo per far brillare la tua attività.\n\n\n\n\n\n\n\n\n\nI nostri servizi\n\nProgetti\nTeam\nR"
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 6
+    }
+  },
+  "agency-ironquill": {
+    "slug": "agency-ironquill",
+    "issues": [
+      "NAN_COUNTERS",
+      "NO_FOOTER",
+      "NO_SECTIONS_DETECTED"
+    ],
+    "it": {
+      "page_height": 4289,
+      "sections": 0,
+      "section_details": [],
+      "nav_links": 6,
+      "nav_items": [
+        "IIronQuill",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Blog",
+        "Contatti"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": false,
+        "height": 0,
+        "text": ""
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 7
+    }
+  },
+  "agency-kairos": {
+    "slug": "agency-kairos",
+    "issues": [
+      "NAN_COUNTERS",
+      "NO_SECTIONS_DETECTED"
+    ],
+    "it": {
+      "page_height": 5364,
+      "sections": 0,
+      "section_details": [],
+      "nav_links": 10,
+      "nav_items": [
+        "Kairos",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Branding",
+        "Web design",
+        "App Design",
+        "Start Up",
+        "Progetti",
+        "Contatti"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": true,
+        "height": 652,
+        "text": "Qualità affidabile\nEsistiamo per far brillare la tua attività.\n\n\n\n\n\n\n\n\n\nTeam esperto\n\n\nIndirizzo:\n34"
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 10
+    }
+  },
+  "agency-monolith": {
+    "slug": "agency-monolith",
+    "issues": [
+      "NAN_COUNTERS",
+      "NO_FOOTER",
+      "NO_SECTIONS_DETECTED"
+    ],
+    "it": {
+      "page_height": 6209,
+      "sections": 0,
+      "section_details": [],
+      "nav_links": 16,
+      "nav_items": [
+        "MMonolith.",
+        "Home",
+        "Servizi",
+        "Amazing Atmosphere",
+        "Courteous & Caring Staff",
+        "Hospice Care",
+        "Quality Medical Care",
+        "Excellent Cuisine",
+        "More Links",
+        "Menu One"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": false,
+        "height": 0,
+        "text": ""
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 20
+    }
+  },
+  "agency-parallax": {
+    "slug": "agency-parallax",
+    "issues": [
+      "NAN_COUNTERS"
+    ],
+    "it": {
+      "page_height": 6073,
+      "sections": 3,
+      "section_details": [
+        {
+          "idx": 0,
+          "top": 3573,
+          "height": 615,
+          "heading": "Contattaci",
+          "cls": "project-us pb-padding section-padding"
+        },
+        {
+          "idx": 1,
+          "top": 4188,
+          "height": 910,
+          "heading": "I nostri lavori",
+          "cls": "pricing-card-area fix bottom-padding"
+        },
+        {
+          "idx": 2,
+          "top": 5097,
+          "height": 347,
+          "heading": "Testimonianze",
+          "cls": "wantToWork-area w-padding section-img-bg2"
+        }
+      ],
+      "nav_links": 19,
+      "nav_items": [
+        "P",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Blog",
+        "Blog",
+        "Dettagli articolo",
+        "Contatti",
+        "+10 (78) 678 595",
+        "Menu"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": true,
+        "height": 580,
+        "text": "Esistiamo per far brillare la tua attività.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisultati comprovati\n\nHome\nChi siamo\nServ"
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 19
+    }
+  },
+  "agency-vantage": {
+    "slug": "agency-vantage",
+    "issues": [
+      "NAN_COUNTERS",
+      "NO_FOOTER",
+      "NO_SECTIONS_DETECTED"
+    ],
+    "it": {
+      "page_height": 3422,
+      "sections": 0,
+      "section_details": [],
+      "nav_links": 11,
+      "nav_items": [
+        "V",
+        "Home",
+        "Dropdown",
+        "Menu One",
+        "Menu Two",
+        "Sub Menu One",
+        "Sub Menu Two",
+        "Sub Menu Three",
+        "Menu Three",
+        "Inner Page"
+      ],
+      "nav_ul_visible": true,
+      "footer": {
+        "exists": false,
+        "height": 0,
+        "text": ""
+      },
+      "has_nan": true,
+      "has_logo": true
+    },
+    "ar": {
+      "dir": "rtl",
+      "nav_links": 12
+    }
+  }
+}

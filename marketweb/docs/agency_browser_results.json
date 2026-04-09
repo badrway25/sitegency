@@ -1,0 +1,125 @@
+{
+  "agency-blueprint": {
+    "nav": 11,
+    "brand": "",
+    "nan": true,
+    "logo": true,
+    "sects": 7,
+    "footer": true,
+    "ar_dir": "rtl",
+    "double_letter": false,
+    "issues": [
+      "NaN counters",
+      "brand text empty in first <a>"
+    ]
+  },
+  "agency-emberlane": {
+    "nav": 15,
+    "brand": "EEmberlane",
+    "nan": true,
+    "logo": true,
+    "sects": 0,
+    "footer": true,
+    "ar_dir": "rtl",
+    "double_letter": true,
+    "issues": [
+      "DOUBLE LETTER EEmberlane",
+      "NaN counters",
+      "English nav: HR Consulting, Leadership Training",
+      "0 sections detected"
+    ]
+  },
+  "agency-fluxwork": {
+    "nav": 6,
+    "brand": "Fluxwork",
+    "nan": true,
+    "logo": true,
+    "sects": 5,
+    "footer": true,
+    "ar_dir": "rtl",
+    "double_letter": false,
+    "issues": [
+      "NaN counters",
+      "GARBLED TEXT: LFluxworkri in nav"
+    ]
+  },
+  "agency-ironquill": {
+    "nav": 6,
+    "brand": "IIronQuill",
+    "nan": true,
+    "logo": true,
+    "sects": 0,
+    "footer": false,
+    "ar_dir": "rtl",
+    "double_letter": true,
+    "issues": [
+      "DOUBLE LETTER IIronQuill",
+      "NaN counters",
+      "NO footer",
+      "0 sections detected"
+    ]
+  },
+  "agency-kairos": {
+    "nav": 10,
+    "brand": "Kairos",
+    "nan": true,
+    "logo": true,
+    "sects": 0,
+    "footer": true,
+    "ar_dir": "rtl",
+    "double_letter": false,
+    "issues": [
+      "NaN counters",
+      "English nav: Branding, Web design",
+      "0 sections detected"
+    ]
+  },
+  "agency-monolith": {
+    "nav": 16,
+    "brand": "MMonolith.",
+    "nan": true,
+    "logo": true,
+    "sects": 0,
+    "footer": false,
+    "ar_dir": "rtl",
+    "double_letter": true,
+    "issues": [
+      "DOUBLE LETTER MMonolith.",
+      "NaN counters",
+      "English nav: Amazing Atmosphere, etc",
+      "NO footer",
+      "0 sections"
+    ]
+  },
+  "agency-parallax": {
+    "nav": 19,
+    "brand": "P",
+    "nan": true,
+    "logo": true,
+    "sects": 3,
+    "footer": true,
+    "ar_dir": "rtl",
+    "double_letter": false,
+    "issues": [
+      "NaN counters",
+      "brand text only P (no name)"
+    ]
+  },
+  "agency-vantage": {
+    "nav": 11,
+    "brand": "V",
+    "nan": true,
+    "logo": true,
+    "sects": 0,
+    "footer": false,
+    "ar_dir": "rtl",
+    "double_letter": false,
+    "issues": [
+      "NaN counters",
+      "brand text only V",
+      "PLACEHOLDER: Dropdown, Menu One, Menu Two",
+      "NO footer",
+      "0 sections"
+    ]
+  }
+}

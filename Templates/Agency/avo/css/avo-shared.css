@@ -1,0 +1,375 @@
+/* ================================================================
+   AVO-SHARED.CSS — Vertigo Studio Premium Override Layer
+   Template: Agency/avo
+   Brand: Vertigo Studio — Agenzia Creativa Digitale, Milano
+   Prefix: av- (safe from PreviewEngine targeting)
+   ================================================================ */
+
+/* --- Google Fonts: Sora (headings) + Inter (body) --- */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* --- Palette Custom Properties --- */
+:root {
+    --av-primary: #1a1a2e;       /* Navy scuro — headings, hero bg, footer */
+    --av-accent: #e94560;        /* Rosso corallo — CTA, hover, active states */
+    --av-accent-light: #f5c6d0;  /* Rosa chiaro — hover secondari */
+    --av-accent-dark: #c73a52;   /* Accent scuro — hover bottoni */
+    --av-neutral-warm: #f8f7f4;  /* Sfondo sezioni alternate */
+    --av-neutral-mid: #eaeaea;   /* Bordi, separatori */
+    --av-text-dark: #2d2d3a;     /* Heading body text */
+    --av-text-body: #6e6e80;     /* Paragraph text */
+    --av-text-muted: #9e9eae;    /* Testo secondario */
+    --av-white: #ffffff;
+    --av-footer-bg: #16162a;     /* Footer scuro */
+    --av-footer-bar: #111122;    /* Footer bottom bar */
+}
+
+/* --- Typography Base --- */
+body {
+    font-family: 'Inter', 'Nunito Sans', sans-serif !important;
+    color: var(--av-text-body);
+}
+
+h1, h2, h3, h4, h5, h6,
+.heading-section h2,
+.ftco-heading-2,
+.bread,
+.staff .text h3 {
+    font-family: 'Sora', 'Nunito Sans', sans-serif !important;
+    color: var(--av-text-dark);
+}
+
+/* --- Navbar Brand (safe prefix) --- */
+.av-brand {
+    font-family: 'Sora', sans-serif !important;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    color: var(--av-white) !important;
+    text-decoration: none !important;
+}
+.av-brand-accent {
+    color: var(--av-accent) !important;
+    font-weight: 800;
+}
+.ftco-navbar-light.scrolled .av-brand {
+    color: var(--av-primary) !important;
+}
+.ftco-navbar-light.scrolled .av-brand-accent {
+    color: var(--av-accent) !important;
+}
+
+/* --- Nav Link Active Color --- */
+.ftco-navbar-light .nav-item.active > a {
+    color: var(--av-accent) !important;
+}
+.ftco-navbar-light.scrolled .nav-item.active > a {
+    color: var(--av-accent) !important;
+}
+
+/* --- Hero Overlay Premium --- */
+.hero-wrap .overlay {
+    background: linear-gradient(135deg, rgba(26,26,46,0.7) 0%, rgba(233,69,96,0.25) 100%) !important;
+    opacity: 1 !important;
+}
+.owl-carousel.home-slider .slider-item .overlay {
+    background: linear-gradient(135deg, rgba(26,26,46,0.75) 0%, rgba(233,69,96,0.2) 100%) !important;
+    opacity: 1 !important;
+}
+
+/* --- Hero Text Enhancement --- */
+.slider-text h1,
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-family: 'Sora', sans-serif !important;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+}
+.slider-text .bread {
+    font-family: 'Sora', sans-serif !important;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: -0.01em;
+}
+.slider-text .breadcrumbs span i {
+    color: var(--av-accent) !important;
+}
+.slider-text .breadcrumbs span a:hover {
+    color: var(--av-accent) !important;
+}
+
+/* --- Counter Accent Bar --- */
+.owl-carousel.home-slider .slider-item .slider-text .absolute:after {
+    background: var(--av-accent) !important;
+}
+
+/* --- Section Headings --- */
+.heading-section h2 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+.heading-section .subheading,
+.ftco-section .subheading {
+    color: var(--av-accent);
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+/* --- Services Icons --- */
+.services .icon {
+    background: var(--av-accent) !important;
+    color: var(--av-white) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 16px;
+}
+.services .icon span {
+    color: var(--av-white) !important;
+}
+
+/* --- Services Numbered Steps --- */
+.services-2 span {
+    color: var(--av-accent) !important;
+}
+
+/* ================================================================
+   BUTTON SYSTEM — PreviewEngine Override (7x selectors)
+   Engine injects: a:not(.btn)... { color: var(--sg-accent) !important; }
+   and button:not([class*="close"])... { border-radius: 999px !important; }
+   ================================================================ */
+
+/* Primary Button */
+.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary {
+    background: var(--av-accent) !important;
+    border-color: var(--av-accent) !important;
+    color: var(--av-white) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 6px !important;
+    padding: 14px 32px;
+    transition: all 0.3s ease;
+}
+.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary:hover {
+    background: var(--av-accent-dark) !important;
+    border-color: var(--av-accent-dark) !important;
+    color: var(--av-white) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(233,69,96,0.3);
+}
+
+/* Primary Button Link Color Override */
+.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary a,
+a.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary {
+    color: var(--av-white) !important;
+}
+
+/* Custom Button (portfolio) */
+.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn {
+    color: var(--av-accent) !important;
+    border-bottom: 2px solid var(--av-accent) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn.custom-btn:hover {
+    color: var(--av-accent-dark) !important;
+    border-bottom-color: var(--av-accent-dark) !important;
+}
+
+/* Submit Button Override */
+input[type="submit"].btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary {
+    background: var(--av-accent) !important;
+    border-color: var(--av-accent) !important;
+    color: var(--av-white) !important;
+    border-radius: 6px !important;
+}
+
+/* --- Portfolio Section --- */
+.ftco-portfolio .portfolio-wrap .desc .top .subheading {
+    color: var(--av-accent) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.ftco-portfolio .portfolio-wrap .desc h2 a {
+    color: var(--av-text-dark);
+    font-family: 'Sora', sans-serif !important;
+}
+.ftco-portfolio .portfolio-wrap .desc h2 a:hover {
+    color: var(--av-accent);
+}
+
+/* --- Testimonials --- */
+.testimony-wrap .fa {
+    color: var(--av-accent) !important;
+}
+.testimony-wrap .name {
+    font-family: 'Sora', sans-serif !important;
+    color: var(--av-text-dark) !important;
+}
+.testimony-section .owl-dots .owl-dot.active {
+    background: var(--av-accent) !important;
+}
+.testimony-section .owl-dots .owl-dot.active:after {
+    border-color: var(--av-accent) !important;
+}
+
+/* --- CTA / Intro Band --- */
+.intro {
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+.intro span {
+    color: var(--av-accent) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.intro h2 {
+    font-family: 'Sora', sans-serif !important;
+    color: var(--av-white) !important;
+}
+
+/* --- Blog Cards --- */
+.blog-entry .text .heading a {
+    font-family: 'Sora', sans-serif !important;
+    color: var(--av-text-dark);
+}
+.blog-entry .text .heading a:hover {
+    color: var(--av-accent) !important;
+}
+.blog-entry .meta > div a {
+    color: var(--av-text-muted) !important;
+}
+
+/* --- Team Section --- */
+.staff .img .ftco-social li a {
+    color: var(--av-accent) !important;
+}
+.staff .img .ftco-social li a:hover {
+    background: var(--av-accent) !important;
+    color: var(--av-white) !important;
+}
+.staff .text .position {
+    color: var(--av-accent) !important;
+}
+.staff:hover .text h3 {
+    color: var(--av-accent) !important;
+}
+
+/* --- Contact Page --- */
+.dbox .icon {
+    background: var(--av-accent) !important;
+}
+.dbox p a {
+    color: var(--av-accent) !important;
+}
+.contact-section .contact-form .form-control:focus,
+.contact-section .contact-form .form-control:active {
+    border-color: var(--av-accent) !important;
+}
+
+/* --- Footer Premium --- */
+.ftco-footer {
+    background: var(--av-footer-bg) !important;
+}
+.ftco-heading-2 {
+    font-family: 'Sora', sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--av-white) !important;
+}
+.ftco-footer-social li a {
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: all 0.3s ease;
+}
+.ftco-footer-social li a:hover {
+    background: var(--av-accent) !important;
+    border-color: var(--av-accent) !important;
+}
+
+/* Footer degree shapes */
+.degree-footer-top:before,
+.degree-footer-top:after {
+    background: var(--av-footer-bg) !important;
+}
+
+/* --- Pagination --- */
+.block-27 ul li.active a,
+.block-27 ul li.active span,
+.block-27 ul li:hover a,
+.block-27 ul li:hover span {
+    background: var(--av-accent) !important;
+    border-color: var(--av-accent) !important;
+    color: var(--av-white) !important;
+}
+
+/* --- Loader Accent --- */
+#ftco-loader .path {
+    stroke: var(--av-accent) !important;
+}
+
+/* --- Selection Color --- */
+::selection {
+    background: rgba(233,69,96,0.25);
+    color: var(--av-text-dark);
+}
+::-moz-selection {
+    background: rgba(233,69,96,0.25);
+    color: var(--av-text-dark);
+}
+
+/* --- Blog Single --- */
+.comment-list li .comment-body .meta {
+    color: var(--av-accent) !important;
+}
+.sidebar-box .categories li a:hover,
+.block-21 .text .heading a:hover {
+    color: var(--av-accent) !important;
+}
+.tagcloud a:hover {
+    border-color: var(--av-accent) !important;
+    color: var(--av-accent) !important;
+}
+
+/* --- Video Play Button --- */
+.img-video {
+    background: var(--av-accent) !important;
+}
+
+/* --- Degree Shapes (section dividers) --- */
+.bg-primary {
+    background: var(--av-accent) !important;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 991.98px) {
+    .av-brand {
+        font-size: 18px;
+    }
+    .slider-text h1,
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 28px !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .av-brand {
+        font-size: 16px;
+    }
+    .slider-text h1,
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 22px !important;
+    }
+}

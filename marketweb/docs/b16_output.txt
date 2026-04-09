@@ -1,0 +1,80 @@
+
+=== CREATIVE (8) ===
+  creative-hnband-pro: nav=79px ftco=0/0 imgs=17/17 h2=18/18 weak=3/12 WEAK:3
+  creative-inkwell: nav=80px ftco=0/0 imgs=22/22 h2=0/21 weak=0/10 HID:2
+  creative-mixtape-pro: nav=80px ftco=0/0 imgs=5/5 h2=0/1 weak=0/6 OK
+  creative-music-harmonia: nav=93px ftco=0/0 imgs=17/17 h2=8/8 weak=5/10 WEAK:5
+  creative-palette-noir: nav=790px ftco=0/0 imgs=44/44 h2=29/29 weak=1/2 OK
+  creative-pigmento: nav=80px ftco=0/0 imgs=6/6 h2=0/6 weak=1/6 OK
+  creative-studiokaleido: nav=117px ftco=0/0 imgs=8/9 h2=0/12 weak=3/9 WEAK:3
+  creative-vividum: nav=80px ftco=0/0 imgs=12/12 h2=5/5 weak=0/11 OK
+
+=== EDUCATION (8) ===
+  education-academix: nav=80px ftco=0/0 imgs=30/31 h2=22/22 weak=0/18 OK
+  education-brightpath: nav=74px ftco=0/0 imgs=38/44 h2=5/5 weak=2/16 OK
+  education-campuscore: nav=80px ftco=0/0 imgs=24/24 h2=5/5 weak=1/22 OK
+  education-knowhub: nav=80px ftco=0/0 imgs=17/17 h2=6/6 weak=1/23 OK
+  education-learnly: nav=56px ftco=0/0 imgs=47/47 h2=6/6 weak=0/18 OK
+  education-mentora: nav=80px ftco=0/0 imgs=22/26 h2=3/3 weak=5/11 WEAK:5
+  education-scholarnest: nav=151px ftco=0/0 imgs=20/20 h2=8/8 weak=1/9 OK
+  education-studyforge: nav=80px ftco=0/0 imgs=0/0 h2=42/47 weak=0/16 OK
+
+=== FASHION (8) ===
+  fashion-atelierium: nav=143px ftco=0/0 imgs=53/53 h2=12/12 weak=4/19 HID:1 OVF WEAK:4
+  fashion-couturae: nav=80px ftco=0/0 imgs=10/16 h2=1/1 weak=0/10 OK
+  fashion-erase-pro: nav=92px ftco=15/15 imgs=0/0 h2=15/15 weak=0/3 OK
+  fashion-maison-noir: nav=211px ftco=0/0 imgs=26/26 h2=22/22 weak=0/9 OK
+  fashion-modaprima: nav=81px ftco=0/0 imgs=37/43 h2=3/3 weak=3/16 WEAK:3
+  fashion-silhouette-co: nav=0px ftco=18/18 imgs=0/0 h2=0/0 weak=0/1 OK
+  fashion-velours: nav=81px ftco=0/0 imgs=96/96 h2=8/8 weak=0/13 OK
+  fashion-vogueline: nav=80px ftco=0/0 imgs=21/21 h2=13/13 weak=2/27 OK
+
+=== FINANCE (8) ===
+  finance-bondforge: nav=0px ftco=0/0 imgs=52/53 h2=0/0 weak=1/15 OVF
+  finance-capitex: nav=80px ftco=0/0 imgs=50/50 h2=25/25 weak=2/29 OK
+  finance-cryptocurrency-pro: nav=81px ftco=0/0 imgs=11/11 h2=21/21 weak=2/15 OK
+  finance-equitysphere: nav=80px ftco=0/0 imgs=13/14 h2=11/11 weak=0/13 OK
+  finance-fintora: nav=37px ftco=0/0 imgs=20/20 h2=0/0 weak=1/10 OK
+  finance-primecapital: nav=80px ftco=0/0 imgs=29/29 h2=14/14 weak=3/38 WEAK:3
+  finance-trustledger: nav=81px ftco=0/0 imgs=28/28 h2=3/3 weak=0/8 OK
+  finance-wealthnova: nav=0px ftco=0/0 imgs=12/12 h2=0/0 weak=1/3 OK
+
+=== REAL-ESTATE (8) ===
+  real-estate-abodeone: nav=71px ftco=45/45 imgs=8/8 h2=12/12 weak=0/19 OK
+  real-estate-brickbond: nav=81px ftco=0/0 imgs=23/23 h2=9/9 weak=1/8 OK
+  real-estate-casaroyale: nav=171px ftco=0/0 imgs=39/39 h2=0/0 weak=0/17 OK
+  real-estate-domicile: nav=80px ftco=0/0 imgs=61/65 h2=0/0 weak=0/0 OK
+  real-estate-estatelux: nav=62px ftco=0/0 imgs=24/24 h2=12/12 weak=0/13 OK
+  real-estate-havenpro: nav=530px ftco=0/0 imgs=55/55 h2=19/19 weak=2/15 OK
+  real-estate-marqueur: nav=80px ftco=24/24 imgs=13/13 h2=10/10 weak=0/14 OK
+  real-estate-urbankey: nav=71px ftco=34/34 imgs=4/4 h2=11/11 weak=0/15 OK
+
+=== TECHNOLOGY (8) ===
+  technology-byteforge: nav=62px ftco=0/0 imgs=19/19 h2=6/6 weak=1/15 OK
+  technology-cortex: nav=80px ftco=0/0 imgs=26/26 h2=0/0 weak=0/3 OK
+  technology-devlane: nav=76px ftco=0/0 imgs=21/21 h2=21/21 weak=0/6 OK
+  technology-hypernova: nav=80px ftco=0/0 imgs=0/0 h2=23/28 weak=0/15 OK
+  technology-kernelink: nav=80px ftco=0/0 imgs=70/71 h2=7/7 weak=1/15 OK
+  technology-nebulon: nav=73px ftco=0/0 imgs=20/20 h2=6/6 weak=0/16 OK
+  technology-quantix: nav=80px ftco=0/0 imgs=11/11 h2=13/13 weak=0/5 OK
+  technology-stackwise: nav=71px ftco=44/44 imgs=0/0 h2=12/12 weak=0/21 OK
+
+=== WEDDING (8) ===
+  wedding-aurelia-weddings: nav=80px ftco=0/0 imgs=44/44 h2=9/9 weak=1/35 OK
+  wedding-bellenuit: nav=0px ftco=0/0 imgs=31/31 h2=32/32 weak=2/10 OK
+  wedding-ceremony-co: nav=790px ftco=0/0 imgs=44/44 h2=29/29 weak=1/2 OK
+  wedding-confetto: nav=81px ftco=0/0 imgs=3/3 h2=0/6 weak=4/8 HID:1 WEAK:4
+  wedding-eterna-love: nav=81px ftco=0/0 imgs=19/19 h2=6/6 weak=10/15 WEAK:10
+  wedding-everafter: nav=80px ftco=0/0 imgs=29/38 h2=0/0 weak=1/10 OK
+  wedding-lumenlove: nav=40px ftco=0/0 imgs=22/22 h2=0/0 weak=2/11 OK
+  wedding-vowcraft: nav=80px ftco=69/69 imgs=0/0 h2=24/24 weak=0/16 OK
+
+================================================================================
+TOTAL: 56 templates | 52/56 clean | 68 weak / 732 sections (9.3%)
+  creative: 7/8 clean | weak_avg=1.6 | ftco=0/0
+  education: 8/8 clean | weak_avg=1.2 | ftco=0/0
+  fashion: 7/8 clean | weak_avg=1.1 | ftco=33/33
+  finance: 7/8 clean | weak_avg=1.2 | ftco=0/0
+  real-estate: 8/8 clean | weak_avg=0.4 | ftco=103/103
+  technology: 8/8 clean | weak_avg=0.2 | ftco=44/44
+  wedding: 7/8 clean | weak_avg=2.6 | ftco=69/69

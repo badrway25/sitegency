@@ -1,0 +1,283 @@
+{
+  "agency-blueprint": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "Devis gratuit !",
+        "B",
+        "Accueil",
+        "À propos",
+        "Services",
+        "Pages"
+      ],
+      "hero": "",
+      "nan": 0,
+      "h": 6206
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false,
+      "h": 9336,
+      "footer": true
+    },
+    "con": {
+      "navH": 143,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 626,
+      "fBg": "linear-gradient(rgb(11, 15, 25) 0%, rgb(5, 7, 16) ",
+      "fColor": "rgba(255, 255, 255, 0.7)",
+      "h2c": [
+        "rgb(32, 46, 197)"
+      ],
+      "rounded": 28,
+      "totalImgs": 28,
+      "shadows": 8
+    }
+  },
+  "agency-emberlane": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "EEmberlane",
+        "Accueil",
+        "À propos",
+        "Services",
+        "HR Consulting",
+        "Leadership Training"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différence",
+      "nan": 0,
+      "h": 6369
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": true,
+      "h": 9551,
+      "footer": true
+    },
+    "con": {
+      "navH": 161,
+      "navPos": "absolute",
+      "navBlur": true,
+      "fH": 572,
+      "fBg": "linear-gradient(rgb(11, 15, 25) 0%, rgb(5, 7, 16) ",
+      "fColor": "rgba(255, 255, 255, 0.7)",
+      "h2c": [],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 0
+    }
+  },
+  "agency-fluxwork": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "Fluxwork",
+        "Accueil",
+        "À propos",
+        "Travaux",
+        "Blog",
+        "Contact"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différence",
+      "nan": 0,
+      "h": 8481
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false,
+      "h": 13936,
+      "footer": true
+    },
+    "con": {
+      "navH": 70,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 100,
+      "fBg": "none",
+      "fColor": "rgb(160, 160, 180)",
+      "h2c": [
+        "rgb(54, 32, 197)"
+      ],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 34
+    }
+  },
+  "agency-ironquill": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "IIronQuill",
+        "Accueil",
+        "À propos",
+        "Services",
+        "Blog",
+        "Contact"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différenceBusiness|",
+      "nan": 0,
+      "h": 3873
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false,
+      "h": 5945,
+      "footer": true
+    },
+    "con": {
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 353,
+      "fBg": "linear-gradient(rgb(11, 15, 25) 0%, rgb(5, 7, 16) ",
+      "fColor": "rgba(255, 255, 255, 0.7)",
+      "h2c": [
+        "rgb(32, 115, 197)"
+      ],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 0
+    }
+  },
+  "agency-kairos": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "Kairos",
+        "Accueil",
+        "À propos",
+        "Services",
+        "Image de marque",
+        "Conception web"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différence",
+      "nan": 0,
+      "h": 5123
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": true,
+      "h": 6643,
+      "footer": true
+    },
+    "con": {
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 653,
+      "fBg": "linear-gradient(rgb(17, 24, 39), rgb(7, 10, 18))",
+      "fColor": "rgba(255, 255, 255, 0.75)",
+      "h2c": [],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 0
+    }
+  },
+  "agency-monolith": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "MMonolith.",
+        "Accueil",
+        "Services",
+        "Amazing Atmosphere",
+        "Courteous & Caring Staff",
+        "Hospice Care"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différence",
+      "nan": 0,
+      "h": 5857
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": false,
+      "h": 9761,
+      "footer": true
+    },
+    "con": {
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 603,
+      "fBg": "linear-gradient(rgb(17, 24, 39), rgb(7, 10, 18))",
+      "fColor": "rgba(255, 255, 255, 0.75)",
+      "h2c": [
+        "rgb(54, 32, 197)"
+      ],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 0
+    }
+  },
+  "agency-parallax": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "P",
+        "Accueil",
+        "À propos",
+        "Services",
+        "Blog",
+        "Blog"
+      ],
+      "hero": "Conçu pour les professionnels qui font la différence",
+      "nan": 0,
+      "h": 5648
+    },
+    "mob": {
+      "toggle": false,
+      "overflow": false,
+      "h": 9041,
+      "footer": true
+    },
+    "con": {
+      "navH": 1,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fH": 580,
+      "fBg": "linear-gradient(rgb(11, 15, 25) 0%, rgb(5, 7, 16) ",
+      "fColor": "rgba(255, 255, 255, 0.7)",
+      "h2c": [
+        "rgb(137, 32, 197)"
+      ],
+      "rounded": 1,
+      "totalImgs": 1,
+      "shadows": 4
+    }
+  },
+  "agency-vantage": {
+    "fr": {
+      "lang": "fr",
+      "nav": [
+        "V",
+        "Accueil",
+        "Menu",
+        "Page interne",
+        "Nous contacter"
+      ],
+      "hero": "Des expériences premium, livrées avec soin",
+      "nan": 0,
+      "h": 3372
+    },
+    "mob": {
+      "toggle": true,
+      "overflow": true,
+      "h": 3975,
+      "footer": true
+    },
+    "con": {
+      "navH": 0,
+      "navPos": null,
+      "navBlur": false,
+      "fH": 464,
+      "fBg": "linear-gradient(rgb(17, 24, 39), rgb(7, 10, 18))",
+      "fColor": "rgba(255, 255, 255, 0.75)",
+      "h2c": [],
+      "rounded": 0,
+      "totalImgs": 0,
+      "shadows": 0
+    }
+  }
+}

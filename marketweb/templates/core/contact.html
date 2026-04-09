@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Contact" %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<!-- ============================================================
+     CONTACT HERO — editorial
+     ============================================================ -->
+<section class="bw-contact-hero">
+  <div class="bw-contact-hero-bg" aria-hidden="true">
+    <div class="bw-hero-orb bw-orb-1"></div>
+    <div class="bw-hero-orb bw-orb-2"></div>
+    <div class="bw-hero-orb bw-orb-3"></div>
+  </div>
+  <div class="bw-container">
+    <div class="bw-contact-hero-inner">
+      <span class="bw-eyebrow">
+        <span class="bw-eyebrow-dot"></span>
+        {% trans "We respond within 24 hours" %}
+      </span>
+      <h1>{% blocktrans %}Let's talk about your <em>next website</em>.{% endblocktrans %}</h1>
+      <p class="bw-contact-hero-sub">
+        {% trans "Whether you need a quick answer, help choosing the perfect template, or advice on enterprise licensing — our team is here to guide you. No bots, no tickets, just real people who care about your project." %}
+      </p>
+      <div class="bw-contact-quickstats">
+        <div class="bw-qs-item"><strong>&lt; 2h</strong><span>{% trans "Avg response time" %}</span></div>
+        <div class="bw-qs-divider"></div>
+        <div class="bw-qs-item"><strong>4</strong><span>{% trans "Languages supported" %}</span></div>
+        <div class="bw-qs-divider"></div>
+        <div class="bw-qs-item"><strong>24/7</strong><span>{% trans "Help center open" %}</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT SPLIT — info left, form right
+     ============================================================ -->
+<section class="bw-section bw-contact-main">
+  <div class="bw-container">
+    <div class="bw-contact-grid">
+
+      <!-- ========== LEFT: info cards + social ========== -->
+      <aside class="bw-contact-info">
+        <div class="bw-contact-badge">
+          <span class="bw-eyebrow-dot"></span>
+          {% trans "Real humans, not chatbots" %}
+        </div>
+        <h2 class="bw-contact-heading">{% blocktrans %}Every channel, <em>one team</em>.{% endblocktrans %}</h2>
+        <p class="bw-contact-intro">{% trans "Reach out the way you prefer. Whichever channel you pick, your message lands with the same people who handcraft every template in our marketplace." %}</p>
+
+        <!-- Info cards -->
+        <div class="bw-info-list">
+          <a href="mailto:{{ config.support_email }}" class="bw-info-card">
+            <span class="bw-info-icon" style="background:var(--grad-signature);">
+              <i class="bi bi-envelope-fill"></i>
+            </span>
+            <div class="bw-info-body">
+              <span class="bw-info-label">{% trans "Email us" %}</span>
+              <strong class="bw-info-value">{{ config.support_email|default:"support@sitegency.com" }}</strong>
+              <span class="bw-info-sub">{% trans "Answered within 24 hours, every day" %}</span>
+            </div>
+            <i class="bi bi-arrow-up-right bw-info-arrow"></i>
+          </a>
+
+          <a href="tel:{{ config.support_phone|cut:' ' }}" class="bw-info-card">
+            <span class="bw-info-icon" style="background:linear-gradient(135deg,#059669,#10b981);">
+              <i class="bi bi-telephone-fill"></i>
+            </span>
+            <div class="bw-info-body">
+              <span class="bw-info-label">{% trans "Call us" %}</span>
+              <strong class="bw-info-value">{{ config.support_phone|default:"+1 (555) 010-0420" }}</strong>
+              <span class="bw-info-sub">{% trans "Mon–Fri, 9:00 — 18:00 UTC" %}</span>
+            </div>
+            <i class="bi bi-arrow-up-right bw-info-arrow"></i>
+          </a>
+
+          <div class="bw-info-card bw-info-card-static">
+            <span class="bw-info-icon" style="background:linear-gradient(135deg,#d946ef,#f0abfc);">
+              <i class="bi bi-geo-alt-fill"></i>
+            </span>
+            <div class="bw-info-body">
+              <span class="bw-info-label">{% trans "Studio address" %}</span>
+              <strong class="bw-info-value">{% trans "14 Rue du Design, 75008 Paris" %}</strong>
+              <span class="bw-info-sub">{% trans "Visits by appointment only" %}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div class="bw-contact-social">
+          <span class="bw-social-label">{% trans "Follow us" %}</span>
+          <div class="bw-social-icons">
+            <a href="#" aria-label="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ========== RIGHT: premium form ========== -->
+      <div class="bw-contact-form-wrap">
+        <div class="bw-contact-form-card">
+          <div class="bw-form-header">
+            <div class="bw-form-avatars">
+              <img src="https://i.pravatar.cc/80?img=47" alt="" class="bw-form-avatar">
+              <img src="https://i.pravatar.cc/80?img=12" alt="" class="bw-form-avatar">
+              <img src="https://i.pravatar.cc/80?img=32" alt="" class="bw-form-avatar">
+            </div>
+            <div>
+              <h3 class="bw-form-title">{% trans "Drop us a line" %}</h3>
+              <p class="bw-form-subtitle">{% trans "Tell us about your project. We'll come back with a real answer within 24h." %}</p>
+            </div>
+          </div>
+
+          <form class="bw-contact-form" method="post" action="#" novalidate>
+            {% csrf_token %}
+
+            <div class="bw-form-row">
+              <div class="bw-field bw-field-float">
+                <input type="text" id="cf-name" name="name" required placeholder=" ">
+                <label for="cf-name">{% trans "Your name" %}</label>
+              </div>
+              <div class="bw-field bw-field-float">
+                <input type="email" id="cf-email" name="email" required placeholder=" ">
+                <label for="cf-email">{% trans "Work email" %}</label>
+              </div>
+            </div>
+
+            <div class="bw-form-row">
+              <div class="bw-field bw-field-float">
+                <input type="text" id="cf-company" name="company" placeholder=" ">
+                <label for="cf-company">{% trans "Company" %} <span class="bw-field-opt">({% trans "optional" %})</span></label>
+              </div>
+              <div class="bw-field bw-field-float">
+                <select id="cf-topic" name="topic" class="bw-field-select">
+                  <option value="" selected disabled></option>
+                  <option value="general">{% trans "General question" %}</option>
+                  <option value="pre-sales">{% trans "Choosing a template" %}</option>
+                  <option value="licenses">{% trans "Licensing & pricing" %}</option>
+                  <option value="enterprise">{% trans "Enterprise & agencies" %}</option>
+                  <option value="press">{% trans "Press & partnership" %}</option>
+                  <option value="refund">{% trans "Refund request" %}</option>
+                </select>
+                <label for="cf-topic">{% trans "What's it about?" %}</label>
+              </div>
+            </div>
+
+            <div class="bw-field bw-field-float">
+              <textarea id="cf-message" name="message" rows="5" required placeholder=" "></textarea>
+              <label for="cf-message">{% trans "Your message" %}</label>
+            </div>
+
+            <div class="bw-form-footer">
+              <label class="bw-checkbox">
+                <input type="checkbox" required>
+                <span></span>
+                <small>{% trans "I agree to Sitegency contacting me about my request. No marketing, ever." %}</small>
+              </label>
+
+              <button type="submit" class="bw-btn bw-btn-accent bw-btn-lg bw-btn-submit">
+                {% trans "Send message" %}
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+
+            <p class="bw-form-trust">
+              <i class="bi bi-shield-check"></i>
+              {% trans "Your information is encrypted and never shared. We reply within 24 hours, Monday to Friday." %}
+            </p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     REASONS TO CONTACT US — 3 benefit tiles
+     ============================================================ -->
+<section class="bw-section" style="background:var(--ink-25);">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "What to expect" %}</span>
+      <h2>{% blocktrans %}A conversation that <em>actually moves</em> your project forward.{% endblocktrans %}</h2>
+      <p>{% trans "Every message is read by a senior member of our team. Here's what happens after you hit send." %}</p>
+    </div>
+
+    <div class="bw-expect-grid">
+      <div class="bw-expect-card">
+        <div class="bw-expect-step">01</div>
+        <div class="bw-expect-icon"><i class="bi bi-clock-history"></i></div>
+        <h3>{% trans "Fast, human reply" %}</h3>
+        <p>{% trans "No tickets, no bots. A real team member reads your message and responds with a tailored answer — usually within a few hours." %}</p>
+      </div>
+      <div class="bw-expect-card">
+        <div class="bw-expect-step">02</div>
+        <div class="bw-expect-icon"><i class="bi bi-lightbulb"></i></div>
+        <h3>{% trans "Expert guidance" %}</h3>
+        <p>{% trans "If you're unsure which template fits, we'll suggest two or three options based on your industry, your content and your audience — at no cost." %}</p>
+      </div>
+      <div class="bw-expect-card">
+        <div class="bw-expect-step">03</div>
+        <div class="bw-expect-icon"><i class="bi bi-rocket-takeoff"></i></div>
+        <h3>{% trans "Clear next steps" %}</h3>
+        <p>{% trans "Every reply ends with a concrete next action — whether it's a live customization walkthrough, a licensing quote, or a direct template link." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA — darker panel
+     ============================================================ -->
+<section class="bw-section bw-section-dark" style="padding: var(--s-10) 0;">
+  <div class="bw-container bw-text-center">
+    <h2 style="color:var(--ink-0);max-width:700px;margin:0 auto .5em;">{% blocktrans %}Prefer to browse first? <em>Go ahead</em>.{% endblocktrans %}</h2>
+    <p style="color:var(--ink-300);max-width:560px;margin:0 auto 2rem;">{% trans "Every template can be previewed live and customized in your browser — no account, no commitment." %}</p>
+    <div class="bw-flex bw-gap-3" style="justify-content:center;flex-wrap:wrap;">
+      <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-luxe bw-btn-lg">
+        {% trans "Browse all templates" %} <i class="bi bi-arrow-right"></i>
+      </a>
+      <a href="{% url 'core:faq' %}" class="bw-btn bw-btn-ghost bw-btn-lg" style="color:#fff;border-color:rgba(255,255,255,.2);">
+        {% trans "Read the FAQ" %}
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

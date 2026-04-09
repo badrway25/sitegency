@@ -1,0 +1,2093 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-06 09:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\customizer\views.py:46 .\templates\customizer\customize.html:63
+msgid "Save Draft"
+msgstr "حفظ المسودة"
+
+#: .\customizer\views.py:47
+msgid "Saving…"
+msgstr "جارٍ الحفظ…"
+
+#: .\customizer\views.py:48
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#: .\marketweb\settings.py:94
+msgid "English"
+msgstr "الإنجليزية"
+
+#: .\marketweb\settings.py:95
+msgid "Italiano"
+msgstr "الإيطالية"
+
+#: .\marketweb\settings.py:96
+msgid "Français"
+msgstr "الفرنسية"
+
+#: .\marketweb\settings.py:97
+msgid "العربية"
+msgstr "العربية"
+
+#: .\templates\_lang_switcher.html:11
+msgid "Select language"
+msgstr "اختر اللغة"
+
+#: .\templates\base.html:6
+msgid "Premium website templates, instantly yours"
+msgstr "قوالب مواقع فاخرة، ملكك فوراً"
+
+#: .\templates\base.html:7
+msgid ""
+"The world's most advanced marketplace for premium, fully customizable "
+"website templates."
+msgstr ""
+"السوق الأكثر تطوراً في العالم لقوالب المواقع الفاخرة والقابلة للتخصيص "
+"بالكامل."
+
+#: .\templates\base.html:119
+msgid "Loading Sitegency"
+msgstr "جارٍ تحميل Sitegency"
+
+#: .\templates\base.html:155 .\templates\catalog\category_detail.html:3
+msgid "Templates"
+msgstr "القوالب"
+
+#: .\templates\base.html:156 .\templates\base.html:196
+#: .\templates\catalog\category_detail.html:14
+#: .\templates\catalog\category_list.html:3
+#: .\templates\catalog\template_detail.html:12
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: .\templates\base.html:157 .\templates\core\home.html:251
+msgid "Why Sitegency"
+msgstr "لماذا Sitegency"
+
+#: .\templates\base.html:158 .\templates\base.html:205
+#: .\templates\core\faq.html:3
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: .\templates\base.html:159 .\templates\base.html:206
+#: .\templates\core\contact.html:3 .\templates\customizer\customize.html:33
+msgid "Contact"
+msgstr "تواصل معنا"
+
+#: .\templates\base.html:165
+msgid "Start Customizing"
+msgstr "ابدأ التخصيص"
+
+#: .\templates\base.html:188
+msgid ""
+"The world's most advanced marketplace for premium, fully customizable "
+"website templates. Designed in-house. Previewable before purchase. Yours in "
+"minutes."
+msgstr ""
+"المنصة الأكثر تطوراً في العالم لقوالب المواقع الفاخرة القابلة للتخصيص "
+"بالكامل. مصمَّمة داخلياً. قابلة للمعاينة قبل الشراء. ملكك في دقائق."
+
+#: .\templates\base.html:193
+msgid "Marketplace"
+msgstr "السوق"
+
+#: .\templates\base.html:195 .\templates\catalog\template_list.html:3
+#: .\templates\catalog\template_list.html:11
+msgid "All Templates"
+msgstr "جميع القوالب"
+
+#: .\templates\base.html:197
+msgid "New Arrivals"
+msgstr "الجديد"
+
+#: .\templates\base.html:198
+msgid "Elite Collection"
+msgstr "مجموعة النخبة"
+
+#: .\templates\base.html:202 .\templates\core\contact.html:135
+msgid "Company"
+msgstr "الشركة"
+
+#: .\templates\base.html:204
+msgid "About Us"
+msgstr "من نحن"
+
+#: .\templates\base.html:207
+msgid "Licenses"
+msgstr "التراخيص"
+
+#: .\templates\base.html:211
+msgid "Support"
+msgstr "الدعم"
+
+#: .\templates\base.html:213
+msgid "Help Center"
+msgstr "مركز المساعدة"
+
+#: .\templates\base.html:214
+msgid "Documentation"
+msgstr "التوثيق"
+
+#: .\templates\base.html:215
+msgid "Refund Policy"
+msgstr "سياسة الاسترجاع"
+
+#: .\templates\base.html:216
+msgid "Terms & Privacy"
+msgstr "الشروط والخصوصية"
+
+#: .\templates\base.html:221
+msgid "Crafted with precision. All templates fully customizable."
+msgstr "صُنع بدقة. جميع القوالب قابلة للتخصيص بالكامل."
+
+#: .\templates\base.html:222
+msgid "Made with Django · Secure · Premium"
+msgstr "مبني على Django · آمن · فاخر"
+
+#: .\templates\catalog\_template_card.html:5
+#, python-format
+msgid "Preview %(name)s"
+msgstr "معاينة %(name)s"
+
+#: .\templates\catalog\_template_card.html:11
+#: .\templates\catalog\category_detail.html:38
+#: .\templates\catalog\category_list.html:114
+#: .\templates\catalog\template_detail.html:26
+#: .\templates\catalog\template_list.html:32
+msgid "Featured"
+msgstr "مُميَّز"
+
+#: .\templates\catalog\_template_card.html:12
+#: .\templates\catalog\template_detail.html:27
+msgid "New"
+msgstr "جديد"
+
+#: .\templates\catalog\_template_card.html:13
+#: .\templates\catalog\template_detail.html:28
+msgid "Bestseller"
+msgstr "الأكثر مبيعاً"
+
+#: .\templates\catalog\_template_card.html:14
+msgid "Elite"
+msgstr "النخبة"
+
+#: .\templates\catalog\_template_card.html:17
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+#: .\templates\catalog\category_detail.html:12
+#: .\templates\catalog\template_detail.html:10
+#: .\templates\catalog\template_list.html:9 .\templates\orders\checkout.html:9
+msgid "Home"
+msgstr "الرئيسية"
+
+#: .\templates\catalog\category_detail.html:24
+#: .\templates\catalog\category_list.html:35
+msgid "premium templates"
+msgstr "قوالب فاخرة"
+
+#: .\templates\catalog\category_detail.html:26
+msgid "All fully customizable"
+msgstr "جميعها قابلة للتخصيص بالكامل"
+
+#: .\templates\catalog\category_detail.html:28
+msgid "All previewable live"
+msgstr "جميعها قابلة للمعاينة مباشرة"
+
+#: .\templates\catalog\category_detail.html:36
+#, python-format
+msgid "Search in %(c)s…"
+msgstr "ابحث في %(c)s…"
+
+#: .\templates\catalog\category_detail.html:39
+#: .\templates\catalog\template_list.html:33
+msgid "Newest"
+msgstr "الأحدث"
+
+#: .\templates\catalog\category_detail.html:40
+msgid "Highest Rated"
+msgstr "الأعلى تقييماً"
+
+#: .\templates\catalog\category_detail.html:41
+#: .\templates\catalog\template_list.html:34
+msgid "Price: Low to High"
+msgstr "السعر: من الأقل للأعلى"
+
+#: .\templates\catalog\category_detail.html:42
+#: .\templates\catalog\template_list.html:35
+msgid "Price: High to Low"
+msgstr "السعر: من الأعلى للأقل"
+
+#: .\templates\catalog\category_detail.html:44
+msgid "Apply"
+msgstr "تطبيق"
+
+#: .\templates\catalog\category_detail.html:53
+msgid "No templates in this category yet"
+msgstr "لا توجد قوالب في هذا التصنيف بعد"
+
+#: .\templates\catalog\category_detail.html:54
+msgid "Check back soon — we're adding more every week."
+msgstr "عُد قريباً — نضيف المزيد كل أسبوع."
+
+#: .\templates\catalog\category_list.html:19
+msgid "Browse by industry"
+msgstr "تصفح حسب القطاع"
+
+#: .\templates\catalog\category_list.html:21
+msgid "A template for every profession, <em>crafted with purpose</em>."
+msgstr "قالب لكل مهنة، <em>مصمَّم بهدف واضح</em>."
+
+#: .\templates\catalog\category_list.html:22
+msgid ""
+"Each category hosts a curated collection of templates designed, refined and "
+"modernized to match the tone, pace and trust requirements of a specific "
+"business."
+msgstr ""
+"كل فئة تضم مجموعة مختارة من القوالب المصممة والمُحسَّنة والمُحدَّثة لتناسب "
+"نبرة ووتيرة ومتطلبات الثقة لكل نشاط تجاري محدّد."
+
+#: .\templates\catalog\category_list.html:28
+msgid "Find your industry…"
+msgstr "ابحث عن قطاعك…"
+
+#: .\templates\catalog\category_list.html:29
+msgid "Search categories"
+msgstr "ابحث في الفئات"
+
+#: .\templates\catalog\category_list.html:33 .\templates\core\faq.html:38
+msgid "categories"
+msgstr "تصنيفات"
+
+#: .\templates\catalog\category_list.html:37
+msgid "New every week"
+msgstr "جديد كل أسبوع"
+
+#: .\templates\catalog\category_list.html:51
+msgid "Featured collections"
+msgstr "مجموعات مميّزة"
+
+#: .\templates\catalog\category_list.html:52
+msgid "The <em>most loved</em> this month"
+msgstr "<em>الأكثر تفضيلاً</em> هذا الشهر"
+
+#: .\templates\catalog\category_list.html:56
+msgid "Trending"
+msgstr "الأكثر رواجاً"
+
+#: .\templates\catalog\category_list.html:71
+#: .\templates\catalog\category_list.html:121 .\templates\core\home.html:428
+msgid "templates"
+msgstr "قوالب"
+
+#: .\templates\catalog\category_list.html:76
+msgid "Explore collection"
+msgstr "استكشف المجموعة"
+
+#: .\templates\catalog\category_list.html:93
+msgid "Full catalog"
+msgstr "الكتالوج الكامل"
+
+#: .\templates\catalog\category_list.html:94
+msgid "Every industry, <em>fully covered</em>"
+msgstr "كل قطاع، <em>مشمول بالكامل</em>"
+
+#: .\templates\catalog\category_list.html:131
+msgid "No category matches your search"
+msgstr "لا توجد فئة تطابق بحثك"
+
+#: .\templates\catalog\category_list.html:132
+msgid ""
+"Try a different keyword, or contact us — we might already have what you "
+"need."
+msgstr ""
+"جرّب كلمة مفتاحية مختلفة أو تواصل معنا — قد يكون لدينا ما تحتاجه بالفعل."
+
+#: .\templates\catalog\category_list.html:143
+msgid "Your industry not listed? <em>Let's talk</em>."
+msgstr "قطاعك غير مدرج؟ <em>لنتحدّث</em>."
+
+#: .\templates\catalog\category_list.html:144
+msgid ""
+"We add new categories every month based on customer requests. Tell us what "
+"you need and we will prioritize it."
+msgstr ""
+"نضيف فئات جديدة كل شهر بناءً على طلبات العملاء. أخبرنا بما تحتاج وسنمنحه "
+"الأولوية."
+
+#: .\templates\catalog\category_list.html:147
+msgid "Request a category"
+msgstr "اطلب فئة جديدة"
+
+#: .\templates\catalog\category_list.html:150
+#: .\templates\core\contact.html:224
+msgid "Browse all templates"
+msgstr "تصفح كل القوالب"
+
+#: .\templates\catalog\template_detail.html:3
+msgid "Template"
+msgstr "قالب"
+
+#: .\templates\catalog\template_detail.html:29
+#, python-format
+msgid "%(n)s review"
+msgid_plural "%(n)s reviews"
+msgstr[0] "%(n)s تقييم"
+msgstr[1] "%(n)s تقييماً"
+
+#: .\templates\catalog\template_detail.html:30
+msgid "downloads"
+msgstr "تحميلات"
+
+#: .\templates\catalog\template_detail.html:40
+#, python-format
+msgid "Live preview of %(n)s"
+msgstr "معاينة مباشرة لـ %(n)s"
+
+#: .\templates\catalog\template_detail.html:44
+msgid "Navigate every page"
+msgstr "تصفح كل صفحة"
+
+#: .\templates\catalog\template_detail.html:45
+msgid "Click any page — explore this template like a real visitor would."
+msgstr "انقر على أي صفحة — استكشف هذا القالب كما يفعل الزائر الحقيقي."
+
+#: .\templates\catalog\template_detail.html:54
+msgid "About this template"
+msgstr "حول هذا القالب"
+
+#: .\templates\catalog\template_detail.html:57
+msgid "What's included"
+msgstr "ما المتضمَّن"
+
+#: .\templates\catalog\template_detail.html:59
+#, python-format
+msgid "%(n)s fully customizable pages"
+msgstr "%(n)s صفحات قابلة للتخصيص بالكامل"
+
+#: .\templates\catalog\template_detail.html:60
+msgid "Full source code — HTML, CSS, JavaScript, assets"
+msgstr "الكود المصدري الكامل — HTML و CSS و JavaScript والموارد"
+
+#: .\templates\catalog\template_detail.html:61
+msgid "Live customizer — swap logo, colors, text, images in real time"
+msgstr "محرر مباشر — استبدل الشعار والألوان والنصوص والصور في الوقت الفعلي"
+
+#: .\templates\catalog\template_detail.html:62
+msgid "Responsive design — pixel-perfect on mobile, tablet and desktop"
+msgstr "تصميم متجاوب — دقيق على الجوال والجهاز اللوحي وسطح المكتب"
+
+#: .\templates\catalog\template_detail.html:64
+msgid "Commercial license for one project"
+msgstr "ترخيص تجاري لمشروع واحد"
+
+#: .\templates\catalog\template_detail.html:65
+msgid "6 months of free updates"
+msgstr "6 أشهر من التحديثات المجانية"
+
+#: .\templates\catalog\template_detail.html:66
+msgid "Priority email support"
+msgstr "دعم فني بالبريد ذو أولوية"
+
+#: .\templates\catalog\template_detail.html:76
+#, python-format
+msgid "Save %(p)s%%"
+msgstr "وفّر %(p)s%%"
+
+#: .\templates\catalog\template_detail.html:79
+msgid "One-time payment · Lifetime ownership"
+msgstr "دفعة واحدة · ملكية مدى الحياة"
+
+#: .\templates\catalog\template_detail.html:83
+msgid "Customize Live"
+msgstr "تخصيص مباشر"
+
+#: .\templates\catalog\template_detail.html:86
+msgid "Open Full Preview"
+msgstr "فتح المعاينة الكاملة"
+
+#: .\templates\catalog\template_detail.html:89
+#: .\templates\customizer\customize.html:66
+msgid "Buy Now"
+msgstr "اشترِ الآن"
+
+#: .\templates\catalog\template_detail.html:95
+#: .\templates\orders\checkout.html:109
+msgid "Instant download"
+msgstr "تحميل فوري"
+
+#: .\templates\catalog\template_detail.html:96
+msgid "Secure payment"
+msgstr "دفع آمن"
+
+#: .\templates\catalog\template_detail.html:97
+msgid "14-day refund policy"
+msgstr "استرجاع خلال 14 يوماً"
+
+#: .\templates\catalog\template_detail.html:98
+msgid "Support included"
+msgstr "الدعم متضمَّن"
+
+#: .\templates\catalog\template_detail.html:110
+msgid "You might also love"
+msgstr "قد يعجبك أيضاً"
+
+#: .\templates\catalog\template_detail.html:111
+#, python-format
+msgid "More from <em>%(c)s</em>"
+msgstr "المزيد من <em>%(c)s</em>"
+
+#: .\templates\catalog\template_list.html:13
+msgid "Premium <em>templates</em>"
+msgstr "قوالب <em>فاخرة</em>"
+
+#: .\templates\catalog\template_list.html:15
+#, python-format
+msgid "%(counter)s template ready to be customized with your data."
+msgid_plural "%(counter)s templates ready to be customized with your data."
+msgstr[0] "%(counter)s قالب جاهز للتخصيص ببياناتك."
+msgstr[1] "%(counter)s قوالب جاهزة للتخصيص ببياناتك."
+
+#: .\templates\catalog\template_list.html:16
+msgid "Preview every one. Pay only when you're sure."
+msgstr "عاين كل واحد منها. ادفع فقط عندما تتأكد."
+
+#: .\templates\catalog\template_list.html:24
+msgid "Search templates…"
+msgstr "ابحث عن القوالب…"
+
+#: .\templates\catalog\template_list.html:26
+msgid "All Categories"
+msgstr "جميع التصنيفات"
+
+#: .\templates\catalog\template_list.html:37
+msgid "Apply Filters"
+msgstr "تطبيق الفلاتر"
+
+#: .\templates\catalog\template_list.html:46
+msgid "No templates found"
+msgstr "لم يُعثر على قوالب"
+
+#: .\templates\catalog\template_list.html:47
+msgid "Try a different keyword or category."
+msgstr "جرّب كلمة مفتاحية أو تصنيفاً مختلفاً."
+
+#: .\templates\catalog\template_list.html:55
+msgid "Previous"
+msgstr "السابق"
+
+#: .\templates\catalog\template_list.html:57
+#, python-format
+msgid "Page %(n)s of %(total)s"
+msgstr "صفحة %(n)s من %(total)s"
+
+#: .\templates\catalog\template_list.html:59
+msgid "Next"
+msgstr "التالي"
+
+#: .\templates\core\about.html:3
+msgid "Why Sitegency — The Premium Template Marketplace"
+msgstr "لماذا Sitegency — متجر القوالب المتميّز"
+
+#: .\templates\core\about.html:19
+msgid "Our manifesto"
+msgstr "بيان مبادئنا"
+
+#: .\templates\core\about.html:21
+msgid "Premium web design should be <em>a starting line</em>, not a luxury."
+msgstr "التصميم الرقمي الفاخر يجب أن يكون <em>نقطة انطلاق</em>، لا رفاهية."
+
+#: .\templates\core\about.html:23
+msgid ""
+"Sitegency exists because the best digital craftsmanship was locked behind "
+"agency retainers, multi-month timelines and opaque pricing. We tore that "
+"wall down — and handed the keys to every professional who takes their work "
+"seriously."
+msgstr ""
+"وُجد Sitegency لأن أفضل الأعمال الرقمية كانت محبوسة خلف عقود الوكالات "
+"والمواعيد الطويلة والأسعار غير الشفافة. لقد هدمنا ذلك الجدار — وسلّمنا "
+"المفاتيح لكل محترف يأخذ عمله على محمل الجد."
+
+#: .\templates\core\about.html:37
+msgid "Premium templates, hand-crafted"
+msgstr "قوالب فاخرة مصنوعة بعناية"
+
+#: .\templates\core\about.html:41
+msgid "Industry categories covered"
+msgstr "تصنيفات القطاعات المغطّاة"
+
+#: .\templates\core\about.html:45
+msgid "Countries where we ship"
+msgstr "الدول التي نخدمها"
+
+#: .\templates\core\about.html:49
+msgid "Customer satisfaction rate"
+msgstr "نسبة رضا العملاء"
+
+#: .\templates\core\about.html:61
+msgid "A better way"
+msgstr "طريق أفضل"
+
+#: .\templates\core\about.html:62
+msgid "We rebuilt the path from <em>idea to live site</em>."
+msgstr "أعدنا بناء الطريق <em>من الفكرة إلى الموقع الحي</em>."
+
+#: .\templates\core\about.html:63
+msgid ""
+"The old way is slow, expensive and opaque. Our way is immediate, transparent"
+" and priced for humans — not procurement departments."
+msgstr ""
+"الطريقة القديمة بطيئة ومكلِفة وغامضة. طريقتنا فورية وشفّافة وبأسعار للبشر — "
+"لا لأقسام المشتريات."
+
+#: .\templates\core\about.html:68
+msgid "The old way"
+msgstr "الطريقة القديمة"
+
+#: .\templates\core\about.html:69
+msgid "3 agencies, 3 quotes, 3 months."
+msgstr "ثلاث وكالات، ثلاثة عروض، ثلاثة أشهر."
+
+#: .\templates\core\about.html:71
+msgid "6,000 – 18,000 € quoted upfront, no clear breakdown"
+msgstr "عروض بين 6000 و 18000 يورو، دون تفصيل واضح"
+
+#: .\templates\core\about.html:72
+msgid "Kickoff meetings, briefs, approval cycles"
+msgstr "اجتماعات بدء وعُروض وتفاصيل موافقات"
+
+#: .\templates\core\about.html:73
+msgid "Design mockups you cannot click or navigate"
+msgstr "نماذج ثابتة لا يمكن النقر عليها ولا تصفّحها"
+
+#: .\templates\core\about.html:74
+msgid "Change requests billed by the hour"
+msgstr "طلبات التعديل تُحاسَب بالساعة"
+
+#: .\templates\core\about.html:75
+msgid "Delivery delayed, launch window missed"
+msgstr "تأجيل التسليم وضياع فرصة الإطلاق"
+
+#: .\templates\core\about.html:80
+msgid "The Sitegency way"
+msgstr "أسلوب Sitegency"
+
+#: .\templates\core\about.html:81
+msgid "One browser tab, one afternoon, launched."
+msgstr "نافذة متصفّح واحدة، عصر واحد، والموقع حيّ."
+
+#: .\templates\core\about.html:83
+msgid "From 39 € — one-time, transparent, no add-ons"
+msgstr "ابتداءً من 39 يورو — دفعة واحدة وشفّافة وبلا إضافات"
+
+#: .\templates\core\about.html:84
+msgid "Navigate every page before you spend a cent"
+msgstr "تصفّح كل صفحة قبل أن تدفع قرشاً"
+
+#: .\templates\core\about.html:85
+msgid "Live customizer: logo, colors, images, text"
+msgstr "محرّر مباشر: شعار وألوان وصور ونصوص"
+
+#: .\templates\core\about.html:86
+msgid "Download the full source — yours to own forever"
+msgstr "حمّل الكود المصدري الكامل — ملكك إلى الأبد"
+
+#: .\templates\core\about.html:87
+msgid "Site live the same day you discover it"
+msgstr "موقع حي في اليوم ذاته الذي تكتشفه فيه"
+
+#: .\templates\core\about.html:100
+msgid "Our beliefs"
+msgstr "قناعاتنا"
+
+#: .\templates\core\about.html:101
+msgid "Six principles that shape <em>every decision</em>."
+msgstr "ستة مبادئ تُشكّل <em>كل قرار</em>."
+
+#: .\templates\core\about.html:102
+msgid ""
+"They are not marketing lines. They are the rules we apply when we choose "
+"what to ship, what to cut and what to never compromise."
+msgstr ""
+"ليست شعارات تسويقية. هي القواعد التي نطبّقها حين نختار ما نُطلق وما نحذف وما"
+" لا نُساوم عليه أبداً."
+
+#: .\templates\core\about.html:109
+msgid "Radical transparency"
+msgstr "شفافية جذرية"
+
+#: .\templates\core\about.html:110
+msgid ""
+"You navigate every page, test every interaction and customize with your real"
+" data — all before your card is charged. What you see is literally what you "
+"get."
+msgstr ""
+
+#: .\templates\core\about.html:115
+msgid "Premium by default"
+msgstr "الفخامة افتراضياً"
+
+#: .\templates\core\about.html:116
+#, fuzzy
+#| msgid ""
+#| "Every template is reviewed, modernized and refined in-house. We reject "
+#| "mediocrity. We ship only work we're proud of."
+msgid ""
+"Every template is reviewed, modernized and refined in-house by senior "
+"designers. We reject mediocrity. We only ship work we would be proud to "
+"sign."
+msgstr ""
+"كل قالب تتم مراجعته وتحديثه وصقله داخلياً. نرفض الوسطية. لا ننشر إلا عملاً "
+"نفتخر به."
+
+#: .\templates\core\about.html:121
+msgid "Enterprise-grade foundation"
+msgstr "أساس بمستوى المؤسسات"
+
+#: .\templates\core\about.html:122
+msgid ""
+"Our platform runs on Django — the same stack trusted by Instagram, Spotify "
+"and Pinterest. Your checkout, your data and your downloads sit on battle-"
+"tested infrastructure."
+msgstr ""
+"منصتنا تعمل على Django — الحزمة نفسها التي تثق بها إنستغرام وسبوتيفاي "
+"وبنترست. عملية الدفع وبياناتك وتنزيلاتك تستند إلى بنية تحتية مختبَرة "
+"ميدانياً."
+
+#: .\templates\core\about.html:127
+msgid "A global, human team"
+msgstr "فريق عالمي من بشر حقيقيين"
+
+#: .\templates\core\about.html:128
+msgid ""
+"Creators from 92+ countries trust us to launch clinics, restaurants, "
+"agencies, shops and portfolios. Every message you send lands with a senior "
+"team member — never a bot."
+msgstr ""
+"يثق بنا مبدعون من أكثر من 92 دولة لإطلاق عيادات ومطاعم ووكالات ومتاجر ومحافظ"
+" أعمال. كل رسالة ترسلها تصل إلى عضو خبير في الفريق — لا إلى روبوت."
+
+#: .\templates\core\about.html:133
+msgid "Fair by construction"
+msgstr "عدلٌ بحكم التصميم"
+
+#: .\templates\core\about.html:134
+msgid ""
+"14-day no-questions refund on every purchase. 6 months of free updates "
+"included. One-time payment, lifetime ownership. No subscriptions, no seat "
+"traps, no lock-in."
+msgstr ""
+"استرداد خلال 14 يوماً دون أسئلة على كل عملية شراء. ستة أشهر من التحديثات "
+"المجانية. دفعة واحدة وملكية مدى الحياة. لا اشتراكات ولا فخاخ مقاعد ولا "
+"احتجاز."
+
+#: .\templates\core\about.html:139
+msgid "Always moving forward"
+msgstr "دوماً إلى الأمام"
+
+#: .\templates\core\about.html:140
+msgid ""
+"Every purchase includes six months of complimentary updates. As the web "
+"evolves, your template evolves with it — security patches, browser fixes and"
+" design refinements, on the house."
+msgstr ""
+"كل عملية شراء تتضمّن ستة أشهر من التحديثات المجانية. كلما تطوّر الويب، تطوّر"
+" قالبك معه — تصحيحات أمنية وإصلاحات متصفّحات وتحسينات تصميم، على حسابنا."
+
+#: .\templates\core\about.html:154
+msgid ""
+"We built Sitegency for the veterinarian who wants her clinic online before "
+"tomorrow's opening, for the freelancer pitching three clients in one week, "
+"for the restaurant owner who finally wants a website that looks like his "
+"food tastes. Premium design is not a reward for the rich. It is the starting"
+" line."
+msgstr ""
+"بنينا Sitegency للطبيبة البيطرية التي تريد عيادتها على الإنترنت قبل افتتاح "
+"الغد، وللعامل المستقل الذي يعرض على ثلاثة عملاء في أسبوع واحد، ولصاحب المطعم"
+" الذي يريد أخيراً موقعاً يشبه طعم طعامه. التصميم الفاخر ليس مكافأةً "
+"للأغنياء، بل هو خط الانطلاق."
+
+#: .\templates\core\about.html:160
+msgid "Founder & Creative Director, Sitegency"
+msgstr "المؤسس والمدير الإبداعي، Sitegency"
+
+#: .\templates\core\about.html:172
+msgid "Designed to be seen"
+msgstr "مصمَّم ليُرى"
+
+#: .\templates\core\about.html:173
+msgid "The logo watches, reads and adapts — <em>just like we do</em>."
+msgstr "الشعار يراقب ويقرأ ويتكيّف — <em>تماماً كما نفعل نحن</em>."
+
+#: .\templates\core\about.html:178
+msgid ""
+"Move the cursor over the mark. Every pixel of Sitegency reacts to you — and "
+"so do we."
+msgstr "حرّك المؤشر فوق العلامة. كل بكسل في Sitegency يتفاعل معك — ونحن كذلك."
+
+#: .\templates\core\about.html:188
+msgid ""
+"Every template, fully customizable. That's not a feature — <em>that's our "
+"promise</em>."
+msgstr "كل قالب قابل للتخصيص بالكامل. هذه ليست ميزة — <em>إنها وعدنا</em>."
+
+#: .\templates\core\about.html:189
+msgid ""
+"Browse the full collection, pick the one that fits, customize it live — your"
+" next website is one afternoon away."
+msgstr ""
+"تصفّح المجموعة كاملةً، اختر ما يناسبك، خصّصه مباشرة — موقعك القادم على بعد "
+"عصرٍ واحد فقط."
+
+#: .\templates\core\about.html:192
+msgid "Explore the collection"
+msgstr "استكشف المجموعة"
+
+#: .\templates\core\about.html:195
+msgid "Talk to the team"
+msgstr "تواصل مع الفريق"
+
+#: .\templates\core\contact.html:19
+msgid "We respond within 24 hours"
+msgstr "نردّ خلال 24 ساعة"
+
+#: .\templates\core\contact.html:21
+msgid "Let's talk about your <em>next website</em>."
+msgstr "لنتحدّث عن <em>موقعك القادم</em>."
+
+#: .\templates\core\contact.html:23
+msgid ""
+"Whether you need a quick answer, help choosing the perfect template, or "
+"advice on enterprise licensing — our team is here to guide you. No bots, no "
+"tickets, just real people who care about your project."
+msgstr ""
+"سواء احتجت إلى إجابة سريعة، أو مساعدة في اختيار القالب المناسب، أو نصيحة "
+"بشأن تراخيص المؤسسات — فريقنا هنا لإرشادك. لا روبوتات، لا تذاكر، فقط أشخاص "
+"حقيقيون يهتمّون بمشروعك."
+
+#: .\templates\core\contact.html:26
+msgid "Avg response time"
+msgstr "متوسط وقت الردّ"
+
+#: .\templates\core\contact.html:28
+msgid "Languages supported"
+msgstr "اللغات المدعومة"
+
+#: .\templates\core\contact.html:30
+msgid "Help center open"
+msgstr "مركز المساعدة مفتوح"
+
+#: .\templates\core\contact.html:47
+msgid "Real humans, not chatbots"
+msgstr "بشر حقيقيون، لا روبوتات"
+
+#: .\templates\core\contact.html:49
+msgid "Every channel, <em>one team</em>."
+msgstr "كل القنوات، <em>فريق واحد</em>."
+
+#: .\templates\core\contact.html:50
+msgid ""
+"Reach out the way you prefer. Whichever channel you pick, your message lands"
+" with the same people who handcraft every template in our marketplace."
+msgstr ""
+"تواصل معنا بالطريقة التي تناسبك. أياً كانت القناة التي تختارها، تصل رسالتك "
+"إلى الأشخاص ذاتهم الذين يصنعون كل قالب في سوقنا بأيديهم."
+
+#: .\templates\core\contact.html:59
+msgid "Email us"
+msgstr "راسلنا"
+
+#: .\templates\core\contact.html:61
+msgid "Answered within 24 hours, every day"
+msgstr "نجيب خلال 24 ساعة، كل يوم"
+
+#: .\templates\core\contact.html:71
+msgid "Call us"
+msgstr "اتصل بنا"
+
+#: .\templates\core\contact.html:73
+msgid "Mon–Fri, 9:00 — 18:00 UTC"
+msgstr "الإثنين–الجمعة، 9:00 — 18:00 بتوقيت غرينتش"
+
+#: .\templates\core\contact.html:83
+msgid "Studio address"
+msgstr "عنوان الاستوديو"
+
+#: .\templates\core\contact.html:84
+msgid "14 Rue du Design, 75008 Paris"
+msgstr "14 شارع التصميم، 75008 باريس"
+
+#: .\templates\core\contact.html:85
+msgid "Visits by appointment only"
+msgstr "الزيارات بموعد مسبق فقط"
+
+#: .\templates\core\contact.html:92
+msgid "Follow us"
+msgstr "تابعنا"
+
+#: .\templates\core\contact.html:113
+msgid "Drop us a line"
+msgstr "اترك لنا رسالة"
+
+#: .\templates\core\contact.html:114
+msgid ""
+"Tell us about your project. We'll come back with a real answer within 24h."
+msgstr "حدّثنا عن مشروعك. سنعود إليك بإجابة حقيقية خلال 24 ساعة."
+
+#: .\templates\core\contact.html:124
+msgid "Your name"
+msgstr "اسمك"
+
+#: .\templates\core\contact.html:128
+msgid "Work email"
+msgstr "البريد الإلكتروني المهني"
+
+#: .\templates\core\contact.html:135
+msgid "optional"
+msgstr "اختياري"
+
+#: .\templates\core\contact.html:140
+msgid "General question"
+msgstr "سؤال عام"
+
+#: .\templates\core\contact.html:141
+msgid "Choosing a template"
+msgstr "اختيار قالب"
+
+#: .\templates\core\contact.html:142
+msgid "Licensing & pricing"
+msgstr "التراخيص والتسعير"
+
+#: .\templates\core\contact.html:143
+msgid "Enterprise & agencies"
+msgstr "المؤسسات والوكالات"
+
+#: .\templates\core\contact.html:144
+msgid "Press & partnership"
+msgstr "الصحافة والشراكات"
+
+#: .\templates\core\contact.html:145
+msgid "Refund request"
+msgstr "طلب استرداد"
+
+#: .\templates\core\contact.html:147
+msgid "What's it about?"
+msgstr "ما الموضوع؟"
+
+#: .\templates\core\contact.html:153
+msgid "Your message"
+msgstr "رسالتك"
+
+#: .\templates\core\contact.html:160
+msgid ""
+"I agree to Sitegency contacting me about my request. No marketing, ever."
+msgstr "أوافق على أن يتواصل معي Sitegency بخصوص طلبي. لا تسويق، أبداً."
+
+#: .\templates\core\contact.html:164
+msgid "Send message"
+msgstr "إرسال الرسالة"
+
+#: .\templates\core\contact.html:171
+msgid ""
+"Your information is encrypted and never shared. We reply within 24 hours, "
+"Monday to Friday."
+msgstr ""
+"بياناتك مشفّرة ولا تُشارك أبداً. نردّ خلال 24 ساعة، من الإثنين إلى الجمعة."
+
+#: .\templates\core\contact.html:187
+msgid "What to expect"
+msgstr "ماذا تتوقّع"
+
+#: .\templates\core\contact.html:188
+msgid "A conversation that <em>actually moves</em> your project forward."
+msgstr "محادثة <em>تُحرّك مشروعك</em> إلى الأمام فعلاً."
+
+#: .\templates\core\contact.html:189
+msgid ""
+"Every message is read by a senior member of our team. Here's what happens "
+"after you hit send."
+msgstr "كل رسالة يقرأها عضو خبير في فريقنا. إليك ما يحدث بعد أن تضغط إرسال."
+
+#: .\templates\core\contact.html:196
+msgid "Fast, human reply"
+msgstr "ردّ سريع من إنسان"
+
+#: .\templates\core\contact.html:197
+msgid ""
+"No tickets, no bots. A real team member reads your message and responds with"
+" a tailored answer — usually within a few hours."
+msgstr ""
+"لا تذاكر ولا روبوتات. عضو حقيقي من الفريق يقرأ رسالتك ويردّ بإجابة مخصّصة — "
+"عادةً خلال ساعات قليلة."
+
+#: .\templates\core\contact.html:202
+msgid "Expert guidance"
+msgstr "إرشاد من خبراء"
+
+#: .\templates\core\contact.html:203
+msgid ""
+"If you're unsure which template fits, we'll suggest two or three options "
+"based on your industry, your content and your audience — at no cost."
+msgstr ""
+"إن لم تكن متأكّداً من القالب المناسب، نقترح قالبين أو ثلاثة بناءً على مجالك "
+"ومحتواك وجمهورك — مجاناً."
+
+#: .\templates\core\contact.html:208
+msgid "Clear next steps"
+msgstr "خطوات واضحة"
+
+#: .\templates\core\contact.html:209
+msgid ""
+"Every reply ends with a concrete next action — whether it's a live "
+"customization walkthrough, a licensing quote, or a direct template link."
+msgstr ""
+"كل ردّ ينتهي بخطوة ملموسة — سواء كانت جولة تخصيص مباشرة أو عرض سعر ترخيص أو "
+"رابطاً مباشراً إلى قالب."
+
+#: .\templates\core\contact.html:220
+msgid "Prefer to browse first? <em>Go ahead</em>."
+msgstr "تفضّل التصفّح أولاً؟ <em>تفضّل</em>."
+
+#: .\templates\core\contact.html:221
+msgid ""
+"Every template can be previewed live and customized in your browser — no "
+"account, no commitment."
+msgstr "يمكن معاينة كل قالب مباشرة وتخصيصه في متصفّحك — دون حساب، دون التزام."
+
+#: .\templates\core\contact.html:227
+msgid "Read the FAQ"
+msgstr "اقرأ الأسئلة الشائعة"
+
+#: .\templates\core\faq.html:19
+msgid "Help center"
+msgstr "مركز المساعدة"
+
+#: .\templates\core\faq.html:21
+msgid "Answers, not <em>runarounds</em>."
+msgstr "إجابات، لا <em>مماطلة</em>."
+
+#: .\templates\core\faq.html:23
+msgid ""
+"Everything you need to know about our templates, licensing, customization "
+"and support — written by the team that builds them."
+msgstr ""
+"كل ما تحتاج معرفته عن قوالبنا وتراخيصنا والتخصيص والدعم — كتبه الفريق الذي "
+"يبنيها."
+
+#: .\templates\core\faq.html:30
+msgid "Search answers…"
+msgstr "ابحث في الإجابات…"
+
+#: .\templates\core\faq.html:31
+msgid "Search FAQ"
+msgstr "ابحث في الأسئلة الشائعة"
+
+#: .\templates\core\faq.html:36
+msgid "answers"
+msgstr "إجابات"
+
+#: .\templates\core\faq.html:40
+msgid "Updated weekly"
+msgstr "تحديث أسبوعي"
+
+#: .\templates\core\faq.html:53
+msgid "FAQ categories"
+msgstr "تصنيفات الأسئلة الشائعة"
+
+#: .\templates\core\faq.html:56
+msgid "All topics"
+msgstr "جميع المواضيع"
+
+#: .\templates\core\faq.html:80
+msgid "Popular"
+msgstr "شائع"
+
+#: .\templates\core\faq.html:98
+msgid "No matches found"
+msgstr "لا نتائج"
+
+#: .\templates\core\faq.html:99
+msgid "Try a different keyword or pick a category above."
+msgstr "جرّب كلمة مفتاحية أخرى أو اختر تصنيفاً بالأعلى."
+
+#: .\templates\core\faq.html:112
+msgid "Still can't find the answer you need?"
+msgstr "ما زلت لا تجد الإجابة التي تحتاجها؟"
+
+#: .\templates\core\faq.html:113
+msgid ""
+"Our team replies within 24 hours, Monday to Friday. No bots, no ticket "
+"queues — just real people who know every template by heart."
+msgstr ""
+"يردّ فريقنا خلال 24 ساعة من الإثنين إلى الجمعة. لا روبوتات ولا طوابير تذاكر "
+"— فقط أشخاص حقيقيون يحفظون كل قالب عن ظهر قلب."
+
+#: .\templates\core\faq.html:118
+msgid "Contact our team"
+msgstr "تواصل مع فريقنا"
+
+#: .\templates\core\faq.html:121
+msgid "Browse templates"
+msgstr "تصفح القوالب"
+
+#: .\templates\core\home.html:22
+msgid "New · AI-assisted customizer"
+msgstr "جديد · محرّر مدعوم بالذكاء الاصطناعي"
+
+#: .\templates\core\home.html:24
+#, python-format
+msgid "Live in %(countries)s countries"
+msgstr "متاح في %(countries)s دولة"
+
+#: .\templates\core\home.html:28
+msgid "The website your <em>profession</em><br>actually deserves."
+msgstr "الموقع الذي تستحقه <em>مهنتك</em><br>حقًا."
+
+#: .\templates\core\home.html:32
+#, python-format
+msgid ""
+"Pick from %(templates)s+ premium templates, customize every pixel live in "
+"the browser, and launch a site that looks like a senior studio built it — in"
+" one afternoon, not six weeks."
+msgstr ""
+"اختر من بين أكثر من %(templates)s قالبًا متميّزًا، وخصّص كل بكسل مباشرةً في "
+"المتصفح، وأطلق موقعًا يبدو كأنه من صنع استوديو محترف — في فترة بعد الظهر، "
+"وليس في ستة أسابيع."
+
+#: .\templates\core\home.html:37
+msgid "Browse Templates"
+msgstr "تصفح القوالب"
+
+#: .\templates\core\home.html:42
+msgid "Explore Categories"
+msgstr "استكشف التصنيفات"
+
+#: .\templates\core\home.html:72
+msgid "My clinic's website finally looks as professional as my work."
+msgstr "موقع عيادتي أخيرًا يبدو بنفس احترافية عملي."
+
+#: .\templates\core\home.html:77
+msgid "Dental Clinic"
+msgstr "عيادة أسنان"
+
+#: .\templates\core\home.html:88
+msgid "Your brand, your way"
+msgstr "علامتك التجارية، بأسلوبك"
+
+#: .\templates\core\home.html:89
+msgid "Logo, colors, photos — all live"
+msgstr "الشعار والألوان والصور — الكل مباشر"
+
+#: .\templates\core\home.html:98
+#, python-format
+msgid "%(n)s+ templates"
+msgstr "%(n)s+ قالب"
+
+#: .\templates\core\home.html:108
+msgid "Premium Templates"
+msgstr "قوالب فاخرة"
+
+#: .\templates\core\home.html:113
+msgid "Industry Categories"
+msgstr "تصنيفات القطاعات"
+
+#: .\templates\core\home.html:118
+msgid "Happy Customers"
+msgstr "عملاء سعداء"
+
+#: .\templates\core\home.html:123
+msgid "Satisfaction Rate"
+msgstr "نسبة الرضا"
+
+#: .\templates\core\home.html:135
+msgid "For every profession"
+msgstr "لكل مهنة"
+
+#: .\templates\core\home.html:136
+msgid "Built for <em>everyone</em>, not just tech companies."
+msgstr "مصمَّم <em>للجميع</em>، ليس لشركات التقنية فقط."
+
+#: .\templates\core\home.html:137
+msgid ""
+"From mechanics to lawyers, from chefs to veterinarians, from personal "
+"trainers to real estate agents — Sitegency is the website platform for any "
+"professional who wants to stand out."
+msgstr ""
+"من الميكانيكيين إلى المحامين، ومن الطهاة إلى الأطباء البيطريين، ومن المدربين"
+" الشخصيين إلى وكلاء العقارات — Sitegency هي منصة المواقع لكل محترف يريد أن "
+"يتميّز."
+
+#: .\templates\core\home.html:146
+msgid "Mechanic"
+msgstr "ميكانيكي"
+
+#: .\templates\core\home.html:147
+msgid "Workshop & auto repair"
+msgstr "ورشة وإصلاح السيارات"
+
+#: .\templates\core\home.html:154
+msgid "Dentist"
+msgstr "طبيب أسنان"
+
+#: .\templates\core\home.html:155
+msgid "Dental & orthodontic care"
+msgstr "رعاية الأسنان والتقويم"
+
+#: .\templates\core\home.html:162
+msgid "Restaurant"
+msgstr "مطعم"
+
+#: .\templates\core\home.html:163
+msgid "Cafés, bistros & fine dining"
+msgstr "مقاهٍ وبيسترو ومطاعم راقية"
+
+#: .\templates\core\home.html:170
+msgid "Veterinary"
+msgstr "طبيب بيطري"
+
+#: .\templates\core\home.html:171
+msgid "Clinics & pet care"
+msgstr "عيادات ورعاية الحيوانات"
+
+#: .\templates\core\home.html:178
+msgid "Lawyer"
+msgstr "محامٍ"
+
+#: .\templates\core\home.html:179
+msgid "Legal practices & firms"
+msgstr "مكاتب ومؤسسات قانونية"
+
+#: .\templates\core\home.html:186
+msgid "Personal Trainer"
+msgstr "مدرب شخصي"
+
+#: .\templates\core\home.html:187
+msgid "Gyms & wellness studios"
+msgstr "صالات رياضية ومراكز عافية"
+
+#: .\templates\core\home.html:194
+msgid "Beauty Salon"
+msgstr "صالون تجميل"
+
+#: .\templates\core\home.html:195
+msgid "Salons & aesthetic studios"
+msgstr "صالونات ومعاهد تجميل"
+
+#: .\templates\core\home.html:202
+msgid "Real Estate"
+msgstr "وسيط عقاري"
+
+#: .\templates\core\home.html:203
+msgid "Agencies & brokers"
+msgstr "وكالات ووسطاء"
+
+#: .\templates\core\home.html:210
+msgid "Barber"
+msgstr "حلاق"
+
+#: .\templates\core\home.html:211
+msgid "Electrician"
+msgstr "كهربائي"
+
+#: .\templates\core\home.html:212
+msgid "Plumber"
+msgstr "سبّاك"
+
+#: .\templates\core\home.html:213
+msgid "Craftsman"
+msgstr "حرفي"
+
+#: .\templates\core\home.html:214
+msgid "Freelancer"
+msgstr "مستقل"
+
+#: .\templates\core\home.html:215
+msgid "Consultant"
+msgstr "مستشار"
+
+#: .\templates\core\home.html:216
+msgid "Doctor"
+msgstr "طبيب"
+
+#: .\templates\core\home.html:217
+msgid "Teacher"
+msgstr "معلم"
+
+#: .\templates\core\home.html:218
+msgid "Local Shop"
+msgstr "متجر محلي"
+
+#: .\templates\core\home.html:219
+msgid "Photographer"
+msgstr "مصوّر"
+
+#: .\templates\core\home.html:220
+msgid "Musician"
+msgstr "موسيقي"
+
+#: .\templates\core\home.html:221
+msgid "Driving School"
+msgstr "مدرسة قيادة"
+
+#: .\templates\core\home.html:222
+msgid "Artist"
+msgstr "فنان"
+
+#: .\templates\core\home.html:223
+msgid "Gardener"
+msgstr "بستاني"
+
+#: .\templates\core\home.html:224
+msgid "…and yours"
+msgstr "…ومهنتك"
+
+#: .\templates\core\home.html:229
+msgid "Become the reference point in your profession."
+msgstr "كن المرجع في مهنتك."
+
+#: .\templates\core\home.html:230
+msgid "Give your business the online image it truly deserves."
+msgstr "امنح عملك الصورة الرقمية التي يستحقها حقاً."
+
+#: .\templates\core\home.html:246 .\templates\customizer\customize.html:77
+msgid "Live Preview"
+msgstr "معاينة مباشرة"
+
+#: .\templates\core\home.html:247 .\templates\customizer\customize.html:78
+msgid "Everything you see is customizable"
+msgstr "كل ما تراه قابل للتخصيص"
+
+#: .\templates\core\home.html:252
+msgid "Everything you see is <em>fully customizable</em>."
+msgstr "كل ما تراه <em>قابل للتخصيص بالكامل</em>."
+
+#: .\templates\core\home.html:253
+msgid ""
+"We don't sell static templates. We sell complete, ready-to-launch digital "
+"experiences you can mold to your brand — with your logo, your colors, your "
+"words, your photos, your data."
+msgstr ""
+"نحن لا نبيع قوالب جامدة. نبيع تجارب رقمية كاملة جاهزة للإطلاق يمكنك صياغتها "
+"على هوية علامتك — بشعارك وألوانك وكلماتك وصورك وبياناتك."
+
+#: .\templates\core\home.html:259
+msgid "Preview before you pay"
+msgstr "عاين قبل أن تدفع"
+
+#: .\templates\core\home.html:260
+msgid ""
+"Navigate every page of every template — exactly as a real visitor would."
+msgstr "تصفّح كل صفحة من كل قالب — تماماً كما يفعل الزائر الحقيقي."
+
+#: .\templates\core\home.html:266
+msgid "Live customization"
+msgstr "تخصيص مباشر"
+
+#: .\templates\core\home.html:267
+msgid "Swap logos, colors, headlines, images, contacts in real time."
+msgstr ""
+"استبدل الشعار والألوان والعناوين والصور وجهات الاتصال في الوقت الفعلي."
+
+#: .\templates\core\home.html:273
+msgid "Launch in minutes"
+msgstr "أطلق في دقائق"
+
+#: .\templates\core\home.html:274
+msgid "Pick a template, drop in content, download. Your site goes live today."
+msgstr "اختر قالباً وأضف محتواك وحمّله. موقعك يعمل اليوم."
+
+#: .\templates\core\home.html:280
+msgid "No technical skills needed"
+msgstr "لا حاجة لمهارات تقنية"
+
+#: .\templates\core\home.html:281
+msgid "If you can fill a form, you can build your site. No code, no agencies."
+msgstr ""
+"إذا كنت تستطيع ملء نموذج، فأنت قادر على بناء موقعك. بلا كود وبلا وكالات."
+
+#: .\templates\core\home.html:296
+msgid "The honest comparison"
+msgstr "المقارنة الصادقة"
+
+#: .\templates\core\home.html:297
+msgid ""
+"You've tried the alternatives.<br><em>Here's why professionals switch.</em>"
+msgstr "لقد جرّبت البدائل.<br><em>إليك لماذا يتحوّل المحترفون.</em>"
+
+#: .\templates\core\home.html:298
+msgid ""
+"Social pages disappear overnight. WordPress sites break after every update. "
+"Generic CMS platforms demand months of work. There's a better path — and "
+"thousands of professionals have already taken it."
+msgstr ""
+"صفحات التواصل الاجتماعي تختفي بين ليلة وضحاها. مواقع WordPress تتعطل مع كل "
+"تحديث. منصات CMS العامة تتطلب أشهرًا من العمل. يوجد طريق أفضل — وآلاف "
+"المحترفين اختاروه بالفعل."
+
+#: .\templates\core\home.html:310
+#| msgid "Only Facebook / Instagram"
+msgid "Facebook & Instagram"
+msgstr "فيسبوك وإنستغرام"
+
+#: .\templates\core\home.html:311
+msgid "Not enough"
+msgstr "غير كافٍ"
+
+#: .\templates\core\home.html:314
+msgid "You don't own your audience"
+msgstr "لا تملك جمهورك"
+
+#: .\templates\core\home.html:315
+msgid "Algorithms control your visibility"
+msgstr "الخوارزميات تتحكم بظهورك"
+
+#: .\templates\core\home.html:316
+msgid "One policy change can erase you"
+msgstr "تغيير واحد في السياسة قد يمحوك"
+
+#: .\templates\core\home.html:317
+#| msgid "Live customization"
+msgid "Zero design customization"
+msgstr "صفر تخصيص للتصميم"
+
+#: .\templates\core\home.html:318
+msgid "Competitors' ads on your page"
+msgstr "إعلانات المنافسين على صفحتك"
+
+#: .\templates\core\home.html:319
+msgid "No SEO, no domain, no credibility"
+msgstr "لا SEO، لا نطاق، لا مصداقية"
+
+#: .\templates\core\home.html:322
+msgid "Free — but you pay with control"
+msgstr "مجاني — لكنك تدفع بالتحكّم"
+
+#: .\templates\core\home.html:332
+msgid "WordPress & Joomla"
+msgstr "ووردبريس وجملة"
+
+#: .\templates\core\home.html:333
+msgid "Better, but fragile"
+msgstr "أفضل، لكنه هشّ"
+
+#: .\templates\core\home.html:336
+msgid "20+ plugins just to function"
+msgstr "20+ إضافة فقط ليعمل"
+
+#: .\templates\core\home.html:337
+msgid "Constant updates break things"
+msgstr "التحديثات المستمرة تعطّل كل شيء"
+
+#: .\templates\core\home.html:338
+msgid "Security vulnerabilities are common"
+msgstr "الثغرات الأمنية شائعة"
+
+#: .\templates\core\home.html:339
+msgid "Slow without expensive optimization"
+msgstr "بطيء بدون تحسين مكلف"
+
+#: .\templates\core\home.html:340
+msgid "Generic themes, hard to stand out"
+msgstr "قوالب عامة، صعب أن تتميّز"
+
+#: .\templates\core\home.html:341
+msgid "Requires technical knowledge"
+msgstr "يتطلب معرفة تقنية"
+
+#: .\templates\core\home.html:344
+msgid "Affordable — but fragile and time-consuming"
+msgstr "ميسور — لكنه هشّ ويستهلك الوقت"
+
+#: .\templates\core\home.html:350
+msgid "Recommended"
+msgstr "موصى به"
+
+#: .\templates\core\home.html:356
+#| msgid "Build Your Professional Presence"
+msgid "Built for professionals"
+msgstr "مصمّم للمحترفين"
+
+#: .\templates\core\home.html:359
+msgid "Premium design, ready in minutes"
+msgstr "تصميم متميّز، جاهز في دقائق"
+
+#: .\templates\core\home.html:360
+#| msgid "Preview before you pay"
+msgid "Preview every page before you buy"
+msgstr "معاينة كل صفحة قبل الشراء"
+
+#: .\templates\core\home.html:361
+#| msgid "Live customization"
+msgid "Live customization — no code needed"
+msgstr "تخصيص مباشر — بدون برمجة"
+
+#: .\templates\core\home.html:362
+msgid "Built on Django — enterprise-grade security"
+msgstr "مبنيّ على Django — أمان بمستوى المؤسسات"
+
+#: .\templates\core\home.html:363
+msgid "No plugins, no fragility, no maintenance"
+msgstr "بدون إضافات، بدون هشاشة، بدون صيانة"
+
+#: .\templates\core\home.html:364
+#| msgid "One-time payment · Lifetime ownership"
+msgid "One payment, full ownership, forever"
+msgstr "دفعة واحدة، ملكية كاملة، للأبد"
+
+#: .\templates\core\home.html:368
+#| msgid "Templates"
+msgid "See Templates"
+msgstr "شاهد القوالب"
+
+#: .\templates\core\home.html:380
+msgid ""
+"Powered by Django — the framework behind Instagram, Spotify and Pinterest."
+msgstr "مدعوم بـ Django — الإطار خلف Instagram وSpotify وPinterest."
+
+#: .\templates\core\home.html:381
+msgid ""
+"This isn't another page builder held together by plugins. It's a "
+"professional-grade platform built on one of the most trusted frameworks in "
+"the world."
+msgstr ""
+"هذا ليس أداة بناء صفحات أخرى مربوطة بإضافات. إنها منصة احترافية مبنية على "
+"أحد أكثر الأطر الموثوقة في العالم."
+
+#: .\templates\core\home.html:387
+#| msgid "Enterprise & agencies"
+msgid "Enterprise security"
+msgstr "أمان المؤسسات"
+
+#: .\templates\core\home.html:388
+msgid ""
+"Built-in protection against the most common web threats — by default, not by"
+" plugin."
+msgstr ""
+"حماية مدمجة ضد أكثر تهديدات الويب شيوعًا — بشكل افتراضي، وليس عبر إضافة."
+
+#: .\templates\core\home.html:392
+msgid "Scales with you"
+msgstr "ينمو معك"
+
+#: .\templates\core\home.html:393
+msgid ""
+"From a single-page site to a full catalog — the architecture doesn't break "
+"as you grow."
+msgstr "من موقع صفحة واحدة إلى كتالوج كامل — البنية لا تنهار عندما تنمو."
+
+#: .\templates\core\home.html:397
+msgid "Zero plugin debt"
+msgstr "صفر ديون إضافات"
+
+#: .\templates\core\home.html:398
+msgid ""
+"No fragile dependencies. Every feature is integrated, tested and maintained "
+"as one system."
+msgstr "لا تبعيات هشّة. كل ميزة متكاملة ومُختبرة ومُدارة كنظام واحد."
+
+#: .\templates\core\home.html:402
+msgid "Fast by design"
+msgstr "سريع بالتصميم"
+
+#: .\templates\core\home.html:403
+msgid ""
+"Server-rendered pages, optimized queries, no bloat. Your visitors feel the "
+"difference."
+msgstr ""
+"صفحات مُعالجة على الخادم، استعلامات محسّنة، بدون انتفاخ. زوّارك يشعرون "
+"بالفرق."
+
+#: .\templates\core\home.html:417
+msgid "Explore"
+msgstr "استكشف"
+
+#: .\templates\core\home.html:418
+msgid "Templates for <em>every</em> industry"
+msgstr "قوالب <em>لكل</em> قطاع"
+
+#: .\templates\core\home.html:419
+msgid ""
+"From veterinary clinics to fine-dining restaurants, boutique hotels to SaaS "
+"startups — we have the perfect starting point."
+msgstr ""
+"من العيادات البيطرية إلى مطاعم الذواقة، من الفنادق الراقية إلى شركات SaaS "
+"الناشئة — لدينا نقطة الانطلاق المثالية."
+
+#: .\templates\core\home.html:443
+msgid "Handpicked"
+msgstr "مُختار بعناية"
+
+#: .\templates\core\home.html:444
+msgid "Featured <em>templates</em>"
+msgstr "قوالب <em>مميزة</em>"
+
+#: .\templates\core\home.html:445
+msgid ""
+"A curated selection of our most loved, highest-rated, most-downloaded "
+"templates."
+msgstr "مجموعة مختارة من أكثر قوالبنا محبةً وتقييماً وتحميلاً."
+
+#: .\templates\core\home.html:453
+msgid "View All Templates"
+msgstr "عرض جميع القوالب"
+
+#: .\templates\core\home.html:465
+msgid "How it works"
+msgstr "كيف تعمل"
+
+#: .\templates\core\home.html:466
+msgid "From discovery to launch — in <em>four steps</em>"
+msgstr "من الاكتشاف إلى الإطلاق — في <em>أربع خطوات</em>"
+
+#: .\templates\core\home.html:467
+msgid ""
+"We've compressed months of agency work into a journey that takes minutes. No"
+" code. No meetings. No agency fees."
+msgstr ""
+"ضغطنا شهوراً من عمل الوكالات في رحلة لا تستغرق سوى دقائق. بلا كود. بلا "
+"اجتماعات. بلا رسوم وكالات."
+
+#: .\templates\core\home.html:472
+msgid "Browse & discover"
+msgstr "تصفح واكتشف"
+
+#: .\templates\core\home.html:473
+msgid ""
+"Explore our library by category, tag, industry or keyword. Every template "
+"comes with a live preview."
+msgstr ""
+"استكشف مكتبتنا حسب التصنيف أو الوسم أو القطاع أو الكلمة المفتاحية. كل قالب "
+"يأتي مع معاينة مباشرة."
+
+#: .\templates\core\home.html:477
+msgid "Try it live"
+msgstr "جرّبه مباشرة"
+
+#: .\templates\core\home.html:478
+msgid ""
+"Click Preview. Navigate every page. Feel the design. This is the exact site "
+"you'll own."
+msgstr "انقر معاينة. تصفح كل صفحة. اشعر بالتصميم. هذا هو الموقع الذي ستمتلكه."
+
+#: .\templates\core\home.html:482
+msgid "Customize with your data"
+msgstr "خصّص ببياناتك"
+
+#: .\templates\core\home.html:483
+msgid ""
+"Drop in your logo, colors, headlines, photos, contacts and services. Watch "
+"it update in real time."
+msgstr ""
+"أدرج شعارك وألوانك وعناوينك وصورك وجهات اتصالك وخدماتك. شاهده يتحدث في الوقت"
+" الفعلي."
+
+#: .\templates\core\home.html:487
+msgid "Checkout & launch"
+msgstr "الدفع والإطلاق"
+
+#: .\templates\core\home.html:488
+msgid ""
+"Secure payment, instant delivery, full ownership. Your site is production-"
+"ready the moment you pay."
+msgstr "دفع آمن، تسليم فوري، ملكية كاملة. موقعك جاهز للإنتاج من لحظة دفعك."
+
+#: .\templates\core\home.html:512
+#, python-format
+msgid "%(customers)s+ professionals trust Sitegency"
+msgstr "%(customers)s+ محترف يثقون بـ Sitegency"
+
+#: .\templates\core\home.html:515
+msgid "Secure checkout"
+msgstr "دفع آمن"
+
+#: .\templates\core\home.html:517
+msgid "14-day refund"
+msgstr "استرجاع 14 يوماً"
+
+#: .\templates\core\home.html:519
+msgid "Premium quality guarantee"
+msgstr "ضمان الجودة المتميّزة"
+
+#: .\templates\core\home.html:533
+#, fuzzy
+#| msgid "For every profession"
+msgid "Loved by professionals"
+msgstr "لكل مهنة"
+
+#: .\templates\core\home.html:534
+msgid "Premium, by the people who <em>use it</em>."
+msgstr ""
+
+#: .\templates\core\home.html:535
+msgid ""
+"From veterinarians to chefs, from lawyers to creative studios — here is what"
+" our customers say about Sitegency."
+msgstr ""
+"من الأطباء البيطريين إلى الطهاة، ومن المحامين إلى الاستوديوهات الإبداعية — "
+"إليك ما يقوله عملاؤنا عن Sitegency."
+
+#: .\templates\core\home.html:569
+msgid "Questions"
+msgstr "أسئلة"
+
+#: .\templates\core\home.html:570
+msgid "Frequently asked <em>questions</em>"
+msgstr "الأسئلة <em>الشائعة</em>"
+
+#: .\templates\core\home.html:592
+msgid "Give your business the image it <em>deserves</em>."
+msgstr "امنح عملك الصورة التي <em>يستحقها</em>."
+
+#: .\templates\core\home.html:594
+msgid ""
+"Stop imagining, start customizing. Pick a template, make it yours in real "
+"time, launch today."
+msgstr ""
+"توقف عن التخيل وابدأ بالتخصيص. اختر قالباً، اجعله ملكك في الوقت الفعلي، "
+"أطلقه اليوم."
+
+#: .\templates\core\home.html:597
+msgid "Start Your Build"
+msgstr "ابدأ مشروعك"
+
+#: .\templates\customizer\customize.html:3
+#, python-format
+msgid "Customize %(n)s"
+msgstr "تخصيص %(n)s"
+
+#: .\templates\customizer\customize.html:18
+msgid "Back to template"
+msgstr "العودة إلى القالب"
+
+#: .\templates\customizer\customize.html:21
+msgid "Customize every element live. Changes update instantly in the preview."
+msgstr "خصّص كل عنصر مباشرة. تنعكس التغييرات فوراً في المعاينة."
+
+#: .\templates\customizer\customize.html:29
+msgid "Branding"
+msgstr "العلامة التجارية"
+
+#: .\templates\customizer\customize.html:30
+msgid "Colors"
+msgstr "الألوان"
+
+#: .\templates\customizer\customize.html:31
+msgid "Hero Section"
+msgstr "القسم الرئيسي"
+
+#: .\templates\customizer\customize.html:32
+msgid "Content"
+msgstr "المحتوى"
+
+#: .\templates\customizer\customize.html:34
+msgid "Social"
+msgstr "التواصل الاجتماعي"
+
+#: .\templates\customizer\customize.html:35
+msgid "Footer"
+msgstr "التذييل"
+
+#: .\templates\customizer\customize.html:81
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: .\templates\customizer\customize.html:82
+msgid "Tablet"
+msgstr "جهاز لوحي"
+
+#: .\templates\customizer\customize.html:83
+msgid "Mobile"
+msgstr "جوال"
+
+#: .\templates\customizer\customize.html:87
+msgid "Live preview"
+msgstr "معاينة مباشرة"
+
+#: .\templates\orders\checkout.html:3 .\templates\orders\checkout.html:13
+#: .\templates\orders\checkout.html:18
+msgid "Checkout"
+msgstr "الدفع"
+
+#: .\templates\orders\checkout.html:19
+msgid ""
+"Complete your order and get instant access to your fully customized "
+"template. All orders are protected by our 14-day refund policy."
+msgstr ""
+"أكمل طلبك واحصل على وصول فوري إلى قالبك المخصص بالكامل. جميع الطلبات محمية "
+"بسياسة استرجاع مدتها 14 يوماً."
+
+#: .\templates\orders\checkout.html:32
+msgid "Your Details"
+msgstr "بياناتك"
+
+#: .\templates\orders\checkout.html:34
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: .\templates\orders\checkout.html:38
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: .\templates\orders\checkout.html:42
+msgid "Company (optional)"
+msgstr "الشركة (اختياري)"
+
+#: .\templates\orders\checkout.html:46
+msgid "Phone (optional)"
+msgstr "الهاتف (اختياري)"
+
+#: .\templates\orders\checkout.html:51
+msgid "Country"
+msgstr "الدولة"
+
+#: .\templates\orders\checkout.html:55
+msgid "City"
+msgstr "المدينة"
+
+#: .\templates\orders\checkout.html:62
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: .\templates\orders\checkout.html:63
+msgid ""
+"This is a demo checkout. In production, Sitegency integrates with Stripe, "
+"PayPal and Apple Pay."
+msgstr ""
+"هذا سداد تجريبي. في الإنتاج، يتكامل Sitegency مع Stripe وPayPal وApple Pay."
+
+#: .\templates\orders\checkout.html:66
+msgid "Demo payment (instant, no charge)"
+msgstr "دفع تجريبي (فوري، بلا رسوم)"
+
+#: .\templates\orders\checkout.html:71
+msgid "Complete Purchase"
+msgstr "إتمام الشراء"
+
+#: .\templates\orders\checkout.html:74
+msgid "Secure checkout · 256-bit encryption · 14-day refund"
+msgstr "دفع آمن · تشفير 256-bit · استرجاع 14 يوماً"
+
+#: .\templates\orders\checkout.html:81
+msgid "Order Summary"
+msgstr "ملخص الطلب"
+
+#: .\templates\orders\checkout.html:88
+msgid "Single license"
+msgstr "ترخيص واحد"
+
+#: .\templates\orders\checkout.html:93
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#: .\templates\orders\checkout.html:96
+msgid "Tax"
+msgstr "الضريبة"
+
+#: .\templates\orders\checkout.html:100
+msgid "Customization saved"
+msgstr "تم حفظ التخصيص"
+
+#: .\templates\orders\checkout.html:100
+msgid "Included"
+msgstr "متضمَّن"
+
+#: .\templates\orders\checkout.html:104
+msgid "Total"
+msgstr "الإجمالي"
+
+#: .\templates\orders\checkout.html:108
+msgid "Full source code"
+msgstr "الكود المصدري الكامل"
+
+#: .\templates\orders\checkout.html:110
+msgid "Lifetime ownership"
+msgstr "ملكية مدى الحياة"
+
+#: .\templates\orders\checkout.html:111
+msgid "Priority support"
+msgstr "دعم ذو أولوية"
+
+#: .\templates\orders\checkout.html:112
+msgid "6 months of updates"
+msgstr "6 أشهر من التحديثات"
+
+#: .\templates\orders\confirmation.html:3
+msgid "Order confirmed"
+msgstr "تم تأكيد الطلب"
+
+#: .\templates\orders\confirmation.html:14
+#, python-format
+msgid "Thank you, %(name)s!"
+msgstr "شكراً لك يا %(name)s!"
+
+#: .\templates\orders\confirmation.html:16
+msgid ""
+"Your order is confirmed. Your premium template is ready for download and "
+"your license is active."
+msgstr "تم تأكيد طلبك. قالبك الفاخر جاهز للتحميل والترخيص مفعَّل."
+
+#: .\templates\orders\confirmation.html:20
+msgid "Order"
+msgstr "الطلب"
+
+#: .\templates\orders\confirmation.html:30
+msgid "Total paid"
+msgstr "المبلغ المدفوع"
+
+#: .\templates\orders\confirmation.html:33
+#, python-format
+msgid ""
+"A confirmation email with download links has been sent to "
+"<strong>%(email)s</strong>."
+msgstr ""
+"تم إرسال بريد إلكتروني للتأكيد مع روابط التحميل إلى "
+"<strong>%(email)s</strong>."
+
+#: .\templates\orders\confirmation.html:37
+msgid "Browse more templates"
+msgstr "تصفح قوالب أخرى"
+
+#: .\templates\orders\confirmation.html:38
+msgid "Back to home"
+msgstr "العودة للرئيسية"
+
+#~ msgid "Stop depending on social media"
+#~ msgstr "توقف عن الاعتماد على التواصل الاجتماعي"
+
+#~ msgid "Your business deserves <em>more than a Facebook page</em>."
+#~ msgstr "عملك يستحق <em>أكثر من صفحة فيسبوك</em>."
+
+#~ msgid ""
+#~ "A social page can be deleted tomorrow. An algorithm can hide you next week. "
+#~ "Your professional website is yours — forever, fully controlled, fully "
+#~ "branded, fully yours."
+#~ msgstr ""
+#~ "صفحة التواصل قد تُحذف غداً. قد تخفيك خوارزمية الأسبوع القادم. موقعك المهني "
+#~ "ملك لك — إلى الأبد، تحت سيطرتك الكاملة، بهويتك، ملكك بالكامل."
+
+#~ msgid "Algorithms decide who sees you"
+#~ msgstr "الخوارزميات تقرر من يراك"
+
+#~ msgid "One ban = your business is gone"
+#~ msgstr "حظر واحد = اختفاء عملك"
+
+#~ msgid "Full of your competitors' ads"
+#~ msgstr "ممتلئ بإعلانات منافسيك"
+
+#~ msgid "Looks amateur on mobile"
+#~ msgstr "يبدو هاوياً على الجوال"
+
+#~ msgid "No control over branding"
+#~ msgstr "لا سيطرة على الهوية"
+
+#~ msgid "You sound like everyone else"
+#~ msgstr "تبدو كالجميع"
+
+#~ msgid "Your Sitegency website"
+#~ msgstr "موقعك على Sitegency"
+
+#, python-format
+#~ msgid "You own your digital home 100%%"
+#~ msgstr "تمتلك منزلك الرقمي بنسبة 100%%"
+
+#~ msgid "Your visitors, your data, your rules"
+#~ msgstr "زوّارك وبياناتك وقواعدك"
+
+#~ msgid "Nothing can shut you down"
+#~ msgstr "لا شيء يستطيع إيقافك"
+
+#~ msgid "No ads, no distractions, no rivals"
+#~ msgstr "لا إعلانات، لا تشتيت، لا منافسين"
+
+#~ msgid "Premium on every device"
+#~ msgstr "فاخر على كل جهاز"
+
+#~ msgid "Total control over your brand"
+#~ msgstr "سيطرة كاملة على علامتك"
+
+#~ msgid "Unmistakably, unmissably you"
+#~ msgstr "أنت بوضوح لا لبس فيه"
+
+#~ msgid "Launch today"
+#~ msgstr "انطلق اليوم"
+
+#~ msgid "LIVE"
+#~ msgstr "مباشر"
+
+#~ msgid "Conversion rate"
+#~ msgstr "معدّل التحويل"
+
+#~ msgid "Change colors, text, images — instantly"
+#~ msgstr "غيّر الألوان والنصوص والصور — فورًا"
+
+#~ msgid "24 templates live"
+#~ msgstr "24 قالبًا مباشرًا"
+
+#, python-format
+#~ msgid "Trusted by %(customers)s+ professionals across %(countries)s countries"
+#~ msgstr "يثق بنا أكثر من %(customers)s مهني في %(countries)s دولة"
+
+#~ msgid "Your profession deserves a website <em>worthy of it</em>."
+#~ msgstr "مهنتك تستحق موقعاً <em>بمستواها</em>."
+
+#, python-format
+#~ msgid ""
+#~ "Whether you run a clinic, a restaurant, a workshop or a studio — pick from "
+#~ "%(templates)s+ premium templates, drop in your logo, colors, photos and "
+#~ "text, then preview the final result live before you pay a cent."
+#~ msgstr ""
+#~ "سواء كنت تدير عيادة أو مطعماً أو ورشة أو استوديو — اختر من أكثر من "
+#~ "%(templates)s قالب فاخر، أضف شعارك وألوانك وصورك ونصوصك، ثم عاين النتيجة "
+#~ "النهائية مباشرة قبل أن تدفع قرشاً واحداً."
+
+#~ msgid "4.9/5 · 12,000+ reviews"
+#~ msgstr "4.9/5 · أكثر من 12,000 تقييم"
+
+#, fuzzy
+#~ msgid "Live preview ready"
+#~ msgstr "معاينة مباشرة"
+
+#~ msgid "Change anything, instantly"
+#~ msgstr "غيّر أي شيء، في الحال"
+
+#, fuzzy
+#~ msgid "4.9/5 · 12,400+ reviews"
+#~ msgstr "4.9/5 · أكثر من 12,000 تقييم"
+
+#~ msgid "Why badrway"
+#~ msgstr "لماذا بدرواي"
+
+#~ msgid "The badrway way"
+#~ msgstr "طريقة بدرواي"
+
+#~ msgid ""
+#~ "We believe every business deserves a <em>world-class</em> website — in "
+#~ "minutes, not months."
+#~ msgstr ""
+#~ "نؤمن أن كل عمل يستحق موقعاً <em>عالمي المستوى</em> — في دقائق، لا شهور."
+
+#~ msgid ""
+#~ "badrway was founded on a simple observation: premium web design is locked "
+#~ "behind expensive agencies and multi-month timelines. We built the "
+#~ "marketplace that unlocks it for everyone."
+#~ msgstr ""
+#~ "تأسست بدرواي انطلاقاً من ملاحظة بسيطة: التصميم الفاخر للمواقع حبيس الوكالات "
+#~ "الباهظة والمواعيد الطويلة. بنينا السوق الذي يفتحه للجميع."
+
+#~ msgid ""
+#~ "You see exactly what you're buying — fully navigable, fully interactive — "
+#~ "before spending a single dollar. No surprises. Ever."
+#~ msgstr ""
+#~ "ترى بالضبط ما تشتريه — قابل للتصفح الكامل والتفاعل الكامل — قبل إنفاق دولار "
+#~ "واحد. بلا مفاجآت. أبداً."
+
+#~ msgid "Built on Django"
+#~ msgstr "مبني على Django"
+
+#~ msgid ""
+#~ "Enterprise-grade security, battle-tested at scale by NASA, Instagram, "
+#~ "Spotify. Your data and transactions are safe by design."
+#~ msgstr ""
+#~ "أمان على مستوى المؤسسات، مُختبَر على نطاق واسع من ناسا وإنستغرام وسبوتيفاي. "
+#~ "بياناتك ومعاملاتك آمنة بحكم التصميم."
+
+#~ msgid "Global community"
+#~ msgstr "مجتمع عالمي"
+
+#~ msgid ""
+#~ "We're so confident in our quality we offer a no-questions-asked refund "
+#~ "window. If you're not thrilled, we make it right."
+#~ msgstr ""
+#~ "نحن واثقون من جودتنا لدرجة أننا نقدم استرجاعاً بلا أسئلة. إذا لم تكن "
+#~ "منبهراً، نصلح الأمر."
+
+#~ msgid "Continuous improvement"
+#~ msgstr "تحسين مستمر"
+
+#~ msgid "No FAQs yet."
+#~ msgstr "لا توجد أسئلة شائعة بعد."
+
+#~ msgid "Get in touch"
+#~ msgstr "تواصل معنا"
+
+#~ msgid ""
+#~ "Questions about templates, licenses, customization, or enterprise plans? "
+#~ "We're here to help."
+#~ msgstr ""
+#~ "هل لديك أسئلة عن القوالب أو التراخيص أو التخصيص أو خطط المؤسسات؟ نحن هنا "
+#~ "للمساعدة."
+
+#~ msgid "Phone"
+#~ msgstr "الهاتف"
+
+#~ msgid "Live chat"
+#~ msgstr "دردشة مباشرة"
+
+#~ msgid "Available Monday–Friday, 9 AM – 6 PM UTC"
+#~ msgstr "متاحة من الإثنين إلى الجمعة، 9 صباحاً – 6 مساءً بتوقيت غرينتش"
+
+#~ msgid "Instant delivery"
+#~ msgstr "تسليم فوري"
+
+#~ msgid "Café & Bar"
+#~ msgstr "مقهى وبار"
+
+#~ msgid ""
+#~ "Swap logos, colors, headlines, images, contact details and social links in "
+#~ "real time. Watch the result update instantly in your browser."
+#~ msgstr ""
+#~ "استبدل الشعارات والألوان والعناوين والصور وبيانات التواصل وروابط التواصل "
+#~ "الاجتماعي في الوقت الفعلي. شاهد النتيجة تتحدث فوراً."
+
+#~ msgid ""
+#~ "Our marketplace runs on Django — battle-tested, enterprise-grade, secure by "
+#~ "design. Your data, your transactions, your trust."
+#~ msgstr ""
+#~ "يعمل سوقنا على Django — مختبر ميدانياً، على مستوى المؤسسات، آمن بحكم "
+#~ "التصميم. بياناتك، معاملاتك، ثقتك."
+
+#~ msgid "Unlimited personalization"
+#~ msgstr "تخصيص بلا حدود"
+
+#~ msgid ""
+#~ "Change anything. Fonts, spacing, sections, copy, imagery. There is no "
+#~ "element you can't make uniquely yours."
+#~ msgstr ""
+#~ "غيّر أي شيء. الخطوط، المسافات، الأقسام، النصوص، الصور. لا يوجد عنصر لا "
+#~ "تستطيع أن تجعله ملكك تماماً."
+
+#~ msgid "Run the template importer to populate the marketplace."
+#~ msgstr "شغّل مستورد القوالب لتعبئة السوق."
+
+#~ msgid "Launch a stunning website in <em>minutes</em> — not months."
+#~ msgstr "أطلق موقعاً مذهلاً في <em>دقائق</em> — لا شهور."
+
+#~ msgid "Hand-curated quality"
+#~ msgstr "جودة مختارة يدوياً"
+
+#~ msgid ""
+#~ "Every template is reviewed, refined and modernized in-house. No recycled "
+#~ "garbage. No Bootstrap leftovers. Just premium work."
+#~ msgstr ""
+#~ "كل قالب يُراجَع ويُصقَل ويُحدَّث داخلياً. لا قمامة معاد تدويرها. لا بقايا "
+#~ "Bootstrap. فقط عمل فاخر."
+
+#~ msgid "The site of your dreams is <em>one preview</em> away."
+#~ msgstr "الموقع الذي تحلم به يفصلك عنه <em>معاينة واحدة</em>."

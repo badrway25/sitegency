@@ -1,0 +1,601 @@
+{% extends "base.html" %}
+{% load humanize i18n badrway_tags %}
+
+{% block content %}
+<!-- ============================================================
+     HERO v4 — Sitegency AI studio hero (dashboard stage, no logo)
+     ============================================================ -->
+<section class="bw-hero sg-hero">
+  <div class="sg-hero-bg" aria-hidden="true">
+    <div class="sg-hero-grid-lines"></div>
+    <div class="sg-hero-aurora sg-aurora-1"></div>
+    <div class="sg-hero-aurora sg-aurora-2"></div>
+    <div class="sg-hero-aurora sg-aurora-3"></div>
+  </div>
+
+  <div class="bw-container sg-hero-container">
+    <div class="sg-hero-grid">
+      <!-- =========== LEFT: COPY =========== -->
+      <div class="sg-hero-copy">
+        <span class="sg-hero-pill">
+          <span class="sg-pill-ping"></span>
+          <span class="sg-pill-label">{% trans "New · AI-assisted customizer" %}</span>
+          <span class="sg-pill-divider"></span>
+          <span class="sg-pill-sub">{% blocktrans with countries=stats.countries %}Live in {{ countries }} countries{% endblocktrans %}</span>
+        </span>
+
+        <h1 class="sg-hero-h1">
+          {% blocktrans %}The website your <em>profession</em><br>actually deserves.{% endblocktrans %}
+        </h1>
+
+        <p class="sg-hero-sub">
+          {% blocktrans with templates=stats.templates %}Pick from {{ templates }}+ premium templates, customize every pixel live in the browser, and launch a site that looks like a senior studio built it — in one afternoon, not six weeks.{% endblocktrans %}
+        </p>
+
+        <div class="sg-hero-cta">
+          <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-primary bw-btn-lg sg-btn-primary">
+            <span>{% trans "Browse Templates" %}</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+          <a href="{% url 'catalog:category_list' %}" class="bw-btn sg-btn-ghost bw-btn-lg">
+            <i class="bi bi-grid-3x3-gap"></i>
+            <span>{% trans "Explore Categories" %}</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- =========== RIGHT: VISUAL STAGE — professional imagery =========== -->
+      <div class="sg-hero-stage" aria-hidden="true">
+        <div class="sg-stage-glow"></div>
+
+        <!-- Main: professional website mockup -->
+        <div class="sg-stage-main">
+          <div class="sg-mockup-chrome">
+            <span class="sg-mockup-dot" style="background:#ff5f56"></span>
+            <span class="sg-mockup-dot" style="background:#ffbd2e"></span>
+            <span class="sg-mockup-dot" style="background:#27c93f"></span>
+            <span class="sg-mockup-url">
+              <i class="bi bi-lock-fill"></i> your-practice.com
+            </span>
+          </div>
+          <div class="sg-mockup-body">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1400&q=90"
+                 alt="" loading="eager">
+            <div class="sg-mockup-overlay"></div>
+          </div>
+        </div>
+
+        <!-- Floating: professional review -->
+        <div class="sg-float sg-float--review">
+          <div class="sg-float-review-stars">★★★★★</div>
+          <p class="sg-float-review-text">{% trans "My clinic's website finally looks as professional as my work." %}</p>
+          <div class="sg-float-review-author">
+            <img src="https://i.pravatar.cc/48?img=32" alt="" loading="lazy">
+            <div>
+              <strong>Dr. Elena Rossi</strong>
+              <span>{% trans "Dental Clinic" %}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating: live customization (refined) -->
+        <div class="sg-float sg-float--edit">
+          <div class="sg-edit-icon">
+            <i class="bi bi-palette2"></i>
+          </div>
+          <div class="sg-edit-body">
+            <strong>{% trans "Your brand, your way" %}</strong>
+            <span>{% trans "Logo, colors, photos — all live" %}</span>
+          </div>
+        </div>
+
+        <!-- Side: second professional image -->
+        <div class="sg-stage-mini">
+          <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=560&q=85" alt="" loading="lazy">
+          <div class="sg-mini-meta">
+            <span class="sg-mini-dot"></span>
+            <span>{% blocktrans with n=stats.templates %}{{ n }}+ templates{% endblocktrans %}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats strip — animated count-up -->
+    <div class="sg-hero-stats bw-reveal-up">
+      <div class="sg-stat">
+        <div class="sg-stat-value" data-count="{{ stats.templates }}" data-suffix="+">0</div>
+        <div class="sg-stat-label">{% trans "Premium Templates" %}</div>
+      </div>
+      <div class="sg-stat-sep" aria-hidden="true"></div>
+      <div class="sg-stat">
+        <div class="sg-stat-value" data-count="{{ stats.categories }}">0</div>
+        <div class="sg-stat-label">{% trans "Industry Categories" %}</div>
+      </div>
+      <div class="sg-stat-sep" aria-hidden="true"></div>
+      <div class="sg-stat">
+        <div class="sg-stat-value" data-count="{{ stats.customers }}" data-suffix="+" data-format="thousands">0</div>
+        <div class="sg-stat-label">{% trans "Happy Customers" %}</div>
+      </div>
+      <div class="sg-stat-sep" aria-hidden="true"></div>
+      <div class="sg-stat">
+        <div class="sg-stat-value" data-count="{{ stats.satisfaction }}" data-suffix="%">0</div>
+        <div class="sg-stat-label">{% trans "Satisfaction Rate" %}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOR EVERY PROFESSION — with real photos
+     ============================================================ -->
+<section class="bw-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "For every profession" %}</span>
+      <h2>{% blocktrans %}Built for <em>everyone</em>, not just tech companies.{% endblocktrans %}</h2>
+      <p>{% trans "From mechanics to lawyers, from chefs to veterinarians, from personal trainers to real estate agents — Sitegency is the website platform for any professional who wants to stand out." %}</p>
+    </div>
+
+    <div class="bw-profession-showcase">
+      {% for loop_item in '123456'|make_list %}{% endfor %}
+      <a href="{% url 'catalog:template_list' %}?category=automotive" class="bw-prof-card" style="--accent-color:#dc2626;">
+        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-wrench-adjustable"></i>
+          <h3>{% trans "Mechanic" %}</h3>
+          <span>{% trans "Workshop & auto repair" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=medical" class="bw-prof-card" style="--accent-color:#06b6d4;">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-prescription2"></i>
+          <h3>{% trans "Dentist" %}</h3>
+          <span>{% trans "Dental & orthodontic care" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=restaurant" class="bw-prof-card" style="--accent-color:#dc2626;">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-egg-fried"></i>
+          <h3>{% trans "Restaurant" %}</h3>
+          <span>{% trans "Cafés, bistros & fine dining" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=animal" class="bw-prof-card" style="--accent-color:#f97316;">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-heart-pulse"></i>
+          <h3>{% trans "Veterinary" %}</h3>
+          <span>{% trans "Clinics & pet care" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=lawyer" class="bw-prof-card" style="--accent-color:#1e3a8a;">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-bank"></i>
+          <h3>{% trans "Lawyer" %}</h3>
+          <span>{% trans "Legal practices & firms" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=fitness" class="bw-prof-card" style="--accent-color:#10b981;">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-lightning-charge"></i>
+          <h3>{% trans "Personal Trainer" %}</h3>
+          <span>{% trans "Gyms & wellness studios" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=beauty" class="bw-prof-card" style="--accent-color:#ec4899;">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-gem"></i>
+          <h3>{% trans "Beauty Salon" %}</h3>
+          <span>{% trans "Salons & aesthetic studios" %}</span>
+        </div>
+      </a>
+      <a href="{% url 'catalog:template_list' %}?category=real-estate" class="bw-prof-card" style="--accent-color:#0ea5e9;">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="" loading="lazy">
+        <div class="bw-prof-overlay">
+          <i class="bi bi-house-door"></i>
+          <h3>{% trans "Real Estate" %}</h3>
+          <span>{% trans "Agencies & brokers" %}</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Secondary tag list — smaller icons -->
+    <div class="bw-profession-tags">
+      <span><i class="bi bi-scissors"></i> {% trans "Barber" %}</span>
+      <span><i class="bi bi-plug"></i> {% trans "Electrician" %}</span>
+      <span><i class="bi bi-droplet"></i> {% trans "Plumber" %}</span>
+      <span><i class="bi bi-hammer"></i> {% trans "Craftsman" %}</span>
+      <span><i class="bi bi-laptop"></i> {% trans "Freelancer" %}</span>
+      <span><i class="bi bi-briefcase"></i> {% trans "Consultant" %}</span>
+      <span><i class="bi bi-stethoscope"></i> {% trans "Doctor" %}</span>
+      <span><i class="bi bi-mortarboard"></i> {% trans "Teacher" %}</span>
+      <span><i class="bi bi-shop"></i> {% trans "Local Shop" %}</span>
+      <span><i class="bi bi-camera"></i> {% trans "Photographer" %}</span>
+      <span><i class="bi bi-music-note"></i> {% trans "Musician" %}</span>
+      <span><i class="bi bi-car-front"></i> {% trans "Driving School" %}</span>
+      <span><i class="bi bi-palette"></i> {% trans "Artist" %}</span>
+      <span><i class="bi bi-tree"></i> {% trans "Gardener" %}</span>
+      <span><i class="bi bi-plus-circle"></i> {% trans "…and yours" %}</span>
+    </div>
+
+    <div class="bw-text-center bw-mt-5">
+      <p style="font-size:1.1rem;color:var(--ink-600);max-width:640px;margin-inline:auto;">
+        <strong>{% trans "Become the reference point in your profession." %}</strong>
+        {% trans "Give your business the online image it truly deserves." %}
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     VALUE PROPOSITION — image + text layout
+     ============================================================ -->
+<section class="bw-section" style="background:var(--ink-25);">
+  <div class="bw-container">
+    <div class="bw-feature-split">
+      <div class="bw-feature-image">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1000&q=85" alt="" loading="lazy">
+        <div class="bw-feature-overlay">
+          <span class="bw-eyebrow-dot"></span>
+          <strong>{% trans "Live Preview" %}</strong>
+          <span>{% trans "Everything you see is customizable" %}</span>
+        </div>
+      </div>
+      <div class="bw-feature-text">
+        <span class="eyebrow-text">{% trans "Why Sitegency" %}</span>
+        <h2>{% blocktrans %}Everything you see is <em>fully customizable</em>.{% endblocktrans %}</h2>
+        <p>{% trans "We don't sell static templates. We sell complete, ready-to-launch digital experiences you can mold to your brand — with your logo, your colors, your words, your photos, your data." %}</p>
+
+        <div class="bw-feature-list">
+          <div class="bw-feature-item">
+            <span class="bw-feature-icon"><i class="bi bi-eye"></i></span>
+            <div>
+              <strong>{% trans "Preview before you pay" %}</strong>
+              <span>{% trans "Navigate every page of every template — exactly as a real visitor would." %}</span>
+            </div>
+          </div>
+          <div class="bw-feature-item">
+            <span class="bw-feature-icon"><i class="bi bi-palette2"></i></span>
+            <div>
+              <strong>{% trans "Live customization" %}</strong>
+              <span>{% trans "Swap logos, colors, headlines, images, contacts in real time." %}</span>
+            </div>
+          </div>
+          <div class="bw-feature-item">
+            <span class="bw-feature-icon"><i class="bi bi-lightning-charge"></i></span>
+            <div>
+              <strong>{% trans "Launch in minutes" %}</strong>
+              <span>{% trans "Pick a template, drop in content, download. Your site goes live today." %}</span>
+            </div>
+          </div>
+          <div class="bw-feature-item">
+            <span class="bw-feature-icon"><i class="bi bi-gem"></i></span>
+            <div>
+              <strong>{% trans "No technical skills needed" %}</strong>
+              <span>{% trans "If you can fill a form, you can build your site. No code, no agencies." %}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHY NOT THE ALTERNATIVES — premium competitive comparison
+     ============================================================ -->
+<section class="bw-section sg-compare-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "The honest comparison" %}</span>
+      <h2>{% blocktrans %}You've tried the alternatives.<br><em>Here's why professionals switch.</em>{% endblocktrans %}</h2>
+      <p class="sg-compare-lede">{% trans "Social pages disappear overnight. WordPress sites break after every update. Generic CMS platforms demand months of work. There's a better path — and thousands of professionals have already taken it." %}</p>
+    </div>
+
+    <!-- ====== 3-way comparison grid ====== -->
+    <div class="sg-compare-grid">
+
+      <!-- Column 1: Social Media -->
+      <div class="sg-compare-card sg-compare-card--weak">
+        <div class="sg-compare-card-head">
+          <div class="sg-compare-card-icon sg-compare-card-icon--social">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <h3>{% trans "Facebook & Instagram" %}</h3>
+          <span class="sg-compare-verdict sg-compare-verdict--bad">{% trans "Not enough" %}</span>
+        </div>
+        <ul class="sg-compare-list">
+          <li><i class="bi bi-x-lg"></i> {% trans "You don't own your audience" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Algorithms control your visibility" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "One policy change can erase you" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Zero design customization" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Competitors' ads on your page" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "No SEO, no domain, no credibility" %}</li>
+        </ul>
+        <div class="sg-compare-bottom">
+          <span>{% trans "Free — but you pay with control" %}</span>
+        </div>
+      </div>
+
+      <!-- Column 2: WordPress / Joomla -->
+      <div class="sg-compare-card sg-compare-card--weak">
+        <div class="sg-compare-card-head">
+          <div class="sg-compare-card-icon sg-compare-card-icon--cms">
+            <i class="bi bi-wordpress"></i>
+          </div>
+          <h3>{% trans "WordPress & Joomla" %}</h3>
+          <span class="sg-compare-verdict sg-compare-verdict--mid">{% trans "Better, but fragile" %}</span>
+        </div>
+        <ul class="sg-compare-list">
+          <li><i class="bi bi-x-lg"></i> {% trans "20+ plugins just to function" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Constant updates break things" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Security vulnerabilities are common" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Slow without expensive optimization" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Generic themes, hard to stand out" %}</li>
+          <li><i class="bi bi-x-lg"></i> {% trans "Requires technical knowledge" %}</li>
+        </ul>
+        <div class="sg-compare-bottom">
+          <span>{% trans "Affordable — but fragile and time-consuming" %}</span>
+        </div>
+      </div>
+
+      <!-- Column 3: Sitegency (the answer) -->
+      <div class="sg-compare-card sg-compare-card--strong">
+        <div class="sg-compare-card-badge">{% trans "Recommended" %}</div>
+        <div class="sg-compare-card-head">
+          <div class="sg-compare-card-icon sg-compare-card-icon--sg">
+            {% include "_logo.html" with variant="navbar" %}
+          </div>
+          <h3>Sitegency</h3>
+          <span class="sg-compare-verdict sg-compare-verdict--good">{% trans "Built for professionals" %}</span>
+        </div>
+        <ul class="sg-compare-list">
+          <li><i class="bi bi-check-lg"></i> {% trans "Premium design, ready in minutes" %}</li>
+          <li><i class="bi bi-check-lg"></i> {% trans "Preview every page before you buy" %}</li>
+          <li><i class="bi bi-check-lg"></i> {% trans "Live customization — no code needed" %}</li>
+          <li><i class="bi bi-check-lg"></i> {% trans "Built on Django — enterprise-grade security" %}</li>
+          <li><i class="bi bi-check-lg"></i> {% trans "No plugins, no fragility, no maintenance" %}</li>
+          <li><i class="bi bi-check-lg"></i> {% trans "One payment, full ownership, forever" %}</li>
+        </ul>
+        <div class="sg-compare-bottom sg-compare-bottom--cta">
+          <a href="{% url 'catalog:template_list' %}" class="bw-btn sg-btn-primary bw-btn-lg" style="width:100%;justify-content:center;">
+            <span>{% trans "See Templates" %}</span> <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ====== Django advantage band ====== -->
+    <div class="sg-django-band">
+      <div class="sg-django-band-head">
+        <span class="sg-django-icon"><i class="bi bi-shield-lock-fill"></i></span>
+        <div>
+          <h3>{% trans "Powered by Django — the framework behind Instagram, Spotify and Pinterest." %}</h3>
+          <p>{% trans "This isn't another page builder held together by plugins. It's a professional-grade platform built on one of the most trusted frameworks in the world." %}</p>
+        </div>
+      </div>
+      <div class="sg-django-features">
+        <div class="sg-django-feat">
+          <i class="bi bi-shield-check"></i>
+          <strong>{% trans "Enterprise security" %}</strong>
+          <span>{% trans "Built-in protection against the most common web threats — by default, not by plugin." %}</span>
+        </div>
+        <div class="sg-django-feat">
+          <i class="bi bi-arrow-up-right-circle"></i>
+          <strong>{% trans "Scales with you" %}</strong>
+          <span>{% trans "From a single-page site to a full catalog — the architecture doesn't break as you grow." %}</span>
+        </div>
+        <div class="sg-django-feat">
+          <i class="bi bi-puzzle"></i>
+          <strong>{% trans "Zero plugin debt" %}</strong>
+          <span>{% trans "No fragile dependencies. Every feature is integrated, tested and maintained as one system." %}</span>
+        </div>
+        <div class="sg-django-feat">
+          <i class="bi bi-lightning-charge"></i>
+          <strong>{% trans "Fast by design" %}</strong>
+          <span>{% trans "Server-rendered pages, optimized queries, no bloat. Your visitors feel the difference." %}</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     CATEGORIES with images
+     ============================================================ -->
+<section class="bw-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "Explore" %}</span>
+      <h2>{% blocktrans %}Templates for <em>every</em> industry{% endblocktrans %}</h2>
+      <p>{% trans "From veterinary clinics to fine-dining restaurants, boutique hotels to SaaS startups — we have the perfect starting point." %}</p>
+    </div>
+    <div class="bw-category-image-grid">
+      {% for cat in all_categories %}
+      <a href="{{ cat.get_absolute_url }}" class="bw-cat-tile" style="--accent:{{ cat.accent_color }};">
+        <img src="{% unsplash_image cat.name %}" alt="" loading="lazy">
+        <div class="bw-cat-tile-content">
+          <span class="bw-cat-icon"><i class="bi {{ cat.icon_class|default:'bi-grid' }}"></i></span>
+          <h3>{{ cat|local_name }}</h3>
+          <span class="count">{{ cat.template_count }} {% trans "templates" %}</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FEATURED TEMPLATES
+     ============================================================ -->
+{% if featured_templates %}
+<section class="bw-section" style="background:var(--ink-25);">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "Handpicked" %}</span>
+      <h2>{% blocktrans %}Featured <em>templates</em>{% endblocktrans %}</h2>
+      <p>{% trans "A curated selection of our most loved, highest-rated, most-downloaded templates." %}</p>
+    </div>
+    <div class="bw-template-grid">
+      {% for t in featured_templates %}
+        {% include "catalog/_template_card.html" with t=t %}
+      {% endfor %}
+    </div>
+    <div class="bw-text-center bw-mt-5">
+      <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-dark bw-btn-lg">{% trans "View All Templates" %} <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+<section class="bw-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "How it works" %}</span>
+      <h2>{% blocktrans %}From discovery to launch — in <em>four steps</em>{% endblocktrans %}</h2>
+      <p>{% trans "We've compressed months of agency work into a journey that takes minutes. No code. No meetings. No agency fees." %}</p>
+    </div>
+    <div class="bw-steps-grid">
+      <div class="bw-step-card">
+        <div class="bw-step-num">01</div>
+        <h3>{% trans "Browse & discover" %}</h3>
+        <p>{% trans "Explore our library by category, tag, industry or keyword. Every template comes with a live preview." %}</p>
+      </div>
+      <div class="bw-step-card">
+        <div class="bw-step-num">02</div>
+        <h3>{% trans "Try it live" %}</h3>
+        <p>{% trans "Click Preview. Navigate every page. Feel the design. This is the exact site you'll own." %}</p>
+      </div>
+      <div class="bw-step-card">
+        <div class="bw-step-num">03</div>
+        <h3>{% trans "Customize with your data" %}</h3>
+        <p>{% trans "Drop in your logo, colors, headlines, photos, contacts and services. Watch it update in real time." %}</p>
+      </div>
+      <div class="bw-step-card">
+        <div class="bw-step-num">04</div>
+        <h3>{% trans "Checkout & launch" %}</h3>
+        <p>{% trans "Secure payment, instant delivery, full ownership. Your site is production-ready the moment you pay." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST BAND — social proof (moved from hero for better positioning)
+     ============================================================ -->
+<section class="sg-trust-band">
+  <div class="bw-container">
+    <div class="sg-trust-band-inner">
+      <div class="sg-trust-avatars" aria-hidden="true">
+        <img src="https://i.pravatar.cc/64?img=32" alt="" loading="lazy">
+        <img src="https://i.pravatar.cc/64?img=47" alt="" loading="lazy">
+        <img src="https://i.pravatar.cc/64?img=12" alt="" loading="lazy">
+        <img src="https://i.pravatar.cc/64?img=5"  alt="" loading="lazy">
+        <img src="https://i.pravatar.cc/64?img=22" alt="" loading="lazy">
+      </div>
+      <div class="sg-trust-band-copy">
+        <div class="sg-trust-rating">
+          <span class="sg-trust-stars">★★★★★</span>
+          <strong>4.9</strong>
+          <span class="sg-trust-sep">·</span>
+          <span>{% blocktrans with customers=stats.customers|intcomma %}{{ customers }}+ professionals trust Sitegency{% endblocktrans %}</span>
+        </div>
+        <div class="sg-trust-meta">
+          <span><i class="bi bi-shield-check"></i> {% trans "Secure checkout" %}</span>
+          <span class="sg-trust-dot"></span>
+          <span><i class="bi bi-arrow-clockwise"></i> {% trans "14-day refund" %}</span>
+          <span class="sg-trust-dot"></span>
+          <span><i class="bi bi-award"></i> {% trans "Premium quality guarantee" %}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS — premium reviews
+     ============================================================ -->
+{% if reviews %}
+<section class="bw-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "Loved by professionals" %}</span>
+      <h2>{% blocktrans %}Premium, by the people who <em>use it</em>.{% endblocktrans %}</h2>
+      <p>{% trans "From veterinarians to chefs, from lawyers to creative studios — here is what our customers say about Sitegency." %}</p>
+    </div>
+
+    <div class="bw-reviews-grid">
+      {% for t in reviews %}
+      <article class="bw-review-card">
+        <div class="bw-review-stars">
+          {% for _ in "12345" %}<span>★</span>{% endfor %}
+        </div>
+        <blockquote class="bw-review-text">
+          <span class="bw-quote-mark" aria-hidden="true">&ldquo;</span>
+          {{ t.text }}
+        </blockquote>
+        <div class="bw-review-author">
+          <img src="{{ t.avatar }}" alt="" loading="lazy" class="bw-review-avatar">
+          <div>
+            <strong>{{ t.name }}</strong>
+            <span>{{ t.role }}</span>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+{% if faqs %}
+<section class="bw-section" style="background:var(--ink-25);">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "Questions" %}</span>
+      <h2>{% blocktrans %}Frequently asked <em>questions</em>{% endblocktrans %}</h2>
+    </div>
+    <div class="bw-faq-list">
+      {% for faq in faqs %}
+      <details class="bw-faq-item">
+        <summary>{{ faq.q }}</summary>
+        <div class="answer">{{ faq.a|linebreaks }}</div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ============================================================
+     FINAL CTA — Sitegency brand signature (animate-on-visible)
+     ============================================================ -->
+<section class="bw-section bw-section-dark sg-on-dark" style="padding: var(--s-11) 0;">
+  <div class="bw-container bw-text-center">
+    <div class="sg-brand-signature" aria-hidden="true">
+      {% include "_logo.html" with variant="visible" %}
+    </div>
+    <h2 style="max-width:820px;margin:.5em auto; color: var(--ink-0);">{% blocktrans %}Give your business the image it <em>deserves</em>.{% endblocktrans %}</h2>
+    <p style="max-width:640px;margin:0 auto 2rem;font-size:1.15rem;">
+      {% trans "Stop imagining, start customizing. Pick a template, make it yours in real time, launch today." %}
+    </p>
+    <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-luxe bw-btn-lg">
+      {% trans "Start Your Build" %} <i class="bi bi-arrow-right"></i>
+    </a>
+  </div>
+</section>
+{% endblock %}

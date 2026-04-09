@@ -1,0 +1,30 @@
+{% load i18n badrway_tags %}
+{# Elegant language switcher with SVG flags. variant: navbar (default) | footer #}
+{# NOTE: next URL is stripped of the current locale prefix so that Django's   #}
+{# set_language view + translate_url can cleanly add the NEW locale prefix.   #}
+{# Without this strip the switch-to-another-language beyond the first fails,   #}
+{# because resolve() fails on the old prefix once the new language is active.  #}
+<form action="{% url 'set_language' %}" method="post" class="bw-lang-form {% if variant == 'footer' %}bw-lang-form--footer{% endif %}">
+  {% csrf_token %}
+  <input name="next" type="hidden" value="{{ request.get_full_path|strip_locale_prefix }}">
+  <div class="bw-lang" tabindex="0">
+    <button type="button" class="bw-lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="{% trans 'Select language' %}">
+      {% if LANGUAGE_CODE == 'it' %}
+        {% include "_flags.html" with code="it" %}<span class="bw-lang-label">Italiano</span>
+      {% elif LANGUAGE_CODE == 'fr' %}
+        {% include "_flags.html" with code="fr" %}<span class="bw-lang-label">Français</span>
+      {% elif LANGUAGE_CODE == 'ar' %}
+        {% include "_flags.html" with code="ar" %}<span class="bw-lang-label">العربية</span>
+      {% else %}
+        {% include "_flags.html" with code="en" %}<span class="bw-lang-label">English</span>
+      {% endif %}
+      <i class="bi bi-chevron-down bw-lang-chev"></i>
+    </button>
+    <ul class="bw-lang-menu" role="listbox">
+      <li><button type="submit" name="language" value="en" role="option" {% if LANGUAGE_CODE == 'en' %}aria-selected="true"{% endif %}>{% include "_flags.html" with code="en" %}<span>English</span></button></li>
+      <li><button type="submit" name="language" value="it" role="option" {% if LANGUAGE_CODE == 'it' %}aria-selected="true"{% endif %}>{% include "_flags.html" with code="it" %}<span>Italiano</span></button></li>
+      <li><button type="submit" name="language" value="fr" role="option" {% if LANGUAGE_CODE == 'fr' %}aria-selected="true"{% endif %}>{% include "_flags.html" with code="fr" %}<span>Français</span></button></li>
+      <li><button type="submit" name="language" value="ar" role="option" {% if LANGUAGE_CODE == 'ar' %}aria-selected="true"{% endif %}>{% include "_flags.html" with code="ar" %}<span>العربية</span></button></li>
+    </ul>
+  </div>
+</form>

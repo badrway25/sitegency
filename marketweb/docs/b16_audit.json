@@ -1,0 +1,1570 @@
+{
+  "creative-hnband-pro": {
+    "family": "creative",
+    "desk": {
+      "h": 7390,
+      "navH": 79,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "18/18",
+      "imgs": "17/17",
+      "totalSections": 12,
+      "weakSections": 3,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-inkwell": {
+    "family": "creative",
+    "desk": {
+      "h": 5799,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 2,
+      "ftco": "0/0",
+      "h2": "0/21",
+      "imgs": "22/22",
+      "totalSections": 10,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-mixtape-pro": {
+    "family": "creative",
+    "desk": {
+      "h": 5399,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/1",
+      "imgs": "5/5",
+      "totalSections": 6,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-music-harmonia": {
+    "family": "creative",
+    "desk": {
+      "h": 6144,
+      "navH": 93,
+      "navPos": "absolute",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "8/8",
+      "imgs": "17/17",
+      "totalSections": 10,
+      "weakSections": 5,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-palette-noir": {
+    "family": "creative",
+    "desk": {
+      "h": 8035,
+      "navH": 790,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "29/29",
+      "imgs": "44/44",
+      "totalSections": 2,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-pigmento": {
+    "family": "creative",
+    "desk": {
+      "h": 4217,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/6",
+      "imgs": "6/6",
+      "totalSections": 6,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-studiokaleido": {
+    "family": "creative",
+    "desk": {
+      "h": 3256,
+      "navH": 117,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/12",
+      "imgs": "8/9",
+      "totalSections": 9,
+      "weakSections": 3,
+      "emptyBlocks": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "creative-vividum": {
+    "family": "creative",
+    "desk": {
+      "h": 5945,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "5/5",
+      "imgs": "12/12",
+      "totalSections": 11,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-academix": {
+    "family": "education",
+    "desk": {
+      "h": 5563,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "22/22",
+      "imgs": "30/31",
+      "totalSections": 18,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-brightpath": {
+    "family": "education",
+    "desk": {
+      "h": 7602,
+      "navH": 74,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "5/5",
+      "imgs": "38/44",
+      "totalSections": 16,
+      "weakSections": 2,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-campuscore": {
+    "family": "education",
+    "desk": {
+      "h": 5252,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "5/5",
+      "imgs": "24/24",
+      "totalSections": 22,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-knowhub": {
+    "family": "education",
+    "desk": {
+      "h": 4944,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "17/17",
+      "totalSections": 23,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-learnly": {
+    "family": "education",
+    "desk": {
+      "h": 5685,
+      "navH": 56,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "47/47",
+      "totalSections": 18,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-mentora": {
+    "family": "education",
+    "desk": {
+      "h": 6797,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "3/3",
+      "imgs": "22/26",
+      "totalSections": 11,
+      "weakSections": 5,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-scholarnest": {
+    "family": "education",
+    "desk": {
+      "h": 4341,
+      "navH": 151,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "8/8",
+      "imgs": "20/20",
+      "totalSections": 9,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "education-studyforge": {
+    "family": "education",
+    "desk": {
+      "h": 7084,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "42/47",
+      "imgs": "0/0",
+      "totalSections": 16,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-atelierium": {
+    "family": "fashion",
+    "desk": {
+      "h": 7625,
+      "navH": 143,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 1,
+      "ftco": "0/0",
+      "h2": "12/12",
+      "imgs": "53/53",
+      "totalSections": 19,
+      "weakSections": 4,
+      "emptyBlocks": 4
+    },
+    "mob": {
+      "overflow": true,
+      "w": 735
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-couturae": {
+    "family": "fashion",
+    "desk": {
+      "h": 6779,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "1/1",
+      "imgs": "10/16",
+      "totalSections": 10,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-erase-pro": {
+    "family": "fashion",
+    "desk": {
+      "h": 10153,
+      "navH": 92,
+      "navPos": "absolute",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "15/15",
+      "h2": "15/15",
+      "imgs": "0/0",
+      "totalSections": 3,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-maison-noir": {
+    "family": "fashion",
+    "desk": {
+      "h": 4643,
+      "navH": 211,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "22/22",
+      "imgs": "26/26",
+      "totalSections": 9,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-modaprima": {
+    "family": "fashion",
+    "desk": {
+      "h": 11505,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "3/3",
+      "imgs": "37/43",
+      "totalSections": 16,
+      "weakSections": 3,
+      "emptyBlocks": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-silhouette-co": {
+    "family": "fashion",
+    "desk": {
+      "h": 2879,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "18/18",
+      "h2": "0/0",
+      "imgs": "0/0",
+      "totalSections": 1,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-velours": {
+    "family": "fashion",
+    "desk": {
+      "h": 5278,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "8/8",
+      "imgs": "96/96",
+      "totalSections": 13,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "fashion-vogueline": {
+    "family": "fashion",
+    "desk": {
+      "h": 7443,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "13/13",
+      "imgs": "21/21",
+      "totalSections": 27,
+      "weakSections": 2,
+      "emptyBlocks": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-bondforge": {
+    "family": "finance",
+    "desk": {
+      "h": 8657,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "52/53",
+      "totalSections": 15,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": true,
+      "w": 667
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-capitex": {
+    "family": "finance",
+    "desk": {
+      "h": 12470,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "25/25",
+      "imgs": "50/50",
+      "totalSections": 29,
+      "weakSections": 2,
+      "emptyBlocks": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-cryptocurrency-pro": {
+    "family": "finance",
+    "desk": {
+      "h": 6859,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "21/21",
+      "imgs": "11/11",
+      "totalSections": 15,
+      "weakSections": 2,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-equitysphere": {
+    "family": "finance",
+    "desk": {
+      "h": 5194,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "11/11",
+      "imgs": "13/14",
+      "totalSections": 13,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-fintora": {
+    "family": "finance",
+    "desk": {
+      "h": 6656,
+      "navH": 37,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "20/20",
+      "totalSections": 10,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-primecapital": {
+    "family": "finance",
+    "desk": {
+      "h": 6840,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "14/14",
+      "imgs": "29/29",
+      "totalSections": 38,
+      "weakSections": 3,
+      "emptyBlocks": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-trustledger": {
+    "family": "finance",
+    "desk": {
+      "h": 12381,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "3/3",
+      "imgs": "28/28",
+      "totalSections": 8,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "finance-wealthnova": {
+    "family": "finance",
+    "desk": {
+      "h": 3861,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "12/12",
+      "totalSections": 3,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-abodeone": {
+    "family": "real-estate",
+    "desk": {
+      "h": 7009,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "45/45",
+      "h2": "12/12",
+      "imgs": "8/8",
+      "totalSections": 19,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-brickbond": {
+    "family": "real-estate",
+    "desk": {
+      "h": 5626,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "9/9",
+      "imgs": "23/23",
+      "totalSections": 8,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-casaroyale": {
+    "family": "real-estate",
+    "desk": {
+      "h": 8153,
+      "navH": 171,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "39/39",
+      "totalSections": 17,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-domicile": {
+    "family": "real-estate",
+    "desk": {
+      "h": 4365,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "61/65",
+      "totalSections": 0,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-estatelux": {
+    "family": "real-estate",
+    "desk": {
+      "h": 5390,
+      "navH": 62,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "12/12",
+      "imgs": "24/24",
+      "totalSections": 13,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-havenpro": {
+    "family": "real-estate",
+    "desk": {
+      "h": 6498,
+      "navH": 530,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "19/19",
+      "imgs": "55/55",
+      "totalSections": 15,
+      "weakSections": 2,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-marqueur": {
+    "family": "real-estate",
+    "desk": {
+      "h": 5345,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "24/24",
+      "h2": "10/10",
+      "imgs": "13/13",
+      "totalSections": 14,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "real-estate-urbankey": {
+    "family": "real-estate",
+    "desk": {
+      "h": 6589,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "34/34",
+      "h2": "11/11",
+      "imgs": "4/4",
+      "totalSections": 15,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-byteforge": {
+    "family": "technology",
+    "desk": {
+      "h": 7681,
+      "navH": 62,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "19/19",
+      "totalSections": 15,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-cortex": {
+    "family": "technology",
+    "desk": {
+      "h": 6185,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "26/26",
+      "totalSections": 3,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-devlane": {
+    "family": "technology",
+    "desk": {
+      "h": 5681,
+      "navH": 76,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "21/21",
+      "imgs": "21/21",
+      "totalSections": 6,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-hypernova": {
+    "family": "technology",
+    "desk": {
+      "h": 8793,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "23/28",
+      "imgs": "0/0",
+      "totalSections": 15,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-kernelink": {
+    "family": "technology",
+    "desk": {
+      "h": 6368,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "7/7",
+      "imgs": "70/71",
+      "totalSections": 15,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-nebulon": {
+    "family": "technology",
+    "desk": {
+      "h": 6217,
+      "navH": 73,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "20/20",
+      "totalSections": 16,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-quantix": {
+    "family": "technology",
+    "desk": {
+      "h": 5093,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "13/13",
+      "imgs": "11/11",
+      "totalSections": 5,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "technology-stackwise": {
+    "family": "technology",
+    "desk": {
+      "h": 8459,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "44/44",
+      "h2": "12/12",
+      "imgs": "0/0",
+      "totalSections": 21,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-aurelia-weddings": {
+    "family": "wedding",
+    "desk": {
+      "h": 9286,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "9/9",
+      "imgs": "44/44",
+      "totalSections": 35,
+      "weakSections": 1,
+      "emptyBlocks": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-bellenuit": {
+    "family": "wedding",
+    "desk": {
+      "h": 7294,
+      "navH": 0,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "32/32",
+      "imgs": "31/31",
+      "totalSections": 10,
+      "weakSections": 2,
+      "emptyBlocks": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-ceremony-co": {
+    "family": "wedding",
+    "desk": {
+      "h": 9259,
+      "navH": 790,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "29/29",
+      "imgs": "44/44",
+      "totalSections": 2,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-confetto": {
+    "family": "wedding",
+    "desk": {
+      "h": 3682,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 1,
+      "ftco": "0/0",
+      "h2": "0/6",
+      "imgs": "3/3",
+      "totalSections": 8,
+      "weakSections": 4,
+      "emptyBlocks": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-eterna-love": {
+    "family": "wedding",
+    "desk": {
+      "h": 7093,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "19/19",
+      "totalSections": 15,
+      "weakSections": 10,
+      "emptyBlocks": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-everafter": {
+    "family": "wedding",
+    "desk": {
+      "h": 6189,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "29/38",
+      "totalSections": 10,
+      "weakSections": 1,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-lumenlove": {
+    "family": "wedding",
+    "desk": {
+      "h": 5810,
+      "navH": 40,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "22/22",
+      "totalSections": 11,
+      "weakSections": 2,
+      "emptyBlocks": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "wedding-vowcraft": {
+    "family": "wedding",
+    "desk": {
+      "h": 7332,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "69/69",
+      "h2": "24/24",
+      "imgs": "0/0",
+      "totalSections": 16,
+      "weakSections": 0,
+      "emptyBlocks": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0
+    }
+  }
+}

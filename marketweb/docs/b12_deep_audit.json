@@ -1,0 +1,3686 @@
+{
+  "medical-carenest": {
+    "desktop": {
+      "h": 6166,
+      "blocks": [
+        {
+          "cls": "header",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 100
+        },
+        {
+          "cls": "hero spad set-bg",
+          "h": 522,
+          "top": 80,
+          "pad": "145/215",
+          "bgImg": "has",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 53
+        },
+        {
+          "cls": "section-title",
+          "h": 239,
+          "top": 582,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 32
+        },
+        {
+          "cls": "consultation",
+          "h": 664,
+          "top": 602,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 537
+        },
+        {
+          "cls": "section-title",
+          "h": 239,
+          "top": 702,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 37
+        },
+        {
+          "cls": "chooseus spad",
+          "h": 614,
+          "top": 1266,
+          "pad": "100/50",
+          "bgImg": "none",
+          "h2": "Reparti",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 287
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 211,
+          "top": 1366,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Reparti",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 26
+        },
+        {
+          "cls": "services spad set-bg",
+          "h": 819,
+          "top": 1880,
+          "pad": "100/70",
+          "bgImg": "has",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 295
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 211,
+          "top": 1980,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 34
+        },
+        {
+          "cls": "team spad",
+          "h": 954,
+          "top": 2699,
+          "pad": "100/70",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 121
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 211,
+          "top": 2799,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 25
+        },
+        {
+          "cls": "latest spad",
+          "h": 1040,
+          "top": 4369,
+          "pad": "80/70",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 314
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 211,
+          "top": 4449,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 25
+        },
+        {
+          "cls": "footer",
+          "h": 709,
+          "top": 5409,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 386
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 709,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 13215,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6064,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-clinova": {
+    "desktop": {
+      "h": 8053,
+      "blocks": [
+        {
+          "cls": "home-slider owl-carousel owl-loaded owl-drag",
+          "h": 600,
+          "top": 152,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 454
+        },
+        {
+          "cls": "ftco-services ftco-no-pb",
+          "h": 310,
+          "top": 702,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 257
+        },
+        {
+          "cls": "ftco-section ftco-no-pt ftc-no-pb",
+          "h": 877,
+          "top": 1011,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 559
+        },
+        {
+          "cls": "heading-section mb-5",
+          "h": 87,
+          "top": 1123,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 30
+        },
+        {
+          "cls": "ftco-intro",
+          "h": 247,
+          "top": 1889,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 87
+        },
+        {
+          "cls": "ftco-section",
+          "h": 1045,
+          "top": 2136,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 691
+        },
+        {
+          "cls": "col-md-8 text-center heading-section ftco-animate ",
+          "h": 147,
+          "top": 2200,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 82
+        },
+        {
+          "cls": "ftco-section ftco-no-pt",
+          "h": 839,
+          "top": 3181,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 484
+        },
+        {
+          "cls": "col-md-8 text-center heading-section ftco-animate ",
+          "h": 147,
+          "top": 3245,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 64
+        },
+        {
+          "cls": "ftco-section testimony-section bg-light",
+          "h": 656,
+          "top": 4020,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Reparti",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 860
+        },
+        {
+          "cls": "col-md-8 text-center heading-section ftco-animate ",
+          "h": 147,
+          "top": 4084,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Reparti",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 75
+        },
+        {
+          "cls": "ftco-section ftco-no-pt ftco-no-pb ftco-counter im",
+          "h": 861,
+          "top": 4676,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 262
+        },
+        {
+          "cls": "heading-section heading-section-white ftco-animate",
+          "h": 275,
+          "top": 4788,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 85
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 853,
+          "top": 5537,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 648
+        },
+        {
+          "cls": "col-md-8 text-center heading-section ftco-animate ",
+          "h": 147,
+          "top": 5601,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 73
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 867,
+          "top": 6390,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 371
+        },
+        {
+          "cls": "col-md-8 text-center heading-section ftco-animate ",
+          "h": 147,
+          "top": 6454,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 60
+        },
+        {
+          "cls": "ftco-footer ftco-bg-dark ftco-section",
+          "h": 748,
+          "top": 7257,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 538
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 77,
+      "fH": 748,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 17344,
+      "overflowSections": 2,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7852,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-dentaura": {
+    "desktop": {
+      "h": 5488,
+      "blocks": [
+        {
+          "cls": "header trans_200",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 136
+        },
+        {
+          "cls": "section_title",
+          "h": 76,
+          "top": 1386,
+          "pad": "17/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "section_title section_title_light",
+          "h": 76,
+          "top": 1796,
+          "pad": "17/0",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 15
+        },
+        {
+          "cls": "section_title",
+          "h": 76,
+          "top": 2929,
+          "pad": "17/0",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 18
+        },
+        {
+          "cls": "footer",
+          "h": 728,
+          "top": 4712,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 547
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 728,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 9135,
+      "overflowSections": 0,
+      "overlaps": 2
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5384,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-medicore": {
+    "desktop": {
+      "h": 7309,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 67,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 19
+        },
+        {
+          "cls": "banner-area relative",
+          "h": 600,
+          "top": 67,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 413
+        },
+        {
+          "cls": "open-hour-area",
+          "h": 405,
+          "top": 567,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 186
+        },
+        {
+          "cls": "service-area section-gap",
+          "h": 883,
+          "top": 972,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 670
+        },
+        {
+          "cls": "home-about-area section-gap relative",
+          "h": 600,
+          "top": 1856,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 458
+        },
+        {
+          "cls": "testomial-area section-gap",
+          "h": 1161,
+          "top": 2455,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 15,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "team-area section-gap",
+          "h": 655,
+          "top": 3616,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 242
+        },
+        {
+          "cls": "feature-area section-gap",
+          "h": 751,
+          "top": 4271,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 957
+        },
+        {
+          "cls": "appoinment-area section-gap relative",
+          "h": 750,
+          "top": 5022,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 49
+        },
+        {
+          "cls": "blog-area section-gap",
+          "h": 991,
+          "top": 5772,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 598
+        },
+        {
+          "cls": "footer-area section-gap",
+          "h": 498,
+          "top": 6763,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 425
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 67,
+      "fH": 498,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 12676,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6916,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-medilux": {
+    "desktop": {
+      "h": 5088,
+      "blocks": [
+        {
+          "cls": "header trans_400",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 63
+        },
+        {
+          "cls": "section_title_container",
+          "h": 82,
+          "top": 1108,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 32
+        },
+        {
+          "cls": "section_title",
+          "h": 59,
+          "top": 1131,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "section_title_container",
+          "h": 82,
+          "top": 1782,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 31
+        },
+        {
+          "cls": "section_title",
+          "h": 59,
+          "top": 1805,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 15
+        },
+        {
+          "cls": "section_title_container",
+          "h": 82,
+          "top": 2627,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 34
+        },
+        {
+          "cls": "section_title",
+          "h": 59,
+          "top": 2649,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 18
+        },
+        {
+          "cls": "footer",
+          "h": 635,
+          "top": 4406,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 550
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 635,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 7964,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5067,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-pulsemed": {
+    "desktop": {
+      "h": 4242,
+      "blocks": [
+        {
+          "cls": "hero-area-fix jquery-ripples",
+          "h": 900,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 80
+        },
+        {
+          "cls": "product-landing pro_d",
+          "h": 2390,
+          "top": 900,
+          "pad": "113/70",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 11,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 170
+        },
+        {
+          "cls": "saas-landing",
+          "h": 739,
+          "top": 3290,
+          "pad": "120/120",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 74
+        },
+        {
+          "cls": "footer-area",
+          "h": 165,
+          "top": 4030,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 86
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 0,
+      "fH": 165,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 7877,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 4242,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-vitaclinic": {
+    "desktop": {
+      "h": 6985,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 51
+        },
+        {
+          "cls": "section_title text-center mb-55",
+          "h": 79,
+          "top": 2103,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 67
+        },
+        {
+          "cls": "footer",
+          "h": 777,
+          "top": 6160,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 355
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 777,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 10283,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6843,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "medical-vitalsign": {
+    "desktop": {
+      "h": 7900,
+      "blocks": [
+        {
+          "cls": "header-area",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 144
+        },
+        {
+          "cls": "welcome-area",
+          "h": 800,
+          "top": 80,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "dento-about-us-area section-padding-100-0",
+          "h": 752,
+          "top": 880,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 361
+        },
+        {
+          "cls": "section-heading",
+          "h": 207,
+          "top": 944,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenota una visita",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 18
+        },
+        {
+          "cls": "dento-cta-area",
+          "h": 311,
+          "top": 1634,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "20",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 68
+        },
+        {
+          "cls": "dento-service-area section-padding-100-0 bg-img bg",
+          "h": 969,
+          "top": 1972,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Reparti",
+          "imgs": 7,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 95
+        },
+        {
+          "cls": "section-heading white",
+          "h": 207,
+          "top": 2036,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Reparti",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 7
+        },
+        {
+          "cls": "dento-pricing-table-area section-padding-100",
+          "h": 1157,
+          "top": 2968,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 628
+        },
+        {
+          "cls": "section-heading text-center",
+          "h": 207,
+          "top": 3032,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 17
+        },
+        {
+          "cls": "book-an-oppointment-area section-padding-100 bg-im",
+          "h": 821,
+          "top": 4152,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 178
+        },
+        {
+          "cls": "section-heading text-center white",
+          "h": 207,
+          "top": 4216,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 10
+        },
+        {
+          "cls": "dentist-area section-padding-100-0",
+          "h": 724,
+          "top": 4974,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 113
+        },
+        {
+          "cls": "section-heading text-center",
+          "h": 207,
+          "top": 5038,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "testimonials-area section-padding-100 bg-img bg-gr",
+          "h": 399,
+          "top": 5697,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 7,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "dento-blog-area section-padding-100-0 clearfix",
+          "h": 949,
+          "top": 6096,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 371
+        },
+        {
+          "cls": "section-heading text-center",
+          "h": 207,
+          "top": 6160,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri medici",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 15
+        },
+        {
+          "cls": "footer-area bg-img bg-gradient-overlay",
+          "h": 807,
+          "top": 7045,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 516
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 807,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 12800,
+      "overflowSections": 2,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7831,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-brasserie": {
+    "desktop": {
+      "h": 5848,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 27
+        },
+        {
+          "cls": "about-area top-padding",
+          "h": 1040,
+          "top": 681,
+          "pad": "100/0",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 664
+        },
+        {
+          "cls": "section-tittle text-center line mb-70",
+          "h": 203,
+          "top": 781,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 14
+        },
+        {
+          "cls": "row align-items-center section-overlay",
+          "h": 666,
+          "top": 1054,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro chef",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 649
+        },
+        {
+          "cls": "section-tittle section-tittle3 mb-25",
+          "h": 513,
+          "top": 1118,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 649
+        },
+        {
+          "cls": "latest-items section-padding fix",
+          "h": 508,
+          "top": 1721,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 11,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 219
+        },
+        {
+          "cls": "video-wrap position-relative section-bg2 d-flex al",
+          "h": 668,
+          "top": 2229,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": true,
+          "textLen": 0
+        },
+        {
+          "cls": "customer-section section-padding",
+          "h": 767,
+          "top": 2897,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 252
+        },
+        {
+          "cls": "section-tittle text-center mb-50",
+          "h": 203,
+          "top": 2961,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 12
+        },
+        {
+          "cls": "section-tittle text-center mb-90 d-flex justify-co",
+          "h": 203,
+          "top": 3688,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 24
+        },
+        {
+          "cls": "section-tittle text-center mb-70",
+          "h": 293,
+          "top": 4481,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 18
+        },
+        {
+          "cls": "",
+          "h": 754,
+          "top": 5046,
+          "pad": "80/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 563
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 754,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 9193,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5738,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-cravekitchen": {
+    "desktop": {
+      "h": 6800,
+      "blocks": [
+        {
+          "cls": "home-slider owl-carousel js-fullheight owl-loaded ",
+          "h": 600,
+          "top": 101,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 442
+        },
+        {
+          "cls": "ftco-section ftco-wrap-about ftco-no-pb",
+          "h": 356,
+          "top": 701,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 351
+        },
+        {
+          "cls": "heading-section mb-4 text-center",
+          "h": 59,
+          "top": 765,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 24
+        },
+        {
+          "cls": "ftco-section ftco-counter img",
+          "h": 242,
+          "top": 1057,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 56
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 583,
+          "top": 1299,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 227
+        },
+        {
+          "cls": "col-md-7 text-center heading-section ftco-animate ",
+          "h": 75,
+          "top": 1363,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 22
+        },
+        {
+          "cls": "ftco-section",
+          "h": 1635,
+          "top": 1882,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "col-md-7 text-center heading-section ftco-animate",
+          "h": 83,
+          "top": 1970,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 23
+        },
+        {
+          "cls": "ftco-section ftco-no-pt ftco-no-pb",
+          "h": 727,
+          "top": 3518,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 88
+        },
+        {
+          "cls": "heading-section ftco-animate mb-5",
+          "h": 59,
+          "top": 3654,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 32
+        },
+        {
+          "cls": "ftco-section",
+          "h": 819,
+          "top": 4244,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 334
+        },
+        {
+          "cls": "col-md-7 text-center heading-section ftco-animate ",
+          "h": 75,
+          "top": 4308,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 13
+        },
+        {
+          "cls": "ftco-section testimony-section img",
+          "h": 720,
+          "top": 5063,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Dove siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 909
+        },
+        {
+          "cls": "col-md-7 text-center heading-section ftco-animate ",
+          "h": 75,
+          "top": 5127,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Dove siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 24
+        },
+        {
+          "cls": "ftco-section ftco-no-pt ftco-no-pb",
+          "h": 428,
+          "top": 5784,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 0
+        },
+        {
+          "cls": "ftco-footer ftco-bg-dark ftco-section",
+          "h": 540,
+          "top": 6212,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 391
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 68,
+      "fH": 540,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 14596,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6614,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-forkhaus": {
+    "desktop": {
+      "h": 5574,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 66,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 34
+        },
+        {
+          "cls": "popular-items section-padding40",
+          "h": 916,
+          "top": 665,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro chef",
+          "imgs": 11,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 951
+        },
+        {
+          "cls": "section-tittle text-center mb-60",
+          "h": 231,
+          "top": 729,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 27
+        },
+        {
+          "cls": "section-tittle mb-30",
+          "h": 231,
+          "top": 1604,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 30
+        },
+        {
+          "cls": "our-services section-padding40 position-relative",
+          "h": 814,
+          "top": 2177,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Eventi privati",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 239
+        },
+        {
+          "cls": "section-tittle text-center mb-70",
+          "h": 231,
+          "top": 2265,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 27
+        },
+        {
+          "cls": "video-area section-bg2 d-flex align-items-center",
+          "h": 600,
+          "top": 2991,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": true,
+          "textLen": 0
+        },
+        {
+          "cls": "client-say",
+          "h": 1199,
+          "top": 3591,
+          "pad": "90/60",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 8,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "section-tittle text-center",
+          "h": 231,
+          "top": 3681,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 22
+        },
+        {
+          "cls": "",
+          "h": 657,
+          "top": 4870,
+          "pad": "80/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 320
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 66,
+      "fH": 657,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 6841,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5397,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-gustora": {
+    "desktop": {
+      "h": 5460,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 71,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 104
+        },
+        {
+          "cls": "banner-area relative",
+          "h": 600,
+          "top": 71,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 139
+        },
+        {
+          "cls": "home-about-area section-gap",
+          "h": 510,
+          "top": 671,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 386
+        },
+        {
+          "cls": "item-category-area section-gap",
+          "h": 988,
+          "top": 1181,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 384
+        },
+        {
+          "cls": "about-video-area section-gap",
+          "h": 458,
+          "top": 2169,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 157
+        },
+        {
+          "cls": "review-area section-gap relative",
+          "h": 1060,
+          "top": 2627,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 8,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "blog-area section-gap",
+          "h": 1409,
+          "top": 3687,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "footer-area section-gap",
+          "h": 316,
+          "top": 5096,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 323
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 71,
+      "fH": 316,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 9172,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5197,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-nourish": {
+    "desktop": {
+      "h": 6806,
+      "blocks": [
+        {
+          "cls": "header",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 41
+        },
+        {
+          "cls": "hero",
+          "h": 600,
+          "top": 80,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 149
+        },
+        {
+          "cls": "about spad",
+          "h": 622,
+          "top": 680,
+          "pad": "100/100",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 421
+        },
+        {
+          "cls": "section-title",
+          "h": 247,
+          "top": 780,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 31
+        },
+        {
+          "cls": "product spad",
+          "h": 973,
+          "top": 1537,
+          "pad": "50/100",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 234
+        },
+        {
+          "cls": "class spad",
+          "h": 720,
+          "top": 2511,
+          "pad": "100/0",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 102
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 247,
+          "top": 2611,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 26
+        },
+        {
+          "cls": "team spad",
+          "h": 842,
+          "top": 3231,
+          "pad": "100/70",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 38
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 247,
+          "top": 3331,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 23
+        },
+        {
+          "cls": "testimonial spad sg-reveal-pending",
+          "h": 1116,
+          "top": 4073,
+          "pad": "40/40",
+          "bgImg": "none",
+          "h2": "Dove siamo",
+          "imgs": 12,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 247,
+          "top": 4114,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Dove siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 24
+        },
+        {
+          "cls": "instagram spad",
+          "h": 777,
+          "top": 5189,
+          "pad": "100/100",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 47
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 247,
+          "top": 5379,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 37
+        },
+        {
+          "cls": "footer set-bg",
+          "h": 492,
+          "top": 6266,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 350
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 492,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 12572,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6697,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-saveur": {
+    "desktop": {
+      "h": 5681,
+      "blocks": [
+        {
+          "cls": "main_menu home_menu",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 49
+        },
+        {
+          "cls": "banner_part",
+          "h": 1080,
+          "top": 81,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 71
+        },
+        {
+          "cls": "about_part",
+          "h": 491,
+          "top": 911,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 419
+        },
+        {
+          "cls": "food_menu",
+          "h": 1738,
+          "top": 1402,
+          "pad": "140/90",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 468
+        },
+        {
+          "cls": "section_tittle",
+          "h": 94,
+          "top": 1542,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 28
+        },
+        {
+          "cls": "intro_video_bg",
+          "h": 550,
+          "top": 3140,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": true,
+          "textLen": 0
+        },
+        {
+          "cls": "review_part section_padding",
+          "h": 743,
+          "top": 3690,
+          "pad": "140/140",
+          "bgImg": "has",
+          "h2": "Prenotazioni",
+          "imgs": 12,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 952
+        },
+        {
+          "cls": "section_tittle",
+          "h": 94,
+          "top": 3830,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 27
+        },
+        {
+          "cls": "contact_part section_padding",
+          "h": 709,
+          "top": 4433,
+          "pad": "140/140",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 184
+        },
+        {
+          "cls": "footer-area",
+          "h": 491,
+          "top": 5142,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 254
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 491,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 6946,
+      "overflowSections": 0,
+      "overlaps": 1
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5655,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-tablecraft": {
+    "desktop": {
+      "h": 7928,
+      "blocks": [
+        {
+          "cls": "home-slider owl-carousel owl-loaded owl-drag",
+          "h": 600,
+          "top": 80,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 895
+        },
+        {
+          "cls": "ftco-intro",
+          "h": 324,
+          "top": 550,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 207
+        },
+        {
+          "cls": "ftco-about d-md-flex",
+          "h": 665,
+          "top": 874,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 535
+        },
+        {
+          "cls": "heading-section ftco-animate",
+          "h": 88,
+          "top": 1017,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 21
+        },
+        {
+          "cls": "ftco-section ftco-services",
+          "h": 494,
+          "top": 1539,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 220
+        },
+        {
+          "cls": "ftco-section",
+          "h": 636,
+          "top": 2033,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 344
+        },
+        {
+          "cls": "heading-section text-md-right ftco-animate",
+          "h": 322,
+          "top": 2182,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 344
+        },
+        {
+          "cls": "ftco-counter ftco-bg-dark img",
+          "h": 435,
+          "top": 2669,
+          "pad": "112/112",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 65
+        },
+        {
+          "cls": "ftco-section",
+          "h": 803,
+          "top": 3104,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 489
+        },
+        {
+          "cls": "col-md-7 heading-section ftco-animate text-center ",
+          "h": 148,
+          "top": 3168,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 66
+        },
+        {
+          "cls": "ftco-gallery",
+          "h": 300,
+          "top": 3907,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 0
+        },
+        {
+          "cls": "ftco-menu",
+          "h": 1057,
+          "top": 4207,
+          "pad": "112/0",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 429
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 148,
+          "top": 4319,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Eventi privati",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 98
+        },
+        {
+          "cls": "ftco-section img",
+          "h": 741,
+          "top": 5264,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Galleria",
+          "imgs": 5,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 535
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 148,
+          "top": 5328,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Galleria",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 67
+        },
+        {
+          "cls": "ftco-section",
+          "h": 816,
+          "top": 6004,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Dove siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 455
+        },
+        {
+          "cls": "col-md-7 heading-section ftco-animate text-center ",
+          "h": 119,
+          "top": 6068,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Dove siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 55
+        },
+        {
+          "cls": "ftco-appointment",
+          "h": 463,
+          "top": 6821,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 21
+        },
+        {
+          "cls": "ftco-footer ftco-section img",
+          "h": 596,
+          "top": 7284,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "Il nostro menu",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 408
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 596,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 17774,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7790,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "restaurant-tastefolk": {
+    "desktop": {
+      "h": 6566,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 18,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 156
+        },
+        {
+          "cls": "slider-area position-relative",
+          "h": 600,
+          "top": 18,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 97
+        },
+        {
+          "cls": "about-area section-padding",
+          "h": 983,
+          "top": 618,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro menu",
+          "imgs": 2,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 426
+        },
+        {
+          "cls": "section-tittle mb-25",
+          "h": 830,
+          "top": 682,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro menu",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 280
+        },
+        {
+          "cls": "our-menu section-padding",
+          "h": 909,
+          "top": 2455,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Il nostro chef",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 754
+        },
+        {
+          "cls": "section-tittle mb-50 text-center",
+          "h": 246,
+          "top": 2519,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Il nostro chef",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 91
+        },
+        {
+          "cls": "our-services-area section-padding section-img-bg2",
+          "h": 327,
+          "top": 3364,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 212
+        },
+        {
+          "cls": "testimonial-area testimonial-padding",
+          "h": 1144,
+          "top": 4674,
+          "pad": "56/86",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 5,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "section-tittle mb-50 text-center",
+          "h": 203,
+          "top": 4730,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Prenotazioni",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 12
+        },
+        {
+          "cls": "",
+          "h": 559,
+          "top": 5959,
+          "pad": "80/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 257
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 18,
+      "fH": 559,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 8032,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6408,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-buysphere": {
+    "desktop": {
+      "h": 4294,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 28
+        },
+        {
+          "cls": "best-selling section-bg",
+          "h": 859,
+          "top": 661,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "I nostri servizi",
+          "imgs": 19,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "section-tittle text-center mb-55",
+          "h": 203,
+          "top": 725,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "section-tittle d-flex justify-content-between alig",
+          "h": 203,
+          "top": 1688,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Chi siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 20
+        },
+        {
+          "cls": "our-client section-padding best-selling",
+          "h": 796,
+          "top": 2814,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "Perché sceglierci",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 400
+        },
+        {
+          "cls": "section-tittle mb-40",
+          "h": 203,
+          "top": 2878,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 17
+        },
+        {
+          "cls": "container",
+          "h": 218,
+          "top": 3609,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 55
+        },
+        {
+          "cls": "subscribe-area",
+          "h": 279,
+          "top": 3827,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 79
+        },
+        {
+          "cls": "subscribe-caption text-center subscribe-padding se",
+          "h": 279,
+          "top": 3827,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 79
+        },
+        {
+          "cls": "",
+          "h": 140,
+          "top": 4107,
+          "pad": "80/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 86
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 140,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 7090,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 4241,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-carta": {
+    "desktop": {
+      "h": 4539,
+      "blocks": [
+        {
+          "cls": "header trans_300",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 122
+        },
+        {
+          "cls": "section_title new_arrivals_title",
+          "h": 75,
+          "top": 1299,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "section_title",
+          "h": 75,
+          "top": 2456,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Chi siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 9
+        },
+        {
+          "cls": "section_title new_arrivals_title",
+          "h": 75,
+          "top": 2980,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 17
+        },
+        {
+          "cls": "section_title",
+          "h": 75,
+          "top": 3742,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 10
+        },
+        {
+          "cls": "footer",
+          "h": 165,
+          "top": 4326,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 86
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 165,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 8709,
+      "overflowSections": 0,
+      "overlaps": 1
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 4566,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-emporia": {
+    "desktop": {
+      "h": 4846,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 124
+        },
+        {
+          "cls": "slider-area",
+          "h": 600,
+          "top": 81,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 237
+        },
+        {
+          "cls": "items-product1 pt-30",
+          "h": 309,
+          "top": 681,
+          "pad": "30/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 58
+        },
+        {
+          "cls": "latest-items section-padding fix",
+          "h": 523,
+          "top": 990,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Trending This Week",
+          "imgs": 16,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 571
+        },
+        {
+          "cls": "latest-items section-padding fix",
+          "h": 650,
+          "top": 2047,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 16,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 550
+        },
+        {
+          "cls": "section-tittle text-center mb-40",
+          "h": 203,
+          "top": 2135,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 17
+        },
+        {
+          "cls": "home-blog",
+          "h": 1010,
+          "top": 2697,
+          "pad": "80/29",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 294
+        },
+        {
+          "cls": "section-tittle text-center mb-40",
+          "h": 203,
+          "top": 2777,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 10
+        },
+        {
+          "cls": "",
+          "h": 828,
+          "top": 3970,
+          "pad": "80/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 435
+        },
+        {
+          "cls": "subscribe-area",
+          "h": 148,
+          "top": 4115,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 73
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 828,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 7901,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 4790,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-kartnova": {
+    "desktop": {
+      "h": 10294,
+      "blocks": [
+        {
+          "cls": "header_area",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 135
+        },
+        {
+          "cls": "hero-banner",
+          "h": 646,
+          "top": 81,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 371
+        },
+        {
+          "cls": "section-margin mt-0",
+          "h": 542,
+          "top": 737,
+          "pad": "64/64",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 9,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 340
+        },
+        {
+          "cls": "section-margin calc-60px",
+          "h": 1004,
+          "top": 1399,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri serviziProdotto",
+          "imgs": 8,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 370
+        },
+        {
+          "cls": "section-intro pb-60px",
+          "h": 234,
+          "top": 1463,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri serviziProdotto",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 52
+        },
+        {
+          "cls": "section-intro__style",
+          "h": 177,
+          "top": 1509,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 8
+        },
+        {
+          "cls": "offer skrollable skrollable-before",
+          "h": 484,
+          "top": 2473,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 80
+        },
+        {
+          "cls": "section-margin calc-60px",
+          "h": 693,
+          "top": 3077,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Chi siamoSellers",
+          "imgs": 16,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 679
+        },
+        {
+          "cls": "section-intro pb-60px",
+          "h": 234,
+          "top": 3141,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Chi siamoSellers",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 44
+        },
+        {
+          "cls": "section-intro__style",
+          "h": 177,
+          "top": 3187,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 7
+        },
+        {
+          "cls": "blog",
+          "h": 759,
+          "top": 3840,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Perché sceglierciNotizie",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 646
+        },
+        {
+          "cls": "section-intro pb-60px",
+          "h": 234,
+          "top": 3840,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "Perché sceglierciNotizie",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 52
+        },
+        {
+          "cls": "section-intro__style",
+          "h": 177,
+          "top": 3886,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 7
+        },
+        {
+          "cls": "subscribe-position",
+          "h": 354,
+          "top": 4699,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 87
+        },
+        {
+          "cls": "footer",
+          "h": 5293,
+          "top": 4953,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 436
+        },
+        {
+          "cls": "row section_gap",
+          "h": 4960,
+          "top": 5083,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 348
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 5293,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 10772,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 10117,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-marketcraft": {
+    "desktop": {
+      "h": 6435,
+      "blocks": [
+        {
+          "cls": "header",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 27
+        },
+        {
+          "cls": "categories",
+          "h": 648,
+          "top": 90,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 285
+        },
+        {
+          "cls": "product spad",
+          "h": 1284,
+          "top": 738,
+          "pad": "60/50",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 381
+        },
+        {
+          "cls": "section-title",
+          "h": 158,
+          "top": 798,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 17
+        },
+        {
+          "cls": "banner set-bg",
+          "h": 500,
+          "top": 2022,
+          "pad": "0/0",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 507
+        },
+        {
+          "cls": "trend spad",
+          "h": 1332,
+          "top": 2522,
+          "pad": "80/50",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 9,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 320
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 155,
+          "top": 2602,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 18
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 155,
+          "top": 2602,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 12
+        },
+        {
+          "cls": "section-title sg-reveal-pending",
+          "h": 155,
+          "top": 2602,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 20
+        },
+        {
+          "cls": "discount",
+          "h": 390,
+          "top": 3854,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Summer 2019",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 82
+        },
+        {
+          "cls": "services spad",
+          "h": 198,
+          "top": 4244,
+          "pad": "80/50",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 165
+        },
+        {
+          "cls": "footer",
+          "h": 1625,
+          "top": 4762,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 6,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 299
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 1625,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 15270,
+      "overflowSections": 1,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6437,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-shopluxe": {
+    "desktop": {
+      "h": 4339,
+      "blocks": [
+        {
+          "cls": "",
+          "h": 41,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 160
+        },
+        {
+          "cls": "section-slide",
+          "h": 888,
+          "top": 67,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 14
+        },
+        {
+          "cls": "bg0 p-t-23 p-b-140",
+          "h": 1954,
+          "top": 1800,
+          "pad": "23/140",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 16,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 760
+        },
+        {
+          "cls": "bg3 p-t-75 p-b-32",
+          "h": 511,
+          "top": 3754,
+          "pad": "80/32",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 5,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 290
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 41,
+      "fH": 511,
+      "fBg": "linear-gradient(rgb(11, 1"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 10609,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 4305,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-storeforge": {
+    "desktop": {
+      "h": 1447,
+      "blocks": [
+        {
+          "cls": "search-wrapper section-padding-100",
+          "h": 260,
+          "top": -350,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": true,
+          "excessWS": false,
+          "textLen": 0
+        },
+        {
+          "cls": "header-area clearfix",
+          "h": 80,
+          "top": 0,
+          "pad": "8/8",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 3,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 110
+        },
+        {
+          "cls": "newsletter-area section-padding-100-0",
+          "h": 331,
+          "top": 848,
+          "pad": "64/64",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 66
+        },
+        {
+          "cls": "footer_area clearfix",
+          "h": 220,
+          "top": 1179,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 86
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 80,
+      "fH": 220,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 4808,
+      "overflowSections": 0,
+      "overlaps": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 1450,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  },
+  "e-commerce-vendura": {
+    "desktop": {
+      "h": 6294,
+      "blocks": [
+        {
+          "cls": "main_menu home_menu",
+          "h": 81,
+          "top": 0,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 67
+        },
+        {
+          "cls": "banner_part",
+          "h": 820,
+          "top": 81,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 7,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 742
+        },
+        {
+          "cls": "feature_part padding_top",
+          "h": 1139,
+          "top": 901,
+          "pad": "140/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 4,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 160
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 1041,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "I nostri servizi",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 16
+        },
+        {
+          "cls": "product_list section_padding",
+          "h": 1324,
+          "top": 2040,
+          "pad": "140/140",
+          "bgImg": "has",
+          "h2": "Chi siamo",
+          "imgs": 48,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 999
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 2180,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Chi siamo",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 9
+        },
+        {
+          "cls": "our_offer section_padding",
+          "h": 650,
+          "top": 3365,
+          "pad": "140/140",
+          "bgImg": "none",
+          "h2": "Perché sceglierci",
+          "imgs": 1,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 70
+        },
+        {
+          "cls": "product_list best_seller section_padding",
+          "h": 893,
+          "top": 4015,
+          "pad": "140/140",
+          "bgImg": "has",
+          "h2": "Contattaci",
+          "imgs": 13,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 366
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 4155,
+          "pad": "0/0",
+          "bgImg": "none",
+          "h2": "Contattaci",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 10
+        },
+        {
+          "cls": "subscribe_area section_padding",
+          "h": 467,
+          "top": 4908,
+          "pad": "140/140",
+          "bgImg": "has",
+          "h2": "I nostri lavori",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 42
+        },
+        {
+          "cls": "client_logo padding_top",
+          "h": 390,
+          "top": 5375,
+          "pad": "140/0",
+          "bgImg": "none",
+          "h2": "",
+          "imgs": 10,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 0
+        },
+        {
+          "cls": "footer_part",
+          "h": 481,
+          "top": 5765,
+          "pad": "64/40",
+          "bgImg": "has",
+          "h2": "",
+          "imgs": 0,
+          "empty": false,
+          "excessWS": false,
+          "textLen": 477
+        }
+      ],
+      "nan": 0,
+      "hidden": 0,
+      "navH": 81,
+      "fH": 481,
+      "fBg": "linear-gradient(rgb(17, 2"
+    },
+    "mobile": {
+      "overflow": false,
+      "w": 375,
+      "h": 9786,
+      "overflowSections": 1,
+      "overlaps": 2
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6282,
+      "ltrLeaks": 0
+    },
+    "fr": {
+      "nan": 0
+    }
+  }
+}

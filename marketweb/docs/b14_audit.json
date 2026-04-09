@@ -1,0 +1,1362 @@
+{
+  "hotel-azzuro": {
+    "family": "hotel",
+    "desk": {
+      "h": 6170,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 4,
+      "ftco": "0/0",
+      "h2": "45/45",
+      "imgs": "33/36",
+      "totalSections": 8,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 8266
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Azzuro",
+        "Accueil",
+        "Chambres",
+        "Services"
+      ]
+    }
+  },
+  "hotel-casa-serena": {
+    "family": "hotel",
+    "desk": {
+      "h": 6265,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "26/26",
+      "totalSections": 3,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 10329
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Accueil",
+        "À propos",
+        "Listings",
+        "Actualités"
+      ]
+    }
+  },
+  "hotel-grand-riviera": {
+    "family": "hotel",
+    "desk": {
+      "h": 8297,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "61/61",
+      "h2": "19/19",
+      "imgs": "0/0",
+      "totalSections": 19,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 11537
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Grand Riviera",
+        "Accueil",
+        "À propos",
+        "Chambres"
+      ]
+    }
+  },
+  "hotel-lumen-suites": {
+    "family": "hotel",
+    "desk": {
+      "h": 4528,
+      "navH": 55,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/5",
+      "imgs": "11/11",
+      "totalSections": 11,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7812
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "L",
+        "Réserver une table",
+        "Accueil",
+        "À propos"
+      ]
+    }
+  },
+  "hotel-maisonroyale": {
+    "family": "hotel",
+    "desk": {
+      "h": 6945,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "3/3",
+      "imgs": "20/20",
+      "totalSections": 10,
+      "weakSections": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9707
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "M",
+        "Accueil",
+        "À propos",
+        "Package"
+      ]
+    }
+  },
+  "hotel-resortium": {
+    "family": "hotel",
+    "desk": {
+      "h": 8419,
+      "navH": 157,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "12/12",
+      "imgs": "25/25",
+      "totalSections": 9,
+      "weakSections": 7
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 10392
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "RResortium",
+        "Accueil",
+        "Chambres",
+        "À propos"
+      ]
+    }
+  },
+  "hotel-solena": {
+    "family": "hotel",
+    "desk": {
+      "h": 5831,
+      "navH": 130,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "5/5",
+      "imgs": "36/36",
+      "totalSections": 16,
+      "weakSections": 2
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7279
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "S",
+        "Accueil",
+        "Chambres",
+        "À propos"
+      ]
+    }
+  },
+  "hotel-villanova": {
+    "family": "hotel",
+    "desk": {
+      "h": 5747,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "42/42",
+      "h2": "14/14",
+      "imgs": "0/0",
+      "totalSections": 13,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13309
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Villanova",
+        "Accueil",
+        "Chambres",
+        "Restaurant"
+      ]
+    }
+  },
+  "fitness-endurafit": {
+    "family": "fitness",
+    "desk": {
+      "h": 4896,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "7/7",
+      "totalSections": 8,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7867
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "EEnduraFit.",
+        "Accueil",
+        "Services",
+        "Témoignages"
+      ]
+    }
+  },
+  "fitness-flexhaus": {
+    "family": "fitness",
+    "desk": {
+      "h": 7548,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "47/47",
+      "h2": "0/10",
+      "imgs": "0/0",
+      "totalSections": 14,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 14311
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "FlexHaus",
+        "Accueil",
+        "À propos",
+        "Cours"
+      ]
+    }
+  },
+  "fitness-ironforge": {
+    "family": "fitness",
+    "desk": {
+      "h": 4478,
+      "navH": 102,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/5",
+      "imgs": "4/4",
+      "totalSections": 9,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 6386
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "I",
+        "Accueil",
+        "À propos",
+        "Cours"
+      ]
+    }
+  },
+  "fitness-kineticco": {
+    "family": "fitness",
+    "desk": {
+      "h": 5295,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "12/12",
+      "totalSections": 3,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 8572
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "K",
+        "Accueil",
+        "À propos",
+        "Cours"
+      ]
+    }
+  },
+  "fitness-pulsegym": {
+    "family": "fitness",
+    "desk": {
+      "h": 8248,
+      "navH": 130,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "13/13",
+      "imgs": "58/58",
+      "totalSections": 16,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13313
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "P",
+        "Accueil",
+        "À propos",
+        "Cours"
+      ]
+    }
+  },
+  "fitness-stamina": {
+    "family": "fitness",
+    "desk": {
+      "h": 6385,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "57/57",
+      "h2": "19/19",
+      "imgs": "0/0",
+      "totalSections": 14,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13219
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Prendre rendez-vous",
+        "Accueil",
+        "À propos",
+        "Équipe"
+      ]
+    }
+  },
+  "fitness-vitality": {
+    "family": "fitness",
+    "desk": {
+      "h": 8543,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "63/63",
+      "h2": "0/11",
+      "imgs": "5/5",
+      "totalSections": 19,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 17821
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "V",
+        "Accueil",
+        "Program",
+        "Coaches"
+      ]
+    }
+  },
+  "fitness-yogagrove": {
+    "family": "fitness",
+    "desk": {
+      "h": 8130,
+      "navH": 41,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "17/17",
+      "imgs": "8/8",
+      "totalSections": 17,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 14835
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Y",
+        "Accueil",
+        "À propos",
+        "Horaires"
+      ]
+    }
+  },
+  "construction-bedrock": {
+    "family": "construction",
+    "desk": {
+      "h": 6684,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "60/60",
+      "h2": "12/12",
+      "imgs": "8/8",
+      "totalSections": 17,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13674
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Accueil",
+        "À propos",
+        "projet",
+        "Blog"
+      ]
+    }
+  },
+  "construction-bluebeam": {
+    "family": "construction",
+    "desk": {
+      "h": 5952,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "8/8",
+      "imgs": "7/7",
+      "totalSections": 0,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9785
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "BBlueBeam",
+        "Accueil",
+        "Projets",
+        "Commercial"
+      ]
+    }
+  },
+  "construction-buildforge": {
+    "family": "construction",
+    "desk": {
+      "h": 6242,
+      "navH": 122,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "4/4",
+      "imgs": "34/34",
+      "totalSections": 10,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 10088
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Devis gratuit !",
+        "B",
+        "Accueil",
+        "À propos"
+      ]
+    }
+  },
+  "construction-buildsphere": {
+    "family": "construction",
+    "desk": {
+      "h": 9773,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "31/31",
+      "h2": "15/15",
+      "imgs": "0/0",
+      "totalSections": 14,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 16701
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "BuildSphere",
+        "Accueil",
+        "À propos",
+        "Équipe"
+      ]
+    }
+  },
+  "construction-constructa": {
+    "family": "construction",
+    "desk": {
+      "h": 6514,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "50/50",
+      "totalSections": 17,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9056
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Devis gratuit",
+        "C",
+        "Accueil",
+        "À propos"
+      ]
+    }
+  },
+  "construction-foundryco": {
+    "family": "construction",
+    "desk": {
+      "h": 9208,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 6,
+      "ftco": "0/0",
+      "h2": "29/33",
+      "imgs": "0/0",
+      "totalSections": 20,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 17505
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "FoundryCo",
+        "Accueil",
+        "À propos",
+        "Services"
+      ]
+    }
+  },
+  "construction-granitecore": {
+    "family": "construction",
+    "desk": {
+      "h": 4975,
+      "navH": 17,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "26/26",
+      "imgs": "25/25",
+      "totalSections": 11,
+      "weakSections": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7668
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "G",
+        "Accueil",
+        "À propos",
+        "Services"
+      ]
+    }
+  },
+  "construction-ironworks": {
+    "family": "construction",
+    "desk": {
+      "h": 4800,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "12/13",
+      "imgs": "7/7",
+      "totalSections": 0,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7428
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "IIronworks",
+        "Accueil",
+        "Projets",
+        "Commercial"
+      ]
+    }
+  },
+  "portfolio-essentialia": {
+    "family": "portfolio",
+    "desk": {
+      "h": 840,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/7",
+      "imgs": "0/0",
+      "totalSections": 0,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 916
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "EEssentialia",
+        "Galerie",
+        "Nature",
+        "Portrait"
+      ]
+    }
+  },
+  "portfolio-folio-noir": {
+    "family": "portfolio",
+    "desk": {
+      "h": 848,
+      "navH": 800,
+      "navPos": "fixed",
+      "navBlur": true,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "6/6",
+      "imgs": "0/0",
+      "totalSections": 2,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 860
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "F",
+        "Accueil",
+        "Galerie",
+        "Single gallery"
+      ]
+    }
+  },
+  "portfolio-lumina": {
+    "family": "portfolio",
+    "desk": {
+      "h": 2671,
+      "navH": 44,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "1/1",
+      "imgs": "1/1",
+      "totalSections": 3,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 8597
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Menu",
+        "Accueil",
+        "ALBUMS",
+        "À propos"
+      ]
+    }
+  },
+  "portfolio-mirror": {
+    "family": "portfolio",
+    "desk": {
+      "h": 1824,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "12/12",
+      "h2": "3/3",
+      "imgs": "0/0",
+      "totalSections": 2,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 4590
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "MMirror",
+        "Galerie",
+        "À propos",
+        "Blog"
+      ]
+    }
+  },
+  "portfolio-opuscule": {
+    "family": "portfolio",
+    "desk": {
+      "h": 2680,
+      "navH": 800,
+      "navPos": "fixed",
+      "navBlur": true,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "19/19",
+      "totalSections": 0,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 2414
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "OOpuscule",
+        "Accueil",
+        "Photos",
+        "Bio"
+      ]
+    }
+  },
+  "portfolio-personafolio": {
+    "family": "portfolio",
+    "desk": {
+      "h": 7873,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/0",
+      "imgs": "17/17",
+      "totalSections": 15,
+      "weakSections": 4
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 10958
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "P",
+        "Accueil",
+        "À propos",
+        "Services"
+      ]
+    }
+  },
+  "portfolio-rhea": {
+    "family": "portfolio",
+    "desk": {
+      "h": 1462,
+      "navH": 97,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "52/52",
+      "imgs": "0/0",
+      "totalSections": 4,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 1904
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "R",
+        "Accueil",
+        "À propos de l'artiste",
+        "Portfolio"
+      ]
+    }
+  },
+  "portfolio-silhouette": {
+    "family": "portfolio",
+    "desk": {
+      "h": 748,
+      "navH": 70,
+      "navPos": "fixed",
+      "navBlur": true,
+      "fBg": "none",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "0/20",
+      "imgs": "0/0",
+      "totalSections": 0,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 760
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "SSilhouette",
+        "Menu",
+        "Accueil",
+        "Photos"
+      ]
+    }
+  },
+  "lawyer-advocatehaus": {
+    "family": "lawyer",
+    "desk": {
+      "h": 7181,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "44/44",
+      "h2": "17/17",
+      "imgs": "4/4",
+      "totalSections": 25,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13392
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "A",
+        "Accueil",
+        "À propos",
+        "Domaines de pratique"
+      ]
+    }
+  },
+  "lawyer-counselis": {
+    "family": "lawyer",
+    "desk": {
+      "h": 7013,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "24/24",
+      "h2": "36/36",
+      "imgs": "0/0",
+      "totalSections": 14,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 14459
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Counselis",
+        "Accueil",
+        "À propos",
+        "Domaines de pratique"
+      ]
+    }
+  },
+  "lawyer-juristica": {
+    "family": "lawyer",
+    "desk": {
+      "h": 6971,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "7/7",
+      "imgs": "11/11",
+      "totalSections": 5,
+      "weakSections": 5
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9085
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "J",
+        "Accueil",
+        "Avocats",
+        "Menu"
+      ]
+    }
+  },
+  "lawyer-lawforge": {
+    "family": "lawyer",
+    "desk": {
+      "h": 5345,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "10/10",
+      "imgs": "5/5",
+      "totalSections": 8,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9681
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "LLawForge",
+        "À propos",
+        "Practie Area",
+        "Études de cas"
+      ]
+    }
+  },
+  "lawyer-lex-regalia": {
+    "family": "lawyer",
+    "desk": {
+      "h": 7061,
+      "navH": 61,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(11, 1",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "7/7",
+      "imgs": "28/28",
+      "totalSections": 16,
+      "weakSections": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 9380
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "L",
+        "Accueil",
+        "Services",
+        "À propos"
+      ]
+    }
+  },
+  "lawyer-noble-counsel": {
+    "family": "lawyer",
+    "desk": {
+      "h": 7252,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 7,
+      "ftco": "0/0",
+      "h2": "21/25",
+      "imgs": "0/0",
+      "totalSections": 21,
+      "weakSections": 1
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 13079
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "Accueil",
+        "À propos",
+        "Avocats",
+        "Domaines de pratique"
+      ]
+    }
+  },
+  "lawyer-praetor": {
+    "family": "lawyer",
+    "desk": {
+      "h": 4351,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 1,
+      "ftco": "0/0",
+      "h2": "0/5",
+      "imgs": "12/12",
+      "totalSections": 4,
+      "weakSections": 3
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 6040
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "P",
+        "Accueil",
+        "Domaines de pratique",
+        "Services"
+      ]
+    }
+  },
+  "lawyer-veredictum": {
+    "family": "lawyer",
+    "desk": {
+      "h": 5901,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "fBg": "linear-gradient(rgb(17, 2",
+      "nan": 0,
+      "hidden": 0,
+      "ftco": "0/0",
+      "h2": "12/12",
+      "imgs": "32/32",
+      "totalSections": 13,
+      "weakSections": 0
+    },
+    "mob": {
+      "overflow": false,
+      "w": 375,
+      "h": 7821
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nan": 0,
+      "nav": [
+        "V",
+        "Accueil",
+        "À propos",
+        "Service"
+      ]
+    }
+  }
+}

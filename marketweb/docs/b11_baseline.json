@@ -1,0 +1,931 @@
+{
+  "medical-carenest": {
+    "desktop": {
+      "h": 6166,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Notizie",
+        "Contatti"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "10/11",
+      "ftco": "0/0",
+      "h2": "7/7",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "Accueil",
+        "À propos",
+        "Services",
+        "Actualités"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-clinova": {
+    "desktop": {
+      "h": 8053,
+      "navH": 77,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "C",
+        "Fissa un appuntamento",
+        "Home",
+        "Chi siamo",
+        "Dottore"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "0/0",
+      "ftco": "59/59",
+      "h2": "20/20",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "C",
+        "Prendre rendez-vous",
+        "Accueil",
+        "À propos"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-dentaura": {
+    "desktop": {
+      "h": 5488,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "DDentAura",
+        "Request an Appointment",
+        "Home",
+        "Chi siamo",
+        "Servizi"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "7/10",
+      "ftco": "0/0",
+      "h2": "4/4",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "DDentAura",
+        "Request an Appointment",
+        "Accueil",
+        "À propos"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-medicore": {
+    "desktop": {
+      "h": 7309,
+      "navH": 67,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "M",
+        "+953 012 3654 896",
+        "Home",
+        "Chi siamo",
+        "Servizi"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "27/27",
+      "ftco": "0/0",
+      "h2": "0/0",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "M",
+        "+953 012 3654 896",
+        "Accueil",
+        "À propos"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-medilux": {
+    "desktop": {
+      "h": 5088,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "M",
+        "Home",
+        "Chi siamo",
+        "Servizi",
+        "Notizie"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "10/10",
+      "ftco": "0/0",
+      "h2": "3/3",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "M",
+        "Accueil",
+        "À propos",
+        "Services"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-pulsemed": {
+    "desktop": {
+      "h": 4242,
+      "navH": 0,
+      "navPos": "",
+      "navBlur": false,
+      "nav": [],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "15/15",
+      "ftco": "0/0",
+      "h2": "2/2",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": []
+    },
+    "family": "medical"
+  },
+  "medical-vitaclinic": {
+    "desktop": {
+      "h": 6985,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "info@VitaClinic.com",
+        "160160",
+        "V",
+        "Home",
+        "Reparto"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "25/26",
+      "ftco": "0/0",
+      "h2": "1/1",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "info@VitaClinic.com",
+        "160160",
+        "V",
+        "Accueil"
+      ]
+    },
+    "family": "medical"
+  },
+  "medical-vitalsign": {
+    "desktop": {
+      "h": 7900,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "VVitalSign",
+        "Home",
+        "Chi siamo",
+        "Servizio",
+        "Prezzi"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "22/22",
+      "ftco": "0/0",
+      "h2": "16/16",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "VVitalSign",
+        "Accueil",
+        "À propos",
+        "Service"
+      ]
+    },
+    "family": "medical"
+  },
+  "restaurant-brasserie": {
+    "desktop": {
+      "h": 5848,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "B",
+        "Home",
+        "Cakes",
+        "Chi siamo",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "24/24",
+      "ftco": "0/0",
+      "h2": "0/5",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "B",
+        "Accueil",
+        "Cakes",
+        "À propos"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-cravekitchen": {
+    "desktop": {
+      "h": 6800,
+      "navH": 68,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "CraveKitchen",
+        "Home",
+        "Chi siamo",
+        "Menu",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "0/0",
+      "ftco": "69/69",
+      "h2": "10/10",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "CraveKitchen",
+        "Accueil",
+        "À propos",
+        "Menu"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-forkhaus": {
+    "desktop": {
+      "h": 5574,
+      "navH": 66,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "F",
+        "Home",
+        "Prodotto",
+        "Chi siamo",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "38/38",
+      "ftco": "0/0",
+      "h2": "5/5",
+      "nan": 0,
+      "hidden": 0,
+      "en": [
+        "Order Now"
+      ]
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "F",
+        "Accueil",
+        "Produit",
+        "À propos"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-gustora": {
+    "desktop": {
+      "h": 5460,
+      "navH": 71,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "+953 012 3654 896",
+        "Home",
+        "Chi siamo",
+        "Menu",
+        "Team"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "20/20",
+      "ftco": "0/0",
+      "h2": "0/0",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "+953 012 3654 896",
+        "Accueil",
+        "À propos",
+        "Menu"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-nourish": {
+    "desktop": {
+      "h": 6806,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "Home",
+        "Chi siamo",
+        "Shop",
+        "Blog",
+        "Contatti"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "19/20",
+      "ftco": "0/0",
+      "h2": "11/11",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "Accueil",
+        "À propos",
+        "Boutique",
+        "Blog"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-saveur": {
+    "desktop": {
+      "h": 5681,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "S",
+        "Home",
+        "Chi siamo",
+        "Menu",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "20/20",
+      "ftco": "0/0",
+      "h2": "3/3",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "S",
+        "Accueil",
+        "À propos",
+        "Menu"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-tablecraft": {
+    "desktop": {
+      "h": 7928,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "T",
+        "Home",
+        "Menu",
+        "Servizi",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "5/5",
+      "ftco": "41/41",
+      "h2": "0/10",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "T",
+        "Accueil",
+        "Menu",
+        "Services"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "restaurant-tastefolk": {
+    "desktop": {
+      "h": 6566,
+      "navH": 18,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "T",
+        "Home",
+        "Chi siamo",
+        "Menu",
+        "Galleria"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "31/31",
+      "ftco": "0/0",
+      "h2": "3/3",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "T",
+        "Accueil",
+        "À propos",
+        "Menu"
+      ]
+    },
+    "family": "restaurant"
+  },
+  "e-commerce-buysphere": {
+    "desktop": {
+      "h": 4294,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "B",
+        "FAQ",
+        "Track Order",
+        "Accedi",
+        "Home"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "60/60",
+      "ftco": "0/0",
+      "h2": "5/5",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "B",
+        "FAQ",
+        "Track Order",
+        "Se connecter"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-carta": {
+    "desktop": {
+      "h": 4539,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "CCarta",
+        "cad",
+        "aud",
+        "eur",
+        "gbp"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "21/21",
+      "ftco": "0/0",
+      "h2": "4/4",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "CCarta",
+        "cad",
+        "aud",
+        "eur"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-emporia": {
+    "desktop": {
+      "h": 4846,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "Chi siamo",
+        "Privacy",
+        "FAQ",
+        "Carriere",
+        "My Wishlist"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "96/96",
+      "ftco": "0/0",
+      "h2": "8/8",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "À propos",
+        "Confidentialité",
+        "FAQ",
+        "Carrières"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-kartnova": {
+    "desktop": {
+      "h": 10294,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "K",
+        "Home",
+        "Shop",
+        "Categoria",
+        "Dettagli prodotto"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "37/43",
+      "ftco": "0/0",
+      "h2": "3/3",
+      "nan": 0,
+      "hidden": 0,
+      "en": [
+        "Shop Now"
+      ]
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "K",
+        "Accueil",
+        "Boutique",
+        "Catégorie"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-marketcraft": {
+    "desktop": {
+      "h": 6435,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "Home",
+        "Women’s",
+        "Men’s",
+        "Shop",
+        "Blog"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "10/16",
+      "ftco": "0/0",
+      "h2": "1/1",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": false,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "Accueil",
+        "Women’s",
+        "Men’s",
+        "Boutique"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-shopluxe": {
+    "desktop": {
+      "h": 4339,
+      "navH": 41,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "Help & FAQs",
+        "Il mio account",
+        "EN",
+        "USD",
+        "S"
+      ],
+      "fBg": "linear-gradient(rgb(11, 15, 25",
+      "imgs": "34/66",
+      "ftco": "0/0",
+      "h2": "3/3",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "Help & FAQs",
+        "Mon compte",
+        "EN",
+        "USD"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-storeforge": {
+    "desktop": {
+      "h": 1447,
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "S",
+        "Home",
+        "Shop",
+        "Prodotto",
+        "Carrello"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "2/2",
+      "ftco": "0/0",
+      "h2": "1/1",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "S",
+        "Accueil",
+        "Boutique",
+        "Produit"
+      ]
+    },
+    "family": "e-commerce"
+  },
+  "e-commerce-vendura": {
+    "desktop": {
+      "h": 6294,
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "nav": [
+        "V",
+        "Home",
+        "Shop",
+        "Categoria",
+        "Dettagli prodotto"
+      ],
+      "fBg": "linear-gradient(rgb(17, 24, 39",
+      "imgs": "83/83",
+      "ftco": "0/0",
+      "h2": "5/5",
+      "nan": 0,
+      "hidden": 0,
+      "en": []
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375
+    },
+    "ar": {
+      "dir": "rtl"
+    },
+    "fr": {
+      "nav": [
+        "V",
+        "Accueil",
+        "Boutique",
+        "Catégorie"
+      ]
+    },
+    "family": "e-commerce"
+  }
+}

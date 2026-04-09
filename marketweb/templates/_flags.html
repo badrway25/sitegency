@@ -1,0 +1,10 @@
+{# Minimal inline SVG flags for the language switcher. Accessibility: decorative. #}
+{% if code == "it" %}
+<svg class="bw-flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce2b37"/></svg>
+{% elif code == "fr" %}
+<svg class="bw-flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#0055a4"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ef4135"/></svg>
+{% elif code == "ar" %}
+<svg class="bw-flag" viewBox="0 0 12 8" aria-hidden="true"><rect width="12" height="8" fill="#006c35"/><path d="M2 3h8v1H2z M3 4.5h6v.6H3z" fill="#fff"/><circle cx="6" cy="4" r="0.3" fill="#fff"/></svg>
+{% else %}
+<svg class="bw-flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="s"><path d="M0,0v30h60V0z"/></clipPath><clipPath id="t"><path d="M30,15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#s)"><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" clip-path="url(#t)" stroke="#c8102e" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#c8102e" stroke-width="6"/></g></svg>
+{% endif %}

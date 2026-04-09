@@ -1,0 +1,119 @@
+{% comment %}
+  Sitegency logo — Eye Scan
+  Variants: navbar (minimal) · nav-light (footer) · hero (wow) · hover (glow) · visible (perf)
+
+  Usage:
+    {% include "_logo.html" with variant="navbar" %}
+    {% include "_logo.html" with variant="hero" %}
+    {% include "_logo.html" with variant="hover" %}
+    {% include "_logo.html" with variant="visible" %}
+
+  Every variant uses a unique gradient id (scoped by uid) so multiple logos
+  can coexist on the same page.
+{% endcomment %}
+{% load i18n %}
+{% if variant == "navbar" or variant == "nav-light" %}
+  {# --- Navbar / footer minimal variant --- #}
+  <span class="sg-logo sg-logo--nav {% if variant == 'nav-light' %}sg-logo--light{% endif %}" aria-hidden="true">
+    <svg viewBox="0 0 40 40" width="36" height="36" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sgGradNav{{ variant|default:'nav' }}" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7C3AED"/>
+          <stop offset="50%" stop-color="#4F46E5"/>
+          <stop offset="100%" stop-color="#22D3EE"/>
+        </linearGradient>
+        <clipPath id="sgClipNav{{ variant|default:'nav' }}">
+          <path d="M6 20 C12 8, 28 8, 34 20 C28 32, 12 32, 6 20 Z"/>
+        </clipPath>
+      </defs>
+      <rect x="0" y="0" width="40" height="40" rx="12" fill="#0B0F19"/>
+      <path d="M6 20 C12 8, 28 8, 34 20 C28 32, 12 32, 6 20 Z" fill="url(#sgGradNav{{ variant|default:'nav' }})" opacity=".98"/>
+      <g clip-path="url(#sgClipNav{{ variant|default:'nav' }})">
+        <rect class="sg-scan-line" x="4" y="0" width="5" height="40" fill="rgba(255,255,255,.38)"/>
+      </g>
+      <circle class="sg-iris" cx="20" cy="20" r="7" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="1.4"/>
+      <circle class="sg-core" cx="20" cy="20" r="3.2" fill="#0B0F19"/>
+    </svg>
+  </span>
+
+{% elif variant == "hero" %}
+  {# --- Hero wow variant: rotating ring + ambient orb glow --- #}
+  <div class="sg-logo sg-logo--hero" aria-hidden="true">
+    <div class="sg-hero-orb"></div>
+    <svg class="sg-hero-svg" viewBox="0 0 540 220" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sgGradHero" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7C3AED"/>
+          <stop offset="50%" stop-color="#4F46E5"/>
+          <stop offset="100%" stop-color="#22D3EE"/>
+        </linearGradient>
+        <clipPath id="sgClipHero"><path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z"/></clipPath>
+      </defs>
+      <g class="sg-logo-icon" transform="translate(32,58)">
+        <rect x="0" y="0" width="80" height="80" rx="22" fill="#0B0F19"/>
+        <path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z" fill="url(#sgGradHero)" opacity=".98"/>
+        <ellipse class="sg-hero-ring" cx="40" cy="40" rx="34" ry="20" fill="none" stroke="rgba(124,58,237,.28)" stroke-width="1.6"/>
+        <g clip-path="url(#sgClipHero)">
+          <rect class="sg-scan-line" x="10" y="0" width="10" height="80" fill="rgba(255,255,255,.45)"/>
+        </g>
+        <circle class="sg-iris" cx="40" cy="40" r="14" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.4"/>
+        <circle class="sg-core" cx="40" cy="40" r="6" fill="#0B0F19"/>
+      </g>
+      <text class="sg-logo-word" x="150" y="118"
+            font-family="Inter, system-ui, sans-serif" font-size="52"
+            font-weight="700" fill="currentColor" letter-spacing="-2">Site<tspan fill="url(#sgGradHero)">gency</tspan></text>
+    </svg>
+  </div>
+
+{% elif variant == "hover" %}
+  {# --- Hover-glow variant: dynamic glow on parent:hover --- #}
+  <div class="sg-logo sg-logo--hover" aria-hidden="true" data-sg-track-mouse>
+    <svg viewBox="0 0 460 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sgGradHover{{ uid|default:'' }}" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7C3AED"/>
+          <stop offset="50%" stop-color="#4F46E5"/>
+          <stop offset="100%" stop-color="#22D3EE"/>
+        </linearGradient>
+        <clipPath id="sgClipHover{{ uid|default:'' }}"><path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z"/></clipPath>
+      </defs>
+      <g class="sg-logo-icon" transform="translate(20,20)">
+        <rect x="0" y="0" width="80" height="80" rx="22" fill="#0B0F19"/>
+        <path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z" fill="url(#sgGradHover{{ uid|default:'' }})" opacity=".95"/>
+        <g clip-path="url(#sgClipHover{{ uid|default:'' }})">
+          <rect class="sg-scan-line" x="10" y="0" width="10" height="80" fill="rgba(255,255,255,.45)"/>
+        </g>
+        <circle class="sg-iris" cx="40" cy="40" r="14" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.4"/>
+        <circle class="sg-core" cx="40" cy="40" r="6" fill="#0B0F19"/>
+      </g>
+      <text class="sg-logo-word" x="120" y="68" font-family="Inter, system-ui, sans-serif"
+            font-size="40" font-weight="600" fill="currentColor" letter-spacing="-1">Site<tspan fill="url(#sgGradHover{{ uid|default:'' }})">gency</tspan></text>
+    </svg>
+  </div>
+
+{% elif variant == "visible" %}
+  {# --- Animate-only-when-visible variant --- #}
+  <div class="sg-logo sg-logo--visible sg-animate-on-visible" aria-hidden="true">
+    <svg viewBox="0 0 460 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sgGradVis{{ uid|default:'' }}" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7C3AED"/>
+          <stop offset="50%" stop-color="#4F46E5"/>
+          <stop offset="100%" stop-color="#22D3EE"/>
+        </linearGradient>
+        <clipPath id="sgClipVis{{ uid|default:'' }}"><path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z"/></clipPath>
+      </defs>
+      <g class="sg-logo-icon" transform="translate(20,20)">
+        <rect x="0" y="0" width="80" height="80" rx="22" fill="#0B0F19"/>
+        <path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z" fill="url(#sgGradVis{{ uid|default:'' }})" opacity=".95"/>
+        <g clip-path="url(#sgClipVis{{ uid|default:'' }})">
+          <rect class="sg-scan-line" x="10" y="0" width="10" height="80" fill="rgba(255,255,255,.45)"/>
+        </g>
+        <circle class="sg-iris" cx="40" cy="40" r="14" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.4"/>
+        <circle class="sg-core" cx="40" cy="40" r="6" fill="#0B0F19"/>
+      </g>
+      <text class="sg-logo-word" x="120" y="68" font-family="Inter, system-ui, sans-serif"
+            font-size="40" font-weight="600" fill="currentColor" letter-spacing="-1">Site<tspan fill="url(#sgGradVis{{ uid|default:'' }})">gency</tspan></text>
+    </svg>
+  </div>
+{% endif %}

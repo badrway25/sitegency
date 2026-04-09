@@ -1,0 +1,231 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "FAQ" %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<!-- ============================================================
+     FAQ HERO — editorial with search
+     ============================================================ -->
+<section class="bw-faq-hero">
+  <div class="bw-faq-hero-bg" aria-hidden="true">
+    <div class="bw-hero-orb bw-orb-1"></div>
+    <div class="bw-hero-orb bw-orb-2"></div>
+    <div class="bw-hero-orb bw-orb-3"></div>
+  </div>
+  <div class="bw-container">
+    <div class="bw-faq-hero-inner">
+      <span class="bw-eyebrow">
+        <span class="bw-eyebrow-dot"></span>
+        {% trans "Help center" %}
+      </span>
+      <h1>{% blocktrans %}Answers, not <em>runarounds</em>.{% endblocktrans %}</h1>
+      <p class="bw-faq-hero-sub">
+        {% trans "Everything you need to know about our templates, licensing, customization and support — written by the team that builds them." %}
+      </p>
+
+      <!-- Live search -->
+      <div class="bw-faq-search">
+        <i class="bi bi-search bw-faq-search-icon"></i>
+        <input type="search" id="bw-faq-search-input"
+               placeholder="{% trans 'Search answers…' %}"
+               autocomplete="off" aria-label="{% trans 'Search FAQ' %}">
+        <kbd class="bw-faq-search-kbd">⌘ K</kbd>
+      </div>
+
+      <div class="bw-faq-hero-stats">
+        <span><strong id="bw-faq-total">{{ faqs|length }}</strong> {% trans "answers" %}</span>
+        <span class="bw-qs-divider"></span>
+        <span><strong>{{ faq_categories|length }}</strong> {% trans "categories" %}</span>
+        <span class="bw-qs-divider"></span>
+        <span><i class="bi bi-lightning-charge-fill" style="color:var(--gold);"></i> {% trans "Updated weekly" %}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CATEGORY PILLS + ACCORDION LIST
+     ============================================================ -->
+<section class="bw-section-sm bw-faq-main">
+  <div class="bw-container bw-container-sm">
+
+    <!-- Category filter pills -->
+    <nav class="bw-faq-pills" role="tablist" aria-label="{% trans 'FAQ categories' %}">
+      <button class="bw-faq-pill active" data-cat="all" type="button">
+        <i class="bi bi-asterisk"></i>
+        <span>{% trans "All topics" %}</span>
+        <em class="bw-pill-count">{{ faqs|length }}</em>
+      </button>
+      {% for key, label, icon in faq_categories %}
+      <button class="bw-faq-pill" data-cat="{{ key }}" type="button">
+        <i class="bi {{ icon }}"></i>
+        <span>{{ label }}</span>
+        <em class="bw-pill-count" data-count-cat="{{ key }}">0</em>
+      </button>
+      {% endfor %}
+    </nav>
+
+    <!-- Accordion list -->
+    <div class="bw-faq-list-premium" id="bw-faq-list">
+      {% for faq in faqs %}
+      <details class="bw-faq-item-premium" data-cat="{{ faq.cat }}" data-idx="{{ forloop.counter0 }}">
+        <summary>
+          <span class="bw-faq-q-icon" aria-hidden="true">
+            <span class="bw-faq-q-idx">{{ forloop.counter|stringformat:"02d" }}</span>
+          </span>
+          <span class="bw-faq-q-text">{{ faq.q }}</span>
+          {% if faq.popular %}
+          <span class="bw-faq-badge">
+            <i class="bi bi-fire"></i>
+            {% trans "Popular" %}
+          </span>
+          {% endif %}
+          <span class="bw-faq-chevron" aria-hidden="true">
+            <i class="bi bi-plus-lg"></i>
+          </span>
+        </summary>
+        <div class="bw-faq-answer">
+          <div class="bw-faq-answer-inner">
+            <p>{{ faq.a }}</p>
+          </div>
+        </div>
+      </details>
+      {% endfor %}
+
+      <!-- Empty state shown when search returns no results -->
+      <div class="bw-faq-empty" id="bw-faq-empty" hidden>
+        <div class="bw-empty-icon"><i class="bi bi-search"></i></div>
+        <h3>{% trans "No matches found" %}</h3>
+        <p>{% trans "Try a different keyword or pick a category above." %}</p>
+      </div>
+    </div>
+
+    <!-- "Still need help?" CTA box -->
+    <div class="bw-faq-help-cta">
+      <div class="bw-faq-help-inner">
+        <div class="bw-faq-help-avatars">
+          <img src="https://i.pravatar.cc/80?img=47" alt="">
+          <img src="https://i.pravatar.cc/80?img=12" alt="">
+          <img src="https://i.pravatar.cc/80?img=32" alt="">
+        </div>
+        <div class="bw-faq-help-body">
+          <h3>{% trans "Still can't find the answer you need?" %}</h3>
+          <p>{% trans "Our team replies within 24 hours, Monday to Friday. No bots, no ticket queues — just real people who know every template by heart." %}</p>
+        </div>
+        <div class="bw-faq-help-actions">
+          <a href="{% url 'core:contact' %}" class="bw-btn bw-btn-accent">
+            <i class="bi bi-chat-square-text"></i>
+            {% trans "Contact our team" %}
+          </a>
+          <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-ghost">
+            {% trans "Browse templates" %}
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ Search + Filter JS
+     ============================================================ -->
+<script>
+(function(){
+  var input  = document.getElementById('bw-faq-search-input');
+  var list   = document.getElementById('bw-faq-list');
+  var items  = list ? list.querySelectorAll('.bw-faq-item-premium') : [];
+  var pills  = document.querySelectorAll('.bw-faq-pill');
+  var empty  = document.getElementById('bw-faq-empty');
+  var total  = document.getElementById('bw-faq-total');
+  var state  = { cat: 'all', query: '' };
+
+  // Cache original text so we can restore on new search
+  var originalText = new WeakMap();
+  items.forEach(function(el){
+    var q = el.querySelector('.bw-faq-q-text');
+    var a = el.querySelector('.bw-faq-answer-inner p');
+    originalText.set(el, {
+      q: q ? q.innerHTML : '',
+      a: a ? a.innerHTML : '',
+      qText: q ? q.textContent.toLowerCase() : '',
+      aText: a ? a.textContent.toLowerCase() : '',
+    });
+  });
+
+  // Update per-category counts
+  function updateCounts() {
+    var counts = {};
+    items.forEach(function(el){
+      var c = el.getAttribute('data-cat');
+      counts[c] = (counts[c] || 0) + 1;
+    });
+    document.querySelectorAll('[data-count-cat]').forEach(function(em){
+      var c = em.getAttribute('data-count-cat');
+      em.textContent = counts[c] || 0;
+    });
+  }
+  updateCounts();
+
+  function escapeRegex(s){ return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); }
+  function highlight(html, q) {
+    if (!q) return html;
+    try {
+      var re = new RegExp('(' + escapeRegex(q) + ')', 'gi');
+      return html.replace(re, '<mark class="bw-faq-hl">$1</mark>');
+    } catch(e){ return html; }
+  }
+
+  function applyFilter() {
+    var q = state.query.trim().toLowerCase();
+    var shown = 0;
+    items.forEach(function(el){
+      var orig = originalText.get(el);
+      var cat = el.getAttribute('data-cat');
+      var matchesCat = (state.cat === 'all' || cat === state.cat);
+      var matchesQ = !q || orig.qText.indexOf(q) !== -1 || orig.aText.indexOf(q) !== -1;
+      var visible = matchesCat && matchesQ;
+      el.style.display = visible ? '' : 'none';
+      // Close items that are hidden
+      if (!visible) el.open = false;
+      // Highlight matches
+      var qEl = el.querySelector('.bw-faq-q-text');
+      var aEl = el.querySelector('.bw-faq-answer-inner p');
+      if (qEl) qEl.innerHTML = q ? highlight(orig.q, q) : orig.q;
+      if (aEl) aEl.innerHTML = q ? highlight(orig.a, q) : orig.a;
+      if (visible) shown++;
+    });
+    if (empty) empty.hidden = (shown > 0);
+    if (total) total.textContent = shown;
+  }
+
+  if (input) {
+    input.addEventListener('input', function(){
+      state.query = input.value;
+      applyFilter();
+    });
+    // Keyboard shortcut: Cmd+K / Ctrl+K focuses search
+    document.addEventListener('keydown', function(ev){
+      if ((ev.metaKey || ev.ctrlKey) && (ev.key === 'k' || ev.key === 'K')) {
+        ev.preventDefault();
+        input.focus();
+        input.select();
+      }
+    });
+  }
+
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){
+      pills.forEach(function(x){ x.classList.remove('active'); });
+      p.classList.add('active');
+      state.cat = p.getAttribute('data-cat');
+      applyFilter();
+      // Smooth scroll to the list top
+      list.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Ensure details open with smooth max-height animation — handled via CSS
+})();
+</script>
+{% endblock %}

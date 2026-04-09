@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{{ template.name }} — {{ template.category|local_name }} {% trans "Template" %} — {{ BRAND_NAME }}{% endblock %}
+{% block meta_description %}{{ template.tagline }}{% endblock %}
+
+{% block content %}
+<section class="bw-section-sm" style="background:var(--ink-25);">
+  <div class="bw-detail-wrap">
+    <nav class="bw-breadcrumb">
+      <a href="{% url 'core:home' %}">{% trans "Home" %}</a>
+      <span class="sep">/</span>
+      <a href="{% url 'catalog:category_list' %}">{% trans "Categories" %}</a>
+      <span class="sep">/</span>
+      <a href="{{ template.category.get_absolute_url }}">{{ template.category|local_name }}</a>
+      <span class="sep">/</span>
+      <span>{{ template.name }}</span>
+    </nav>
+
+    <div class="bw-detail-grid">
+      <div>
+        <span class="bw-template-category">{{ template.category|local_name }}</span>
+        <h1 style="margin-top:10px;font-size:var(--fs-3xl);">{{ template.name }}</h1>
+        <p style="font-size:1.2rem;color:var(--ink-500);max-width:640px;line-height:1.55;">{{ template|local_tagline }}</p>
+
+        <div class="bw-flex bw-gap-3 bw-items-center bw-mb-5" style="flex-wrap:wrap;margin-top:var(--s-4);">
+          {% if template.is_featured %}<span class="bw-badge bw-badge-feat">{% trans "Featured" %}</span>{% endif %}
+          {% if template.is_new %}<span class="bw-badge bw-badge-new">{% trans "New" %}</span>{% endif %}
+          {% if template.is_bestseller %}<span class="bw-badge bw-badge-best">{% trans "Bestseller" %}</span>{% endif %}
+          <span class="bw-template-rating"><span class="star">★</span> {{ template.rating }} <span class="bw-text-muted">({% blocktrans count n=template.reviews_count %}{{ n }} review{% plural %}{{ n }} reviews{% endblocktrans %})</span></span>
+          <span class="bw-text-muted">· {{ template.downloads }} {% trans "downloads" %}</span>
+        </div>
+
+        <div class="bw-preview-frame">
+          <div class="header-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="url">https://{{ template.slug }}.sitegency.preview</span>
+          </div>
+          <iframe src="{{ template.get_preview_url }}" loading="lazy" title="{% blocktrans with n=template.name %}Live preview of {{ n }}{% endblocktrans %}"></iframe>
+        </div>
+
+        <div class="bw-mt-5">
+          <h3>{% trans "Navigate every page" %}</h3>
+          <p class="bw-text-muted">{% trans "Click any page — explore this template like a real visitor would." %}</p>
+          <ul class="bw-page-list">
+            {% for p in public_pages %}
+              <li><a href="{% url 'catalog:template_preview_page' slug=template.slug page=p.slug %}" target="_blank" rel="noopener">{{ p.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <hr>
+        <h2>{% trans "About this template" %}</h2>
+        <p>{{ template|local_about }}</p>
+
+        <h3 style="margin-top:var(--s-6);">{% trans "What's included" %}</h3>
+        <ul class="bw-inclusions">
+          <li>{% blocktrans with n=template.pages_count %}{{ n }} fully customizable pages{% endblocktrans %}</li>
+          <li>{% trans "Full source code — HTML, CSS, JavaScript, assets" %}</li>
+          <li>{% trans "Live customizer — swap logo, colors, text, images in real time" %}</li>
+          <li>{% trans "Responsive design — pixel-perfect on mobile, tablet and desktop" %}</li>
+          <li>{{ template.technologies }}</li>
+          <li>{% trans "Commercial license for one project" %}</li>
+          <li>{% trans "6 months of free updates" %}</li>
+          <li>{% trans "Priority email support" %}</li>
+        </ul>
+      </div>
+
+      <aside>
+        <div class="bw-sticky-sidebar">
+          <div class="bw-price-display">{{ template.price|eur }}</div>
+          {% if template.original_price and template.original_price > template.price %}
+          <div style="margin-top:6px;">
+            <span style="text-decoration:line-through;color:var(--ink-400);">{{ template.original_price|eur }}</span>
+            <span class="bw-text-success" style="font-weight:700;margin-inline-start:8px;">{% blocktrans with p=template.discount_percent %}Save {{ p }}%{% endblocktrans %}</span>
+          </div>
+          {% endif %}
+          <div class="bw-text-muted" style="font-size:.85rem;margin-top:8px;">{% trans "One-time payment · Lifetime ownership" %}</div>
+
+          <div style="margin-top:var(--s-5);display:flex;flex-direction:column;gap:10px;">
+            <a href="{{ template.get_customizer_url }}" class="bw-btn bw-btn-accent bw-btn-block">
+              <i class="bi bi-palette2"></i> {% trans "Customize Live" %}
+            </a>
+            <a href="{{ template.get_preview_url }}" target="_blank" rel="noopener" class="bw-btn bw-btn-ghost bw-btn-block">
+              <i class="bi bi-box-arrow-up-right"></i> {% trans "Open Full Preview" %}
+            </a>
+            <a href="{{ template.get_checkout_url }}" class="bw-btn bw-btn-dark bw-btn-block">
+              <i class="bi bi-bag-check"></i> {% trans "Buy Now" %} — {{ template.price|eur }}
+            </a>
+          </div>
+
+          <hr style="margin: var(--s-5) 0;">
+          <ul class="bw-inclusions" style="margin:0;">
+            <li>{% trans "Instant download" %}</li>
+            <li>{% trans "Secure payment" %}</li>
+            <li>{% trans "14-day refund policy" %}</li>
+            <li>{% trans "Support included" %}</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+{% if related %}
+<section class="bw-section">
+  <div class="bw-container">
+    <div class="bw-section-head center">
+      <span class="eyebrow-text">{% trans "You might also love" %}</span>
+      <h2>{% blocktrans with c=template.category.name %}More from <em>{{ c }}</em>{% endblocktrans %}</h2>
+    </div>
+    <div class="bw-template-grid">
+      {% for t in related %}{% include "catalog/_template_card.html" with t=t %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

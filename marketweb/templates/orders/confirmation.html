@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{% trans "Order confirmed" %} — {{ order.order_number }} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<section class="bw-section" style="min-height:calc(100vh - var(--header-h));">
+  <div class="bw-container" style="max-width:720px;text-align:center;">
+    <div style="width:104px;height:104px;border-radius:50%;margin:0 auto var(--s-5);
+      background:linear-gradient(135deg,#059669,#10b981);
+      display:flex;align-items:center;justify-content:center;color:white;font-size:3.2rem;
+      box-shadow:0 25px 70px -20px rgba(5,150,105,.5);">
+      <i class="bi bi-check-lg"></i>
+    </div>
+    <h1>{% blocktrans with name=order.customer.full_name|default:'creator' %}Thank you, {{ name }}!{% endblocktrans %}</h1>
+    <p style="font-size:1.2rem;color:var(--ink-500);max-width:540px;margin:0 auto var(--s-5);">
+      {% trans "Your order is confirmed. Your premium template is ready for download and your license is active." %}
+    </p>
+
+    <div class="bw-sticky-sidebar" style="text-align:left;max-width:520px;margin:0 auto;position:static;">
+      <h3 style="font-size:.78rem;text-transform:uppercase;letter-spacing:2px;color:var(--ink-400);font-family:var(--font-ui);">{% trans "Order" %}</h3>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:1.15rem;font-weight:600;color:var(--ink-900);">{{ order.order_number }}</div>
+      <hr>
+      {% for item in order.items.all %}
+      <div style="display:flex;justify-content:space-between;padding:10px 0;">
+        <span>{{ item.template_name }}</span>
+        <span style="font-weight:600;">{{ item.unit_price|eur }}</span>
+      </div>
+      {% endfor %}
+      <div style="display:flex;justify-content:space-between;padding-top:var(--s-3);border-top:1px solid var(--ink-100);font-weight:700;font-size:1.2rem;font-family:var(--font-display);">
+        <span>{% trans "Total paid" %}</span><span>{{ order.total|eur }}</span>
+      </div>
+      <hr>
+      <p class="bw-text-muted" style="font-size:.9rem;">{% blocktrans with email=order.customer.email %}A confirmation email with download links has been sent to <strong>{{ email }}</strong>.{% endblocktrans %}</p>
+    </div>
+
+    <div style="margin-top:var(--s-7);display:flex;gap:var(--s-3);justify-content:center;flex-wrap:wrap;">
+      <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-primary">{% trans "Browse more templates" %}</a>
+      <a href="{% url 'core:home' %}" class="bw-btn bw-btn-ghost">{% trans "Back to home" %}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

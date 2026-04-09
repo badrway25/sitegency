@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{{ category|local_name }} {% trans "Templates" %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<section class="bw-hero" style="background:
+  radial-gradient(1000px 500px at 15% 0%, {{ category.accent_color }}15, transparent 60%),
+  radial-gradient(800px 500px at 85% 10%, #6d5efc10, transparent 60%),
+  var(--ink-0);">
+  <div class="bw-container">
+    <nav class="bw-breadcrumb">
+      <a href="{% url 'core:home' %}">{% trans "Home" %}</a>
+      <span class="sep">/</span>
+      <a href="{% url 'catalog:category_list' %}">{% trans "Categories" %}</a>
+      <span class="sep">/</span>
+      <span>{{ category|local_name }}</span>
+    </nav>
+    <span class="bw-eyebrow" style="background: color-mix(in oklab, {{ category.accent_color }} 10%, white); color: {{ category.accent_color }}; border-color: color-mix(in oklab, {{ category.accent_color }} 25%, white);">
+      <i class="bi {{ category.icon_class }}"></i> {{ category|local_name }}
+    </span>
+    <h1>{{ category|local_tagline }}</h1>
+    <p class="bw-hero-sub">{{ category|local_description }}</p>
+    <div class="bw-hero-trust">
+      <span><strong>{{ templates|length }}</strong> {% trans "premium templates" %}</span>
+      <span class="divider"></span>
+      <span><i class="bi bi-check-circle"></i> {% trans "All fully customizable" %}</span>
+      <span class="divider"></span>
+      <span><i class="bi bi-eye"></i> {% trans "All previewable live" %}</span>
+    </div>
+  </div>
+</section>
+
+<section class="bw-section-sm">
+  <div class="bw-container">
+    <form class="bw-filters" method="get">
+      <input type="text" name="q" class="bw-input" placeholder="{% blocktrans with c=category.name %}Search in {{ c }}…{% endblocktrans %}" value="{{ query }}">
+      <select name="sort" class="bw-select" style="max-width:220px;">
+        <option value="featured" {% if sort == 'featured' %}selected{% endif %}>{% trans "Featured" %}</option>
+        <option value="newest" {% if sort == 'newest' %}selected{% endif %}>{% trans "Newest" %}</option>
+        <option value="rating" {% if sort == 'rating' %}selected{% endif %}>{% trans "Highest Rated" %}</option>
+        <option value="price_asc" {% if sort == 'price_asc' %}selected{% endif %}>{% trans "Price: Low to High" %}</option>
+        <option value="price_desc" {% if sort == 'price_desc' %}selected{% endif %}>{% trans "Price: High to Low" %}</option>
+      </select>
+      <button class="bw-btn bw-btn-primary">{% trans "Apply" %}</button>
+    </form>
+
+    <div class="bw-template-grid">
+      {% for t in templates %}
+        {% include "catalog/_template_card.html" with t=t %}
+      {% empty %}
+        <div class="bw-empty">
+          <div class="bw-empty-icon"><i class="bi bi-collection"></i></div>
+          <h3>{% trans "No templates in this category yet" %}</h3>
+          <p>{% trans "Check back soon — we're adding more every week." %}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

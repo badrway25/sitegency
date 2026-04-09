@@ -1,0 +1,1391 @@
+{
+  "business-axiom-corp": {
+    "desktop": {
+      "h": 6415,
+      "blocks": [
+        {
+          "cls": "main_menu home_menu",
+          "h": 81,
+          "top": 0,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "banner_part",
+          "h": 820,
+          "top": 81,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "feature_part padding_top",
+          "h": 1139,
+          "top": 901,
+          "bgImg": "none",
+          "pad": "140/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 1041,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "product_list section_padding",
+          "h": 1362,
+          "top": 2040,
+          "bgImg": "has",
+          "pad": "140/140",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 2180,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": true
+        },
+        {
+          "cls": "our_offer section_padding",
+          "h": 696,
+          "top": 3403,
+          "bgImg": "none",
+          "pad": "140/140",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "product_list best_seller section_padding",
+          "h": 931,
+          "top": 4099,
+          "bgImg": "has",
+          "pad": "140/140",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "section_tittle text-center",
+          "h": 59,
+          "top": 4239,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "subscribe_area section_padding",
+          "h": 467,
+          "top": 5029,
+          "bgImg": "has",
+          "pad": "140/140",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "client_logo padding_top",
+          "h": 390,
+          "top": 5496,
+          "bgImg": "none",
+          "pad": "140/0",
+          "h2": "",
+          "empty": true
+        },
+        {
+          "cls": "footer_part",
+          "h": 481,
+          "top": 5886,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "",
+          "empty": false
+        }
+      ],
+      "navH": 81,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 481,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6403
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 9800
+    },
+    "fr": {
+      "nav": [
+        "A",
+        "Accueil",
+        "Boutique",
+        "Catégorie",
+        "Détails du produit"
+      ]
+    }
+  },
+  "business-civitas": {
+    "desktop": {
+      "h": 6915,
+      "blocks": [
+        {
+          "cls": "home-slider owl-carousel js-fullheight owl-loaded ",
+          "h": 600,
+          "top": 101,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-wrap-about",
+          "h": 643,
+          "top": 701,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "heading-section mb-4 my-5 my-md-0",
+          "h": 59,
+          "top": 861,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-counter img ftco-no-pt",
+          "h": 155,
+          "top": 1343,
+          "bgImg": "has",
+          "pad": "0/80",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 619,
+          "top": 1498,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 text-center heading-section ftco-animate",
+          "h": 75,
+          "top": 1610,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section",
+          "h": 976,
+          "top": 2118,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 text-center heading-section ftco-animate",
+          "h": 75,
+          "top": 2230,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section",
+          "h": 815,
+          "top": 3093,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 text-center heading-section ftco-animate",
+          "h": 75,
+          "top": 3205,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section img",
+          "h": 799,
+          "top": 3908,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "heading-section ftco-animate mb-5 text-center",
+          "h": 59,
+          "top": 4044,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section testimony-section img",
+          "h": 788,
+          "top": 4707,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 text-center heading-section ftco-animate",
+          "h": 75,
+          "top": 4819,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 843,
+          "top": 5495,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 text-center heading-section ftco-animate ",
+          "h": 75,
+          "top": 5607,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-footer ftco-bg-dark ftco-section",
+          "h": 529,
+          "top": 6338,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "Chi siamo",
+          "empty": false
+        }
+      ],
+      "navH": 68,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 529,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6741
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 14456
+    },
+    "fr": {
+      "nav": [
+        "Civitas",
+        "Accueil",
+        "À propos",
+        "Menu",
+        "Histoires"
+      ]
+    }
+  },
+  "business-consular": {
+    "desktop": {
+      "h": 8493,
+      "blocks": [
+        {
+          "cls": "header-area",
+          "h": 80,
+          "top": 0,
+          "bgImg": "none",
+          "pad": "8/8",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "welcome-area",
+          "h": 980,
+          "top": 80,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "about-us-countdown-area section-padding-100-0",
+          "h": 772,
+          "top": 1060,
+          "bgImg": "none",
+          "pad": "100/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "our-speaker-area bg-img bg-gradient-overlay sectio",
+          "h": 964,
+          "top": 1832,
+          "bgImg": "has",
+          "pad": "100/60",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section-heading text-center wow fadeInUp",
+          "h": 72,
+          "top": 1932,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "our-schedule-area section-padding-100",
+          "h": 1199,
+          "top": 2796,
+          "bgImg": "none",
+          "pad": "100/100",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section-heading-2 text-center wow fadeInUp",
+          "h": 72,
+          "top": 2896,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "our-ticket-pricing-table-area bg-img bg-gradient-o",
+          "h": 1159,
+          "top": 3995,
+          "bgImg": "has",
+          "pad": "100/0",
+          "h2": "$59",
+          "empty": false
+        },
+        {
+          "cls": "section-heading text-center wow fadeInUp",
+          "h": 72,
+          "top": 4095,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "our-sponsor-client-area section-padding-100",
+          "h": 1280,
+          "top": 5154,
+          "bgImg": "none",
+          "pad": "100/100",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section-heading-2 text-center wow fadeInUp",
+          "h": 72,
+          "top": 5254,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "our-blog-area bg-img bg-gradient-overlay section-p",
+          "h": 808,
+          "top": 6433,
+          "bgImg": "has",
+          "pad": "100/60",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section-heading text-center wow fadeInUp",
+          "h": 72,
+          "top": 6533,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "contact-our-area section-padding-100-0",
+          "h": 698,
+          "top": 7241,
+          "bgImg": "none",
+          "pad": "100/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section-heading-2 text-center wow fadeInUp",
+          "h": 72,
+          "top": 7341,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "footer-area bg-img bg-overlay-2 section-padding-10",
+          "h": 505,
+          "top": 7940,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "",
+          "empty": false
+        }
+      ],
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 505,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 8438
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 13721
+    },
+    "fr": {
+      "nav": [
+        "C",
+        "Accueil",
+        "Intervenants",
+        "Blog",
+        "Contact"
+      ]
+    }
+  },
+  "business-corporis": {
+    "desktop": {
+      "h": 7847,
+      "blocks": [
+        {
+          "cls": "hero-wrap",
+          "h": 600,
+          "top": 80,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-services",
+          "h": 914,
+          "top": 680,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "pb-4 heading-section heading-section-white",
+          "h": 331,
+          "top": 792,
+          "bgImg": "none",
+          "pad": "0/24",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-about ftco-no-pt ftco-no-pb img",
+          "h": 548,
+          "top": 1594,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 heading-section ftco-animate",
+          "h": 388,
+          "top": 1738,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-counter img",
+          "h": 339,
+          "top": 2142,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-faqs services-section bg-light",
+          "h": 1024,
+          "top": 2481,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-6 heading-section pr-md-5 ftco-animate d-fl",
+          "h": 800,
+          "top": 2593,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "heading-section2 mb-5 sg-reveal-pending",
+          "h": 59,
+          "top": 2967,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section",
+          "h": 765,
+          "top": 3504,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 col-lg-6 heading-section ftco-animate sg-",
+          "h": 113,
+          "top": 3616,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-portfolio bg-light",
+          "h": 1125,
+          "top": 4269,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "col-md-6 col-lg-6 heading-section heading-section-",
+          "h": 113,
+          "top": 4381,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section testimony-section ftco-no-pt bg-light",
+          "h": 584,
+          "top": 5394,
+          "bgImg": "has",
+          "pad": "0/112",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section ftco-animate sg-reveal-pe",
+          "h": 113,
+          "top": 5394,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-no-pb",
+          "h": 710,
+          "top": 5977,
+          "bgImg": "none",
+          "pad": "112/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 heading-section text-center ftco-animate",
+          "h": 113,
+          "top": 6089,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "ftco-intro ftco-section ftco-no-pb",
+          "h": 377,
+          "top": 6687,
+          "bgImg": "has",
+          "pad": "112/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-footer",
+          "h": 814,
+          "top": 6985,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "Contattaci",
+          "empty": false
+        }
+      ],
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 814,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7501
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 15318
+    },
+    "fr": {
+      "nav": [
+        "Corporis",
+        "Accueil",
+        "À propos",
+        "Tarifs",
+        "Portfolio"
+      ]
+    }
+  },
+  "business-irondesk": {
+    "desktop": {
+      "h": 7685,
+      "blocks": [
+        {
+          "cls": "site-navbar py-4 bg-white js-sticky-header site-na",
+          "h": 77,
+          "top": 57,
+          "bgImg": "none",
+          "pad": "8/8",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section",
+          "h": 482,
+          "top": 57,
+          "bgImg": "has",
+          "pad": "64/64",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "site-section",
+          "h": 1097,
+          "top": 539,
+          "bgImg": "none",
+          "pad": "64/64",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading text-center",
+          "h": 79,
+          "top": 603,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "section ft-feature-1",
+          "h": 506,
+          "top": 1636,
+          "bgImg": "has",
+          "pad": "28/28",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section testimonial-wrap",
+          "h": 708,
+          "top": 2222,
+          "bgImg": "none",
+          "pad": "64/64",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading text-center sg-",
+          "h": 79,
+          "top": 2286,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section border-bottom",
+          "h": 624,
+          "top": 2931,
+          "bgImg": "has",
+          "pad": "64/64",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading text-center sg-",
+          "h": 79,
+          "top": 2995,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section",
+          "h": 602,
+          "top": 3555,
+          "bgImg": "none",
+          "pad": "64/64",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading",
+          "h": 79,
+          "top": 3667,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section border-bottom",
+          "h": 649,
+          "top": 4157,
+          "bgImg": "has",
+          "pad": "64/64",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading",
+          "h": 79,
+          "top": 4245,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": true
+        },
+        {
+          "cls": "site-section",
+          "h": 987,
+          "top": 4806,
+          "bgImg": "none",
+          "pad": "64/64",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading text-center sg-",
+          "h": 79,
+          "top": 4870,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-section bg-light",
+          "h": 1086,
+          "top": 5793,
+          "bgImg": "has",
+          "pad": "64/64",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "text-black h1 site-section-heading sg-reveal-pendi",
+          "h": 79,
+          "top": 5857,
+          "bgImg": "none",
+          "pad": "0/20",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "site-footer",
+          "h": 587,
+          "top": 7050,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "Chi siamo",
+          "empty": false
+        }
+      ],
+      "navH": 77,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 587,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7386
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 13482
+    },
+    "fr": {
+      "nav": [
+        "I",
+        "Accueil",
+        "Travaux",
+        "Services",
+        "À propos"
+      ]
+    }
+  },
+  "business-meridia": {
+    "desktop": {
+      "h": 6107,
+      "blocks": [
+        {
+          "cls": "ftco-section ftco-no-pt bg-light",
+          "h": 732,
+          "top": 720,
+          "bgImg": "has",
+          "pad": "0/112",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "heading-section pl-md-4 pt-md-5",
+          "h": 128,
+          "top": 768,
+          "bgImg": "none",
+          "pad": "48/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section bg-light ftco-no-pt",
+          "h": 333,
+          "top": 1452,
+          "bgImg": "none",
+          "pad": "0/112",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-counter bg-light ftco-no-pt",
+          "h": 152,
+          "top": 1785,
+          "bgImg": "none",
+          "pad": "0/64",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section testimony-section bg-light",
+          "h": 705,
+          "top": 1937,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section heading-section-white tex",
+          "h": 96,
+          "top": 2049,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-no-pt bg-light ftco-faqs",
+          "h": 812,
+          "top": 2642,
+          "bgImg": "has",
+          "pad": "0/112",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "heading-section mb-5 mt-5 mt-lg-0",
+          "h": 124,
+          "top": 2642,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section",
+          "h": 801,
+          "top": 3454,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 96,
+          "top": 3566,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-no-pb ftco-no-pt bg-secondary",
+          "h": 171,
+          "top": 4255,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": true
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 940,
+          "top": 4427,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 96,
+          "top": 4539,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "footer",
+          "h": 692,
+          "top": 5367,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "Contattaci",
+          "empty": false
+        }
+      ],
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 692,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 6004
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 12108
+    },
+    "fr": {
+      "nav": [
+        "Meridia",
+        "Accueil",
+        "À propos",
+        "Services",
+        "Étude de cas"
+      ]
+    }
+  },
+  "business-north-bureau": {
+    "desktop": {
+      "h": 8110,
+      "blocks": [
+        {
+          "cls": "hero",
+          "h": 600,
+          "top": 80,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-no-pb ftco-no-pt ftco-services b",
+          "h": 643,
+          "top": 680,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section-2 img",
+          "h": 659,
+          "top": 1323,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "Market Research",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section ftco-project bg-light",
+          "h": 819,
+          "top": 1982,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 heading-section text-center ftco-animate",
+          "h": 152,
+          "top": 2094,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Chi siamo",
+          "empty": false
+        },
+        {
+          "cls": "ftco-counter img ftco-section ftco-no-pt ftco-no-p",
+          "h": 765,
+          "top": 2801,
+          "bgImg": "has",
+          "pad": "0/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-12 heading-section ftco-animate",
+          "h": 352,
+          "top": 2921,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section",
+          "h": 800,
+          "top": 3566,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "col-md-6 heading-section text-center ftco-animate ",
+          "h": 152,
+          "top": 3678,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section testimony-section",
+          "h": 828,
+          "top": 4366,
+          "bgImg": "has",
+          "pad": "112/112",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 text-center heading-section heading-secti",
+          "h": 75,
+          "top": 4478,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section bg-light",
+          "h": 1049,
+          "top": 5194,
+          "bgImg": "none",
+          "pad": "112/112",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 152,
+          "top": 5306,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "ftco-section contact-section ftco-no-pb",
+          "h": 1282,
+          "top": 6243,
+          "bgImg": "has",
+          "pad": "112/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "col-md-7 heading-section text-center ftco-animate ",
+          "h": 152,
+          "top": 6355,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "ftco-footer ftco-section",
+          "h": 537,
+          "top": 7525,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "Chi siamo",
+          "empty": false
+        }
+      ],
+      "navH": 80,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 537,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 7955
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 12435
+    },
+    "fr": {
+      "nav": [
+        "N",
+        "Accueil",
+        "Services",
+        "Projets",
+        "À propos"
+      ]
+    }
+  },
+  "business-prime-office": {
+    "desktop": {
+      "h": 5123,
+      "blocks": [
+        {
+          "cls": "header_area",
+          "h": 100,
+          "top": 0,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "",
+          "empty": false
+        },
+        {
+          "cls": "caviar-hero-area",
+          "h": 770,
+          "top": 100,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "caviar-about-us-area section-padding-150",
+          "h": 1226,
+          "top": 870,
+          "bgImg": "has",
+          "pad": "150/150",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "section-heading",
+          "h": 75,
+          "top": 1034,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Perché sceglierci",
+          "empty": false
+        },
+        {
+          "cls": "caviar-dish-menu",
+          "h": 706,
+          "top": 2096,
+          "bgImg": "none",
+          "pad": "0/200",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "section-heading text-center",
+          "h": 75,
+          "top": 2096,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Contattaci",
+          "empty": false
+        },
+        {
+          "cls": "caviar-awards-area",
+          "h": 650,
+          "top": 2802,
+          "bgImg": "none",
+          "pad": "0/200",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "section-heading",
+          "h": 116,
+          "top": 2969,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri lavori",
+          "empty": false
+        },
+        {
+          "cls": "caviar-testimonials-area",
+          "h": 898,
+          "top": 3452,
+          "bgImg": "none",
+          "pad": "0/200",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "section-heading text-center",
+          "h": 75,
+          "top": 3522,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "Testimonianze",
+          "empty": false
+        },
+        {
+          "cls": "caviar-reservation-area d-md-flex align-items-cent",
+          "h": 469,
+          "top": 4350,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "section-heading",
+          "h": 75,
+          "top": 4350,
+          "bgImg": "none",
+          "pad": "0/0",
+          "h2": "I nostri servizi",
+          "empty": false
+        },
+        {
+          "cls": "caviar-footer-area",
+          "h": 256,
+          "top": 4819,
+          "bgImg": "has",
+          "pad": "64/40",
+          "h2": "",
+          "empty": false
+        }
+      ],
+      "navH": 100,
+      "navPos": "sticky",
+      "navBlur": true,
+      "footerH": 256,
+      "footerBg": "linear-gradient(rgb(17, 24, 39",
+      "nan": 0,
+      "hidden": 0
+    },
+    "ar": {
+      "dir": "rtl",
+      "h": 5123
+    },
+    "mobile": {
+      "toggle": true,
+      "overflow": false,
+      "w": 375,
+      "h": 7176
+    },
+    "fr": {
+      "nav": [
+        "Prime Office",
+        "À propos",
+        "Menu",
+        "Récompenses",
+        "Témoignages"
+      ]
+    }
+  }
+}

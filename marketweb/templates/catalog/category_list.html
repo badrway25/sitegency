@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{% trans "Categories" %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<!-- ============================================================
+     CATEGORIES HERO — editorial
+     ============================================================ -->
+<section class="bw-cat-hero">
+  <div class="bw-cat-hero-bg" aria-hidden="true">
+    <div class="bw-hero-orb bw-orb-1"></div>
+    <div class="bw-hero-orb bw-orb-2"></div>
+    <div class="bw-hero-orb bw-orb-3"></div>
+  </div>
+  <div class="bw-container">
+    <div class="bw-cat-hero-inner">
+      <span class="bw-eyebrow">
+        <span class="bw-eyebrow-dot"></span>
+        {% trans "Browse by industry" %}
+      </span>
+      <h1>{% blocktrans %}A template for every profession, <em>crafted with purpose</em>.{% endblocktrans %}</h1>
+      <p class="bw-cat-hero-lede">{% trans "Each category hosts a curated collection of templates designed, refined and modernized to match the tone, pace and trust requirements of a specific business." %}</p>
+
+      <!-- Live search -->
+      <div class="bw-faq-search bw-cat-search">
+        <i class="bi bi-search bw-faq-search-icon"></i>
+        <input type="search" id="bw-cat-search-input"
+               placeholder="{% trans 'Find your industry…' %}"
+               autocomplete="off" aria-label="{% trans 'Search categories' %}">
+      </div>
+
+      <div class="bw-cat-hero-stats">
+        <span><strong>{{ categories|length }}</strong> {% trans "categories" %}</span>
+        <span class="bw-qs-divider"></span>
+        <span><strong>190+</strong> {% trans "premium templates" %}</span>
+        <span class="bw-qs-divider"></span>
+        <span><i class="bi bi-lightning-charge-fill" style="color:var(--gold);"></i> {% trans "New every week" %}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FEATURED CATEGORIES — 3 hero tiles
+     ============================================================ -->
+{% with featured=categories|slice:":3" %}
+<section class="bw-section-sm bw-cat-featured-wrap">
+  <div class="bw-container">
+    <div class="bw-cat-section-head">
+      <div>
+        <span class="eyebrow-text">{% trans "Featured collections" %}</span>
+        <h2>{% blocktrans %}The <em>most loved</em> this month{% endblocktrans %}</h2>
+      </div>
+      <span class="bw-cat-trend-badge">
+        <i class="bi bi-fire"></i>
+        {% trans "Trending" %}
+      </span>
+    </div>
+
+    <div class="bw-cat-featured-grid">
+      {% for cat in featured %}
+      <a href="{{ cat.get_absolute_url }}" class="bw-cat-featured-tile" style="--accent:{{ cat.accent_color }};">
+        <div class="bw-cat-featured-img">
+          <img src="{% unsplash_image cat.name %}" alt="" loading="lazy">
+        </div>
+        <div class="bw-cat-featured-body">
+          <div class="bw-cat-featured-top">
+            <span class="bw-cat-featured-icon">
+              <i class="bi {{ cat.icon_class|default:'bi-grid' }}"></i>
+            </span>
+            <span class="bw-cat-featured-count">{{ cat.tpl_count }} {% trans "templates" %}</span>
+          </div>
+          <h3>{{ cat|local_name }}</h3>
+          <p>{{ cat|local_tagline }}</p>
+          <span class="bw-cat-featured-link">
+            {% trans "Explore collection" %} <i class="bi bi-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endwith %}
+
+<!-- ============================================================
+     ALL CATEGORIES — rich image grid
+     ============================================================ -->
+<section class="bw-section bw-cat-all-wrap">
+  <div class="bw-container">
+    <div class="bw-cat-section-head">
+      <div>
+        <span class="eyebrow-text">{% trans "Full catalog" %}</span>
+        <h2>{% blocktrans %}Every industry, <em>fully covered</em>{% endblocktrans %}</h2>
+      </div>
+    </div>
+
+    <div class="bw-cat-all-grid" id="bw-cat-all-grid">
+      {% for cat in categories %}
+      <a href="{{ cat.get_absolute_url }}" class="bw-cat-tile-rich"
+         data-name="{{ cat|local_name|lower }}"
+         data-slug="{{ cat.slug }}"
+         style="--accent:{{ cat.accent_color }};">
+        <div class="bw-cat-tile-img">
+          <img src="{% unsplash_image cat.name %}" alt="" loading="lazy">
+        </div>
+        <div class="bw-cat-tile-gradient"></div>
+        <div class="bw-cat-tile-content">
+          <div class="bw-cat-tile-top">
+            <span class="bw-cat-tile-icon">
+              <i class="bi {{ cat.icon_class|default:'bi-grid' }}"></i>
+            </span>
+            {% if cat.is_featured %}
+            <span class="bw-cat-tile-star" title="{% trans 'Featured' %}">
+              <i class="bi bi-star-fill"></i>
+            </span>
+            {% endif %}
+          </div>
+          <div class="bw-cat-tile-bottom">
+            <h3>{{ cat|local_name }}</h3>
+            <span class="bw-cat-tile-count">{{ cat.tpl_count }} {% trans "templates" %}</span>
+            <span class="bw-cat-tile-tagline">{{ cat|local_tagline }}</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+
+      <!-- Empty state for search -->
+      <div class="bw-cat-empty" id="bw-cat-empty" hidden>
+        <div class="bw-empty-icon"><i class="bi bi-search"></i></div>
+        <h3>{% trans "No category matches your search" %}</h3>
+        <p>{% trans "Try a different keyword, or contact us — we might already have what you need." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA — can't find your industry
+     ============================================================ -->
+<section class="bw-section bw-section-dark" style="padding: var(--s-10) 0;">
+  <div class="bw-container bw-text-center">
+    <h2 style="color:var(--ink-0);max-width:780px;margin:0 auto .5em;">{% blocktrans %}Your industry not listed? <em>Let's talk</em>.{% endblocktrans %}</h2>
+    <p style="color:var(--ink-300);max-width:560px;margin:0 auto 2rem;font-size:1.1rem;">{% trans "We add new categories every month based on customer requests. Tell us what you need and we will prioritize it." %}</p>
+    <div class="bw-flex bw-gap-3" style="justify-content:center;flex-wrap:wrap;">
+      <a href="{% url 'core:contact' %}" class="bw-btn bw-btn-luxe bw-btn-lg">
+        {% trans "Request a category" %} <i class="bi bi-arrow-right"></i>
+      </a>
+      <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-ghost bw-btn-lg" style="color:#fff;border-color:rgba(255,255,255,.2);">
+        {% trans "Browse all templates" %}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     Live search script
+     ============================================================ -->
+<script>
+(function(){
+  var input = document.getElementById('bw-cat-search-input');
+  var grid  = document.getElementById('bw-cat-all-grid');
+  var tiles = grid ? grid.querySelectorAll('.bw-cat-tile-rich') : [];
+  var empty = document.getElementById('bw-cat-empty');
+  if (!input || !tiles.length) return;
+
+  input.addEventListener('input', function(){
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    tiles.forEach(function(el){
+      var name = el.getAttribute('data-name') || '';
+      var slug = el.getAttribute('data-slug') || '';
+      var match = !q || name.indexOf(q) !== -1 || slug.indexOf(q) !== -1;
+      el.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = (shown > 0);
+  });
+})();
+</script>
+{% endblock %}

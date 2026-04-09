@@ -1,0 +1,419 @@
+{% load static i18n %}<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}" dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ BRAND_NAME }} — {% trans "Premium website templates, instantly yours" %}{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}{% trans "The world's most advanced marketplace for premium, fully customizable website templates." %}{% endblock %}">
+  <meta name="theme-color" content="#0a0a14">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="{% static 'css/badrway.css' %}">
+  {% if LANGUAGE_BIDI %}<link rel="stylesheet" href="{% static 'css/badrway-rtl.css' %}">{% endif %}
+  {# Inline critical loader styles so loader paints before the main stylesheet #}
+  <style>
+    html.sg-loading, html.sg-loading body { overflow: hidden; }
+    #sg-loader{
+      position:fixed;inset:0;z-index:9999;display:grid;place-items:center;
+      background:
+        radial-gradient(ellipse 60% 50% at 50% 40%, rgba(124,58,237,.22), transparent 60%),
+        radial-gradient(ellipse 55% 45% at 80% 70%, rgba(34,211,238,.16), transparent 60%),
+        radial-gradient(ellipse 55% 45% at 15% 75%, rgba(79,70,229,.18), transparent 60%),
+        linear-gradient(180deg,#050816 0%,#0B0F19 100%);
+      color:#E5E7EB;
+      transition:opacity .55s cubic-bezier(.2,.8,.2,1), visibility .55s linear;
+    }
+    html.sg-loaded #sg-loader{opacity:0;visibility:hidden;pointer-events:none;}
+    #sg-loader .sg-loader-inner{
+      position:relative;display:grid;place-items:center;gap:22px;
+      padding:36px 44px;
+    }
+    #sg-loader .sg-loader-glow{
+      position:absolute;width:340px;height:340px;border-radius:999px;
+      background:radial-gradient(circle,rgba(124,58,237,.35),transparent 55%);
+      filter:blur(34px);
+      animation:sgLoaderGlow 2.6s ease-in-out infinite;
+      pointer-events:none;z-index:0;
+    }
+    #sg-loader .sg-loader-mark{
+      position:relative;z-index:1;width:112px;height:112px;
+      animation:sgLoaderFloat 3.2s ease-in-out infinite;
+      filter:drop-shadow(0 18px 40px rgba(79,70,229,.55));
+    }
+    #sg-loader .sg-loader-mark svg{width:100%;height:100%;display:block;direction:ltr;}
+    #sg-loader .sg-loader-word{
+      position:relative;z-index:1;font-family:'Inter',system-ui,sans-serif;
+      font-weight:700;font-size:22px;letter-spacing:-.02em;color:#fff;
+      animation:sgLoaderFade 2.6s ease-in-out infinite;
+    }
+    #sg-loader .sg-loader-word .sg-grad{
+      background:linear-gradient(135deg,#7C3AED 0%,#4F46E5 50%,#22D3EE 100%);
+      -webkit-background-clip:text;background-clip:text;
+      -webkit-text-fill-color:transparent;color:transparent;
+    }
+    #sg-loader .sg-loader-bar{
+      position:relative;z-index:1;width:160px;height:2px;border-radius:999px;
+      background:rgba(255,255,255,.06);overflow:hidden;
+    }
+    #sg-loader .sg-loader-bar::before{
+      content:'';position:absolute;inset:0;width:38%;border-radius:999px;
+      background:linear-gradient(90deg,#7C3AED,#4F46E5,#22D3EE);
+      animation:sgLoaderSlide 1.4s cubic-bezier(.5,.1,.3,1) infinite;
+      box-shadow:0 0 18px rgba(124,58,237,.6);
+    }
+    @keyframes sgLoaderGlow{
+      0%,100%{transform:scale(1);opacity:.7;}
+      50%{transform:scale(1.12);opacity:1;}
+    }
+    @keyframes sgLoaderFloat{
+      0%,100%{transform:translateY(0) scale(1);}
+      50%{transform:translateY(-6px) scale(1.03);}
+    }
+    @keyframes sgLoaderFade{
+      0%,100%{opacity:.78;}
+      50%{opacity:1;}
+    }
+    @keyframes sgLoaderSlide{
+      0%{transform:translateX(-100%);}
+      100%{transform:translateX(380%);}
+    }
+    @keyframes sgLoaderIris{
+      0%,100%{transform:scale(1);opacity:.38;}
+      50%{transform:scale(1.12);opacity:.7;}
+    }
+    @keyframes sgLoaderScan{
+      0%{transform:translateX(0);opacity:0;}
+      15%{opacity:.85;}
+      50%{transform:translateX(42px);opacity:.95;}
+      85%{opacity:.35;}
+      100%{transform:translateX(0);opacity:0;}
+    }
+    #sg-loader .sg-loader-iris{
+      transform-origin:center;transform-box:fill-box;
+      animation:sgLoaderIris 2.2s ease-in-out infinite;
+    }
+    #sg-loader .sg-loader-scan{
+      animation:sgLoaderScan 2.4s ease-in-out infinite;
+    }
+    @media (prefers-reduced-motion: reduce){
+      #sg-loader .sg-loader-glow,
+      #sg-loader .sg-loader-mark,
+      #sg-loader .sg-loader-word,
+      #sg-loader .sg-loader-bar::before,
+      #sg-loader .sg-loader-iris,
+      #sg-loader .sg-loader-scan{animation:none!important;}
+    }
+  </style>
+  <script>
+    // Mark HTML with loading class as early as possible (before body paints).
+    (function(){document.documentElement.classList.add('sg-loading');})();
+  </script>
+  {% block extra_head %}{% endblock %}
+</head>
+<body class="{% if LANGUAGE_BIDI %}bw-rtl{% endif %}">
+
+{# ============ SITEGENCY LOADER ============ #}
+<div id="sg-loader" role="status" aria-live="polite" aria-label="{% trans 'Loading Sitegency' %}">
+  <div class="sg-loader-inner">
+    <div class="sg-loader-glow" aria-hidden="true"></div>
+    <div class="sg-loader-mark" aria-hidden="true">
+      <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sgLoaderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7C3AED"/>
+            <stop offset="50%" stop-color="#4F46E5"/>
+            <stop offset="100%" stop-color="#22D3EE"/>
+          </linearGradient>
+          <clipPath id="sgLoaderClip"><path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z"/></clipPath>
+        </defs>
+        <rect x="0" y="0" width="80" height="80" rx="22" fill="#0B0F19"/>
+        <path d="M20 40 C28 22, 52 22, 60 40 C52 58, 28 58, 20 40 Z" fill="url(#sgLoaderGrad)" opacity=".98"/>
+        <g clip-path="url(#sgLoaderClip)">
+          <rect class="sg-loader-scan" x="10" y="0" width="10" height="80" fill="rgba(255,255,255,.55)"/>
+        </g>
+        <circle class="sg-loader-iris" cx="40" cy="40" r="14" fill="none" stroke="rgba(255,255,255,.24)" stroke-width="1.6"/>
+        <circle cx="40" cy="40" r="6" fill="#0B0F19"/>
+      </svg>
+    </div>
+    <div class="sg-loader-word">Site<span class="sg-grad">gency</span></div>
+    <div class="sg-loader-bar" aria-hidden="true"></div>
+  </div>
+</div>
+
+<header class="bw-header">
+  <div class="bw-container">
+    <nav class="bw-nav" aria-label="primary">
+      <a href="{% url 'core:home' %}" class="bw-logo sg-logo-link">
+        {% include "_logo.html" with variant="navbar" %}
+        <span class="bw-logo-text sg-logo-text">Site<span class="sg-logo-text-accent">gency</span></span>
+      </a>
+
+      <ul class="bw-nav-links">
+        <li><a href="{% url 'catalog:template_list' %}">{% trans "Templates" %}</a></li>
+        <li><a href="{% url 'catalog:category_list' %}">{% trans "Categories" %}</a></li>
+        <li><a href="{% url 'core:about' %}">{% trans "Why Sitegency" %}</a></li>
+        <li><a href="{% url 'core:faq' %}">{% trans "FAQ" %}</a></li>
+        <li><a href="{% url 'core:contact' %}">{% trans "Contact" %}</a></li>
+      </ul>
+
+      <div class="bw-nav-cta">
+        {% include "_lang_switcher.html" %}
+        <a href="{% url 'catalog:template_list' %}" class="bw-btn bw-btn-primary bw-btn-sm bw-btn-nav-cta">
+          {% trans "Start Customizing" %}
+          <i class="bi bi-arrow-{% if LANGUAGE_BIDI %}left{% else %}right{% endif %}"></i>
+        </a>
+        <button type="button" class="bw-mobile-toggle" aria-label="Menu" onclick="document.body.classList.toggle('bw-menu-open')">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="bw-footer">
+  <div class="bw-container">
+    <div class="bw-footer-top">
+      <div class="bw-footer-brand">
+        <a href="{% url 'core:home' %}" class="bw-logo bw-logo-light sg-logo-link">
+          {% include "_logo.html" with variant="nav-light" %}
+          <span class="bw-logo-text sg-logo-text sg-logo-text--light">Site<span class="sg-logo-text-accent">gency</span></span>
+        </a>
+        <p class="bw-footer-desc">{% trans "The world's most advanced marketplace for premium, fully customizable website templates. Designed in-house. Previewable before purchase. Yours in minutes." %}</p>
+        <div class="bw-footer-lang">{% include "_lang_switcher.html" with variant="footer" %}</div>
+      </div>
+
+      <div class="bw-footer-col">
+        <h4>{% trans "Marketplace" %}</h4>
+        <ul>
+          <li><a href="{% url 'catalog:template_list' %}">{% trans "All Templates" %}</a></li>
+          <li><a href="{% url 'catalog:category_list' %}">{% trans "Categories" %}</a></li>
+          <li><a href="{% url 'catalog:template_list' %}?sort=newest">{% trans "New Arrivals" %}</a></li>
+          <li><a href="{% url 'catalog:template_list' %}?tier=elite">{% trans "Elite Collection" %}</a></li>
+        </ul>
+      </div>
+      <div class="bw-footer-col">
+        <h4>{% trans "Company" %}</h4>
+        <ul>
+          <li><a href="{% url 'core:about' %}">{% trans "About Us" %}</a></li>
+          <li><a href="{% url 'core:faq' %}">{% trans "FAQ" %}</a></li>
+          <li><a href="{% url 'core:contact' %}">{% trans "Contact" %}</a></li>
+          <li><a href="#">{% trans "Licenses" %}</a></li>
+        </ul>
+      </div>
+      <div class="bw-footer-col">
+        <h4>{% trans "Support" %}</h4>
+        <ul>
+          <li><a href="#">{% trans "Help Center" %}</a></li>
+          <li><a href="#">{% trans "Documentation" %}</a></li>
+          <li><a href="#">{% trans "Refund Policy" %}</a></li>
+          <li><a href="#">{% trans "Terms & Privacy" %}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bw-footer-bottom">
+      <span>© {% now "Y" %} {{ BRAND_NAME }}. {% trans "Crafted with precision. All templates fully customizable." %}</span>
+      <span class="bw-footer-made">{% trans "Made with Django · Secure · Premium" %}</span>
+    </div>
+  </div>
+</footer>
+
+{% block extra_js %}{% endblock %}
+
+<script>
+// ==========================================================
+// SITEGENCY loader dismissal — fade out once DOM is ready
+// ==========================================================
+(function(){
+  var root = document.documentElement;
+  var loader = document.getElementById('sg-loader');
+  if (!loader) { root.classList.remove('sg-loading'); return; }
+  var MIN_SHOW_MS = 450;     // ensure the loader is perceived
+  var MAX_SHOW_MS = 2500;    // hard cap, never block longer
+  var started = performance.now();
+  var done = false;
+  function hide(){
+    if (done) return; done = true;
+    var elapsed = performance.now() - started;
+    var wait = Math.max(0, MIN_SHOW_MS - elapsed);
+    setTimeout(function(){
+      root.classList.add('sg-loaded');
+      root.classList.remove('sg-loading');
+      // Remove from DOM after fade-out transition
+      setTimeout(function(){ if (loader && loader.parentNode) loader.parentNode.removeChild(loader); }, 650);
+    }, wait);
+  }
+  if (document.readyState === 'complete') { hide(); }
+  else { window.addEventListener('load', hide, { once: true }); }
+  // Hard safety net
+  setTimeout(hide, MAX_SHOW_MS);
+})();
+</script>
+
+<script>
+// ==========================================================
+// SITEGENCY client runtime — lazy iframes + count-up + reveals
+// ==========================================================
+(function(){
+  if (!('IntersectionObserver' in window)) return;
+
+  // 1) Lazy iframe previews in cards
+  var cardObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (!entry.isIntersecting) return;
+      var el = entry.target;
+      var src = el.getAttribute('data-preview-src');
+      if (!src || el.querySelector('iframe')) return;
+      var iframe = document.createElement('iframe');
+      iframe.src = src;
+      iframe.setAttribute('loading', 'lazy');
+      iframe.setAttribute('scrolling', 'no');
+      iframe.setAttribute('tabindex', '-1');
+      iframe.setAttribute('aria-hidden', 'true');
+      iframe.addEventListener('load', function(){
+        setTimeout(function(){
+          iframe.classList.add('bw-loaded');
+          var ph = el.querySelector('.bw-preview-placeholder');
+          if (ph) ph.classList.add('bw-faded');
+        }, 200);
+      });
+      el.appendChild(iframe);
+      cardObserver.unobserve(el);
+    });
+  }, { rootMargin: '300px' });
+  document.querySelectorAll('.bw-template-preview-iframe').forEach(function(el){
+    cardObserver.observe(el);
+  });
+
+  // 2) Count-up animation for stat values
+  function formatNumber(n, format) {
+    n = Math.round(n);
+    if (format === 'thousands') {
+      // e.g. 12400 → "12,400"
+      return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
+    return n.toString();
+  }
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
+    var format = el.getAttribute('data-format') || '';
+    var duration = 1800;
+    var start = performance.now();
+    // Ease-out cubic
+    function ease(t) { return 1 - Math.pow(1 - t, 3); }
+    function step(now) {
+      var p = Math.min((now - start) / duration, 1);
+      var current = target * ease(p);
+      el.textContent = formatNumber(current, format) + suffix;
+      if (p < 1) requestAnimationFrame(step);
+      else el.textContent = formatNumber(target, format) + suffix;
+    }
+    requestAnimationFrame(step);
+  }
+  var countObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (!entry.isIntersecting) return;
+      animateCount(entry.target);
+      countObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.4 });
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    countObserver.observe(el);
+  });
+
+  // 3) Reveal-on-scroll for elements with .bw-reveal-up
+  //    Also reveal elements already in the initial viewport immediately
+  //    (fixes short pages where the intersection observer may miss elements
+  //    that are visible on load without any scroll).
+  var revealObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('bw-revealed');
+      revealObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  var revealSelector = '.bw-reveal-up, .bw-section-head, .bw-value-card, .bw-step-card, .bw-prof-card, .bw-cat-tile, .bw-compare-col, .bw-feature-item, .bw-floating-card';
+  function isInInitialViewport(el) {
+    var r = el.getBoundingClientRect();
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    return r.top < vh && r.bottom > 0;
+  }
+  document.querySelectorAll(revealSelector).forEach(function(el){
+    el.classList.add('bw-reveal-init');
+    if (isInInitialViewport(el)) {
+      // Reveal immediately, no need to wait for scroll
+      requestAnimationFrame(function(){ el.classList.add('bw-revealed'); });
+    } else {
+      revealObserver.observe(el);
+    }
+  });
+  // Safety net: if for any reason elements stay hidden after 2s, reveal them all
+  setTimeout(function(){
+    document.querySelectorAll('.bw-reveal-init:not(.bw-revealed)').forEach(function(el){
+      el.classList.add('bw-revealed');
+    });
+  }, 2000);
+
+  // 4) Hero parallax micro-effect on mouse move
+  var collage = document.querySelector('.bw-hero-collage');
+  if (collage && matchMedia('(min-width: 1024px)').matches) {
+    var main = collage.querySelector('.bw-collage-main');
+    var sides = collage.querySelectorAll('.bw-collage-side img');
+    var floating = collage.querySelector('.bw-collage-floating');
+    document.addEventListener('mousemove', function(ev){
+      var rect = collage.getBoundingClientRect();
+      var cx = rect.left + rect.width / 2;
+      var cy = rect.top + rect.height / 2;
+      var dx = (ev.clientX - cx) / window.innerWidth;
+      var dy = (ev.clientY - cy) / window.innerHeight;
+      if (main) main.style.transform = 'rotate(-1deg) translate(' + (dx * -8) + 'px, ' + (dy * -8) + 'px)';
+      if (sides[0]) sides[0].style.transform = 'rotate(2deg) translate(' + (dx * 10) + 'px, ' + (dy * 10) + 'px)';
+      if (sides[1]) sides[1].style.transform = 'rotate(-2deg) translate(' + (dx * 12) + 'px, ' + (dy * 8) + 'px)';
+      if (floating) floating.style.transform = 'translate(' + (dx * -4) + 'px, ' + (dy * -4) + 'px)';
+    });
+  }
+
+  // 5) Navbar scrolled state — compact glass on scroll
+  var header = document.querySelector('.bw-header');
+  if (header) {
+    var lastScroll = 0;
+    function updateHeader(){
+      var y = window.scrollY || document.documentElement.scrollTop;
+      if (y > 48) header.classList.add('sg-scrolled');
+      else header.classList.remove('sg-scrolled');
+      lastScroll = y;
+    }
+    updateHeader();
+    window.addEventListener('scroll', updateHeader, { passive: true });
+  }
+
+  // 6) Sitegency logo — track mouse for hover glow zones (gated by IO support)
+  document.querySelectorAll('.sg-hover-zone').forEach(function(zone){
+    zone.addEventListener('pointermove', function(e){
+      var r = zone.getBoundingClientRect();
+      zone.style.setProperty('--sg-mx', (e.clientX - r.left) + 'px');
+      zone.style.setProperty('--sg-my', (e.clientY - r.top)  + 'px');
+    });
+  });
+
+  // 6) Sitegency logo — animate-only-when-visible (lightweight IO)
+  var sgVisibleObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) entry.target.classList.add('sg-visible');
+      else                      entry.target.classList.remove('sg-visible');
+    });
+  }, { threshold: 0.2 });
+  document.querySelectorAll('.sg-animate-on-visible').forEach(function(el){
+    sgVisibleObserver.observe(el);
+  });
+})();
+</script>
+</body>
+</html>

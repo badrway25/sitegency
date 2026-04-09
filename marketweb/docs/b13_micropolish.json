@@ -1,0 +1,5809 @@
+{
+  "medical-carenest": {
+    "family": "medical",
+    "total_sections": 14,
+    "weak_sections": 13,
+    "sections": [
+      {
+        "cls": "header",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 100,
+        "issues": []
+      },
+      {
+        "cls": "hero spad set-bg",
+        "tag": "SECTION",
+        "h": 522,
+        "top": 80,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 53,
+        "issues": [
+          "HIGH_PAD:145/215",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title",
+        "tag": "DIV",
+        "h": 239,
+        "top": 582,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 32,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "consultation",
+        "tag": "SECTION",
+        "h": 664,
+        "top": 602,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 537,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title",
+        "tag": "DIV",
+        "h": 239,
+        "top": 702,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 37,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "chooseus spad",
+        "tag": "SECTION",
+        "h": 614,
+        "top": 1266,
+        "h2": "Reparti",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 287,
+        "issues": [
+          "HIGH_PAD:100/50",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 211,
+        "top": 1366,
+        "h2": "Reparti",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "services spad set-bg",
+        "tag": "SECTION",
+        "h": 819,
+        "top": 1880,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 295,
+        "issues": [
+          "HIGH_PAD:100/70",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 211,
+        "top": 1980,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 34,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "team spad",
+        "tag": "SECTION",
+        "h": 954,
+        "top": 2699,
+        "h2": "Contattaci",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 121,
+        "issues": [
+          "HIGH_PAD:100/70",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 211,
+        "top": 2799,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 25,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "latest spad",
+        "tag": "SECTION",
+        "h": 1040,
+        "top": 3653,
+        "h2": "I nostri servizi",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 314,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 211,
+        "top": 3733,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 25,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 709,
+        "top": 4693,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 386,
+        "issues": [
+          "NO_HEADING",
+          "IMG_RATIO:1"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "HIGH_PAD": 4,
+      "LOW_CONTRAST": 12,
+      "NO_HEADING": 1,
+      "IMG_RATIO": 1
+    }
+  },
+  "medical-clinova": {
+    "family": "medical",
+    "total_sections": 33,
+    "weak_sections": 19,
+    "sections": [
+      {
+        "cls": "col-lg-10 d-none d-md-block",
+        "tag": "DIV",
+        "h": 60,
+        "top": 8,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 107,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "home-slider owl-carousel owl-loaded owl-drag",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 152,
+        "h2": "",
+        "imgs": 0,
+        "btns": 10,
+        "cards": 0,
+        "textLen": 454,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-services ftco-no-pb",
+        "tag": "SECTION",
+        "h": 310,
+        "top": 702,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 257,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "media block-6 d-block text-center",
+        "tag": "DIV",
+        "h": 262,
+        "top": 726,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 63,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "media block-6 d-block text-center",
+        "tag": "DIV",
+        "h": 262,
+        "top": 726,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 68,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "media block-6 d-block text-center",
+        "tag": "DIV",
+        "h": 262,
+        "top": 726,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 51,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "media block-6 d-block text-center",
+        "tag": "DIV",
+        "h": 262,
+        "top": 726,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 69,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-section ftco-no-pt ftc-no-pb",
+        "tag": "SECTION",
+        "h": 877,
+        "top": 1011,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 559,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "heading-section mb-5",
+        "tag": "DIV",
+        "h": 87,
+        "top": 1123,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-intro",
+        "tag": "SECTION",
+        "h": 247,
+        "top": 1889,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 87,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 1045,
+        "top": 2136,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 691,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "col-md-8 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 147,
+        "top": 2200,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 82,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-section ftco-no-pt",
+        "tag": "SECTION",
+        "h": 839,
+        "top": 3181,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 484,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "col-md-8 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 147,
+        "top": 3245,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 64,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-section testimony-section bg-light",
+        "tag": "SECTION",
+        "h": 656,
+        "top": 4020,
+        "h2": "Reparti",
+        "imgs": 0,
+        "btns": 7,
+        "cards": 0,
+        "textLen": 860,
+        "issues": []
+      },
+      {
+        "cls": "col-md-8 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 147,
+        "top": 4084,
+        "h2": "Reparti",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 75,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-section ftco-no-pt ftco-no-pb ftco-count",
+        "tag": "SECTION",
+        "h": 861,
+        "top": 4676,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 262,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "heading-section heading-section-white ftco-an",
+        "tag": "DIV",
+        "h": 275,
+        "top": 4788,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 85,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "block-18 p-5 bg-light",
+        "tag": "DIV",
+        "h": 237,
+        "top": 4840,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block-18 p-5 bg-light",
+        "tag": "DIV",
+        "h": 237,
+        "top": 4840,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "block-18 p-5 bg-light",
+        "tag": "DIV",
+        "h": 210,
+        "top": 5107,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 19,
+        "issues": []
+      },
+      {
+        "cls": "block-18 p-5 bg-light",
+        "tag": "DIV",
+        "h": 210,
+        "top": 5107,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section bg-light",
+        "tag": "SECTION",
+        "h": 853,
+        "top": 5537,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 8,
+        "cards": 0,
+        "textLen": 648,
+        "issues": []
+      },
+      {
+        "cls": "col-md-8 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 147,
+        "top": 5601,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 73,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "ftco-section bg-light",
+        "tag": "SECTION",
+        "h": 867,
+        "top": 6390,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 3,
+        "cards": 0,
+        "textLen": 371,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "col-md-8 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 147,
+        "top": 6454,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 60,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 275,
+        "top": 6657,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 275,
+        "top": 6657,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 275,
+        "top": 6657,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "ftco-footer ftco-bg-dark ftco-section",
+        "tag": "FOOTER",
+        "h": 748,
+        "top": 7257,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 538,
+        "issues": []
+      },
+      {
+        "cls": "block-21 mb-4 d-flex",
+        "tag": "DIV",
+        "h": 111,
+        "top": 7421,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 40,
+        "issues": []
+      },
+      {
+        "cls": "block-21 mb-5 d-flex",
+        "tag": "DIV",
+        "h": 111,
+        "top": 7556,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 42,
+        "issues": []
+      },
+      {
+        "cls": "block-23 mb-3",
+        "tag": "DIV",
+        "h": 152,
+        "top": 7634,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 96,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 19
+    }
+  },
+  "medical-dentaura": {
+    "family": "medical",
+    "total_sections": 5,
+    "weak_sections": 1,
+    "sections": [
+      {
+        "cls": "header trans_200",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 136,
+        "issues": []
+      },
+      {
+        "cls": "section_title",
+        "tag": "DIV",
+        "h": 76,
+        "top": 1386,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "section_title section_title_light",
+        "tag": "DIV",
+        "h": 76,
+        "top": 1796,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "section_title",
+        "tag": "DIV",
+        "h": 76,
+        "top": 2929,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 728,
+        "top": 4712,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 547,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "NO_HEADING": 1
+    }
+  },
+  "medical-medicore": {
+    "family": "medical",
+    "total_sections": 11,
+    "weak_sections": 0,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 67,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 19,
+        "issues": []
+      },
+      {
+        "cls": "banner-area relative",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 67,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 413,
+        "issues": []
+      },
+      {
+        "cls": "open-hour-area",
+        "tag": "SECTION",
+        "h": 405,
+        "top": 567,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 186,
+        "issues": []
+      },
+      {
+        "cls": "service-area section-gap",
+        "tag": "SECTION",
+        "h": 883,
+        "top": 972,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 670,
+        "issues": []
+      },
+      {
+        "cls": "home-about-area section-gap relative",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 1856,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 458,
+        "issues": []
+      },
+      {
+        "cls": "testomial-area section-gap",
+        "tag": "SECTION",
+        "h": 1161,
+        "top": 2455,
+        "h2": "",
+        "imgs": 15,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": []
+      },
+      {
+        "cls": "team-area section-gap",
+        "tag": "SECTION",
+        "h": 655,
+        "top": 3616,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 242,
+        "issues": []
+      },
+      {
+        "cls": "feature-area section-gap",
+        "tag": "SECTION",
+        "h": 751,
+        "top": 4271,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 6,
+        "textLen": 957,
+        "issues": []
+      },
+      {
+        "cls": "appoinment-area section-gap relative",
+        "tag": "SECTION",
+        "h": 750,
+        "top": 5022,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 49,
+        "issues": []
+      },
+      {
+        "cls": "blog-area section-gap",
+        "tag": "SECTION",
+        "h": 991,
+        "top": 5772,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 598,
+        "issues": []
+      },
+      {
+        "cls": "footer-area section-gap",
+        "tag": "FOOTER",
+        "h": 498,
+        "top": 6763,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 425,
+        "issues": []
+      }
+    ],
+    "issues_summary": {}
+  },
+  "medical-medilux": {
+    "family": "medical",
+    "total_sections": 8,
+    "weak_sections": 1,
+    "sections": [
+      {
+        "cls": "header trans_400",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 63,
+        "issues": []
+      },
+      {
+        "cls": "section_title_container",
+        "tag": "DIV",
+        "h": 82,
+        "top": 1108,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 32,
+        "issues": []
+      },
+      {
+        "cls": "section_title",
+        "tag": "DIV",
+        "h": 59,
+        "top": 1131,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "section_title_container",
+        "tag": "DIV",
+        "h": 82,
+        "top": 1782,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 31,
+        "issues": []
+      },
+      {
+        "cls": "section_title",
+        "tag": "DIV",
+        "h": 59,
+        "top": 1805,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "section_title_container",
+        "tag": "DIV",
+        "h": 82,
+        "top": 2627,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 34,
+        "issues": []
+      },
+      {
+        "cls": "section_title",
+        "tag": "DIV",
+        "h": 59,
+        "top": 2649,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 635,
+        "top": 4406,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 550,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "NO_HEADING": 1
+    }
+  },
+  "medical-pulsemed": {
+    "family": "medical",
+    "total_sections": 4,
+    "weak_sections": 3,
+    "sections": [
+      {
+        "cls": "hero-area-fix jquery-ripples",
+        "tag": "SECTION",
+        "h": 900,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 80,
+        "issues": [
+          "LOW_CONTRAST:34"
+        ]
+      },
+      {
+        "cls": "product-landing pro_d",
+        "tag": "SECTION",
+        "h": 2390,
+        "top": 900,
+        "h2": "I nostri servizi",
+        "imgs": 11,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 170,
+        "issues": [
+          "HIGH_PAD:113/70",
+          "LOW_CONTRAST:34"
+        ]
+      },
+      {
+        "cls": "saas-landing",
+        "tag": "SECTION",
+        "h": 739,
+        "top": 3290,
+        "h2": "I nostri medici",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 74,
+        "issues": [
+          "HIGH_PAD:120/120"
+        ]
+      },
+      {
+        "cls": "footer-area",
+        "tag": "FOOTER",
+        "h": 165,
+        "top": 4030,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 86,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 2,
+      "HIGH_PAD": 2
+    }
+  },
+  "medical-vitaclinic": {
+    "family": "medical",
+    "total_sections": 14,
+    "weak_sections": 7,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 51,
+        "issues": []
+      },
+      {
+        "cls": "header-area",
+        "tag": "DIV",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 51,
+        "issues": []
+      },
+      {
+        "cls": "header-top_area",
+        "tag": "DIV",
+        "h": 64,
+        "top": 8,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": []
+      },
+      {
+        "cls": "main-header-area",
+        "tag": "DIV",
+        "h": 79,
+        "top": 72,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 23,
+        "issues": []
+      },
+      {
+        "cls": "slider_area",
+        "tag": "DIV",
+        "h": 700,
+        "top": 81,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 634,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "service_area",
+        "tag": "DIV",
+        "h": 342,
+        "top": 781,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 1,
+        "textLen": 248,
+        "issues": []
+      },
+      {
+        "cls": "welcome_docmed_area",
+        "tag": "DIV",
+        "h": 836,
+        "top": 1123,
+        "h2": "I nostri servizi",
+        "imgs": 2,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 530,
+        "issues": [
+          "HIGH_PAD:120/220",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "our_department_area",
+        "tag": "DIV",
+        "h": 1633,
+        "top": 1959,
+        "h2": "",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 577,
+        "issues": [
+          "HIGH_PAD:120/90"
+        ]
+      },
+      {
+        "cls": "section_title text-center mb-55",
+        "tag": "DIV",
+        "h": 79,
+        "top": 2103,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 67,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "testmonial_area",
+        "tag": "DIV",
+        "h": 707,
+        "top": 3592,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "business_expert_area",
+        "tag": "DIV",
+        "h": 1128,
+        "top": 4299,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 351,
+        "issues": [
+          "HIGH_PAD:0/100",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "business_tabs_area",
+        "tag": "DIV",
+        "h": 94,
+        "top": 4299,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 58,
+        "issues": []
+      },
+      {
+        "cls": "expert_doctors_area",
+        "tag": "DIV",
+        "h": 492,
+        "top": 5427,
+        "h2": "",
+        "imgs": 14,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 370,
+        "issues": [
+          "HIGH_PAD:120/120",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 777,
+        "top": 6160,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 355,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 6,
+      "HIGH_PAD": 4,
+      "NO_HEADING": 1
+    }
+  },
+  "medical-vitalsign": {
+    "family": "medical",
+    "total_sections": 27,
+    "weak_sections": 14,
+    "sections": [
+      {
+        "cls": "header-area",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 144,
+        "issues": []
+      },
+      {
+        "cls": "top-header-area",
+        "tag": "DIV",
+        "h": 40,
+        "top": 8,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 52,
+        "issues": []
+      },
+      {
+        "cls": "main-header-area",
+        "tag": "DIV",
+        "h": 90,
+        "top": 48,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 83,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "welcome-area",
+        "tag": "SECTION",
+        "h": 800,
+        "top": 80,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 12,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "dento-about-us-area section-padding-100-0",
+        "tag": "SECTION",
+        "h": 752,
+        "top": 880,
+        "h2": "Prenota una visita",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 361,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading",
+        "tag": "DIV",
+        "h": 207,
+        "top": 944,
+        "h2": "Prenota una visita",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "single-skills-area mt-30",
+        "tag": "DIV",
+        "h": 43,
+        "top": 1329,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "single-skills-area mt-30",
+        "tag": "DIV",
+        "h": 43,
+        "top": 1402,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 19,
+        "issues": []
+      },
+      {
+        "cls": "single-skills-area mt-30",
+        "tag": "DIV",
+        "h": 43,
+        "top": 1475,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 21,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "dento-cta-area",
+        "tag": "SECTION",
+        "h": 311,
+        "top": 1634,
+        "h2": "20",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 68,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "dento-service-area section-padding-100-0 bg-i",
+        "tag": "SECTION",
+        "h": 969,
+        "top": 1972,
+        "h2": "Reparti",
+        "imgs": 7,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 95,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading white",
+        "tag": "DIV",
+        "h": 207,
+        "top": 2036,
+        "h2": "Reparti",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 7,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "dento-video-area mb-100",
+        "tag": "DIV",
+        "h": 450,
+        "top": 2182,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "dento-pricing-table-area section-padding-100",
+        "tag": "SECTION",
+        "h": 1157,
+        "top": 2968,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 628,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading text-center",
+        "tag": "DIV",
+        "h": 207,
+        "top": 3032,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 17,
+        "issues": []
+      },
+      {
+        "cls": "book-an-oppointment-area section-padding-100 ",
+        "tag": "SECTION",
+        "h": 821,
+        "top": 4152,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 178,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading text-center white",
+        "tag": "DIV",
+        "h": 207,
+        "top": 4216,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 10,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "dentist-area section-padding-100-0",
+        "tag": "SECTION",
+        "h": 724,
+        "top": 4974,
+        "h2": "I nostri servizi",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 113,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading text-center",
+        "tag": "DIV",
+        "h": 207,
+        "top": 5038,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "single-dentist-area mb-100",
+        "tag": "DIV",
+        "h": 197,
+        "top": 5295,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 28,
+        "issues": []
+      },
+      {
+        "cls": "single-dentist-area mb-100",
+        "tag": "DIV",
+        "h": 233,
+        "top": 5295,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 31,
+        "issues": []
+      },
+      {
+        "cls": "single-dentist-area mb-100",
+        "tag": "DIV",
+        "h": 238,
+        "top": 5295,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 33,
+        "issues": []
+      },
+      {
+        "cls": "testimonials-area section-padding-100 bg-img ",
+        "tag": "SECTION",
+        "h": 399,
+        "top": 5697,
+        "h2": "",
+        "imgs": 7,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "dento-blog-area section-padding-100-0 clearfi",
+        "tag": "SECTION",
+        "h": 949,
+        "top": 6096,
+        "h2": "I nostri medici",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 371,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-heading text-center",
+        "tag": "DIV",
+        "h": 207,
+        "top": 6160,
+        "h2": "I nostri medici",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 15,
+        "issues": []
+      },
+      {
+        "cls": "footer-area bg-img bg-gradient-overlay",
+        "tag": "FOOTER",
+        "h": 807,
+        "top": 7045,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 516,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "d-block mb-4",
+        "tag": "A",
+        "h": 40,
+        "top": 7134,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 11,
+      "EMPTY": 2,
+      "NO_HEADING": 2
+    }
+  },
+  "restaurant-brasserie": {
+    "family": "restaurant",
+    "total_sections": 17,
+    "weak_sections": 9,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "header-area",
+        "tag": "DIV",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": [
+          "LOW_CONTRAST:0"
+        ]
+      },
+      {
+        "cls": "header-info-right d-none d-lg-block",
+        "tag": "DIV",
+        "h": 51,
+        "top": 38,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 25,
+        "issues": []
+      },
+      {
+        "cls": "slider-area",
+        "tag": "DIV",
+        "h": 600,
+        "top": 81,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 47,
+        "issues": [
+          "LOW_CONTRAST:11"
+        ]
+      },
+      {
+        "cls": "about-area top-padding",
+        "tag": "SECTION",
+        "h": 1040,
+        "top": 681,
+        "h2": "Il nostro menu",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 664,
+        "issues": [
+          "HIGH_PAD:100/0"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center line mb-70",
+        "tag": "DIV",
+        "h": 203,
+        "top": 781,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 14,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "row align-items-center section-overlay",
+        "tag": "DIV",
+        "h": 666,
+        "top": 1054,
+        "h2": "Il nostro chef",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 649,
+        "issues": []
+      },
+      {
+        "cls": "section-tittle section-tittle3 mb-25",
+        "tag": "DIV",
+        "h": 513,
+        "top": 1118,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 649,
+        "issues": []
+      },
+      {
+        "cls": "latest-items section-padding fix",
+        "tag": "SECTION",
+        "h": 508,
+        "top": 1721,
+        "h2": "",
+        "imgs": 11,
+        "btns": 2,
+        "cards": 11,
+        "textLen": 219,
+        "issues": []
+      },
+      {
+        "cls": "customer-section section-padding",
+        "tag": "SECTION",
+        "h": 767,
+        "top": 2229,
+        "h2": "Prenotazioni",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 252,
+        "issues": []
+      },
+      {
+        "cls": "section-tittle text-center mb-50",
+        "tag": "DIV",
+        "h": 203,
+        "top": 2293,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center mb-90 d-flex justi",
+        "tag": "DIV",
+        "h": 203,
+        "top": 3020,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 24,
+        "issues": []
+      },
+      {
+        "cls": "section-tittle text-center mb-70",
+        "tag": "DIV",
+        "h": 293,
+        "top": 3813,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "",
+        "tag": "FOOTER",
+        "h": 754,
+        "top": 4378,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 563,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-wrapper",
+        "tag": "DIV",
+        "h": 614,
+        "top": 4458,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 475,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-area footer-padding",
+        "tag": "DIV",
+        "h": 572,
+        "top": 4458,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 475,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-bottom-area",
+        "tag": "DIV",
+        "h": 42,
+        "top": 5031,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 3,
+      "HIGH_PAD": 1,
+      "EMPTY": 2,
+      "NO_HEADING": 3
+    }
+  },
+  "restaurant-cravekitchen": {
+    "family": "restaurant",
+    "total_sections": 23,
+    "weak_sections": 3,
+    "sections": [
+      {
+        "cls": "home-slider owl-carousel js-fullheight owl-lo",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 101,
+        "h2": "",
+        "imgs": 0,
+        "btns": 19,
+        "cards": 0,
+        "textLen": 442,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section ftco-wrap-about ftco-no-pb",
+        "tag": "SECTION",
+        "h": 311,
+        "top": 701,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 351,
+        "issues": []
+      },
+      {
+        "cls": "heading-section mb-4 text-center",
+        "tag": "DIV",
+        "h": 59,
+        "top": 765,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 24,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section ftco-counter img",
+        "tag": "SECTION",
+        "h": 242,
+        "top": 1012,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 56,
+        "issues": []
+      },
+      {
+        "cls": "block-18",
+        "tag": "DIV",
+        "h": 114,
+        "top": 1100,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block-18",
+        "tag": "DIV",
+        "h": 114,
+        "top": 1100,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "block-18",
+        "tag": "DIV",
+        "h": 114,
+        "top": 1100,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 7,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "block-18",
+        "tag": "DIV",
+        "h": 114,
+        "top": 1100,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 8,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "ftco-section bg-light",
+        "tag": "SECTION",
+        "h": 583,
+        "top": 1254,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 227,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 75,
+        "top": 1318,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "media block-6 services d-block",
+        "tag": "DIV",
+        "h": 324,
+        "top": 1450,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 54,
+        "issues": []
+      },
+      {
+        "cls": "media block-6 services d-block",
+        "tag": "DIV",
+        "h": 324,
+        "top": 1450,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 62,
+        "issues": []
+      },
+      {
+        "cls": "media block-6 services d-block",
+        "tag": "DIV",
+        "h": 324,
+        "top": 1450,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 84,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 1635,
+        "top": 1837,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 83,
+        "top": 1925,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 23,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section ftco-no-pt ftco-no-pb",
+        "tag": "SECTION",
+        "h": 727,
+        "top": 3473,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 88,
+        "issues": []
+      },
+      {
+        "cls": "heading-section ftco-animate mb-5",
+        "tag": "DIV",
+        "h": 59,
+        "top": 3609,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 32,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 819,
+        "top": 4199,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 334,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 75,
+        "top": 4263,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 13,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section testimony-section img",
+        "tag": "SECTION",
+        "h": 720,
+        "top": 5018,
+        "h2": "Dove siamo",
+        "imgs": 0,
+        "btns": 7,
+        "cards": 0,
+        "textLen": 909,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 text-center heading-section ftco-ani",
+        "tag": "DIV",
+        "h": 75,
+        "top": 5082,
+        "h2": "Dove siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 24,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section ftco-no-pt ftco-no-pb",
+        "tag": "SECTION",
+        "h": 428,
+        "top": 5739,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "ftco-footer ftco-bg-dark ftco-section",
+        "tag": "FOOTER",
+        "h": 540,
+        "top": 6167,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 391,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "EMPTY": 3
+    }
+  },
+  "restaurant-forkhaus": {
+    "family": "restaurant",
+    "total_sections": 17,
+    "weak_sections": 13,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 66,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 3,
+        "cards": 0,
+        "textLen": 34,
+        "issues": []
+      },
+      {
+        "cls": "header-area",
+        "tag": "DIV",
+        "h": 65,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 3,
+        "cards": 0,
+        "textLen": 34,
+        "issues": []
+      },
+      {
+        "cls": "menu-wrapper d-flex align-items-center justif",
+        "tag": "DIV",
+        "h": 46,
+        "top": 8,
+        "h2": "",
+        "imgs": 0,
+        "btns": 3,
+        "cards": 0,
+        "textLen": 34,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "slider-area slider-bg1",
+        "tag": "DIV",
+        "h": 600,
+        "top": 65,
+        "h2": "Il nostro menu",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 142,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "popular-items section-padding40",
+        "tag": "SECTION",
+        "h": 916,
+        "top": 665,
+        "h2": "Il nostro chef",
+        "imgs": 11,
+        "btns": 13,
+        "cards": 0,
+        "textLen": 951,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center mb-60",
+        "tag": "DIV",
+        "h": 231,
+        "top": 729,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "support-company-area pb-padding",
+        "tag": "DIV",
+        "h": 597,
+        "top": 1580,
+        "h2": "Prenotazioni",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 355,
+        "issues": [
+          "HIGH_PAD:0/110",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle mb-30",
+        "tag": "DIV",
+        "h": 231,
+        "top": 1604,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "our-services section-padding40 position-relat",
+        "tag": "DIV",
+        "h": 814,
+        "top": 2177,
+        "h2": "Eventi privati",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 239,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center mb-70",
+        "tag": "DIV",
+        "h": 231,
+        "top": 2265,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "client-say",
+        "tag": "SECTION",
+        "h": 1199,
+        "top": 2991,
+        "h2": "Galleria",
+        "imgs": 8,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "HIGH_PAD:90/60",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center",
+        "tag": "DIV",
+        "h": 231,
+        "top": 3081,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "instagram-area fix",
+        "tag": "DIV",
+        "h": 80,
+        "top": 4190,
+        "h2": "",
+        "imgs": 14,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "",
+        "tag": "FOOTER",
+        "h": 657,
+        "top": 4270,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 320,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-wrapper",
+        "tag": "DIV",
+        "h": 517,
+        "top": 4350,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 232,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:6"
+        ]
+      },
+      {
+        "cls": "footer-area footer-padding",
+        "tag": "DIV",
+        "h": 445,
+        "top": 4350,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 232,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-bottom-area",
+        "tag": "DIV",
+        "h": 72,
+        "top": 4795,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 11,
+      "HIGH_PAD": 2,
+      "NO_HEADING": 3
+    }
+  },
+  "restaurant-gustora": {
+    "family": "restaurant",
+    "total_sections": 8,
+    "weak_sections": 1,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 71,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 104,
+        "issues": []
+      },
+      {
+        "cls": "banner-area relative",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 71,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 139,
+        "issues": []
+      },
+      {
+        "cls": "home-about-area section-gap",
+        "tag": "SECTION",
+        "h": 510,
+        "top": 671,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 386,
+        "issues": []
+      },
+      {
+        "cls": "item-category-area section-gap",
+        "tag": "SECTION",
+        "h": 988,
+        "top": 1181,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 384,
+        "issues": []
+      },
+      {
+        "cls": "about-video-area section-gap",
+        "tag": "SECTION",
+        "h": 458,
+        "top": 2169,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 157,
+        "issues": []
+      },
+      {
+        "cls": "review-area section-gap relative",
+        "tag": "SECTION",
+        "h": 1060,
+        "top": 2627,
+        "h2": "",
+        "imgs": 8,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": []
+      },
+      {
+        "cls": "blog-area section-gap",
+        "tag": "SECTION",
+        "h": 1409,
+        "top": 3687,
+        "h2": "",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 999,
+        "issues": []
+      },
+      {
+        "cls": "footer-area section-gap",
+        "tag": "FOOTER",
+        "h": 316,
+        "top": 5096,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 323,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "NO_HEADING": 1
+    }
+  },
+  "restaurant-nourish": {
+    "family": "restaurant",
+    "total_sections": 14,
+    "weak_sections": 12,
+    "sections": [
+      {
+        "cls": "header",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 41,
+        "issues": []
+      },
+      {
+        "cls": "hero",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 80,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 149,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "about spad",
+        "tag": "SECTION",
+        "h": 622,
+        "top": 680,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 421,
+        "issues": [
+          "HIGH_PAD:100/100",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title",
+        "tag": "DIV",
+        "h": 247,
+        "top": 780,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 31,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "product spad",
+        "tag": "SECTION",
+        "h": 973,
+        "top": 1537,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 234,
+        "issues": [
+          "HIGH_PAD:50/100",
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "class spad",
+        "tag": "SECTION",
+        "h": 720,
+        "top": 2511,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 102,
+        "issues": [
+          "HIGH_PAD:100/0"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 247,
+        "top": 2611,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "team spad",
+        "tag": "SECTION",
+        "h": 842,
+        "top": 3231,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 38,
+        "issues": [
+          "HIGH_PAD:100/70",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 247,
+        "top": 3331,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 23,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "testimonial spad sg-reveal-pending",
+        "tag": "SECTION",
+        "h": 1116,
+        "top": 4073,
+        "h2": "Dove siamo",
+        "imgs": 12,
+        "btns": 5,
+        "cards": 0,
+        "textLen": 999,
+        "issues": []
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 247,
+        "top": 4114,
+        "h2": "Dove siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 24,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "instagram spad",
+        "tag": "SECTION",
+        "h": 777,
+        "top": 5189,
+        "h2": "Il nostro menu",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 47,
+        "issues": [
+          "HIGH_PAD:100/100",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 247,
+        "top": 5379,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 37,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "footer set-bg",
+        "tag": "FOOTER",
+        "h": 492,
+        "top": 6266,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 350,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 10,
+      "HIGH_PAD": 5,
+      "NO_HEADING": 2
+    }
+  },
+  "restaurant-saveur": {
+    "family": "restaurant",
+    "total_sections": 9,
+    "weak_sections": 8,
+    "sections": [
+      {
+        "cls": "main_menu home_menu",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 49,
+        "issues": []
+      },
+      {
+        "cls": "banner_part",
+        "tag": "SECTION",
+        "h": 1080,
+        "top": 81,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 71,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "about_part",
+        "tag": "SECTION",
+        "h": 491,
+        "top": 911,
+        "h2": "Il nostro menu",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 419,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "food_menu",
+        "tag": "SECTION",
+        "h": 1738,
+        "top": 1402,
+        "h2": "Il nostro chef",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 468,
+        "issues": [
+          "HIGH_PAD:140/90",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section_tittle",
+        "tag": "DIV",
+        "h": 94,
+        "top": 1542,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 28,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "review_part section_padding",
+        "tag": "SECTION",
+        "h": 743,
+        "top": 3140,
+        "h2": "Prenotazioni",
+        "imgs": 12,
+        "btns": 8,
+        "cards": 0,
+        "textLen": 952,
+        "issues": [
+          "HIGH_PAD:140/140",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section_tittle",
+        "tag": "DIV",
+        "h": 94,
+        "top": 3280,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "contact_part section_padding",
+        "tag": "SECTION",
+        "h": 709,
+        "top": 3883,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 184,
+        "issues": [
+          "HIGH_PAD:140/140",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "footer-area",
+        "tag": "FOOTER",
+        "h": 491,
+        "top": 4592,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 254,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 7,
+      "HIGH_PAD": 3,
+      "NO_HEADING": 1
+    }
+  },
+  "restaurant-tablecraft": {
+    "family": "restaurant",
+    "total_sections": 30,
+    "weak_sections": 5,
+    "sections": [
+      {
+        "cls": "home-slider owl-carousel owl-loaded owl-drag",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 80,
+        "h2": "",
+        "imgs": 0,
+        "btns": 19,
+        "cards": 0,
+        "textLen": 895,
+        "issues": []
+      },
+      {
+        "cls": "ftco-intro",
+        "tag": "SECTION",
+        "h": 324,
+        "top": 550,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 207,
+        "issues": []
+      },
+      {
+        "cls": "ftco-about d-md-flex",
+        "tag": "SECTION",
+        "h": 665,
+        "top": 874,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 535,
+        "issues": []
+      },
+      {
+        "cls": "heading-section ftco-animate",
+        "tag": "DIV",
+        "h": 88,
+        "top": 1017,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 21,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section ftco-services",
+        "tag": "SECTION",
+        "h": 494,
+        "top": 1539,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 220,
+        "issues": []
+      },
+      {
+        "cls": "media d-block text-center block-6 services",
+        "tag": "DIV",
+        "h": 326,
+        "top": 1603,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 62,
+        "issues": []
+      },
+      {
+        "cls": "media d-block text-center block-6 services",
+        "tag": "DIV",
+        "h": 326,
+        "top": 1603,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 68,
+        "issues": []
+      },
+      {
+        "cls": "media d-block text-center block-6 services",
+        "tag": "DIV",
+        "h": 326,
+        "top": 1603,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 86,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 636,
+        "top": 2033,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 344,
+        "issues": []
+      },
+      {
+        "cls": "heading-section text-md-right ftco-animate",
+        "tag": "DIV",
+        "h": 322,
+        "top": 2182,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 344,
+        "issues": []
+      },
+      {
+        "cls": "ftco-counter ftco-bg-dark img",
+        "tag": "SECTION",
+        "h": 435,
+        "top": 2669,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 65,
+        "issues": [
+          "HIGH_PAD:112/112",
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 803,
+        "top": 3104,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 4,
+        "cards": 0,
+        "textLen": 489,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 heading-section ftco-animate text-ce",
+        "tag": "DIV",
+        "h": 148,
+        "top": 3168,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 66,
+        "issues": []
+      },
+      {
+        "cls": "ftco-menu",
+        "tag": "SECTION",
+        "h": 1057,
+        "top": 3907,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 9,
+        "cards": 0,
+        "textLen": 429,
+        "issues": [
+          "HIGH_PAD:112/0"
+        ]
+      },
+      {
+        "cls": "col-md-7 heading-section text-center ftco-ani",
+        "tag": "DIV",
+        "h": 148,
+        "top": 4019,
+        "h2": "Eventi privati",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 98,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section img",
+        "tag": "SECTION",
+        "h": 741,
+        "top": 4964,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 535,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 heading-section text-center ftco-ani",
+        "tag": "DIV",
+        "h": 148,
+        "top": 5028,
+        "h2": "Galleria",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 67,
+        "issues": []
+      },
+      {
+        "cls": "ftco-section",
+        "tag": "SECTION",
+        "h": 816,
+        "top": 5704,
+        "h2": "Dove siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 455,
+        "issues": []
+      },
+      {
+        "cls": "col-md-7 heading-section ftco-animate text-ce",
+        "tag": "DIV",
+        "h": 119,
+        "top": 5768,
+        "h2": "Dove siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 55,
+        "issues": []
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 270,
+        "top": 5952,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 270,
+        "top": 5952,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "block-20",
+        "tag": "A",
+        "h": 270,
+        "top": 5952,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "text py-4 d-block",
+        "tag": "DIV",
+        "h": 199,
+        "top": 6222,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 125,
+        "issues": []
+      },
+      {
+        "cls": "text py-4 d-block",
+        "tag": "DIV",
+        "h": 199,
+        "top": 6222,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 134,
+        "issues": []
+      },
+      {
+        "cls": "text py-4 d-block",
+        "tag": "DIV",
+        "h": 199,
+        "top": 6222,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 135,
+        "issues": []
+      },
+      {
+        "cls": "ftco-appointment",
+        "tag": "SECTION",
+        "h": 463,
+        "top": 6521,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 21,
+        "issues": []
+      },
+      {
+        "cls": "ftco-footer ftco-section img",
+        "tag": "FOOTER",
+        "h": 596,
+        "top": 6984,
+        "h2": "Il nostro menu",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 408,
+        "issues": []
+      },
+      {
+        "cls": "block-21 mb-4 d-flex",
+        "tag": "DIV",
+        "h": 80,
+        "top": 7148,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 35,
+        "issues": []
+      },
+      {
+        "cls": "block-23 mb-3",
+        "tag": "DIV",
+        "h": 194,
+        "top": 7189,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 96,
+        "issues": []
+      },
+      {
+        "cls": "block-21 mb-4 d-flex",
+        "tag": "DIV",
+        "h": 80,
+        "top": 7252,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 41,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "HIGH_PAD": 2,
+      "NO_HEADING": 1,
+      "EMPTY": 3
+    }
+  },
+  "restaurant-tastefolk": {
+    "family": "restaurant",
+    "total_sections": 15,
+    "weak_sections": 11,
+    "sections": [
+      {
+        "cls": "slider-area position-relative",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 18,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 97,
+        "issues": [
+          "LOW_CONTRAST:6"
+        ]
+      },
+      {
+        "cls": "about-area section-padding",
+        "tag": "SECTION",
+        "h": 983,
+        "top": 618,
+        "h2": "Il nostro menu",
+        "imgs": 2,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 426,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle mb-25",
+        "tag": "DIV",
+        "h": 830,
+        "top": 682,
+        "h2": "Il nostro menu",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 280,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "about-shape d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 1061,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "our-menu section-padding",
+        "tag": "SECTION",
+        "h": 909,
+        "top": 2455,
+        "h2": "Il nostro chef",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 754,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "menu-shape d-none d-md-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 2499,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "section-tittle mb-50 text-center",
+        "tag": "DIV",
+        "h": 246,
+        "top": 2519,
+        "h2": "Il nostro chef",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 91,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "our-services-area section-padding section-img",
+        "tag": "SECTION",
+        "h": 327,
+        "top": 3364,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 212,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "gallery-area",
+        "tag": "DIV",
+        "h": 1279,
+        "top": 3396,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "testimonial-area testimonial-padding",
+        "tag": "SECTION",
+        "h": 1144,
+        "top": 4674,
+        "h2": "Prenotazioni",
+        "imgs": 5,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "HIGH_PAD:56/86",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle mb-50 text-center",
+        "tag": "DIV",
+        "h": 203,
+        "top": 4730,
+        "h2": "Prenotazioni",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "",
+        "tag": "FOOTER",
+        "h": 559,
+        "top": 5959,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 257,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-wrapper gray-bg",
+        "tag": "DIV",
+        "h": 419,
+        "top": 6039,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 169,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:13"
+        ]
+      },
+      {
+        "cls": "footer-area footer-padding",
+        "tag": "DIV",
+        "h": 378,
+        "top": 6039,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 169,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-bottom-area",
+        "tag": "DIV",
+        "h": 41,
+        "top": 6417,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 8,
+      "NO_HEADING": 4,
+      "HIGH_PAD": 1,
+      "EMPTY": 1
+    }
+  },
+  "e-commerce-buysphere": {
+    "family": "e-commerce",
+    "total_sections": 15,
+    "weak_sections": 8,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 1,
+        "textLen": 28,
+        "issues": []
+      },
+      {
+        "cls": "header-area",
+        "tag": "DIV",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 1,
+        "textLen": 28,
+        "issues": []
+      },
+      {
+        "cls": "slider-area",
+        "tag": "DIV",
+        "h": 580,
+        "top": 81,
+        "h2": "",
+        "imgs": 0,
+        "btns": 6,
+        "cards": 0,
+        "textLen": 212,
+        "issues": []
+      },
+      {
+        "cls": "best-selling section-bg",
+        "tag": "DIV",
+        "h": 859,
+        "top": 661,
+        "h2": "I nostri servizi",
+        "imgs": 19,
+        "btns": 2,
+        "cards": 19,
+        "textLen": 999,
+        "issues": [
+          "LOW_CONTRAST:36",
+          "CARD_UNEVEN:284-453"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center mb-55",
+        "tag": "DIV",
+        "h": 203,
+        "top": 725,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "services-area2 top-padding",
+        "tag": "DIV",
+        "h": 1293,
+        "top": 1520,
+        "h2": "Chi siamo",
+        "imgs": 11,
+        "btns": 2,
+        "cards": 10,
+        "textLen": 417,
+        "issues": [
+          "HIGH_PAD:120/0",
+          "LOW_CONTRAST:36",
+          "CARD_UNEVEN:365-872"
+        ]
+      },
+      {
+        "cls": "section-tittle d-flex justify-content-between",
+        "tag": "DIV",
+        "h": 203,
+        "top": 1688,
+        "h2": "Chi siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 20,
+        "issues": []
+      },
+      {
+        "cls": "our-client section-padding best-selling",
+        "tag": "SECTION",
+        "h": 796,
+        "top": 2814,
+        "h2": "Perché sceglierci",
+        "imgs": 6,
+        "btns": 2,
+        "cards": 30,
+        "textLen": 400,
+        "issues": [
+          "LOW_CONTRAST:36",
+          "CARD_UNEVEN:0-318"
+        ]
+      },
+      {
+        "cls": "section-tittle mb-40",
+        "tag": "DIV",
+        "h": 203,
+        "top": 2878,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 17,
+        "issues": []
+      },
+      {
+        "cls": "container",
+        "tag": "SECTION",
+        "h": 218,
+        "top": 3609,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 55,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "wantToWork-area w-padding2 mb-30",
+        "tag": "DIV",
+        "h": 188,
+        "top": 3633,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 25,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "wantToWork-area w-padding2 mb-30",
+        "tag": "DIV",
+        "h": 188,
+        "top": 3633,
+        "h2": "I nostri lavori",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 29,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "subscribe-area",
+        "tag": "SECTION",
+        "h": 279,
+        "top": 3827,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 79,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "subscribe-caption text-center subscribe-paddi",
+        "tag": "DIV",
+        "h": 279,
+        "top": 3827,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 79,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "",
+        "tag": "FOOTER",
+        "h": 140,
+        "top": 4107,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 86,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 8,
+      "CARD_UNEVEN": 3,
+      "HIGH_PAD": 1
+    }
+  },
+  "e-commerce-carta": {
+    "family": "e-commerce",
+    "total_sections": 4,
+    "weak_sections": 0,
+    "sections": [
+      {
+        "cls": "header trans_300",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 122,
+        "issues": []
+      },
+      {
+        "cls": "section_title new_arrivals_title",
+        "tag": "DIV",
+        "h": 75,
+        "top": 1299,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "section_title new_arrivals_title",
+        "tag": "DIV",
+        "h": 75,
+        "top": 2980,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 17,
+        "issues": []
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 165,
+        "top": 4326,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 86,
+        "issues": []
+      }
+    ],
+    "issues_summary": {}
+  },
+  "e-commerce-emporia": {
+    "family": "e-commerce",
+    "total_sections": 18,
+    "weak_sections": 9,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 124,
+        "issues": []
+      },
+      {
+        "cls": "header-area",
+        "tag": "DIV",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 124,
+        "issues": []
+      },
+      {
+        "cls": "header-top d-none d-sm-block",
+        "tag": "DIV",
+        "h": 57,
+        "top": 8,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 64,
+        "issues": []
+      },
+      {
+        "cls": "menu-wrapper",
+        "tag": "DIV",
+        "h": 44,
+        "top": 65,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 1,
+        "issues": []
+      },
+      {
+        "cls": "slider-area",
+        "tag": "SECTION",
+        "h": 600,
+        "top": 81,
+        "h2": "",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 237,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "items-product1 pt-30",
+        "tag": "SECTION",
+        "h": 309,
+        "top": 681,
+        "h2": "",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 58,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "latest-items section-padding fix",
+        "tag": "DIV",
+        "h": 523,
+        "top": 990,
+        "h2": "Trending This Week",
+        "imgs": 16,
+        "btns": 9,
+        "cards": 64,
+        "textLen": 571,
+        "issues": [
+          "LOW_CONTRAST:36",
+          "CARD_UNEVEN:0-249"
+        ]
+      },
+      {
+        "cls": "testimonial-area testimonial-padding",
+        "tag": "DIV",
+        "h": 534,
+        "top": 1513,
+        "h2": "Chi siamo",
+        "imgs": 5,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 444,
+        "issues": []
+      },
+      {
+        "cls": "latest-items section-padding fix",
+        "tag": "SECTION",
+        "h": 650,
+        "top": 2047,
+        "h2": "Perché sceglierci",
+        "imgs": 16,
+        "btns": 2,
+        "cards": 16,
+        "textLen": 550,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-tittle text-center mb-40",
+        "tag": "DIV",
+        "h": 203,
+        "top": 2135,
+        "h2": "Perché sceglierci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 17,
+        "issues": []
+      },
+      {
+        "cls": "home-blog",
+        "tag": "SECTION",
+        "h": 1010,
+        "top": 2697,
+        "h2": "Contattaci",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 294,
+        "issues": []
+      },
+      {
+        "cls": "section-tittle text-center mb-40",
+        "tag": "DIV",
+        "h": 203,
+        "top": 2777,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 10,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "categories-area",
+        "tag": "DIV",
+        "h": 263,
+        "top": 3707,
+        "h2": "",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 191,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "",
+        "tag": "FOOTER",
+        "h": 828,
+        "top": 3970,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 435,
+        "issues": [
+          "IMG_RATIO:1"
+        ]
+      },
+      {
+        "cls": "footer-wrapper gray-bg",
+        "tag": "DIV",
+        "h": 688,
+        "top": 4050,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 347,
+        "issues": [
+          "IMG_RATIO:1"
+        ]
+      },
+      {
+        "cls": "footer-area footer-padding",
+        "tag": "DIV",
+        "h": 647,
+        "top": 4050,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 347,
+        "issues": [
+          "IMG_RATIO:1"
+        ]
+      },
+      {
+        "cls": "subscribe-area",
+        "tag": "SECTION",
+        "h": 148,
+        "top": 4115,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 73,
+        "issues": []
+      },
+      {
+        "cls": "footer-bottom-area",
+        "tag": "DIV",
+        "h": 41,
+        "top": 4698,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 5,
+      "NO_HEADING": 1,
+      "CARD_UNEVEN": 1,
+      "EMPTY": 1,
+      "IMG_RATIO": 3
+    }
+  },
+  "e-commerce-kartnova": {
+    "family": "e-commerce",
+    "total_sections": 15,
+    "weak_sections": 6,
+    "sections": [
+      {
+        "cls": "header_area",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 4,
+        "cards": 0,
+        "textLen": 135,
+        "issues": []
+      },
+      {
+        "cls": "hero-banner",
+        "tag": "SECTION",
+        "h": 646,
+        "top": 81,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 371,
+        "issues": []
+      },
+      {
+        "cls": "col-5 d-none d-sm-block",
+        "tag": "DIV",
+        "h": 308,
+        "top": 280,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "section-margin mt-0",
+        "tag": "SECTION",
+        "h": 542,
+        "top": 737,
+        "h2": "",
+        "imgs": 9,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 340,
+        "issues": []
+      },
+      {
+        "cls": "section-margin calc-60px",
+        "tag": "SECTION",
+        "h": 1004,
+        "top": 1399,
+        "h2": "I nostri serviziProdotto",
+        "imgs": 8,
+        "btns": 24,
+        "cards": 56,
+        "textLen": 370,
+        "issues": [
+          "CARD_UNEVEN:23-291"
+        ]
+      },
+      {
+        "cls": "section-intro pb-60px",
+        "tag": "DIV",
+        "h": 234,
+        "top": 1463,
+        "h2": "I nostri serviziProdotto",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 52,
+        "issues": []
+      },
+      {
+        "cls": "offer skrollable skrollable-before",
+        "tag": "SECTION",
+        "h": 484,
+        "top": 2473,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 80,
+        "issues": []
+      },
+      {
+        "cls": "section-margin calc-60px",
+        "tag": "SECTION",
+        "h": 693,
+        "top": 3077,
+        "h2": "Chi siamoSellers",
+        "imgs": 16,
+        "btns": 50,
+        "cards": 96,
+        "textLen": 679,
+        "issues": [
+          "CARD_UNEVEN:23-290"
+        ]
+      },
+      {
+        "cls": "section-intro pb-60px",
+        "tag": "DIV",
+        "h": 234,
+        "top": 3141,
+        "h2": "Chi siamoSellers",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 44,
+        "issues": []
+      },
+      {
+        "cls": "blog",
+        "tag": "SECTION",
+        "h": 759,
+        "top": 3840,
+        "h2": "Perché sceglierciNotizie",
+        "imgs": 3,
+        "btns": 0,
+        "cards": 21,
+        "textLen": 646,
+        "issues": [
+          "CARD_UNEVEN:27-525"
+        ]
+      },
+      {
+        "cls": "section-intro pb-60px",
+        "tag": "DIV",
+        "h": 234,
+        "top": 3840,
+        "h2": "Perché sceglierciNotizie",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 52,
+        "issues": []
+      },
+      {
+        "cls": "subscribe-position",
+        "tag": "SECTION",
+        "h": 354,
+        "top": 4699,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 87,
+        "issues": []
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 5293,
+        "top": 4953,
+        "h2": "",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 436,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "footer-area",
+        "tag": "DIV",
+        "h": 5065,
+        "top": 5018,
+        "h2": "",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 348,
+        "issues": [
+          "NO_HEADING"
+        ]
+      },
+      {
+        "cls": "row section_gap",
+        "tag": "DIV",
+        "h": 4960,
+        "top": 5083,
+        "h2": "",
+        "imgs": 6,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 348,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "CARD_UNEVEN": 3,
+      "NO_HEADING": 3
+    }
+  },
+  "e-commerce-marketcraft": {
+    "family": "e-commerce",
+    "total_sections": 12,
+    "weak_sections": 8,
+    "sections": [
+      {
+        "cls": "header",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 27,
+        "issues": []
+      },
+      {
+        "cls": "categories",
+        "tag": "SECTION",
+        "h": 648,
+        "top": 90,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 285,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "product spad",
+        "tag": "SECTION",
+        "h": 1284,
+        "top": 738,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 381,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title",
+        "tag": "DIV",
+        "h": 158,
+        "top": 798,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 17,
+        "issues": []
+      },
+      {
+        "cls": "banner set-bg",
+        "tag": "SECTION",
+        "h": 500,
+        "top": 2022,
+        "h2": "",
+        "imgs": 0,
+        "btns": 5,
+        "cards": 0,
+        "textLen": 507,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "trend spad",
+        "tag": "SECTION",
+        "h": 1332,
+        "top": 2522,
+        "h2": "",
+        "imgs": 9,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 320,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 155,
+        "top": 2602,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 18,
+        "issues": []
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 155,
+        "top": 2602,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "section-title sg-reveal-pending",
+        "tag": "DIV",
+        "h": 155,
+        "top": 2602,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 20,
+        "issues": []
+      },
+      {
+        "cls": "discount",
+        "tag": "SECTION",
+        "h": 390,
+        "top": 3854,
+        "h2": "Summer 2019",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 82,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "services spad",
+        "tag": "SECTION",
+        "h": 198,
+        "top": 4244,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 165,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "footer",
+        "tag": "FOOTER",
+        "h": 1625,
+        "top": 4762,
+        "h2": "",
+        "imgs": 6,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 299,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "LOW_CONTRAST": 6,
+      "NO_HEADING": 3,
+      "EMPTY": 1
+    }
+  },
+  "e-commerce-shopluxe": {
+    "family": "e-commerce",
+    "total_sections": 90,
+    "weak_sections": 3,
+    "sections": [
+      {
+        "cls": "",
+        "tag": "HEADER",
+        "h": 41,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 160,
+        "issues": []
+      },
+      {
+        "cls": "section-slide",
+        "tag": "SECTION",
+        "h": 888,
+        "top": 67,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 14,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "block1 wrap-pic-w",
+        "tag": "DIV",
+        "h": 406,
+        "top": 1059,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block1 wrap-pic-w",
+        "tag": "DIV",
+        "h": 660,
+        "top": 1059,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 28,
+        "issues": []
+      },
+      {
+        "cls": "block1 wrap-pic-w",
+        "tag": "DIV",
+        "h": 399,
+        "top": 1059,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 34,
+        "issues": []
+      },
+      {
+        "cls": "block1-txt ab-t-l s-full flex-col-l-sb p-lr-3",
+        "tag": "A",
+        "h": 159,
+        "top": 1298,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 34,
+        "issues": []
+      },
+      {
+        "cls": "block1-txt ab-t-l s-full flex-col-l-sb p-lr-3",
+        "tag": "A",
+        "h": 159,
+        "top": 1305,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block1-txt ab-t-l s-full flex-col-l-sb p-lr-3",
+        "tag": "A",
+        "h": 159,
+        "top": 1559,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 28,
+        "issues": []
+      },
+      {
+        "cls": "bg0 p-t-23 p-b-140",
+        "tag": "SECTION",
+        "h": 1954,
+        "top": 1800,
+        "h2": "",
+        "imgs": 16,
+        "btns": 7,
+        "cards": 0,
+        "textLen": 760,
+        "issues": [
+          "HIGH_PAD:23/140"
+        ]
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 39,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 297,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 35,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 236,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 38,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 39,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2014,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2234,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2234,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 25,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2234,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2244,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2244,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2244,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2248,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2248,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 25,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2248,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2251,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2261,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2265,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 39,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 44,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 43,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 43,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2346,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2566,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2566,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 31,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2567,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2567,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2576,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2576,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2577,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2577,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2580,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2580,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 31,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2581,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2581,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 50,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 43,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 467,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 35,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 406,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 276,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 35,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 215,
+        "top": 2662,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2878,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2882,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 37,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 2882,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2888,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2892,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 2892,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2892,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2896,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 37,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 2896,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 30,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 3069,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 3079,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 3083,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 22,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 39,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 297,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 39,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 236,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 42,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2",
+        "tag": "DIV",
+        "h": 281,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 36,
+        "issues": []
+      },
+      {
+        "cls": "block2-pic hov-img0",
+        "tag": "DIV",
+        "h": 220,
+        "top": 3164,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 3384,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 3384,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 29,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 3384,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 23,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 3394,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 3394,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 3394,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 3398,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 3398,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 29,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 3398,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 23,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt flex-w flex-t p-t-14",
+        "tag": "DIV",
+        "h": 61,
+        "top": 3401,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "block2-btn flex-c-m stext-103 cl2 size-102 bg",
+        "tag": "A",
+        "h": 40,
+        "top": 3411,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 12,
+        "issues": []
+      },
+      {
+        "cls": "block2-txt-child1 flex-col-l",
+        "tag": "DIV",
+        "h": 47,
+        "top": 3415,
+        "h2": "",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 26,
+        "issues": []
+      },
+      {
+        "cls": "bg3 p-t-75 p-b-32",
+        "tag": "FOOTER",
+        "h": 511,
+        "top": 3754,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 290,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "EMPTY": 1,
+      "HIGH_PAD": 1,
+      "NO_HEADING": 1
+    }
+  },
+  "e-commerce-storeforge": {
+    "family": "e-commerce",
+    "total_sections": 7,
+    "weak_sections": 4,
+    "sections": [
+      {
+        "cls": "search-wrapper section-padding-100",
+        "tag": "DIV",
+        "h": 260,
+        "top": -350,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "EMPTY"
+        ]
+      },
+      {
+        "cls": "main-content-wrapper d-flex clearfix",
+        "tag": "DIV",
+        "h": 848,
+        "top": 0,
+        "h2": "",
+        "imgs": 12,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 346,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "header-area clearfix",
+        "tag": "HEADER",
+        "h": 80,
+        "top": 0,
+        "h2": "",
+        "imgs": 3,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 110,
+        "issues": []
+      },
+      {
+        "cls": "products-catagories-area clearfix",
+        "tag": "DIV",
+        "h": 848,
+        "top": 0,
+        "h2": "",
+        "imgs": 9,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 234,
+        "issues": [
+          "NO_HEADING",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "newsletter-area section-padding-100-0",
+        "tag": "SECTION",
+        "h": 331,
+        "top": 848,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 66,
+        "issues": [
+          "LOW_CONTRAST:24"
+        ]
+      },
+      {
+        "cls": "footer_area clearfix",
+        "tag": "FOOTER",
+        "h": 220,
+        "top": 1179,
+        "h2": "",
+        "imgs": 1,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 86,
+        "issues": []
+      },
+      {
+        "cls": "single_widget_area",
+        "tag": "DIV",
+        "h": 55,
+        "top": 1268,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      }
+    ],
+    "issues_summary": {
+      "EMPTY": 1,
+      "NO_HEADING": 2,
+      "LOW_CONTRAST": 3
+    }
+  },
+  "e-commerce-vendura": {
+    "family": "e-commerce",
+    "total_sections": 20,
+    "weak_sections": 8,
+    "sections": [
+      {
+        "cls": "main_menu home_menu",
+        "tag": "HEADER",
+        "h": 81,
+        "top": 0,
+        "h2": "",
+        "imgs": 0,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 67,
+        "issues": []
+      },
+      {
+        "cls": "banner_part",
+        "tag": "SECTION",
+        "h": 820,
+        "top": 81,
+        "h2": "",
+        "imgs": 7,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 742,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "banner_img d-none d-lg-block",
+        "tag": "DIV",
+        "h": 450,
+        "top": 327,
+        "h2": "",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": []
+      },
+      {
+        "cls": "feature_part padding_top",
+        "tag": "SECTION",
+        "h": 1139,
+        "top": 901,
+        "h2": "I nostri servizi",
+        "imgs": 4,
+        "btns": 0,
+        "cards": 8,
+        "textLen": 160,
+        "issues": [
+          "HIGH_PAD:140/0",
+          "LOW_CONTRAST:36",
+          "CARD_UNEVEN:16-400"
+        ]
+      },
+      {
+        "cls": "section_tittle text-center",
+        "tag": "DIV",
+        "h": 59,
+        "top": 1041,
+        "h2": "I nostri servizi",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 16,
+        "issues": []
+      },
+      {
+        "cls": "product_list section_padding",
+        "tag": "SECTION",
+        "h": 1324,
+        "top": 2040,
+        "h2": "Chi siamo",
+        "imgs": 48,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 999,
+        "issues": [
+          "HIGH_PAD:140/140",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section_tittle text-center",
+        "tag": "DIV",
+        "h": 59,
+        "top": 2180,
+        "h2": "Chi siamo",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 9,
+        "issues": []
+      },
+      {
+        "cls": "our_offer section_padding",
+        "tag": "SECTION",
+        "h": 650,
+        "top": 3365,
+        "h2": "Perché sceglierci",
+        "imgs": 1,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 70,
+        "issues": [
+          "HIGH_PAD:140/140"
+        ]
+      },
+      {
+        "cls": "product_list best_seller section_padding",
+        "tag": "SECTION",
+        "h": 893,
+        "top": 4015,
+        "h2": "Contattaci",
+        "imgs": 13,
+        "btns": 2,
+        "cards": 0,
+        "textLen": 366,
+        "issues": [
+          "HIGH_PAD:140/140",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "section_tittle text-center",
+        "tag": "DIV",
+        "h": 59,
+        "top": 4155,
+        "h2": "Contattaci",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 10,
+        "issues": []
+      },
+      {
+        "cls": "subscribe_area section_padding",
+        "tag": "SECTION",
+        "h": 467,
+        "top": 4908,
+        "h2": "I nostri lavori",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 42,
+        "issues": [
+          "HIGH_PAD:140/140",
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "subscribe_area_text text-center",
+        "tag": "DIV",
+        "h": 187,
+        "top": 5048,
+        "h2": "I nostri lavori",
+        "imgs": 0,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 42,
+        "issues": [
+          "LOW_CONTRAST:36"
+        ]
+      },
+      {
+        "cls": "client_logo padding_top",
+        "tag": "SECTION",
+        "h": 390,
+        "top": 5375,
+        "h2": "",
+        "imgs": 10,
+        "btns": 0,
+        "cards": 0,
+        "textLen": 0,
+        "issues": [
+          "HIGH_PAD:140/0"
+        ]
+      },
+      {
+        "cls": "footer_part",
+        "tag": "FOOTER",
+        "h": 481,
+        "top": 5765,
+        "h2": "",
+        "imgs": 0,
+        "btns": 1,
+        "cards": 0,
+        "textLen": 477,
+        "issues": [
+          "NO_HEADING"
+        ]
+      }
+    ],
+    "issues_summary": {
+      "HIGH_PAD": 6,
+      "LOW_CONTRAST": 5,
+      "CARD_UNEVEN": 1,
+      "NO_HEADING": 1
+    }
+  }
+}

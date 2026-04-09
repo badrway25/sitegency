@@ -1,0 +1,36 @@
+{% load i18n badrway_tags %}
+{# Premium template card with real iframe preview (lazy-loaded) #}
+<article class="bw-template-card">
+  <a href="{{ t.get_absolute_url }}" class="bw-template-preview bw-template-preview-iframe"
+     aria-label="{% blocktrans with name=t.name %}Preview {{ name }}{% endblocktrans %}"
+     data-preview-src="{{ t.get_preview_url }}">
+    <div class="bw-preview-placeholder" style="background:linear-gradient(135deg,{{ t.preview_color_1 }},{{ t.preview_color_2 }});">
+      <div class="bw-preview-spinner"></div>
+    </div>
+    <div class="bw-badges">
+      {% if t.is_featured %}<span class="bw-badge bw-badge-feat">{% trans "Featured" %}</span>{% endif %}
+      {% if t.is_new %}<span class="bw-badge bw-badge-new">{% trans "New" %}</span>{% endif %}
+      {% if t.is_bestseller %}<span class="bw-badge bw-badge-best">{% trans "Bestseller" %}</span>{% endif %}
+      {% if t.pricing_tier == 'elite' %}<span class="bw-badge bw-badge-elite">{% trans "Elite" %}</span>{% endif %}
+    </div>
+    <div class="bw-hover-actions">
+      <span class="bw-btn bw-btn-primary bw-btn-sm"><i class="bi bi-eye"></i> {% trans "View Details" %}</span>
+    </div>
+  </a>
+  <div class="bw-template-body">
+    <span class="bw-template-category">{{ t.category|local_name }}</span>
+    <h3 class="bw-template-name"><a href="{{ t.get_absolute_url }}">{{ t.name }}</a></h3>
+    <p class="bw-template-tagline">{{ t|local_tagline }}</p>
+    <div class="bw-template-footer">
+      <div class="bw-template-price">
+        <span class="current">{{ t.price|eur }}</span>
+        {% if t.original_price and t.original_price > t.price %}
+          <span class="original">{{ t.original_price|eur }}</span>
+        {% endif %}
+      </div>
+      <div class="bw-template-rating">
+        <span class="star">★</span> {{ t.rating }} <span class="bw-text-muted">({{ t.reviews_count }})</span>
+      </div>
+    </div>
+  </div>
+</article>

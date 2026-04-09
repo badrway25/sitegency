@@ -1,0 +1,283 @@
+@charset "utf-8";
+/*
+ * MEDILUX SHARED OVERRIDES
+ * ========================
+ * Loaded by all inner pages (about, services, blog, contact) AFTER
+ * the page-specific CSS. Contains the unified Medilux visual layer:
+ *   - Inner page hero (solid navy)
+ *   - Old header hide + ml-hdr nav adjustments
+ *   - Premium button system
+ *   - Newsletter refinements
+ *   - Link color palette alignment
+ *   - PreviewEngine high-specificity overrides
+ *
+ * NOT loaded by index.html (home) which has its own split-layout hero.
+ */
+
+/* ── Palette alignment ── */
+::selection
+{
+	background: rgba(17,29,46,0.75);
+	color: #FFFFFF;
+}
+/* Body link colors: align to Medilux palette (gold underline, navy hover) */
+p a
+{
+	border-bottom-color: rgba(176,149,96,0.4);
+}
+p a:hover
+{
+	color: #111d2e;
+	background: rgba(176,149,96,0.08);
+}
+
+/* ── Inner page hero: solid navy, no parallax ── */
+.home
+{
+	width: 100%;
+	height: auto;
+	min-height: 280px;
+	background: #111d2e !important;
+	display: flex;
+	align-items: flex-end;
+	padding-top: 88px;
+	color: #111d2e;
+	font-size: 0;
+	overflow: hidden;
+}
+.home .home_container
+{
+	font-size: 14px;
+}
+.home .parallax_background,
+.home .parallax-window,
+.home .background_image
+{
+	display: none !important;
+}
+.home_overlay
+{
+	display: none !important;
+}
+.home_overlay img
+{
+	display: none;
+}
+.home_container
+{
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 72px;
+	z-index: 2;
+}
+.home_content
+{
+	max-width: 700px;
+}
+.home_title
+{
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 50px;
+	line-height: 1.15;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: -0.01em;
+}
+.home_title::before
+{
+	content: '';
+	display: block;
+	width: 48px;
+	height: 2px;
+	background: #b09560;
+	margin-bottom: 24px;
+}
+.home_text
+{
+	font-size: 15px;
+	font-weight: 400;
+	color: rgba(255,255,255,0.55);
+	margin-top: 16px;
+	letter-spacing: 0.02em;
+}
+
+/* ── Override old header — use ml-hdr navbar from main_styles.css ── */
+.header_content
+{
+	display: none !important;
+}
+.ml-hdr-inner .main_nav ul li
+{
+	margin: 0 16px !important;
+}
+.ml-hdr-inner .main_nav ul li:not(:last-child)
+{
+	margin-right: 16px !important;
+}
+.ml-hdr-inner .main_nav ul li a
+{
+	font-size: 11.5px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	letter-spacing: 0.1em !important;
+}
+
+/* ── Premium button system ── */
+.button,
+.button.button_1,
+.button.button_2,
+.ba_button,
+.intro_button
+{
+	border-radius: 5px !important;
+	height: 50px !important;
+	transition: all 300ms cubic-bezier(0.25,0.8,0.25,1) !important;
+}
+/* Primary: navy bg, white text */
+.button_1,
+.ba_button
+{
+	background: #111d2e !important;
+	border: 2px solid #111d2e !important;
+}
+.button_1 a,
+.ba_button a
+{
+	color: #ffffff !important;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.1em !important;
+	text-transform: uppercase !important;
+	line-height: 46px !important;
+	padding: 0 32px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	height: 100% !important;
+}
+.button_1:hover,
+.ba_button:hover
+{
+	background: #1e3048 !important;
+	border-color: #1e3048 !important;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 16px rgba(17,29,46,0.2);
+}
+.button_1:hover a,
+.ba_button:hover a
+{
+	color: #ffffff !important;
+}
+/* Secondary: outline */
+.button_2
+{
+	background: transparent !important;
+	border: 2px solid #111d2e !important;
+}
+.button_2 a
+{
+	color: #111d2e !important;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.1em !important;
+	text-transform: uppercase !important;
+	line-height: 46px !important;
+	padding: 0 32px !important;
+}
+.button_2:hover
+{
+	background: #111d2e !important;
+}
+.button_2:hover a
+{
+	color: #ffffff !important;
+}
+
+/* ── Newsletter refinements ── */
+.newsletter_input
+{
+	border: solid 2px rgba(255,255,255,0.2);
+	border-radius: 5px;
+}
+.newsletter_button
+{
+	border-radius: 5px !important;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.1em !important;
+	text-transform: uppercase !important;
+}
+
+/* ── Section typography ── */
+.section_subtitle
+{
+	font-size: 11px;
+	font-weight: 600;
+	color: #b09560;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+.section_title h2
+{
+	font-family: 'Playfair Display', Georgia, serif;
+	color: #111d2e;
+}
+
+/* ── CTA bar ── */
+.cta_title
+{
+	font-family: 'Playfair Display', Georgia, serif;
+}
+.cta_phone
+{
+	border-radius: 5px !important;
+}
+
+/* ── Beat PreviewEngine high-specificity overrides ── */
+/*
+ * Engine injects: a:not(.btn):not(.button):not(.nav-link):not([class*="social"])
+ *   :not([class*="navbar"]):not([class*="menu"]) { color: var(--sg-accent) !important; }
+ * Specificity: 0,6,1. We use 7x repeated class → specificity 0,7,1.
+ */
+.button_1.button_1.button_1.button_1.button_1.button_1.button_1 a,
+.ba_button.ba_button.ba_button.ba_button.ba_button.ba_button.ba_button a
+{
+	color: #ffffff !important;
+}
+.button_2.button_2.button_2.button_2.button_2.button_2.button_2 a
+{
+	color: #111d2e !important;
+}
+.button_2.button_2.button_2.button_2.button_2.button_2.button_2:hover a
+{
+	color: #ffffff !important;
+}
+/*
+ * Engine injects: button:not([class*="close"]):not([class*="toggle"])...
+ *   { border-radius: 999px !important; }
+ */
+button.newsletter_button.newsletter_button.newsletter_button.newsletter_button.newsletter_button.newsletter_button.newsletter_button
+{
+	border-radius: 5px !important;
+	font-size: 12px !important;
+	letter-spacing: 0.1em !important;
+	text-transform: uppercase !important;
+}
+/* [PERF FIX] Allow parallax-window to show inline background-image
+ * (parallax.js disabled — background was previously set by JS) */
+.newsletter .parallax-window
+{
+	background: none !important;
+}
+
+/* Contact & intro form submit buttons */
+button.contact_button.contact_button.contact_button.contact_button.contact_button.contact_button.contact_button,
+button.intro_button.intro_button.intro_button.intro_button.intro_button.intro_button.intro_button
+{
+	border-radius: 5px !important;
+	font-size: 12px !important;
+	letter-spacing: 0.1em !important;
+}

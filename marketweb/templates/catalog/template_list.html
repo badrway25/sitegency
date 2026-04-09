@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{% trans "All Templates" %} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<section class="bw-section-sm" style="background:var(--ink-25);">
+  <div class="bw-container">
+    <nav class="bw-breadcrumb">
+      <a href="{% url 'core:home' %}">{% trans "Home" %}</a>
+      <span class="sep">/</span>
+      <span>{% trans "All Templates" %}</span>
+    </nav>
+    <h1 style="font-size:var(--fs-3xl);margin-bottom:14px;">{% blocktrans %}Premium <em>templates</em>{% endblocktrans %}</h1>
+    <p style="font-size:1.15rem;color:var(--ink-500);max-width:640px;">
+      {% blocktrans count counter=paginator.count|default:templates|length %}{{ counter }} template ready to be customized with your data.{% plural %}{{ counter }} templates ready to be customized with your data.{% endblocktrans %}
+      {% trans "Preview every one. Pay only when you're sure." %}
+    </p>
+  </div>
+</section>
+
+<section class="bw-section-sm">
+  <div class="bw-container">
+    <form class="bw-filters" method="get">
+      <input type="text" name="q" class="bw-input" placeholder="{% trans 'Search templates…' %}" value="{{ query }}">
+      <select name="category" class="bw-select" style="max-width:220px;">
+        <option value="">{% trans "All Categories" %}</option>
+        {% for c in categories %}
+          <option value="{{ c.slug }}" {% if current_category == c.slug %}selected{% endif %}>{{ c|local_name }}</option>
+        {% endfor %}
+      </select>
+      <select name="sort" class="bw-select" style="max-width:200px;">
+        <option value="featured" {% if sort == 'featured' %}selected{% endif %}>{% trans "Featured" %}</option>
+        <option value="newest" {% if sort == 'newest' %}selected{% endif %}>{% trans "Newest" %}</option>
+        <option value="price_asc" {% if sort == 'price_asc' %}selected{% endif %}>{% trans "Price: Low to High" %}</option>
+        <option value="price_desc" {% if sort == 'price_desc' %}selected{% endif %}>{% trans "Price: High to Low" %}</option>
+      </select>
+      <button type="submit" class="bw-btn bw-btn-primary">{% trans "Apply Filters" %}</button>
+    </form>
+
+    <div class="bw-template-grid">
+      {% for t in templates %}
+        {% include "catalog/_template_card.html" with t=t %}
+      {% empty %}
+        <div class="bw-empty">
+          <div class="bw-empty-icon"><i class="bi bi-search"></i></div>
+          <h3>{% trans "No templates found" %}</h3>
+          <p>{% trans "Try a different keyword or category." %}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if is_paginated %}
+    <div class="bw-text-center bw-mt-5">
+      {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}{% if query %}&q={{ query }}{% endif %}{% if current_category %}&category={{ current_category }}{% endif %}&sort={{ sort }}" class="bw-btn bw-btn-ghost">← {% trans "Previous" %}</a>
+      {% endif %}
+      <span style="padding: 0 var(--s-4);color:var(--ink-400);">{% blocktrans with n=page_obj.number total=page_obj.paginator.num_pages %}Page {{ n }} of {{ total }}{% endblocktrans %}</span>
+      {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}{% if query %}&q={{ query }}{% endif %}{% if current_category %}&category={{ current_category }}{% endif %}&sort={{ sort }}" class="bw-btn bw-btn-ghost">{% trans "Next" %} →</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

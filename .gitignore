@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Django
+db.sqlite3
+media/
+*.log
+
+# IDE / tools
+.playwright-mcp/
+*.jpeg
+*.png
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store

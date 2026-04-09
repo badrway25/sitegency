@@ -1,0 +1,98 @@
+
+=== ANIMAL (8) ===
+  animal-animalis: nav=57px ftco=0/0 imgs=51/51 h2=12/12 weak=0/46 mob=False ar=rtl OK
+  animal-caretail: nav=131px ftco=0/0 imgs=36/36 h2=0/0 weak=1/10 mob=False ar=rtl OK
+  animal-furbond: nav=177px ftco=0/0 imgs=17/19 h2=5/5 weak=1/10 mob=False ar=rtl OK
+  animal-petcare-pro: nav=81px ftco=0/0 imgs=14/14 h2=4/4 weak=7/6 mob=False ar=rtl WEAK:7 EMPTY:3
+  animal-petharbor: nav=81px ftco=0/0 imgs=17/18 h2=0/0 weak=0/14 mob=False ar=rtl OK
+  animal-vetaura: nav=80px ftco=0/0 imgs=41/41 h2=18/18 weak=1/22 mob=False ar=rtl OK
+  animal-vetnova: nav=80px ftco=0/0 imgs=20/20 h2=15/15 weak=0/16 mob=False ar=rtl OK
+  animal-wildnest: nav=57px ftco=0/0 imgs=37/37 h2=0/0 weak=1/9 mob=False ar=rtl OK
+
+=== APP-LANDING (8) ===
+  app-landing-appforge: nav=76px ftco=0/0 imgs=38/38 h2=5/5 weak=4/17 mob=False ar=rtl WEAK:4 EMPTY:2
+  app-landing-appulse: nav=81px ftco=0/0 imgs=10/11 h2=0/0 weak=0/11 mob=False ar=rtl OK
+  app-landing-appy-pro: nav=498px ftco=0/0 imgs=41/41 h2=0/0 weak=2/17 mob=False ar=rtl HID:1
+  app-landing-bold-pro: nav=0px ftco=0/0 imgs=20/20 h2=5/5 weak=0/1 mob=False ar=rtl OK
+  app-landing-bolton: nav=77px ftco=0/0 imgs=28/28 h2=8/8 weak=3/12 mob=False ar=rtl WEAK:3
+  app-landing-launchpad: nav=70px ftco=0/0 imgs=26/26 h2=7/7 weak=1/10 mob=False ar=rtl OK
+  app-landing-screenly: nav=62px ftco=0/0 imgs=32/32 h2=6/6 weak=3/15 mob=False ar=rtl WEAK:3
+  app-landing-tapwise: nav=601px ftco=0/0 imgs=0/0 h2=12/12 weak=0/0 mob=False ar=rtl OK
+
+=== ARCHITECTS (8) ===
+  architects-archetype: nav=70px ftco=0/0 imgs=31/31 h2=3/3 weak=2/12 mob=False ar=rtl EMPTY:2
+  architects-arcon: nav=0px ftco=0/0 imgs=32/32 h2=4/4 weak=0/7 mob=False ar=rtl OK
+  architects-draftly: nav=56px ftco=0/0 imgs=12/12 h2=6/6 weak=1/15 mob=False ar=rtl OK
+  architects-formwise: nav=81px ftco=0/0 imgs=16/17 h2=0/0 weak=0/14 mob=False ar=rtl OK
+  architects-linework: nav=0px ftco=0/0 imgs=11/11 h2=10/10 weak=2/14 mob=False ar=rtl OK
+  architects-monocle: nav=17px ftco=0/0 imgs=25/25 h2=26/26 weak=3/11 mob=False ar=rtl WEAK:3
+  architects-plano: nav=0px ftco=0/0 imgs=7/7 h2=12/13 weak=0/0 mob=False ar=rtl OK
+  architects-studiolume: nav=71px ftco=31/31 imgs=0/0 h2=15/15 weak=0/14 mob=False ar=rtl OK
+
+=== AUTOMOTIVE (8) ===
+  automotive-autonova: nav=40px ftco=0/0 imgs=12/12 h2=7/7 weak=0/9 mob=False ar=rtl OK
+  automotive-axelco: nav=71px ftco=32/32 imgs=0/0 h2=21/21 weak=0/15 mob=False ar=rtl OK
+  automotive-driveforge: nav=81px ftco=0/0 imgs=42/42 h2=8/8 weak=1/10 mob=False ar=rtl OK
+  automotive-gearhaus: nav=80px ftco=0/0 imgs=22/22 h2=15/15 weak=0/10 mob=False ar=rtl OK
+  automotive-motorcore: nav=144px ftco=0/0 imgs=38/38 h2=13/13 weak=2/19 mob=False ar=rtl OK
+  automotive-redline: nav=75px ftco=35/35 imgs=0/0 h2=22/22 weak=0/17 mob=False ar=rtl OK
+  automotive-turbopoint: nav=71px ftco=32/32 imgs=0/0 h2=19/19 weak=0/14 mob=False ar=rtl OK
+  automotive-velocita: nav=80px ftco=0/0 imgs=12/12 h2=12/12 weak=0/6 mob=False ar=rtl OK
+
+=== BARBER (8) ===
+  barber-barbercraft: nav=80px ftco=0/0 imgs=29/29 h2=0/0 weak=1/15 mob=False ar=rtl OK
+  barber-blackbeard: nav=56px ftco=0/0 imgs=17/17 h2=8/8 weak=0/16 mob=False ar=rtl OK
+  barber-cutroom: nav=81px ftco=0/0 imgs=2/2 h2=15/15 weak=2/6 mob=False ar=rtl EMPTY:2
+  barber-iron-razor: nav=80px ftco=0/0 imgs=20/20 h2=13/13 weak=0/8 mob=False ar=rtl OK
+  barber-maverickcuts: nav=70px ftco=0/0 imgs=29/29 h2=0/0 weak=0/10 mob=False ar=rtl OK
+  barber-oakbarber: nav=80px ftco=36/36 imgs=0/0 h2=11/11 weak=0/17 mob=False ar=rtl OK
+  barber-sharpline: nav=79px ftco=0/0 imgs=57/58 h2=0/0 weak=0/13 mob=False ar=rtl OK
+  barber-shearco: nav=133px ftco=0/0 imgs=1/1 h2=19/19 weak=4/9 mob=False ar=rtl WEAK:4
+
+=== BLOG (8) ===
+  blog-bona-pro: nav=61px ftco=0/0 imgs=15/15 h2=0/0 weak=0/8 mob=False ar=rtl OK
+  blog-columnist: nav=148px ftco=0/0 imgs=25/25 h2=4/4 weak=0/0 mob=False ar=rtl OK
+  blog-dispatch: nav=0px ftco=18/18 imgs=0/0 h2=0/0 weak=0/1 mob=False ar=rtl OK
+  blog-editoria: nav=70px ftco=0/0 imgs=32/32 h2=0/0 weak=0/6 mob=False ar=rtl OK
+  blog-inkstory: nav=0px ftco=0/0 imgs=0/0 h2=23/23 weak=0/0 mob=False ar=rtl OK
+  blog-margin: nav=80px ftco=0/0 imgs=73/75 h2=0/0 weak=0/28 mob=False ar=rtl OK
+  blog-narrativa: nav=80px ftco=0/0 imgs=0/0 h2=9/13 weak=0/3 mob=False ar=rtl OK
+  blog-quillhaus: nav=318px ftco=0/0 imgs=16/16 h2=14/14 weak=0/2 mob=False ar=rtl OK
+
+=== CHARITY (8) ===
+  charity-carebridge: nav=80px ftco=28/28 imgs=0/0 h2=16/16 weak=0/14 mob=False ar=rtl OK
+  charity-charilife-pro: nav=70px ftco=0/0 imgs=34/34 h2=6/6 weak=2/15 mob=False ar=rtl OK
+  charity-givecircle: nav=81px ftco=0/0 imgs=43/44 h2=10/10 weak=2/12 mob=False ar=rtl OK
+  charity-handson: nav=68px ftco=0/0 imgs=38/38 h2=3/3 weak=1/11 mob=False ar=rtl OK
+  charity-hopefund: nav=81px ftco=0/0 imgs=41/41 h2=7/7 weak=2/15 mob=False ar=rtl OK
+  charity-kindheartco: nav=80px ftco=11/11 imgs=0/0 h2=23/23 weak=0/7 mob=False ar=rtl OK
+  charity-lightpath: nav=81px ftco=0/0 imgs=22/25 h2=0/0 weak=0/11 mob=False ar=rtl OK
+  charity-solidara: nav=160px ftco=0/0 imgs=8/8 h2=4/4 weak=5/5 mob=False ar=rtl WEAK:5 EMPTY:2
+
+================================================================================
+TOTAL: 56 templates | 55/56 clean | 54 weak sections / 635 total (8.5%)
+  animal: 8/8 clean | weak_avg=1.4 | ftco=0/0
+  app-landing: 7/8 clean | weak_avg=1.6 | ftco=0/0
+  architects: 8/8 clean | weak_avg=1.0 | ftco=31/31
+  automotive: 8/8 clean | weak_avg=0.4 | ftco=99/99
+  barber: 8/8 clean | weak_avg=0.9 | ftco=36/36
+  blog: 8/8 clean | weak_avg=0.0 | ftco=18/18
+  charity: 8/8 clean | weak_avg=1.5 | ftco=39/39
+
+MICRO-POLISH CANDIDATES:
+  animal-petcare-pro: weak=7/6 h=5854
+  charity-solidara: weak=5/5 h=4286
+  app-landing-appforge: weak=4/17 h=6587
+  barber-shearco: weak=4/9 h=4624
+  app-landing-bolton: weak=3/12 h=7546
+  app-landing-screenly: weak=3/15 h=8577
+  architects-monocle: weak=3/11 h=4975
+  app-landing-appy-pro: weak=2/17 h=7544
+  architects-archetype: weak=2/12 h=5757
+  architects-linework: weak=2/14 h=5563
+  automotive-motorcore: weak=2/19 h=8840
+  barber-cutroom: weak=2/6 h=4261
+  charity-charilife-pro: weak=2/15 h=7400
+  charity-givecircle: weak=2/12 h=7267
+  charity-hopefund: weak=2/15 h=6844
+  animal-caretail: weak=1/10 h=6784

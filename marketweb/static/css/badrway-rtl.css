@@ -1,0 +1,76 @@
+/* =================================================================
+   BADRWAY — RTL overrides for Arabic
+   Uses logical properties where possible; patches physical ones here.
+   ================================================================= */
+
+html[dir="rtl"] body {
+  font-family: 'Noto Kufi Arabic', 'Inter', sans-serif;
+}
+
+/* Serif display font doesn't have good Arabic — fallback to Kufi */
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4 {
+  font-family: 'Noto Kufi Arabic', 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal !important;
+}
+html[dir="rtl"] h1 em,
+html[dir="rtl"] h2 em {
+  font-style: normal !important;
+  color: var(--accent);
+  font-weight: 800;
+}
+html[dir="rtl"] .bw-hero h1 { font-weight: 700; }
+html[dir="rtl"] .bw-stat-value,
+html[dir="rtl"] .bw-price-display {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Fix slash/pipe dividers that don't make sense in RTL */
+html[dir="rtl"] .bw-hero-trust .divider { transform: none; }
+
+/* Breadcrumb separator flipping — keep sep but mirror visually */
+html[dir="rtl"] .bw-breadcrumb .sep { transform: scaleX(-1); display: inline-block; }
+
+/* Chevrons that point right in LTR should point left in RTL */
+html[dir="rtl"] .bi-arrow-right::before { content: "\f12f"; } /* arrow-left */
+html[dir="rtl"] .bi-arrow-left::before { content: "\f138"; }  /* arrow-right */
+html[dir="rtl"] .bi-chevron-right::before { content: "\f284"; }
+html[dir="rtl"] .bi-chevron-left::before { content: "\f285"; }
+
+/* Language dropdown — keep below but aligned correctly */
+html[dir="rtl"] .bw-lang-menu {
+  inset-inline-end: 0;
+  inset-inline-start: auto;
+}
+
+/* Preview frame header-dots: keep the red/yellow/green on the LEFT (western convention) */
+html[dir="rtl"] .bw-preview-frame .header-dots { direction: ltr; }
+html[dir="rtl"] .bw-preview-frame .url { direction: ltr; text-align: left; }
+
+/* Code / prices displayed in Latin digits stay LTR */
+html[dir="rtl"] .bw-template-price,
+html[dir="rtl"] .bw-price-display,
+html[dir="rtl"] .bw-template-rating,
+html[dir="rtl"] .bw-stat-value {
+  direction: ltr;
+  text-align: start;
+}
+
+/* Customizer panel border flip handled by logical properties — no patch needed */
+
+/* Footer lang menu opens upward, align to start in RTL */
+html[dir="rtl"] .bw-footer-lang .bw-lang-menu {
+  inset-inline-start: 0;
+  inset-inline-end: auto;
+}
+
+/* Gradient banner in preview — position on left instead of right for RTL */
+html[dir="rtl"] #badrway-preview-banner {
+  right: auto !important;
+  left: 16px !important;
+}

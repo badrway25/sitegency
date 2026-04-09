@@ -1,0 +1,616 @@
+# ================================================================
+# ADAPTER — Agency/avo (Nøva Creative)
+# Template adapter for Sitegency marketplace customizer
+# Created: 2026-04-09
+# ================================================================
+
+template:
+  slug: avo
+  category: Agency
+  original_name: "Avo"
+  brand_name: "Nøva Creative"
+  brand_tagline: "Agenzia Creativa Digitale"
+  locale: it
+  framework: Bootstrap 4.5.0
+  css_prefix: "av-"
+
+# ================================================================
+# BRAND POINTS — Where the brand name appears
+# ================================================================
+brand_points:
+  - id: navbar_brand
+    selector: "a.navbar-brand.av-brand"
+    pages: [index, about, work, blog, blog-single, contact]
+    content: "Nøva"
+    note: "Uses av-brand class (safe from PreviewEngine). <span class='av-brand-accent'> wraps the ø"
+
+  - id: footer_brand
+    selector: ".ftco-footer-widget .ftco-heading-2:first-child"
+    pages: [index, about, work, blog, blog-single, contact]
+    content: "Nøva Creative"
+
+  - id: page_title
+    selector: "title"
+    pages: [index, about, work, blog, blog-single, contact]
+    pattern: "{PageName} — Nøva Creative"
+
+  - id: hero_about_heading
+    selector: ".wrap-about .text h3"
+    pages: [index, about]
+    content: "Contains brand name in heading text"
+
+  - id: testimonials_text
+    selector: ".testimony-wrap .text p"
+    pages: [index, about]
+    content: "Brand mentioned in client quotes"
+
+# ================================================================
+# LOGO POINTS — Where a logo/mark would go
+# ================================================================
+logo_points:
+  - id: navbar_logo
+    selector: "a.navbar-brand.av-brand"
+    pages: [index, about, work, blog, blog-single, contact]
+    type: text_logo
+    note: "Currently text-only. To add image logo: insert <img> inside the <a> and hide text with CSS"
+
+  - id: footer_logo
+    selector: ".ftco-footer-widget .ftco-heading-2:first-child"
+    pages: [index, about, work, blog, blog-single, contact]
+    type: text_logo
+    note: "Text brand in footer. Could be replaced with image logo"
+
+# ================================================================
+# TEXT SLOTS — All editable text content
+# ================================================================
+text_slots:
+
+  # --- index.html ---
+  - id: hero_slide1_title
+    page: index
+    selector: ".home-slider .slider-item:nth-child(1) .text h1"
+    default: "Creiamo Esperienze Digitali che Lasciano il Segno"
+
+  - id: hero_slide1_subtitle
+    page: index
+    selector: ".home-slider .slider-item:nth-child(1) .text p:first-of-type"
+    default: "Design strategico, sviluppo su misura..."
+
+  - id: hero_slide1_cta
+    page: index
+    selector: ".home-slider .slider-item:nth-child(1) .btn-primary"
+    default: "Inizia un Progetto"
+
+  - id: hero_slide1_counter
+    page: index
+    selector: ".home-slider .slider-item:nth-child(1) .number"
+    default: "150"
+    data_attr: "data-number"
+
+  - id: hero_slide2_title
+    page: index
+    selector: ".home-slider .slider-item:nth-child(2) .text h1"
+    default: "Strategia, Design & Tecnologia per il Tuo Brand"
+
+  - id: hero_slide2_cta
+    page: index
+    selector: ".home-slider .slider-item:nth-child(2) .btn-primary"
+    default: "Scopri il Portfolio"
+
+  - id: hero_slide2_counter
+    page: index
+    selector: ".home-slider .slider-item:nth-child(2) .number"
+    default: "12"
+    data_attr: "data-number"
+
+  - id: services_heading
+    page: index
+    selector: ".ftco-section .heading-section h2"
+    default: "Cosa Facciamo"
+
+  - id: service_1_name
+    page: index
+    selector: ".services:nth-child(1) h3"
+    default: "Brand Identity"
+
+  - id: service_2_name
+    page: index
+    selector: ".services:nth-child(2) h3"
+    default: "Sviluppo Web"
+
+  - id: service_3_name
+    page: index
+    selector: ".services:nth-child(3) h3"
+    default: "UI/UX Design"
+
+  - id: service_4_name
+    page: index
+    selector: ".services:nth-child(4) h3"
+    default: "App Mobile"
+
+  - id: service_5_name
+    page: index
+    selector: ".services:nth-child(5) h3"
+    default: "Strategia SEO"
+
+  - id: about_heading
+    page: index
+    selector: ".wrap-about .text h3"
+    default: "Nøva Creative: dove la strategia incontra il design"
+
+  - id: about_body
+    page: index
+    selector: ".wrap-about .text p"
+    default: "Siamo un team di designer, sviluppatori e strateghi digitali..."
+
+  - id: step_1_title
+    page: index
+    selector: ".services-2:nth-child(1) h3"
+    default: "Analisi & Strategia"
+
+  - id: step_2_title
+    page: index
+    selector: ".services-2:nth-child(2) h3"
+    default: "Design & Prototipo"
+
+  - id: step_3_title
+    page: index
+    selector: ".services-2:nth-child(3) h3"
+    default: "Sviluppo & Lancio"
+
+  - id: portfolio_heading
+    page: index
+    selector: ".ftco-portfolio .heading-section h2"
+    default: "I Nostri Lavori"
+
+  - id: testimonials_heading
+    page: index
+    selector: ".testimony-section .heading-section h2"
+    default: "Cosa Dicono i Nostri Clienti"
+
+  - id: cta_band_label
+    page: index
+    selector: ".intro span"
+    default: "Iniziamo"
+
+  - id: cta_band_heading
+    page: index
+    selector: ".intro h2"
+    default: "Raccontaci il tuo progetto e ricevi un preventivo gratuito"
+
+  - id: blog_heading
+    page: index
+    selector: ".bg-light .heading-section h2"
+    default: "Dal Nostro Blog"
+
+  # --- about.html ---
+  - id: about_hero_title
+    page: about
+    selector: ".bread"
+    default: "Chi Siamo"
+
+  - id: about_skills_heading
+    page: about
+    selector: ".ftco-section .heading-section h2"
+    default: "Le Nostre Competenze"
+
+  - id: about_team_heading
+    page: about
+    selector: ".bg-light .heading-section h2"
+    default: "Il Nostro Team"
+
+  - id: about_testimonials_heading
+    page: about
+    selector: ".testimony-section .heading-section h2"
+    default: "Le Parole dei Nostri Partner"
+
+  # --- work.html ---
+  - id: work_hero_title
+    page: work
+    selector: ".bread"
+    default: "Portfolio"
+
+  - id: work_section_heading
+    page: work
+    selector: ".ftco-portfolio .heading-section h2"
+    default: "I Nostri Lavori"
+
+  # --- blog.html ---
+  - id: blog_hero_title
+    page: blog
+    selector: ".bread"
+    default: "Blog"
+
+  # --- blog-single.html ---
+  - id: blogsingle_hero_title
+    page: blog-single
+    selector: ".bread"
+    default: "Articolo"
+
+  - id: blogsingle_article_title
+    page: blog-single
+    selector: ".ftco-section h2.mb-3"
+    default: "5 Trend del Web Design che Domineranno il 2026"
+
+  # --- contact.html ---
+  - id: contact_hero_title
+    page: contact
+    selector: ".bread"
+    default: "Contatti"
+
+  - id: contact_heading
+    page: contact
+    selector: ".heading-section h2"
+    default: "Hai un Progetto?"
+
+  - id: contact_subheading
+    page: contact
+    selector: ".heading-section .subheading"
+    default: "Contattaci"
+
+  # --- footer (all pages) ---
+  - id: footer_tagline
+    page: all
+    selector: ".ftco-footer-widget p:first-of-type"
+    default: "Agenzia creativa digitale con sede a Milano. Trasformiamo idee in esperienze digitali memorabili."
+
+  - id: footer_address
+    page: all
+    selector: ".block-23 .fa-map + .text"
+    default: "Via Tortona 27, 20144 Milano, Italia"
+
+  - id: footer_phone
+    page: all
+    selector: ".block-23 .fa-phone + .text"
+    default: "+39 02 8707 4120"
+
+  - id: footer_email
+    page: all
+    selector: ".block-23 .fa-envelope + .text"
+    default: "hello@novacreative.it"
+
+# ================================================================
+# IMAGE SLOTS — All background-image and <img> src points
+# ================================================================
+image_slots:
+
+  # --- index.html ---
+  - id: hero_slide1_bg
+    page: index
+    selector: ".home-slider .slider-item:nth-child(1)"
+    attr: "style:background-image"
+    size: "1920x1080"
+    context: "Team creativo al lavoro, ufficio moderno"
+
+  - id: hero_slide2_bg
+    page: index
+    selector: ".home-slider .slider-item:nth-child(2)"
+    attr: "style:background-image"
+    size: "1920x1080"
+    context: "Brainstorming, workshop creativo"
+
+  - id: about_image
+    page: index
+    selector: ".wrap-about .img.w-100"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Team meeting, collaborazione"
+
+  - id: portfolio_1_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(1) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Branding / design visivo"
+
+  - id: portfolio_2_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(2) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "E-commerce / web design"
+
+  - id: portfolio_3_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(3) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "UX/UI design, prototipi"
+
+  - id: portfolio_4_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(4) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Strategia digitale, team"
+
+  - id: portfolio_5_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(5) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Sviluppo web, codice"
+
+  - id: portfolio_6_image
+    page: index
+    selector: ".portfolio-wrap:nth-child(6) .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Produzione video, motion"
+
+  - id: cta_band_bg
+    page: index
+    selector: ".intro.img"
+    attr: "style:background-image"
+    size: "1200x600"
+    context: "Team lavoro, call to action"
+
+  - id: testimonial_avatar_1-5
+    page: index
+    selector: ".testimony-wrap .user-img"
+    attr: "style:background-image"
+    size: "100x100"
+    count: 5
+    context: "Ritratti professionali clienti"
+
+  - id: blog_card_1-4_image
+    page: index
+    selector: ".blog-entry .block-20.img"
+    attr: "style:background-image"
+    size: "400x300"
+    count: 4
+    context: "Immagini articoli blog"
+
+  # --- about.html ---
+  - id: about_hero_bg
+    page: about
+    selector: ".hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+    context: "Team creativo, ufficio"
+
+  - id: about_section_image
+    page: about
+    selector: ".wrap-about .img.w-100"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Collaborazione team"
+
+  - id: about_cta_bg
+    page: about
+    selector: ".intro.img"
+    attr: "style:background-image"
+    size: "1200x600"
+
+  - id: team_member_1-8
+    page: about
+    selector: ".staff .img"
+    attr: "style:background-image"
+    size: "400x500"
+    count: 8
+    context: "Ritratti professionali team"
+
+  - id: about_testimonial_avatar_1-5
+    page: about
+    selector: ".testimony-wrap .user-img"
+    attr: "style:background-image"
+    size: "100x100"
+    count: 5
+
+  # --- work.html ---
+  - id: work_hero_bg
+    page: work
+    selector: ".hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+
+  - id: work_project_1-9
+    page: work
+    selector: ".portfolio-wrap .col-md-5.img"
+    attr: "style:background-image"
+    size: "800x600"
+    count: 9
+
+  - id: work_person_avatars
+    page: work
+    selector: ".portfolio-wrap .icon .img"
+    attr: "style:background-image"
+    size: "100x100"
+    count: 9
+
+  # --- blog.html ---
+  - id: blog_hero_bg
+    page: blog
+    selector: ".hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+
+  - id: blog_card_1-8
+    page: blog
+    selector: ".blog-entry .block-20.img"
+    attr: "style:background-image"
+    size: "400x300"
+    count: 8
+
+  # --- blog-single.html ---
+  - id: blogsingle_hero_bg
+    page: blog-single
+    selector: ".hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+
+  - id: blogsingle_article_images
+    page: blog-single
+    selector: ".ftco-section img.img-fluid"
+    attr: "src"
+    count: 2
+
+  - id: blogsingle_author_avatar
+    page: blog-single
+    selector: ".about-author .bio img"
+    attr: "src"
+    size: "100x100"
+
+  - id: blogsingle_sidebar_images
+    page: blog-single
+    selector: ".sidebar-box .blog-img"
+    attr: "style:background-image"
+    size: "80x80"
+    count: 3
+
+  # --- contact.html ---
+  - id: contact_hero_bg
+    page: contact
+    selector: ".hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+
+# ================================================================
+# EDITABLE SECTIONS — Major page sections
+# ================================================================
+editable_sections:
+
+  - id: hero_slider
+    page: index
+    selector: ".hero-wrap.degree-right"
+    contains: [hero_slide1_bg, hero_slide1_title, hero_slide1_cta, hero_slide2_bg, hero_slide2_title, hero_slide2_cta]
+
+  - id: services_grid
+    page: index
+    selector: ".ftco-section:first-of-type .row:has(.services)"
+    contains: [service_1_name, service_2_name, service_3_name, service_4_name, service_5_name]
+
+  - id: about_section
+    page: index
+    selector: ".wrap-about"
+    contains: [about_heading, about_body, about_image]
+
+  - id: process_steps
+    page: index
+    selector: ".row:has(.services-2)"
+    contains: [step_1_title, step_2_title, step_3_title]
+
+  - id: portfolio_grid
+    page: index
+    selector: ".ftco-portfolio"
+    contains: [portfolio_heading, portfolio_1_image, portfolio_2_image, portfolio_3_image]
+
+  - id: testimonials
+    page: [index, about]
+    selector: ".testimony-section"
+    contains: [testimonials_heading, testimonial_avatar_1-5]
+
+  - id: cta_band
+    page: [index, about]
+    selector: ".intro"
+    contains: [cta_band_label, cta_band_heading, cta_band_bg]
+
+  - id: blog_preview
+    page: index
+    selector: ".ftco-section.bg-light:has(.blog-entry)"
+    contains: [blog_heading, blog_card_1-4_image]
+
+  - id: team_section
+    page: about
+    selector: ".ftco-section.bg-light:has(.staff)"
+    contains: [about_team_heading, team_member_1-8]
+
+  - id: contact_form
+    page: contact
+    selector: ".contact-section"
+    contains: [contact_heading, contact_subheading]
+
+  - id: footer
+    page: all
+    selector: ".ftco-footer"
+    contains: [footer_tagline, footer_address, footer_phone, footer_email]
+
+# ================================================================
+# RISKY SELECTORS — PreviewEngine conflict zones
+# ================================================================
+risky_selectors:
+  - selector: ".navbar-brand"
+    risk: "Engine targets this for brand injection"
+    mitigation: "Added av-brand class, brand styling in avo-shared.css"
+
+  - selector: ".btn-primary"
+    risk: "Engine injects pill shape (border-radius: 999px) and link color override"
+    mitigation: "7x repeated selector override in avo-shared.css"
+
+  - selector: ".custom-btn"
+    risk: "May get link color override from engine"
+    mitigation: "7x repeated selector override in avo-shared.css"
+
+  - selector: "h4.number[data-number]"
+    risk: "Counter elements — engine content pool may replace text, causing NaN in animateNumber"
+    mitigation: "Monitor in preview. If NaN appears, add counter class to skip list"
+
+  - selector: "background-image: url(images/*)"
+    risk: "Engine replaces ALL local image URLs"
+    mitigation: "Replaced with direct Pexels https:// URLs — engine skips external URLs"
+
+  - selector: "input[type='submit']"
+    risk: "Engine pill shape on <button> and submit inputs"
+    mitigation: "7x selector override for .btn-primary in avo-shared.css"
+
+  - selector: "#map"
+    risk: "Google Maps API key — may not work in preview"
+    mitigation: "Accept: map may be blank in preview. Not critical."
+
+  - selector: ".ftco-heading-2"
+    risk: "Footer headings — engine may attempt text replacement"
+    mitigation: "Low risk, monitor"
+
+# ================================================================
+# NOTES FOR CUSTOMIZER
+# ================================================================
+notes_for_customizer:
+  css_override_file: "css/avo-shared.css"
+  css_prefix: "av-"
+  safe_brand_classes: ["av-brand", "av-brand-accent"]
+  unsafe_classes: ["logo", "brand", "site-title", "brand-name", "subtitle", "tagline"]
+  font_dependencies:
+    - "Sora (headings) — loaded via @import in avo-shared.css"
+    - "Inter (body) — loaded via @import in avo-shared.css"
+  js_plugins:
+    - "Owl Carousel — hero slider + testimonials"
+    - "jQuery animateNumber — hero counters"
+    - "jQuery Stellar — parallax on inner page heroes"
+    - "Magnific Popup — video lightbox"
+    - "Scrollax — scroll effects"
+  known_limitations:
+    - "Google Maps requires valid API key — blank in preview"
+    - "Hero counter text may be replaced by content pool"
+    - "Owl Carousel navigation hidden by default, shows on hover"
+    - "Font Awesome 4.7 — no FA5/6 icons available"
+  image_strategy: "All images use direct Pexels URLs to bypass PreviewEngine replacement"
+  color_accent: "#e94560"
+  color_primary: "#1a1a2e"
+
+# ================================================================
+# PAGES
+# ================================================================
+pages:
+  - file: index.html
+    title: "Home"
+    sections: [hero_slider, services_grid, about_section, process_steps, portfolio_grid, testimonials, cta_band, blog_preview, footer]
+
+  - file: about.html
+    title: "Chi Siamo"
+    sections: [hero_banner, services_grid, about_section, process_steps, cta_band, team_section, testimonials, footer]
+
+  - file: work.html
+    title: "Portfolio"
+    sections: [hero_banner, portfolio_grid, pagination, footer]
+
+  - file: blog.html
+    title: "Blog"
+    sections: [hero_banner, blog_grid, pagination, footer]
+
+  - file: blog-single.html
+    title: "Articolo"
+    sections: [hero_banner, article, sidebar, comments, footer]
+
+  - file: contact.html
+    title: "Contatti"
+    sections: [hero_banner, contact_form, contact_info, map, footer]

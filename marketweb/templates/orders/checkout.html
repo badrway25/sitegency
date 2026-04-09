@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load i18n badrway_tags %}
+{% block title %}{% trans "Checkout" %} — {{ template.name }} — {{ BRAND_NAME }}{% endblock %}
+
+{% block content %}
+<section class="bw-section-sm" style="background:var(--ink-25);min-height:calc(100vh - var(--header-h));">
+  <div class="bw-container">
+    <nav class="bw-breadcrumb">
+      <a href="{% url 'core:home' %}">{% trans "Home" %}</a>
+      <span class="sep">/</span>
+      <a href="{{ template.get_absolute_url }}">{{ template.name }}</a>
+      <span class="sep">/</span>
+      <span>{% trans "Checkout" %}</span>
+    </nav>
+
+    <div class="bw-detail-grid">
+      <div>
+        <h1 style="font-size:var(--fs-3xl);">{% trans "Checkout" %}</h1>
+        <p class="bw-text-muted" style="max-width:580px;font-size:1.1rem;">{% trans "Complete your order and get instant access to your fully customized template. All orders are protected by our 14-day refund policy." %}</p>
+
+        {% if messages %}
+        <div class="bw-mt-3">
+          {% for message in messages %}
+            <div class="bw-alert bw-alert-error">{{ message }}</div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <form method="post" style="margin-top:var(--s-5);">
+          {% csrf_token %}
+          <div class="bw-field-group" style="background:var(--ink-0);">
+            <h3><i class="bi bi-person"></i> {% trans "Your Details" %}</h3>
+            <div class="bw-field">
+              <label class="bw-label">{% trans "Full Name" %} *</label>
+              <input type="text" name="full_name" class="bw-input" required>
+            </div>
+            <div class="bw-field">
+              <label class="bw-label">{% trans "Email" %} *</label>
+              <input type="email" name="email" class="bw-input" required>
+            </div>
+            <div class="bw-field">
+              <label class="bw-label">{% trans "Company (optional)" %}</label>
+              <input type="text" name="company" class="bw-input">
+            </div>
+            <div class="bw-field">
+              <label class="bw-label">{% trans "Phone (optional)" %}</label>
+              <input type="tel" name="phone" class="bw-input">
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3);">
+              <div class="bw-field">
+                <label class="bw-label">{% trans "Country" %}</label>
+                <input type="text" name="country" class="bw-input">
+              </div>
+              <div class="bw-field">
+                <label class="bw-label">{% trans "City" %}</label>
+                <input type="text" name="city" class="bw-input">
+              </div>
+            </div>
+          </div>
+
+          <div class="bw-field-group" style="background:var(--ink-0);">
+            <h3><i class="bi bi-credit-card"></i> {% trans "Payment Method" %}</h3>
+            <p class="bw-text-muted" style="font-size:.9rem;">{% trans "This is a demo checkout. In production, Sitegency integrates with Stripe, PayPal and Apple Pay." %}</p>
+            <label style="display:flex;gap:10px;align-items:center;padding:14px;border:1.5px solid var(--accent);border-radius:10px;background:var(--accent-soft);cursor:pointer;">
+              <input type="radio" name="payment" value="demo" checked>
+              <strong>{% trans "Demo payment (instant, no charge)" %}</strong>
+            </label>
+          </div>
+
+          <button type="submit" class="bw-btn bw-btn-accent bw-btn-lg bw-btn-block">
+            <i class="bi bi-lock-fill"></i> {% trans "Complete Purchase" %} — {{ template.price|eur }}
+          </button>
+          <p class="bw-text-center bw-text-muted" style="font-size:.85rem;margin-top:12px;">
+            <i class="bi bi-shield-check"></i> {% trans "Secure checkout · 256-bit encryption · 14-day refund" %}
+          </p>
+        </form>
+      </div>
+
+      <aside>
+        <div class="bw-sticky-sidebar">
+          <h3 style="font-size:.78rem;text-transform:uppercase;letter-spacing:2px;color:var(--ink-400);font-family:var(--font-ui);">{% trans "Order Summary" %}</h3>
+          <div style="display:flex;gap:12px;margin:var(--s-4) 0;padding-bottom:var(--s-4);border-bottom:1px solid var(--ink-100);">
+            <div style="width:88px;height:64px;border-radius:8px;background:linear-gradient(135deg,{{ template.preview_color_1 }},{{ template.preview_color_2 }});display:flex;align-items:center;justify-content:center;color:white;font-family:var(--font-display);font-weight:400;font-size:1.8rem;font-style:italic;">
+              {{ template.name|first }}
+            </div>
+            <div>
+              <div style="font-weight:600;font-family:var(--font-ui);">{{ template.name }}</div>
+              <div class="bw-text-muted" style="font-size:.8rem;">{{ template.category|local_name }} · {% trans "Single license" %}</div>
+            </div>
+          </div>
+
+          <div style="display:flex;justify-content:space-between;padding:8px 0;">
+            <span>{% trans "Subtotal" %}</span><span>{{ template.price|eur }}</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0;">
+            <span>{% trans "Tax" %}</span><span>{{ 0|eur }}</span>
+          </div>
+          {% if demo_session %}
+          <div style="display:flex;justify-content:space-between;padding:8px 0;color:var(--success);">
+            <span><i class="bi bi-check-circle"></i> {% trans "Customization saved" %}</span><span>{% trans "Included" %}</span>
+          </div>
+          {% endif %}
+          <div style="display:flex;justify-content:space-between;padding:var(--s-4) 0 0;border-top:1px solid var(--ink-100);font-weight:700;font-size:1.2rem;font-family:var(--font-display);">
+            <span>{% trans "Total" %}</span><span>{{ template.price|eur }}</span>
+          </div>
+
+          <ul class="bw-inclusions" style="margin-top:var(--s-4);">
+            <li>{% trans "Full source code" %}</li>
+            <li>{% trans "Instant download" %}</li>
+            <li>{% trans "Lifetime ownership" %}</li>
+            <li>{% trans "Priority support" %}</li>
+            <li>{% trans "6 months of updates" %}</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{% endblock %}
