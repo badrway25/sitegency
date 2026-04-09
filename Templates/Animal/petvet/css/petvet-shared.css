@@ -1,0 +1,1058 @@
+/* ================================================================
+   ZampaCura — Centro Veterinario (Animal/petvet)
+   CORRECTION PASS v2 — Visual audit fixes
+   Pattern: 7x+ class selectors for PreviewEngine specificity bypass
+   Prefix: zc- (safe from engine stripping)
+   ================================================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* ================================================================
+   PALETTE v2 — Ricalibrata: più fresca, calda, credibile
+   ================================================================ */
+:root {
+  --zc-primary: #2a7d5f;       /* verde fresco "teal forest" */
+  --zc-accent: #d4a574;        /* warm caramel — sofisticato */
+  --zc-dark: #1e3a2f;          /* verde profondo — headings */
+  --zc-body: #556b5e;          /* grigio-verde medio — testo */
+  --zc-light-bg: #f5f2ec;      /* beige caldo visibile */
+  --zc-card-bg: #e8f0eb;       /* verde palissimo — sfondi icone */
+  --zc-white: #ffffff;
+  --zc-footer-bg: #1a3028;     /* footer verde scuro con warmth */
+  --zc-footer-bottom: #121f1a;
+}
+
+/* ================================================================
+   1. TYPOGRAPHY — Gerarchia chiara
+   ================================================================ */
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: var(--zc-body) !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+/* CRITICAL FIX: Override PreviewEngine --sg-accent on headings
+   Engine injects color via h1-h6 selectors — we need 7x+ specificity */
+h1.h1.h1.h1.h1.h1.h1,
+h2.h2.h2.h2.h2.h2.h2,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+}
+
+/* Section headings — consistent 32px */
+.heading-section h2,
+.heading-section h2,
+.heading-section h2,
+.heading-section h2,
+.heading-section h2,
+.heading-section h2,
+.heading-section h2 {
+  font-size: 32px !important;
+  color: var(--zc-dark) !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* White headings in dark sections */
+.heading-section-white h2,
+.heading-section-white h2,
+.heading-section-white h2,
+.heading-section-white h2,
+.heading-section-white h2,
+.heading-section-white h2,
+.heading-section-white h2 {
+  color: var(--zc-white) !important;
+}
+
+/* Subheadings — small caps accent */
+.heading-section .subheading,
+.heading-section .subheading,
+.heading-section .subheading,
+.heading-section .subheading,
+.heading-section .subheading,
+.heading-section .subheading,
+.heading-section .subheading {
+  font-family: 'DM Sans', sans-serif !important;
+  color: var(--zc-primary) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  letter-spacing: 3px !important;
+  text-transform: uppercase !important;
+  display: inline-block !important;
+  margin-bottom: 10px !important;
+}
+
+/* Subheading decorative line */
+.heading-section .subheading::after {
+  content: '' !important;
+  display: block !important;
+  width: 40px !important;
+  height: 2px !important;
+  background: var(--zc-accent) !important;
+  margin-top: 10px !important;
+}
+
+.heading-section.text-center .subheading::after {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* White subheading */
+.heading-section-white .subheading,
+.heading-section-white .subheading,
+.heading-section-white .subheading,
+.heading-section-white .subheading,
+.heading-section-white .subheading,
+.heading-section-white .subheading,
+.heading-section-white .subheading {
+  color: var(--zc-accent) !important;
+}
+
+/* ================================================================
+   2. BRAND / LOGO — Più forte e leggibile
+   ================================================================ */
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1,
+.navbar-brand.zc-brand h1 {
+  font-family: 'Lora', Georgia, serif !important;
+  font-weight: 700 !important;
+  color: var(--zc-dark) !important;
+  font-size: 24px !important;
+  letter-spacing: -0.3px !important;
+}
+
+/* "Cura" part of wordmark — must stay inline, same size as "Zampa" */
+.navbar-brand.zc-brand .zc-brand-accent {
+  color: var(--zc-accent) !important;
+  display: inline !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+
+/* Stethoscope icon — caramel to differentiate from text */
+.navbar-brand.zc-brand .flaticon {
+  color: var(--zc-accent) !important;
+  font-size: 42px !important;
+  margin-right: 4px !important;
+}
+
+.navbar-brand.zc-brand span.mini {
+  color: var(--zc-body) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 10px !important;
+  letter-spacing: 2.5px !important;
+  text-transform: uppercase !important;
+  opacity: 0.8;
+}
+
+/* Mobile navbar brand */
+@media (max-width: 991.98px) {
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1,
+  .navbar-brand.zc-brand h1 {
+    color: var(--zc-white) !important;
+  }
+  .navbar-brand.zc-brand .flaticon {
+    color: var(--zc-accent) !important;
+  }
+  .navbar-brand.zc-brand span.mini {
+    color: rgba(255,255,255,0.6) !important;
+  }
+}
+
+/* Scrolled navbar */
+.ftco-navbar-light.scrolled .navbar-brand.zc-brand h1 {
+  color: var(--zc-dark) !important;
+}
+.ftco-navbar-light.scrolled .navbar-brand.zc-brand .flaticon {
+  color: var(--zc-accent) !important;
+}
+
+/* Active nav link */
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+  color: var(--zc-primary) !important;
+}
+
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a,
+.ftco-navbar-light.scrolled .nav-item.active > a {
+  color: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   3. LINKS — Override engine
+   ================================================================ */
+a { color: var(--zc-primary) !important; }
+a:hover, a:focus { color: var(--zc-dark) !important; }
+
+/* ================================================================
+   4. HERO — Gradient overlay, tighter text
+   ================================================================ */
+.hero-wrap .overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 58, 47, 0.25) 0%,
+    rgba(30, 58, 47, 0.65) 100%
+  ) !important;
+  opacity: 1 !important;
+}
+
+.hero-wrap.hero-wrap-2 .overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 58, 47, 0.2) 0%,
+    rgba(30, 58, 47, 0.55) 100%
+  ) !important;
+  opacity: 1 !important;
+}
+
+.hero-wrap .slider-text h1 {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-white) !important;
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.5px !important;
+}
+
+@media (min-width: 992px) {
+  .hero-wrap .slider-text h1 {
+    font-size: 52px !important;
+  }
+}
+
+.hero-wrap .slider-text p {
+  color: rgba(255,255,255,0.88) !important;
+  max-width: 520px !important;
+  font-size: 17px !important;
+  line-height: 1.65 !important;
+}
+
+.hero-wrap .breadcrumbs span,
+.hero-wrap .breadcrumbs span a {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+.hero-wrap h1.bread {
+  color: var(--zc-white) !important;
+  font-size: 42px !important;
+}
+
+/* ================================================================
+   5. BUTTONS — Refined, not blocky
+   ================================================================ */
+
+/* CTA navbar */
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a,
+.ftco-navbar-light .nav-item.cta > a {
+  background: var(--zc-primary) !important;
+  border-color: var(--zc-primary) !important;
+  color: var(--zc-white) !important;
+  border-radius: 6px !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  letter-spacing: 0.5px !important;
+}
+
+.ftco-navbar-light .nav-item.cta > a:hover {
+  background: var(--zc-dark) !important;
+  border-color: var(--zc-dark) !important;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a,
+.ftco-navbar-light.scrolled .nav-item.cta > a {
+  background: var(--zc-primary) !important;
+  border: none !important;
+  color: var(--zc-white) !important;
+  border-radius: 6px !important;
+}
+
+/* Primary button */
+.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary {
+  background: var(--zc-primary) !important;
+  border-color: var(--zc-primary) !important;
+  color: var(--zc-white) !important;
+  border-radius: 6px !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.3px !important;
+  box-shadow: 0 2px 8px rgba(42,125,95,0.25) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary.btn-primary:hover {
+  background: #237050 !important;
+  border-color: #237050 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(42,125,95,0.35) !important;
+}
+
+/* Secondary button — outlined caramel */
+.btn.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary {
+  background: transparent !important;
+  border: 2px solid var(--zc-accent) !important;
+  color: var(--zc-white) !important;
+  border-radius: 6px !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary:hover {
+  background: var(--zc-accent) !important;
+  border-color: var(--zc-accent) !important;
+  color: var(--zc-dark) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* In non-hero contexts, secondary should have dark text */
+.ftco-section .btn.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary {
+  color: var(--zc-accent) !important;
+  border-color: var(--zc-accent) !important;
+}
+.ftco-section .btn.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary.btn-secondary:hover {
+  color: var(--zc-dark) !important;
+  background: var(--zc-accent) !important;
+}
+
+/* Submit inputs */
+input[type="submit"].btn {
+  border-radius: 6px !important;
+}
+
+/* ================================================================
+   6. SERVICES CARDS — Icone su sfondo tondo
+   ================================================================ */
+.services .icon {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  background: var(--zc-card-bg) !important;
+  border-radius: 50% !important;
+  margin-bottom: 0 !important;
+}
+
+.services .icon span {
+  color: var(--zc-primary) !important;
+  font-size: 28px !important;
+}
+
+.services .heading {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+  font-size: 18px !important;
+}
+
+.services {
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  border-radius: 8px !important;
+  padding: 24px 20px !important;
+}
+
+/* Hover: lift + shadow, keep text readable (original sets white text + pink bg) */
+.services:hover,
+.services.active {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 25px rgba(42,125,95,0.1) !important;
+  background: var(--zc-white) !important;
+}
+
+.services:hover .media-body,
+.services.active .media-body {
+  color: var(--zc-body) !important;
+}
+
+.services:hover .media-body h3,
+.services.active .media-body h3,
+.services:hover .heading,
+.services.active .heading {
+  color: var(--zc-primary) !important;
+}
+
+.services:hover .icon,
+.services.active .icon {
+  background: var(--zc-primary) !important;
+}
+
+.services:hover .icon span,
+.services.active .icon span {
+  color: var(--zc-white) !important;
+}
+
+/* ================================================================
+   7. ABOUT / COUNTER SECTION
+   ================================================================ */
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number,
+.ftco-counter .text strong.number {
+  color: var(--zc-primary) !important;
+  font-family: 'Lora', Georgia, serif !important;
+  font-size: 44px !important;
+}
+
+.ftco-counter .text span {
+  color: var(--zc-body) !important;
+}
+
+.list-services .icon {
+  background: var(--zc-card-bg) !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  min-width: 44px !important;
+}
+
+.list-services .icon span {
+  color: var(--zc-primary) !important;
+  font-size: 18px !important;
+}
+
+/* ================================================================
+   8. APPOINTMENT FORM
+   ================================================================ */
+.appointment-heading {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+  font-size: 20px !important;
+  letter-spacing: 1px !important;
+}
+
+/* ================================================================
+   9. STAFF / TEAM
+   ================================================================ */
+.staff .text h3,
+.staff .text h3,
+.staff .text h3,
+.staff .text h3,
+.staff .text h3,
+.staff .text h3,
+.staff .text h3 {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+  font-size: 18px !important;
+}
+
+.staff .text .position {
+  color: var(--zc-primary) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+/* Staff card — fix: text hidden behind section bg by z-index:-1.
+   Original CSS: .staff .text { margin-top: -100px; z-index: -1; }
+   We override z-index so text is always visible, and adjust layout. */
+.staff {
+  border-radius: 8px !important;
+  overflow: visible !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  background: var(--zc-white) !important;
+}
+
+.staff .img-wrap {
+  overflow: hidden !important;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+/* Fix: bring text above background — was z-index:-1 */
+.staff .text {
+  z-index: 1 !important;
+  position: relative !important;
+  background: var(--zc-white) !important;
+  margin-top: -60px !important;
+  padding: 70px 20px 20px 20px !important;
+  border-radius: 0 0 8px 8px !important;
+}
+
+/* Hover: subtle lift only, text was already visible */
+.staff:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1) !important;
+}
+
+/* Override original green hover bg — keep text readable */
+.staff:hover .text,
+.staff:focus .text {
+  background: var(--zc-white) !important;
+  color: var(--zc-body) !important;
+}
+.staff:hover .text h3,
+.staff:focus .text h3 {
+  color: var(--zc-primary) !important;
+}
+.staff:hover .text .position,
+.staff:focus .text .position {
+  color: var(--zc-primary) !important;
+}
+
+/* Social icons */
+.staff .ftco-social li a {
+  background: var(--zc-card-bg) !important;
+  color: var(--zc-body) !important;
+  border-radius: 50% !important;
+}
+.staff .ftco-social li a:hover {
+  background: var(--zc-primary) !important;
+  color: var(--zc-white) !important;
+}
+
+/* ================================================================
+   10. TESTIMONIALS — Warmer overlay
+   ================================================================ */
+.testimony-section.img .overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 47, 0.8) 0%,
+    rgba(26, 48, 40, 0.7) 100%
+  ) !important;
+  opacity: 1 !important;
+}
+
+.testimony-wrap {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+}
+
+.testimony-wrap .user-img .quote {
+  background: var(--zc-primary) !important;
+}
+
+.testimony-wrap .text p.mb-4 {
+  color: var(--zc-body) !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  font-style: italic !important;
+}
+
+.testimony-wrap .name {
+  color: var(--zc-dark) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.testimony-wrap .position {
+  color: var(--zc-primary) !important;
+  font-size: 12px !important;
+}
+
+/* ================================================================
+   11. PRICING CARDS — Border-top accent
+   ================================================================ */
+.block-7 {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border-top: 3px solid var(--zc-card-bg) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.block-7:hover {
+  transform: translateY(-4px) !important;
+  border-top-color: var(--zc-primary) !important;
+}
+
+.block-7 .price .number,
+.block-7 .price .number,
+.block-7 .price .number,
+.block-7 .price .number,
+.block-7 .price .number,
+.block-7 .price .number,
+.block-7 .price .number {
+  color: var(--zc-primary) !important;
+  font-family: 'Lora', Georgia, serif !important;
+  font-size: 54px !important;
+}
+
+.block-7 .excerpt {
+  color: var(--zc-primary) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+}
+
+.block-7 .pricing-text li span.fa {
+  color: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   12. BLOG CARDS
+   ================================================================ */
+.blog-entry {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  background: var(--zc-white) !important;
+}
+
+.blog-entry:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1) !important;
+}
+
+.blog-entry .heading a,
+.blog-entry .heading a,
+.blog-entry .heading a,
+.blog-entry .heading a,
+.blog-entry .heading a,
+.blog-entry .heading a,
+.blog-entry .heading a {
+  color: var(--zc-dark) !important;
+  font-family: 'Lora', Georgia, serif !important;
+  font-size: 17px !important;
+}
+
+.blog-entry .heading a:hover {
+  color: var(--zc-primary) !important;
+}
+
+.blog-entry .meta a {
+  color: var(--zc-body) !important;
+  font-size: 13px !important;
+}
+
+/* ================================================================
+   13. FOOTER — Warm dark, not oppressive
+   ================================================================ */
+.ftco-footer {
+  background: var(--zc-footer-bg) !important;
+}
+
+/* Footer headings — caramel accent */
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2,
+.ftco-footer .ftco-footer-widget h2.ftco-heading-2 {
+  color: var(--zc-accent) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.ftco-footer .ftco-footer-widget p {
+  color: rgba(255,255,255,0.6) !important;
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a,
+.ftco-footer .block-23 .text {
+  color: rgba(255,255,255,0.55) !important;
+  font-size: 14px !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a:hover {
+  color: var(--zc-accent) !important;
+}
+
+.ftco-footer .ftco-footer-social li a {
+  background: rgba(255,255,255,0.08) !important;
+  transition: background 0.2s ease !important;
+}
+
+.ftco-footer .ftco-footer-social li a:hover {
+  background: var(--zc-primary) !important;
+}
+
+.ftco-footer .ftco-footer-social li a span {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+.ftco-footer .ftco-footer-social li a:hover span {
+  color: var(--zc-white) !important;
+}
+
+/* Footer logo */
+.ftco-footer h2.zc-footer-logo .logo1 span {
+  color: var(--zc-white) !important;
+  font-family: 'Lora', Georgia, serif !important;
+  font-size: 20px !important;
+}
+
+.ftco-footer h2.zc-footer-logo .logo1 span.sub {
+  color: rgba(255,255,255,0.4) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 10px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+}
+
+.ftco-footer h2.zc-footer-logo .icon .flaticon {
+  color: var(--zc-accent) !important;
+}
+
+/* Footer bottom bar */
+.ftco-footer .container-fluid.bg-primary {
+  background: var(--zc-footer-bottom) !important;
+}
+
+.ftco-footer .container-fluid.bg-primary p {
+  color: rgba(255,255,255,0.35) !important;
+  font-size: 13px !important;
+}
+
+/* ================================================================
+   14. CONTACT SECTION
+   ================================================================ */
+.contact-section .box .icon {
+  background: var(--zc-primary) !important;
+}
+
+.contact-section .box .icon span {
+  color: var(--zc-white) !important;
+}
+
+.contact-section .box h3,
+.contact-section .box h3,
+.contact-section .box h3,
+.contact-section .box h3,
+.contact-section .box h3,
+.contact-section .box h3,
+.contact-section .box h3 {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+  font-size: 18px !important;
+}
+
+/* ================================================================
+   15. TOP BAR — hidden; contact info in footer is sufficient.
+   Original .wrap sits at top:0 absolute, overlapping the navbar
+   when navbar is also at top:0. Hide for cleaner first-paint.
+   ================================================================ */
+.wrap {
+  display: none !important;
+}
+
+.social-media p a:hover {
+  background: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   16. OWL CAROUSEL DOTS
+   ================================================================ */
+.owl-carousel .owl-dots .owl-dot.active {
+  background: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   17. PAGINATION
+   ================================================================ */
+.block-27 ul li.active span {
+  background: var(--zc-primary) !important;
+  border-color: var(--zc-primary) !important;
+  color: var(--zc-white) !important;
+}
+
+/* ================================================================
+   18. SIDEBAR (blog-single)
+   ================================================================ */
+.sidebar-box .heading-sidebar {
+  font-family: 'Lora', Georgia, serif !important;
+  color: var(--zc-dark) !important;
+}
+
+.tag-cloud-link {
+  color: var(--zc-body) !important;
+  border-radius: 4px !important;
+}
+.tag-cloud-link:hover {
+  background: var(--zc-primary) !important;
+  color: var(--zc-white) !important;
+}
+
+/* ================================================================
+   PINK REMNANT KILL — Override all remaining #fd4c82 from original
+   ================================================================ */
+
+/* Contact page icon containers */
+.contact-info .icon,
+.contact-info .icon,
+.contact-info .icon,
+.contact-info .icon,
+.contact-info .icon,
+.contact-info .icon,
+.contact-info .icon {
+  background: var(--zc-primary) !important;
+}
+
+/* Footer chevron icons */
+.ftco-footer .fa-chevron-right {
+  color: var(--zc-accent) !important;
+}
+
+/* Footer contact icons (phone, email) */
+.ftco-footer .block-23 .fa {
+  color: var(--zc-accent) !important;
+}
+
+/* Breadcrumb chevrons */
+.breadcrumbs .fa-chevron-right {
+  color: rgba(255,255,255,0.5) !important;
+}
+
+/* Any remaining pink text-primary override */
+.text-primary {
+  color: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   19. GLOBAL UTILITIES
+   ================================================================ */
+
+/* Selection */
+::selection {
+  background: var(--zc-primary);
+  color: var(--zc-white);
+}
+
+/* bg-light — warm beige, visibly different from white */
+.bg-light {
+  background-color: var(--zc-light-bg) !important;
+}
+
+/* Loader */
+#ftco-loader .path {
+  stroke: var(--zc-primary) !important;
+}
+
+/* Sections vertical rhythm */
+.ftco-section {
+  padding: 5em 0 !important;
+}
+
+/* ================================================================
+   20. PREVIEWENGINE DEFENSE — Extra specificity for injected styles
+   ================================================================ */
+
+/* Engine injects: h1-h6 { color: var(--sg-accent) }
+   We override with attribute + class combos */
+body h1[class],
+body h2[class],
+body h3[class],
+body h4[class] {
+  color: var(--zc-dark) !important;
+}
+
+body .hero-wrap h1[class],
+body .hero-wrap h1 {
+  color: var(--zc-white) !important;
+}
+
+/* Engine injects link color on a — ensure buttons stay correct */
+.btn.btn-primary a,
+.btn.btn-secondary a,
+a.btn.btn-primary,
+a.btn.btn-secondary {
+  color: inherit !important;
+}
+
+/* Pricing number defense */
+.block-7 .number,
+.ftco-counter .number {
+  color: var(--zc-primary) !important;
+}
+
+/* ================================================================
+   21. PREVIEWENGINE GRADIENT KILL
+   Engine injects purple-orange gradients on its own UI elements
+   and blue-dark gradients on footer/navbar backgrounds.
+   ================================================================ */
+
+/* Scroll progress bar — subtle primary instead of purple-orange
+   Engine uses .sg-scroll-progress with !important in later inline sheet
+   → need body prefix for higher specificity */
+body .sg-scroll-progress,
+html body .sg-scroll-progress {
+  background: var(--zc-primary) !important;
+  background-image: none !important;
+  height: 2px !important;
+  opacity: 0.6 !important;
+}
+
+/* Back-to-top button — clean circle, no gradient */
+body .sg-back-to-top,
+html body .sg-back-to-top {
+  background: var(--zc-primary) !important;
+  background-image: none !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  box-shadow: 0 2px 10px rgba(42,125,95,0.3) !important;
+}
+body .sg-back-to-top:hover,
+html body .sg-back-to-top:hover {
+  background: var(--zc-dark) !important;
+}
+body .sg-back-to-top svg,
+body .sg-back-to-top path {
+  stroke: var(--zc-white) !important;
+  fill: var(--zc-white) !important;
+}
+
+/* Engine custom cursor — hide, not premium */
+.sg-cursor,
+.sg-cursor * {
+  display: none !important;
+}
+
+/* Footer — KILL engine gradient (engine uses .ftco-footer selector
+   in inline sheet injected AFTER ours, so we need higher specificity) */
+body footer.ftco-footer,
+html body footer.ftco-footer,
+body footer[class*="footer"].ftco-footer {
+  background: var(--zc-footer-bg) !important;
+  background-image: none !important;
+}
+
+/* Footer bottom bar — same high-specificity kill */
+body footer.ftco-footer .container-fluid.bg-primary,
+body footer.ftco-footer .container-fluid[class*="bg-"] {
+  background: var(--zc-footer-bottom) !important;
+  background-image: none !important;
+}
+
+/* Navbar — ensure no engine gradient when scrolled */
+nav.ftco_navbar.sg-scrolled,
+nav.ftco_navbar[class*="sg-"] {
+  background: var(--zc-white) !important;
+  background-image: none !important;
+}
+
+/* CTA button — ensure no engine gradient */
+.nav-item.cta,
+.nav-item.cta > a {
+  background-image: none !important;
+}
+
+/* Engine reveal animations — reduce interference with template's own */
+[class*="sg-reveal"] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* ================================================================
+   22. CARD UNIFORMITY — Blog & Testimonials
+   ================================================================ */
+
+/* Blog cards — flex column, button pinned to bottom */
+.blog-entry {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.blog-entry .block-20 {
+  flex-shrink: 0 !important;
+}
+
+.blog-entry .desc {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.blog-entry .desc .d-flex {
+  flex: 1 !important;
+}
+
+.blog-entry .desc .text {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+
+.blog-entry .desc .text p:last-child {
+  margin-top: auto !important;
+}
+
+/* Blog card parent columns — ensure equal height */
+.ftco-section .row.d-flex > [class*="col-lg-4"] {
+  display: flex !important;
+}
+
+/* Testimonial cards — fixed min-height for uniform appearance */
+.testimony-wrap {
+  min-height: 260px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+.testimony-wrap .text {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: 160px !important;
+}
+
+/* ================================================================
+   23. NAVBAR — Full-width from first paint
+   Original template: nav is transparent + absolute at top:40px,
+   only .container inside gets white bg (1140px centered box).
+   After scroll JS adds .scrolled → fixed, full-width white.
+   Fix: make nav full-width white from the start so it matches
+   the scrolled state visually. Keep position absolute initially
+   so it sits over the hero, but with full-width white bg.
+   ================================================================ */
+
+@media (min-width: 992px) {
+  .ftco-navbar-light {
+    background: var(--zc-white) !important;
+    top: 0 !important;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.06) !important;
+  }
+}
+
+/* Scrolled navbar — same look, just fixed */
+.ftco-navbar-light.scrolled {
+  background: var(--zc-white) !important;
+  background-image: none !important;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.08) !important;
+}

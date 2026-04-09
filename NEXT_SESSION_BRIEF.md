@@ -2,72 +2,85 @@
 
 ## Stato attuale
 
-Due template pilota completati e consolidati:
-1. **Medilux** (Medical/drpro → slug `medical-medilux`) — 5 pagine, visual system, scroll jank fixato
-2. **Nøva Creative** (Agency/avo → slug `agency-fluxwork`) — 6 pagine, adapter YAML, scroll jank fixato
+| Template | Slug | Stato | Engine Opt-Out |
+|----------|------|-------|----------------|
+| Nøva Creative | `agency-blueprint` | PULITO | Attivo |
+| ZampaCura | `animal-vetaura-2` | PULITO | Attivo |
+| Medilux | `medical-medilux` | NON PULITO | Attivo |
 
-PreviewEngine: aggiunto lazy loading automatico su immagini sostituite (session 5).
+Engine opt-out funzionante per i 3 template pilota. Nøva e ZampaCura hanno superato audit forense completo (0 immagini originali, 0 lorem, 0 inglese residuo).
 
-## Obiettivo — Fase 4
+## Obiettivo — Medilux Triage + Recovery Plan
 
-**Terzo template pilota verticale: Animal/petvet — analisi strutturale, adapter dedicato, rebranding, premium restyling, mapping text/image slots, prevenzione jank fin dall'inizio.**
+### Perimetro esatto
 
-## Perimetro esatto
+1. **Audit strutturale dettagliato** di Medilux (6 pagine HTML)
+   - Quali pagine hanno contenuto italiano accettabile
+   - Quali pagine hanno contenuto da rifare
+   - Stato immagini pagina per pagina
 
-### 1. Analisi strutturale Animal/petvet
-- Esplorare `Templates/Animal/petvet/` — pagine disponibili, layout, plugin JS, immagini
-- Verificare la struttura nell'import DB: `python -c "..." | grep petvet`
-- Identificare parallax/slider/scroll listeners PRIMA di iniziare (prevenzione jank)
+2. **Decisione su elements.html**
+   - Opzione A: rebrand completo (costo alto, ~55 residui)
+   - Opzione B: escludere dalla navigazione/preview (esclusione pulita)
+   - Opzione C: eliminare il file
 
-### 2. Adapter dedicato
-- Creare `adapter.yaml` con mapping completo: slot testo, slot immagine, palette, tipografia
-- Definire il brand italiano (nome, tagline, città, settore)
+3. **Sostituzione immagini** — 48 immagini locali originali da sostituire con URL Pexels
+   - Priorità: hero backgrounds, team, testimonials
+   - Strategia: stessa usata per ZampaCura (URL diretti bypass engine)
 
-### 3. Rebranding + Premium Restyling
-- Applicare il pattern consolidato: CSS condiviso (`xxx-shared.css`), 7x selectors, prefix brand
-- Immagini esterne (Pexels) per zone critiche
-- Tipografia premium (Google Fonts)
-- Palette coerente su tutte le pagine
+4. **Fix title/meta/lang** — 3 pagine con "Dr PRO", 3 con `lang="en"`
 
-### 4. Prevenzione jank
-- Disabilitare preventivamente parallax/scroll-heavy JS
-- Aggiungere `loading="lazy"` e dimensioni alle immagini del template
-- Il PreviewEngine ora inietta `loading="lazy"` automaticamente sulle `<img>` sostituite
+5. **Verifica finale** — stesso audit forense di ZampaCura/Nøva
 
-### 5. Documentazione
-- `VISUAL_SYSTEM.md` per il nuovo template
-- Aggiornare `PROJECT_STATUS.md` e `KNOWN_ISSUES.md`
+### Cosa NON toccare
 
-## Cosa NON toccare
+- Engine/customizer/services.py — opt-out già funzionante
+- settings.py — Medilux già in allowlist
+- Nøva Creative — PULITO, non modificare
+- ZampaCura — PULITO, non modificare
+- Database schema — non resettare
+- Import pipeline — non modificare
 
-- **Medilux** — consolidato
-- **Nøva Creative** — consolidato
-- **PreviewEngine** — non modificare (lazy loading già aggiunto)
-- **Django apps** — non toccare
-- **Database** — non resettare
-- **i18n pipeline** — non modificare
+### Deliverable obbligatori
+
+- [ ] Tutte le pagine Medilux con `lang="it"`
+- [ ] Zero `<title>` o `<meta>` con "Dr PRO"
+- [ ] Zero immagini originali locali referenziate dall'HTML
+- [ ] Zero lorem ipsum
+- [ ] Zero testi inglesi visibili (escluso Colorlib CC BY 3.0)
+- [ ] Decisione documentata su elements.html
+- [ ] Audit forense finale con tabella per pagina
+- [ ] PROJECT_STATUS.md aggiornato con stato "PULITO"
+
+### Criteri di completamento
+
+- Medilux supera lo stesso audit forense di ZampaCura/Nøva
+- 0 immagini originali, 0 lorem, 0 inglese residuo visibile
+- elements.html gestita (rebrandata o esclusa con documentazione)
+- Nessuna regressione su Nøva o ZampaCura
+- Documentazione aggiornata
 
 ## Startup
 
 ```bash
 cd C:\tmp\sitoBadr\marketweb
 python manage.py runserver 8999
-# Preview Animal/petvet:
-# Trovare lo slug: python -c "import django,os; os.environ['DJANGO_SETTINGS_MODULE']='marketweb.settings'; django.setup(); from catalog.models import TemplateItem; [print(f'{i.slug} - {i.name}') for i in TemplateItem.objects.filter(source_dir__icontains='petvet')]"
-# http://127.0.0.1:8999/customize/<slug>/
+
+# Preview dei 3 pilota:
+# http://127.0.0.1:8999/customize/medical-medilux/
+# http://127.0.0.1:8999/customize/agency-blueprint/
+# http://127.0.0.1:8999/customize/animal-vetaura-2/
 ```
 
 ## Riferimenti
 
-- `Templates/Medical/drpro/VISUAL_SYSTEM.md` — visual system Medilux (primo pilota)
-- `Templates/Agency/avo/VISUAL_SYSTEM.md` — visual system Nøva Creative (secondo pilota)
-- `Templates/Agency/avo/adapter.yaml` — adapter di riferimento
-- `KNOWN_ISSUES.md` — workaround PreviewEngine + problemi residui scroll
-- `CLAUDE.md` — architettura Django
+- `marketweb/settings.py` — allowlist (`ADAPTED_TEMPLATE_SLUGS`)
+- `customizer/services.py` — `_inject_adapted_layer()` + guards
+- `Templates/Medical/drpro/` — file Medilux
+- `Templates/Medical/drpro/VISUAL_SYSTEM.md` — visual system Medilux
+- `PROJECT_STATUS.md` — audit forense Medilux (sezione dettagliata)
+- `KNOWN_ISSUES.md` — issues Medilux specifici
 
-## Lezioni apprese (session 5)
+## Licensing
 
-- **Parallax JS è la causa principale di scroll jank** — disabilitare sempre prima di lavorare sul visual
-- **PreviewEngine stripping srcset + eager loading** amplifica il problema — ora mitigato con lazy loading automatico
-- **Background-image su div** non beneficia di `loading="lazy"` — solo `<img>` tag
-- **Mapping source directory**: `Medical/drpro` = Medilux (`medical-medilux`), `Agency/avo` = Fluxwork/Nøva (`agency-fluxwork`)
+Stato licensing NON verificato. Colorlib templates usano CC BY 3.0 — l'attribuzione nel footer deve restare. Verificare vincoli prima di uso commerciale.

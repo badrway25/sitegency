@@ -1167,9 +1167,145 @@ html[dir="rtl"] .lnr-arrow-right, html[dir="rtl"] .lnr-chevron-right {
         )
         body.append(script)
 
+    def _inject_adapted_layer(self, soup: BeautifulSoup) -> None:
+        """Inject ONLY structural/safety CSS for templates that have their own
+        visual system (fonts, palette, hover, etc.).
+
+        These templates are listed in settings.ADAPTED_TEMPLATE_SLUGS.
+        We skip ALL visual styling (gradients, fonts, hover transforms, cards,
+        footer dark, accent colors, animations, cursor, scroll-progress, etc.)
+        and inject only what's needed for the preview to function correctly.
+        """
+        head = soup.find('head')
+        if not head:
+            return
+
+        css = """
+/* ================================================================
+   SITEGENCY ADAPTED LAYER — structural/safety only
+   Visual styling handled by the template's own CSS
+   ================================================================ */
+
+/* Hide off-canvas / mobile menus on desktop (they leak into flow in preview) */
+.site-mobile-menu, .mobile-menu-overlay, .offcanvas,
+[class*="offcanvas-menu"], [class*="mobile-nav-wrapper"],
+[class*="sidebar-menu-wrapper"], [class*="side-menu-wrapper"],
+.canvas-menu, .push-menu, .slide-menu {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Force navbar menu visible on desktop */
+@media (min-width: 768px) {
+  .navbar-collapse, .collapse.navbar-collapse, .nav-collapse,
+  nav .collapse, [class*="navbar-collapse"] {
+    display: flex !important;
+    visibility: visible !important;
+    height: auto !important;
+    overflow: visible !important;
+    flex-basis: auto !important;
+  }
+  .navbar-nav, nav ul.nav, nav ul[class*="menu"],
+  ul.navbar-nav, ul.nav-menu, .main-menu ul,
+  header ul.nav, nav ul {
+    display: flex !important;
+    visibility: visible !important;
+    list-style: none !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .navbar-toggler, .menu-toggle, .hamburger,
+  [class*="navbar-toggler"], [class*="menu-toggle"],
+  [class*="hamburger"], button[data-toggle="collapse"],
+  button[data-bs-toggle="collapse"] {
+    display: none !important;
+  }
+}
+
+/* Prevent mobile horizontal overflow */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+@media (max-width: 768px) {
+  .container, .container-fluid, .row, section, [class*="section"],
+  .site-wrap, main, .wrapper, [class*="wrapper"] {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+  img, video, iframe, table, pre {
+    max-width: 100% !important;
+  }
+  [class*="col-"], .owl-item, .slick-slide {
+    flex-shrink: 1 !important;
+    min-width: 0 !important;
+  }
+}
+
+/* Override animation libraries that hide content in preview */
+.ftco-animate,
+.animate-box,
+[data-animate-effect],
+.wow,
+[data-aos],
+[class*="aos-init"],
+.heading-section,
+.section-heading,
+.site-section-heading,
+.element-animate,
+.untree_co-section {
+  opacity: 1 !important;
+  visibility: visible !important;
+  -webkit-animation-fill-mode: none !important;
+  animation-fill-mode: none !important;
+}
+
+/* Prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus accessibility */
+:focus-visible {
+  outline: 2px solid currentColor !important;
+  outline-offset: 3px !important;
+  border-radius: 4px !important;
+}
+
+/* Disable engine UI elements — adapted templates handle their own scroll/UX */
+.sg-scroll-progress,
+.sg-back-to-top,
+.sg-cursor,
+.sg-cursor * {
+  display: none !important;
+}
+
+/* Disable engine reveal system — adapted templates have their own animations */
+[class*="sg-reveal"],
+[class*="sg-stagger"] {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+}
+"""
+
+        style = soup.new_tag('style')
+        style['data-bw'] = 'adapted'
+        style.string = css
+        head.append(style)
+
     def _inject_differentiation_layer(self, soup: BeautifulSoup) -> None:
         """Inject a comprehensive premium stylesheet that deeply transforms every
         template into an ultra-premium, Sitegency-branded experience.
+
+        Templates listed in settings.ADAPTED_TEMPLATE_SLUGS are excluded — they
+        get the minimal structural layer from _inject_adapted_layer() instead.
 
         This is NOT a gentle overlay — it's a dramatic visual transformation:
         - Premium fonts (Playfair Display + Plus Jakarta Sans)
@@ -1184,6 +1320,14 @@ html[dir="rtl"] .lnr-arrow-right, html[dir="rtl"] .lnr-chevron-right {
         - Premium scrollbar and selection
         - Section dividers and accent strips
         """
+        # Check if this template has its own visual system
+        slug = getattr(self.template, 'slug', '')
+        from django.conf import settings as django_settings
+        adapted_slugs = getattr(django_settings, 'ADAPTED_TEMPLATE_SLUGS', [])
+        if slug in adapted_slugs:
+            self._inject_adapted_layer(soup)
+            return
+
         head = soup.find('head')
         if not head:
             return
@@ -3589,7 +3733,13 @@ em.serif {{
         and replaces all text occurrences of the old brand.
 
         This ensures zero traces of the original template brand remain.
+
+        Skipped for adapted templates — they have their own brand identity in HTML.
         """
+        slug = getattr(self.template, 'slug', '')
+        from django.conf import settings as django_settings
+        if slug in getattr(django_settings, 'ADAPTED_TEMPLATE_SLUGS', []):
+            return
         slug = getattr(self.template, 'slug', '')
         seed = sum(ord(c) for c in slug)
         cat = self.template.category.name if hasattr(self.template, 'category') else ''
@@ -4111,7 +4261,14 @@ em.serif {{
         Adds: scroll progress bar, back-to-top button, counter animations,
         parallax hero, staggered card reveals, custom cursor, smooth page
         transitions, and enhanced hover effects.
+
+        Skipped for adapted templates (they handle their own interactions).
         """
+        slug = getattr(self.template, 'slug', '')
+        from django.conf import settings as django_settings
+        if slug in getattr(django_settings, 'ADAPTED_TEMPLATE_SLUGS', []):
+            return
+
         body = soup.find('body')
         if not body:
             return
@@ -4697,7 +4854,13 @@ em.serif {{
         static templates into dynamic, premium-feeling experiences.
 
         Uses CSS classes (sg-reveal) defined in _inject_differentiation_layer.
+        Skipped for adapted templates (they use their own animation system).
         """
+        slug = getattr(self.template, 'slug', '')
+        from django.conf import settings as django_settings
+        if slug in getattr(django_settings, 'ADAPTED_TEMPLATE_SLUGS', []):
+            return
+
         body = soup.find('body')
         if not body:
             return

@@ -115,6 +115,17 @@ TEMPLATE_SOURCE_DIR = PROJECT_ROOT / 'Templates'
 # Template preview — served via Django for live navigation
 TEMPLATE_PREVIEW_URL = '/preview/'
 
+# Adapted templates — these have their own visual system (CSS, fonts, palette)
+# and opt out of the PreviewEngine's aggressive differentiation layer.
+# Only structural/safety rules are injected for these templates.
+# To add a new template: add its DB slug here after completing its visual system.
+# To rollback: remove the slug — the full engine layer will be re-applied.
+ADAPTED_TEMPLATE_SLUGS = [
+    'medical-medilux',    # Medilux — Medical/drpro
+    'agency-blueprint',   # Nova Creative — Agency/avo
+    'animal-vetaura-2',   # ZampaCura — Animal/petvet
+]
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Crispy Forms

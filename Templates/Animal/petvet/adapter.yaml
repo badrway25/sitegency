@@ -1,0 +1,680 @@
+# ================================================================
+# ADAPTER — Animal/petvet (ZampaCura)
+# Template adapter for Sitegency marketplace customizer
+# Created: 2026-04-09
+# ================================================================
+
+template:
+  slug: petvet
+  category: Animal
+  original_name: "Petvet"
+  brand_name: "ZampaCura"
+  brand_tagline: "Centro Veterinario"
+  brand_city: "Torino"
+  locale: it
+  framework: Bootstrap 4.5.0
+  css_prefix: "zc-"
+  pages_count: 8
+
+# ================================================================
+# BRAND POINTS — Where the brand name appears
+# ================================================================
+brand_points:
+  - id: navbar_brand
+    selector: "a.navbar-brand.zc-brand h1"
+    pages: [index, about, groomer, services, blog, blog-single, pricing, contact]
+    content: "Zampa<span class='zc-brand-accent'>Cura</span>"
+    note: "Uses zc-brand class (safe from PreviewEngine). Text logo with accent span."
+
+  - id: footer_brand
+    selector: "h2.zc-footer-logo .logo1 span:first-child"
+    pages: [index, about, groomer, services, blog, blog-single, pricing, contact]
+    content: "ZampaCura"
+
+  - id: footer_tagline_brand
+    selector: "h2.zc-footer-logo .logo1 span.sub"
+    pages: [index, about, groomer, services, blog, blog-single, pricing, contact]
+    content: "Centro Veterinario"
+
+  - id: page_title
+    selector: "title"
+    pages: [index, about, groomer, services, blog, blog-single, pricing, contact]
+    pattern: "{PageName} — ZampaCura Centro Veterinario"
+
+  - id: navbar_subtitle
+    selector: "a.navbar-brand.zc-brand h1 span.mini"
+    pages: [index, about, groomer, services, blog, blog-single, pricing, contact]
+    content: "Centro Veterinario"
+
+  - id: about_subheading
+    selector: ".heading-section .subheading"
+    pages: [index, about]
+    content: "Benvenuti da ZampaCura"
+
+  - id: footer_description
+    selector: ".ftco-footer-widget p:first-of-type"
+    pages: all
+    content: "Centro veterinario di eccellenza a Torino..."
+
+# ================================================================
+# LOGO POINTS — Where a logo/mark would go
+# ================================================================
+logo_points:
+  - id: navbar_logo
+    selector: "a.navbar-brand.zc-brand"
+    pages: all
+    type: text_logo_with_icon
+    note: "Flaticon stethoscope icon + text. To add image: insert <img> inside <a>, hide <h1> with CSS."
+
+  - id: footer_logo
+    selector: "h2.zc-footer-logo a"
+    pages: all
+    type: text_logo_with_icon
+    note: "Same flaticon + text pattern. Could be replaced with image logo."
+
+# ================================================================
+# TEXT SLOTS — All editable text content
+# ================================================================
+text_slots:
+
+  # --- index.html ---
+  - id: hero_title
+    page: index
+    selector: ".hero-wrap .slider-text h1"
+    default: "La Cura che i Tuoi Animali Meritano"
+
+  - id: hero_subtitle
+    page: index
+    selector: ".hero-wrap .slider-text p"
+    default: "Da oltre 20 anni ci prendiamo cura dei vostri amici a quattro zampe..."
+
+  - id: hero_cta_primary
+    page: index
+    selector: ".hero-wrap .btn-primary"
+    default: "Prenota una Visita"
+
+  - id: hero_cta_phone
+    page: index
+    selector: ".hero-wrap .btn-secondary"
+    default: "011 234 5678"
+
+  - id: service_intro_1_name
+    page: index
+    selector: ".intro .services:nth-child(1) .heading"
+    default: "Medicina Veterinaria"
+
+  - id: service_intro_2_name
+    page: index
+    selector: ".intro .services:nth-child(2) .heading"
+    default: "Toelettatura"
+
+  - id: service_intro_3_name
+    page: index
+    selector: ".intro .services:nth-child(3) .heading"
+    default: "Pensione & Asilo"
+
+  - id: about_subheading
+    page: index
+    selector: ".ftco-counter .heading-section .subheading"
+    default: "Benvenuti da ZampaCura"
+
+  - id: about_heading
+    page: index
+    selector: ".ftco-counter .heading-section h2"
+    default: "Il Centro Veterinario di Riferimento a Torino"
+
+  - id: about_body
+    page: index
+    selector: ".ftco-counter .heading-section p"
+    default: "Il nostro centro offre un approccio integrato alla salute animale..."
+
+  - id: about_list_1
+    page: index
+    selector: ".list-services li:nth-child(1) p"
+    default: "Veterinari Specializzati"
+
+  - id: about_list_2
+    page: index
+    selector: ".list-services li:nth-child(2) p"
+    default: "Oltre 20 Anni di Esperienza"
+
+  - id: about_list_3
+    page: index
+    selector: ".list-services li:nth-child(3) p"
+    default: "Approccio Empatico"
+
+  - id: about_list_4
+    page: index
+    selector: ".list-services li:nth-child(4) p"
+    default: "Tecnologie All'Avanguardia"
+
+  - id: appointment_heading
+    page: [index, services, groomer, pricing]
+    selector: ".appointment-heading"
+    default: "Prenota un Appuntamento"
+
+  - id: team_subheading
+    page: [index, groomer]
+    selector: ".bg-light .heading-section .subheading"
+    default: "Il Nostro Team"
+
+  - id: team_heading
+    page: [index, groomer]
+    selector: ".bg-light .heading-section h2"
+    default: "I Nostri Veterinari"
+
+  - id: testimonials_subheading
+    page: [index, about]
+    selector: ".testimony-section .heading-section-white .subheading"
+    default: "Testimonianze"
+
+  - id: testimonials_heading
+    page: [index, about]
+    selector: ".testimony-section .heading-section-white h2"
+    default: "Cosa Dicono i Nostri Clienti"
+
+  - id: pricing_subheading
+    page: [index, pricing]
+    selector: ".heading-section .subheading:contains('Tariffe')"
+    default: "Tariffe"
+
+  - id: pricing_heading
+    page: [index, pricing]
+    selector: ".heading-section h2:contains('Pacchetti')"
+    default: "I Nostri Pacchetti"
+
+  - id: blog_subheading
+    page: index
+    selector: ".heading-section .subheading:contains('Blog')"
+    default: "Dal Blog"
+
+  - id: blog_heading
+    page: index
+    selector: ".heading-section h2:contains('Consigli')"
+    default: "Consigli per i Tuoi Animali"
+
+  # --- about.html ---
+  - id: about_hero_title
+    page: about
+    selector: ".bread"
+    default: "Chi Siamo"
+
+  - id: about_counter_1
+    page: about
+    selector: ".ftco-facts .block-18:nth-child(1) span"
+    default: "Anni di Esperienza"
+    data_attr: "data-number: 30"
+
+  - id: about_counter_2
+    page: about
+    selector: ".ftco-facts .block-18:nth-child(2) span"
+    default: "Clienti Soddisfatti"
+    data_attr: "data-number: 4500"
+
+  - id: about_counter_3
+    page: about
+    selector: ".ftco-facts .block-18:nth-child(3) span"
+    default: "Veterinari"
+    data_attr: "data-number: 400"
+
+  - id: about_counter_4
+    page: about
+    selector: ".ftco-facts .block-18:nth-child(4) span"
+    default: "Pazienti Curati"
+    data_attr: "data-number: 3000"
+
+  # --- services.html ---
+  - id: services_hero_title
+    page: services
+    selector: ".bread"
+    default: "I Nostri Servizi"
+
+  - id: service_1_name
+    page: services
+    selector: ".services:nth-child(1) .heading"
+    default: "Medicina Veterinaria"
+
+  - id: service_2_name
+    page: services
+    selector: ".services:nth-child(2) .heading"
+    default: "Toelettatura Professionale"
+
+  - id: service_3_name
+    page: services
+    selector: ".services:nth-child(3) .heading"
+    default: "Pensione & Asilo"
+
+  - id: service_4_name
+    page: services
+    selector: ".services:nth-child(4) .heading"
+    default: "Chirurgia Veterinaria"
+
+  - id: service_5_name
+    page: services
+    selector: ".services:nth-child(5) .heading"
+    default: "Vaccinazioni"
+
+  - id: service_6_name
+    page: services
+    selector: ".services:nth-child(6) .heading"
+    default: "Dermatologia"
+
+  - id: service_7_name
+    page: services
+    selector: ".services:nth-child(7) .heading"
+    default: "Ecografia & Diagnostica"
+
+  # --- groomer.html ---
+  - id: groomer_hero_title
+    page: groomer
+    selector: ".bread"
+    default: "Il Nostro Team"
+
+  - id: staff_1_name
+    page: groomer
+    selector: ".staff:nth-child(1) h3"
+    default: "Dott. Marco Rossi"
+
+  - id: staff_1_role
+    page: groomer
+    selector: ".staff:nth-child(1) .position"
+    default: "Direttore Sanitario"
+
+  # (staff 2-8 follow same pattern)
+
+  # --- blog.html ---
+  - id: blog_hero_title
+    page: blog
+    selector: ".bread"
+    default: "Il Nostro Blog"
+
+  # --- blog-single.html ---
+  - id: blogsingle_hero_title
+    page: blog-single
+    selector: ".bread"
+    default: "Articolo"
+
+  - id: blogsingle_article_title
+    page: blog-single
+    selector: ".ftco-section h2.mb-3"
+    default: "Come Preparare il Tuo Cucciolo alla Prima Visita Veterinaria"
+
+  # --- pricing.html ---
+  - id: pricing_hero_title
+    page: pricing
+    selector: ".bread"
+    default: "Tariffe"
+
+  # --- contact.html ---
+  - id: contact_hero_title
+    page: contact
+    selector: ".bread"
+    default: "Contatti"
+
+  - id: contact_address
+    page: contact
+    selector: ".contact-section .box:nth-child(1) p"
+    default: "Corso Re Umberto 42, 10128 Torino, Italia"
+
+  - id: contact_phone
+    page: contact
+    selector: ".contact-section .box:nth-child(2) p a"
+    default: "+39 011 234 5678"
+
+  - id: contact_email
+    page: contact
+    selector: ".contact-section .box:nth-child(3) p a"
+    default: "info@zampacura.it"
+
+  - id: contact_website
+    page: contact
+    selector: ".contact-section .box:nth-child(4) p a"
+    default: "zampacura.it"
+
+  # --- footer (all pages) ---
+  - id: footer_tagline
+    page: all
+    selector: ".ftco-footer-widget p:first-of-type"
+    default: "Centro veterinario di eccellenza a Torino. Professionalità, empatia e tecnologie avanzate per la salute dei tuoi animali."
+
+  - id: footer_address
+    page: all
+    selector: ".block-23 .fa-map-marker + .text"
+    default: "Corso Re Umberto 42, 10128 Torino, Italia"
+
+  - id: footer_phone
+    page: all
+    selector: ".block-23 .fa-phone + .text"
+    default: "+39 011 234 5678"
+
+  - id: footer_email
+    page: all
+    selector: ".block-23 .fa-paper-plane + .text"
+    default: "info@zampacura.it"
+
+  # --- topbar (all pages) ---
+  - id: topbar_phone
+    page: all
+    selector: ".wrap .phone a:first-of-type"
+    default: "+39 011 234 5678"
+
+  - id: topbar_email
+    page: all
+    selector: ".wrap .phone a:last-of-type"
+    default: "info@zampacura.it"
+
+# ================================================================
+# IMAGE SLOTS — All background-image and <img> src points
+# ================================================================
+image_slots:
+
+  # --- index.html ---
+  - id: hero_bg
+    page: index
+    selector: ".hero-wrap.js-fullheight"
+    attr: "style:background-image"
+    size: "1920x1080"
+    context: "Veterinario con animale, clinica moderna"
+    current_url: "https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg"
+
+  - id: about_image
+    page: [index, about]
+    selector: ".ftco-counter .img.w-100"
+    attr: "style:background-image"
+    size: "800x600"
+    context: "Veterinario che cura animale, ambiente clinico"
+    current_url: "https://images.pexels.com/photos/6235241/pexels-photo-6235241.jpeg"
+
+  - id: testimonials_bg
+    page: [index, about]
+    selector: ".testimony-section.img"
+    attr: "style:background-image"
+    size: "1920x800"
+    context: "Animali domestici, sfondo caldo"
+    current_url: "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg"
+
+  - id: team_member_1-4
+    page: [index, groomer]
+    selector: ".staff .img"
+    attr: "style:background-image"
+    size: "400x500"
+    count: 4
+    context: "Ritratti professionali veterinari"
+
+  - id: testimonial_avatar_1-5
+    page: [index, about]
+    selector: ".testimony-wrap .user-img"
+    attr: "style:background-image"
+    size: "100x100"
+    count: 5
+    context: "Ritratti clienti"
+
+  - id: pricing_card_1-4
+    page: [index, pricing]
+    selector: ".block-7 .img"
+    attr: "style:background-image"
+    size: "400x200"
+    count: 4
+    context: "Animali domestici (cani, gatti)"
+
+  - id: blog_card_1-3
+    page: index
+    selector: ".blog-entry .block-20"
+    attr: "style:background-image"
+    size: "400x300"
+    count: 3
+    context: "Cuccioli, alimentazione, vaccinazioni"
+
+  # --- inner page heroes (all use same image) ---
+  - id: inner_hero_bg
+    page: [about, services, groomer, blog, blog-single, pricing, contact]
+    selector: ".hero-wrap.hero-wrap-2"
+    attr: "style:background-image"
+    size: "1920x800"
+    context: "Veterinario / clinica"
+    current_url: "https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg"
+
+  # --- groomer.html ---
+  - id: staff_member_5-8
+    page: groomer
+    selector: ".staff .img (row 2)"
+    attr: "style:background-image"
+    size: "400x500"
+    count: 4
+    context: "Ritratti professionali veterinari"
+
+  # --- blog.html ---
+  - id: blog_card_1-6
+    page: blog
+    selector: ".blog-entry .block-20"
+    attr: "style:background-image"
+    size: "400x300"
+    count: 6
+    context: "Articoli veterinari"
+
+  # --- blog-single.html ---
+  - id: blogsingle_article_img_1
+    page: blog-single
+    selector: ".ftco-section img.img-fluid:first"
+    attr: "src"
+    current_url: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg"
+
+  - id: blogsingle_article_img_2
+    page: blog-single
+    selector: ".ftco-section img.img-fluid:last"
+    attr: "src"
+    current_url: "https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg"
+
+  - id: blogsingle_author_avatar
+    page: blog-single
+    selector: ".about-author .bio img"
+    attr: "src"
+    size: "100x100"
+
+  - id: blogsingle_sidebar_images
+    page: blog-single
+    selector: ".sidebar-box .blog-img"
+    attr: "style:background-image"
+    size: "80x80"
+    count: 3
+
+  # --- contact.html ---
+  - id: contact_section_image
+    page: contact
+    selector: ".block-9 .img.w-100"
+    attr: "style:background-image"
+    size: "800x600"
+    current_url: "https://images.pexels.com/photos/6235241/pexels-photo-6235241.jpeg"
+
+# ================================================================
+# EDITABLE SECTIONS — Major page sections
+# ================================================================
+editable_sections:
+
+  - id: hero
+    page: index
+    selector: ".hero-wrap.js-fullheight"
+    contains: [hero_bg, hero_title, hero_subtitle, hero_cta_primary, hero_cta_phone]
+
+  - id: services_intro
+    page: index
+    selector: ".ftco-section.bg-light.ftco-no-pt.intro"
+    contains: [service_intro_1_name, service_intro_2_name, service_intro_3_name]
+
+  - id: about_section
+    page: [index, about]
+    selector: ".ftco-counter.img"
+    contains: [about_subheading, about_heading, about_body, about_image]
+
+  - id: appointment_form
+    page: [index, services, groomer, pricing]
+    selector: ".ftco-services-2"
+    contains: [appointment_heading]
+
+  - id: team_section
+    page: [index, groomer]
+    selector: ".bg-light:has(.staff)"
+    contains: [team_heading, team_member_1-4]
+
+  - id: testimonials
+    page: [index, about]
+    selector: ".testimony-section"
+    contains: [testimonials_heading, testimonials_bg, testimonial_avatar_1-5]
+
+  - id: pricing_section
+    page: [index, pricing]
+    selector: ".bg-light:has(.block-7)"
+    contains: [pricing_heading, pricing_card_1-4]
+
+  - id: blog_preview
+    page: index
+    selector: ".ftco-section.ftco-no-pt.bg-light:has(.blog-entry)"
+    contains: [blog_heading, blog_card_1-3]
+
+  - id: counters
+    page: about
+    selector: ".ftco-facts"
+    contains: [about_counter_1, about_counter_2, about_counter_3, about_counter_4]
+
+  - id: services_grid
+    page: services
+    selector: ".ftco-section.bg-light:has(.services)"
+    contains: [service_1_name, service_2_name, service_3_name, service_4_name, service_5_name, service_6_name, service_7_name]
+
+  - id: contact_info
+    page: contact
+    selector: ".contact-section"
+    contains: [contact_address, contact_phone, contact_email, contact_website]
+
+  - id: footer
+    page: all
+    selector: ".ftco-footer"
+    contains: [footer_tagline, footer_address, footer_phone, footer_email]
+
+# ================================================================
+# RISKY SELECTORS — PreviewEngine conflict zones
+# ================================================================
+risky_selectors:
+  - selector: ".navbar-brand"
+    risk: "Engine targets this for brand injection"
+    mitigation: "Added zc-brand class, brand styling in petvet-shared.css with 7x selectors"
+
+  - selector: ".btn-primary"
+    risk: "Engine injects pill shape and link color override"
+    mitigation: "7x repeated selector override in petvet-shared.css"
+
+  - selector: ".btn-secondary"
+    risk: "Engine may override button styling"
+    mitigation: "7x repeated selector override in petvet-shared.css"
+
+  - selector: "h2.logo"
+    risk: "Engine may target .logo class for brand injection"
+    mitigation: "Added zc-footer-logo class, styled in petvet-shared.css"
+
+  - selector: "strong.number[data-number]"
+    risk: "Counter elements — engine content pool may replace text"
+    mitigation: "Monitor in preview. Counter values in data-number attribute, not text."
+
+  - selector: "background-image: url(images/*)"
+    risk: "Engine replaces ALL local image URLs"
+    mitigation: "All critical images replaced with direct Pexels https:// URLs"
+
+  - selector: "input[type='submit']"
+    risk: "Engine pill shape on submit buttons"
+    mitigation: "7x selector override in petvet-shared.css"
+
+  - selector: "#map"
+    risk: "Google Maps API key — will not work in preview"
+    mitigation: "Accept: map will be blank in preview. Not critical."
+
+  - selector: ".ftco-heading-2"
+    risk: "Footer headings — engine may attempt text replacement"
+    mitigation: "Low risk, monitor"
+
+# ================================================================
+# PREVIEWENGINE CONFLICTS — Known issues
+# ================================================================
+previewengine_conflicts:
+  - issue: "Stellar.js parallax causes scroll jank"
+    status: "FIXED — disabled in main.js, data-stellar attributes removed from all HTML"
+
+  - issue: "Scrollax causes additional scroll overhead"
+    status: "FIXED — $.Scrollax() commented out in main.js"
+
+  - issue: "$(window).scroll() not throttled"
+    status: "KNOWN — navbar scroll handler fires on every pixel. Low impact."
+
+  - issue: "Google Maps API key hardcoded"
+    status: "KNOWN — map will be blank in preview. Acceptable."
+
+  - issue: "Bootstrap Datepicker + Timepicker may conflict with engine injected styles"
+    status: "LOW RISK — form elements in appointment section"
+
+# ================================================================
+# NOTES FOR CUSTOMIZER
+# ================================================================
+notes_for_customizer:
+  css_override_file: "css/petvet-shared.css"
+  css_prefix: "zc-"
+  safe_brand_classes: ["zc-brand", "zc-brand-accent", "zc-footer-logo"]
+  unsafe_classes: ["logo", "brand", "site-title", "brand-name", "subtitle", "tagline"]
+  font_dependencies:
+    - "DM Sans (body) — loaded via @import in petvet-shared.css"
+    - "Lora (headings) — loaded via @import in petvet-shared.css"
+  js_plugins:
+    - "Owl Carousel — testimonials carousel"
+    - "jQuery animateNumber — counter animations (about page)"
+    - "jQuery Waypoints — scroll-triggered animations (.ftco-animate)"
+    - "Magnific Popup — image/video lightbox"
+    - "Bootstrap Datepicker — appointment form date picker"
+    - "jQuery Timepicker — appointment form time picker"
+    - "Google Maps — contact page (requires API key)"
+  disabled_plugins:
+    - "jQuery Stellar — parallax DISABLED (jank prevention)"
+    - "Scrollax — scroll effects DISABLED (jank prevention)"
+  known_limitations:
+    - "Google Maps requires valid API key — blank in preview"
+    - "Counter text may be replaced by engine content pool"
+    - "Owl Carousel nav hidden by default, dots visible"
+    - "Font Awesome 4.7 — no FA5/6 icons"
+    - "Flaticon custom font — pet-specific icons only"
+  image_strategy: "All critical images use direct Pexels URLs to bypass PreviewEngine replacement"
+  color_primary: "#2d6a4f"
+  color_accent: "#e9c46a"
+  color_dark: "#1b2a1f"
+
+# ================================================================
+# PAGES
+# ================================================================
+pages:
+  - file: index.html
+    title: "Home"
+    sections: [hero, services_intro, about_section, appointment_form, team_section, testimonials, pricing_section, blog_preview, footer]
+
+  - file: about.html
+    title: "Chi Siamo"
+    sections: [hero_banner, about_section, counters, testimonials, footer]
+
+  - file: services.html
+    title: "Servizi"
+    sections: [hero_banner, appointment_form, services_grid, footer]
+
+  - file: groomer.html
+    title: "Il Team"
+    sections: [hero_banner, appointment_form, team_section, footer]
+
+  - file: blog.html
+    title: "Blog"
+    sections: [hero_banner, blog_grid, pagination, footer]
+
+  - file: blog-single.html
+    title: "Articolo"
+    sections: [hero_banner, article, sidebar, comments, footer]
+
+  - file: pricing.html
+    title: "Tariffe"
+    sections: [hero_banner, appointment_form, pricing_section, footer]
+
+  - file: contact.html
+    title: "Contatti"
+    sections: [hero_banner, contact_info, contact_form, map, footer]

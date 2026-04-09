@@ -1,6 +1,6 @@
 # PROJECT STATUS — Sitegency
 
-Last updated: 2026-04-09 (session 5)
+Last updated: 2026-04-09 (session 7 — final handoff)
 
 ## Overview
 
@@ -8,78 +8,92 @@ Django-based marketplace for premium website templates. ~850+ templates organize
 
 ## Source Directory Mapping
 
-| Template Name | DB Slug | Source Directory | Category |
-|---------------|---------|------------------|----------|
-| **Medilux** | `medical-medilux` | `Templates/Medical/drpro` | Medical |
-| **Nøva Creative** (Fluxwork) | `agency-fluxwork` | `Templates/Agency/avo` | Agency |
+| Template Name | DB Slug | Display Name | Source Directory | Category | Status |
+|---------------|---------|--------------|------------------|----------|--------|
+| **Medilux** | `medical-medilux` | Medilux | `Templates/Medical/drpro` | Medical | NON PULITO |
+| **Nøva Creative** | `agency-blueprint` | Blueprint | `Templates/Agency/avo` | Agency | PULITO |
+| **ZampaCura** | `animal-vetaura-2` | ZampaCura | `Templates/Animal/petvet` | Animal | PULITO |
+
+## Engine Opt-Out System
+
+### Location
+- **Allowlist**: `marketweb/settings.py` → `ADAPTED_TEMPLATE_SLUGS`
+- **Engine**: `customizer/services.py` — guards in 4 functions
+
+### How it works
+Templates in the allowlist receive only a minimal structural CSS layer (~100 lines) instead of the engine's full visual layer (~2000+ lines). The following engine functions are skipped for adapted templates:
+- `_inject_differentiation_layer` → replaced by `_inject_adapted_layer`
+- `_inject_scroll_animations` → skipped entirely
+- `_inject_premium_interactivity` → skipped entirely
+- `_inject_brand_identity` → skipped entirely (adapted templates have their own brand HTML)
+
+### Structural layer (always active for adapted templates)
+- Hide off-canvas/mobile menus on desktop
+- Force navbar visible on desktop
+- Prevent mobile horizontal overflow
+- Override animation libraries that hide content
+- Prefers-reduced-motion, focus accessibility
+- Disable sg-scroll-progress, sg-back-to-top, sg-cursor, sg-reveal
+
+### How to add a new adapted template
+1. Complete the template's visual system
+2. Find the DB slug: `TemplateItem.objects.filter(source_dir='...').values('slug')`
+3. Add the slug to `ADAPTED_TEMPLATE_SLUGS` in `settings.py`
+4. Verify in browser
+
+### How to rollback
+Remove the slug from `ADAPTED_TEMPLATE_SLUGS`. Full engine layer re-applied immediately.
 
 ## Template Work
 
-### Medilux (Medical/drpro) — CONSOLIDATO
+### Nøva Creative (Agency/avo) — PULITO
 
-5/5 pagine complete, visual system estratto e documentato, scroll jank fixato.
-
-**Pagine**: Home (split hero), Chi Siamo, Servizi, Blog, Contatti
-**Palette**: navy `#111d2e` + gold `#b09560` + warm neutrals
-**Typography**: Playfair Display (headings) + Montserrat (body)
-**Pattern CSS**: `medilux-shared.css` centralizza override condivisi per le 4 inner pages
-**Documentazione**: `VISUAL_SYSTEM.md` — riferimento completo riusabile per nuovi template
-**PreviewEngine workarounds**: 7x class selectors per specificity, external URLs per immagini, `ml-` prefix per brand elements
-
-#### File modificati (Templates/Medical/drpro/)
-- HTML: `index.html`, `about.html`, `services.html`, `blog.html`, `contact.html`
-- CSS: `main_styles.css`, `responsive.css`, `about.css`, `services.css`, `blog.css`, `contact.css`, `medilux-shared.css`, `services_responsive.css`
-- Docs: `VISUAL_SYSTEM.md`
-- Images: `images/hero.jpg`, `images/hero_main.jpg`
-
-### Nøva Creative (Agency/avo) — CONSOLIDATO
-
-6/6 pagine rebrandate, visual system documentato, scroll jank fixato.
+6/6 pagine rebrandate, visual system documentato, audit forense completato.
 
 **Pagine**: Home (slider hero), Chi Siamo, Portfolio, Blog, Articolo, Contatti
 **Brand**: Nøva Creative — Agenzia Creativa Digitale, Milano
 **Palette**: navy scuro `#1a1a2e` + accent corallo `#e94560` + warm neutrals
 **Typography**: Sora (headings) + Inter (body)
-**Pattern CSS**: `avo-shared.css` centralizza override condivisi (7x selectors, palette, tipografia)
-**Documentazione**: `VISUAL_SYSTEM.md` + `adapter.yaml` — riferimento completo per customizer
-**PreviewEngine workarounds**: 7x class selectors, direct Pexels URLs, `av-` prefix per brand
-**Image strategy**: Tutti URL Pexels diretti (nessuna immagine locale nelle zone critiche)
+**Pattern CSS**: `avo-shared.css` centralizza override
+**Image strategy**: Tutti URL Pexels diretti (0 immagini originali)
+**Text audit**: 0 lorem, 0 inglese visibile, 0 brand originale
+**Engine opt-out**: Attivo (`agency-blueprint` in allowlist)
 
-#### File modificati (Templates/Agency/avo/)
-- HTML: `index.html`, `about.html`, `work.html`, `blog.html`, `blog-single.html`, `contact.html`
-- CSS: `css/avo-shared.css` (nuovo)
-- JS: `js/main.js` (parallax disabilitato)
-- Docs: `VISUAL_SYSTEM.md`, `adapter.yaml`
+### ZampaCura (Animal/petvet) — PULITO
 
-## Session 5 — Scroll/Image Jank Fix
+8/8 pagine rebrandate, visual system documentato, audit forense completato.
 
-### Diagnosi
-Il jank durante lo scroll nelle preview di Medilux e Nøva Creative era causato da:
-1. **Motori parallax JS** (70% dell'impatto): Stellar.js + Scrollax.js (Nøva), Parallax.js (Medilux) — DOM manipulation continua ad ogni pixel di scroll
-2. **Caricamento eager di tutte le immagini remote** (30%): il PreviewEngine sostituiva tutte le `<img>` con URL Unsplash 1200px senza `loading="lazy"`
+**Pagine**: Home, Chi Siamo, Servizi, Il Team, Blog, Articolo, Tariffe, Contatti
+**Brand**: ZampaCura — Centro Veterinario, Torino
+**Palette**: verde fresco `#2a7d5f` + warm caramel `#d4a574` + verde scuro `#1e3a2f`
+**Typography**: Lora (headings) + DM Sans (body)
+**Pattern CSS**: `petvet-shared.css` centralizza override
+**Image strategy**: Tutti URL Pexels diretti (0 immagini originali)
+**Text audit**: 0 lorem, 0 inglese visibile, 0 brand originale
+**Engine opt-out**: Attivo (`animal-vetaura-2` in allowlist)
+**DB name**: Aggiornato da "VetAura" a "ZampaCura"
 
-### Fix applicati
-- **Template Nøva**: Stellar.js + Scrollax.js disabilitati in `js/main.js`
-- **Template Medilux**: `data-parallax` rimosso da tutte le 5 pagine, inline `background-image` statico come fallback, CSS `.parallax-window` corretto
-- **PreviewEngine**: aggiunto `loading="lazy"` a tutte le immagini sostituite tranne la prima (LCP → `fetchpriority="high"` + `loading="eager"`)
-- **Blog-single Nøva**: aggiunti `width`/`height` e `loading="lazy"` alle immagini
+### Medilux (Medical/drpro) — NON PULITO
 
-### Problemi residui (non fixati — richiedono refactoring)
-- Scroll listener non throttled in entrambi i template (`$(window).scroll()`)
-- Waypoints + animazioni staggered in Nøva (32+ elementi)
-- ScrollMagic milestone counters in Medilux
+5 pagine rebrandate (contenuti italiani), 1 pagina completamente non toccata, immagini quasi tutte originali.
+
+**Audit forense (session 7)**:
+- 48 immagini originali locali su 49 (solo 1 hero ha URL Pexels)
+- `elements.html` completamente non rebrandizzata (55+ residui, brand "Dr PRO", lorem ipsum, contatti placeholder)
+- 3 pagine con `<title>Dr PRO</title>` e `<meta>` "Dr PRO template project"
+- 3 pagine con `<html lang="en">`
+- `services.html` con alt inglesi su immagini
+- ~70 residui testuali totali
+- **Engine opt-out attivo** (`medical-medilux` in allowlist) — il visual funziona ma il contenuto non è pulito
+
+## Licensing
+
+Lo stato di licensing dei template sorgente (Colorlib CC BY 3.0, etc.) NON è stato verificato in questa sessione. Il rebranding non implica libertà dai vincoli di licenza originali. Verificare separatamente prima di qualsiasi uso commerciale.
 
 ## Infrastructure (untouched)
 
 - Django apps: core, catalog, customizer, orders, importer — all functional
-- Database: db.sqlite3 (6 MB, populated)
-- PreviewEngine: customizer/services.py — runtime HTML rewriting (lazy loading aggiunto in session 5)
+- Database: db.sqlite3 (populated, ~460 templates)
+- PreviewEngine: customizer/services.py — with adapted template opt-out
 - Import pipeline: importer/management/commands/import_templates.py
 - i18n: 4 languages configured (en, it, fr, ar)
-
-## Project Files
-
-- `CLAUDE.md` — architecture guide for Claude Code
-- `PROJECT_STATUS.md` — this file
-- `KNOWN_ISSUES.md` — bug tracker with template vs PreviewEngine classification
-- `NEXT_SESSION_BRIEF.md` — handoff for next session
